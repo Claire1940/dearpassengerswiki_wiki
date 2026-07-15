@@ -861,16 +861,16 @@
     },
     "features": {
       "title": "Dear Passengers Features",
-      "description": "Core Dear Passengers features: friendslop physics chaos, flight hazards, dynamic weather, and passenger service systems that define every flight.",
+      "description": "Core Dear Passengers features: ragdoll physics chaos, flight hazards, dynamic weather, and passenger service systems that define every flight.",
       "metaTitle": "Dear Passengers Features - Physics, Hazards, Weather & Service",
-      "metaDescription": "Explore the core Dear Passengers features, including friendslop physics chaos, flight hazards, dynamic weather, and the passenger service systems behind every flight.",
+      "metaDescription": "Explore the core Dear Passengers features, including ragdoll physics chaos, flight hazards, dynamic weather, and the passenger service systems behind every flight.",
       "categoryLabel": "GAME FEATURES",
       "whatIs": "What are Dear Passengers features?",
-      "whatIsDescription": "The standout systems that make Dear Passengers chaotic and fun, from physics-driven friendslop moments and dynamic weather to flight hazards and passenger service.",
+      "whatIsDescription": "The standout systems that make Dear Passengers chaotic and fun, from physics-driven ragdoll moments and dynamic weather to flight hazards and passenger service.",
       "why": "Why explore the features?",
       "whySteps": {
         "step1Title": "Expect Chaos",
-        "step1Description": "Understand the friendslop physics that turn every flight into unpredictable fun.",
+        "step1Description": "Understand the ragdoll physics that turn every flight into unpredictable fun.",
         "step2Title": "Read the Weather",
         "step2Description": "See how dynamic weather and flight hazards change each route.",
         "step3Title": "Run the Cabin",
@@ -881,9 +881,9 @@
     },
     "media": {
       "title": "Dear Passengers Media",
-      "description": "Dear Passengers media hub: official announcement trailer, gameplay footage, and the funniest friendslop moments captured from the chaos.",
+      "description": "Dear Passengers media hub: official announcement trailer, gameplay footage, and the funniest ragdoll moments captured from the chaos.",
       "metaTitle": "Dear Passengers Media - Trailer, Gameplay & Funny Moments",
-      "metaDescription": "Watch the Dear Passengers announcement trailer, gameplay footage, and the funniest friendslop moments from the chaotic physics-based airline co-op.",
+      "metaDescription": "Watch the Dear Passengers announcement trailer, gameplay footage, and the funniest ragdoll moments from the chaotic physics-based airline co-op.",
       "categoryLabel": "MEDIA",
       "whatIs": "What is Dear Passengers media?",
       "whatIsDescription": "A collection of Dear Passengers videos, including the official reveal trailer, raw gameplay footage, and the funniest chaos moments from the community.",
@@ -894,7 +894,7 @@
         "step2Title": "Preview the Gameplay",
         "step2Description": "Get a feel for piloting, cabin service, and emergency response before launch.",
         "step3Title": "Enjoy the Chaos",
-        "step3Description": "Laugh at the best friendslop moments the physics engine creates mid-flight."
+        "step3Description": "Laugh at the best ragdoll moments the physics engine creates mid-flight."
       },
       "featured": "Featured & Essential",
       "all": "All Media Guides"

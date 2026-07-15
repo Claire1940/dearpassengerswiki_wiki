@@ -130,11 +130,6 @@ export default function HomePageClient({
           height: 1080,
           caption: "Dear Passengers - Chaotic Physics-Based Airline Co-op",
         },
-        potentialAction: {
-          "@type": "SearchAction",
-          target: `${siteUrl}/search?q={search_term_string}`,
-          "query-input": "required name=search_term_string",
-        },
       },
       {
         "@type": "Organization",

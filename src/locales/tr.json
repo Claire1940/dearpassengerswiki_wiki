@@ -1,11 +1,903 @@
 {
+  "seo": {
+    "home": {
+      "title": "Dear Passengers Wiki - Çıkış Tarihi, Co-op ve Oynanış",
+      "description": "Çıkış tarihi haberleri, co-op rolleri, yolcu ve kargo rehberleri, uçuş tehlikeleri, sistem gereksinimleri, demo güncellemeleri ve Steam detaylarını içeren Dear Passengers Wiki.",
+      "keywords": "Dear Passengers, Steam, çıkış tarihi, co-op, oynanış, yolcular, kargo, sistem gereksinimleri",
+      "ogTitle": "Dear Passengers Wiki - Çıkış Tarihi, Co-op ve Oynanış",
+      "ogDescription": "Çıkış tarihi haberleri, co-op rolleri, yolcu ve kargo rehberleri, uçuş tehlikeleri, sistem gereksinimleri, demo güncellemeleri ve Steam detaylarını içeren Dear Passengers Wiki.",
+      "twitterTitle": "Dear Passengers Wiki - Çıkış Tarihi, Co-op ve Oynanış",
+      "twitterDescription": "Dear Passengers Wiki: Steam'deki kaotik havayolu co-op oyunu için çıkış tarihi, co-op rolleri, yolcu ve kargo rehberleri, uçuş tehlikeleri ve sistem gereksinimleri."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "release": "Release",
-    "platforms": "Platforms",
-    "pricing": "Pricing",
-    "multiplayer": "Multiplayer",
-    "features": "Features",
-    "media": "Media"
+    "guide": "Rehber",
+    "release": "Çıkış",
+    "platforms": "Platformlar",
+    "pricing": "Fiyatlandırma",
+    "multiplayer": "Çok Oyunculu",
+    "features": "Özellikler",
+    "media": "Medya"
+  },
+  "common": {
+    "home": "Ana Sayfa",
+    "more": "Daha Fazla",
+    "playNow": "Steam'de Oyna",
+    "switchLanguage": "Dili Değiştir",
+    "switchTheme": "Temayı Değiştir",
+    "lightMode": "Açık Mod",
+    "darkMode": "Karanlık Mod",
+    "notFound": "Sayfa Bulunamadı",
+    "notFoundDescription": "Aradığınız sayfa mevcut değil.",
+    "backToHome": "Ana Sayfaya Dön",
+    "relatedArticles": "İlgili Makaleler",
+    "readMore": "Daha Fazla Oku",
+    "articlesComingSoon": "Makaleler yakında gelecek"
+  },
+  "hero": {
+    "badge": "Kaotik Fizik Tabanlı Havayolu Co-op Oyunu",
+    "title": "Dear Passengers Wiki",
+    "description": "Dünyanın en kötü havayolunu arkadaşlarınızla birlikte yönetin. Uçağı uçurun, yolcuları ve kargoyu idare edin, kabin servisi yapın; türbülans, kötü hava koşulları ve giderek artan havada gerçekleşen felaketlerden sağ çıkın.",
+    "getFreeCodesCTA": "Çıkış Güncellemelerini Al",
+    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "stats": {
+      "stat1": {
+        "value": "2026",
+        "label": "Planlanan Çıkış"
+      },
+      "stat2": {
+        "value": "PC",
+        "label": "Platform"
+      },
+      "stat3": {
+        "value": "6",
+        "label": "Desteklenen Diller"
+      },
+      "stat4": {
+        "value": "4 GB",
+        "label": "Gerekli Depolama Alanı"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Dear Passengers Oynanışı",
+    "description": "Tek bir mürettebat, kaotik bir uçuş. Uçağı uçurun, kabine hizmet edin, tehlikeli kargoları koruyun; fizik tabanlı türbülans, hava koşulları ve havada meydana gelen felaketlerden sağ kurtulun."
+  },
+  "tools": {
+    "title": "Dear Passengers",
+    "titleHighlight": "Mürettebat El Kitabı",
+    "subtitle": "Uçmak, hizmet etmek, kargoyu korumak ve Dear Passengers kaosunda hayatta kalmak için ihtiyacınız olan her modül",
+    "cards": [
+      {
+        "icon": "Saat",
+        "title": "Dear Passengers Çıkış Tarihi",
+        "description": "2026 Steam çıkış dönemi, fiyat, istek listesi ve platform durumu"
+      },
+      {
+        "icon": "Açık Kitap",
+        "title": "Dear Passengers Başlangıç Rehberi",
+        "description": "Yolcu alımından inişe kadar tam bir rotada nasıl uçulur"
+      },
+      {
+        "icon": "Kullanıcılar",
+        "title": "Dear Passengers Co-op Rolleri",
+        "description": "Pilot, kabin amiri, servis ve kargo mürettebatı görevleri"
+      },
+      {
+        "icon": "Paket",
+        "title": "Dear Passengers Yolcular ve Kargo",
+        "description": "Her bir yolcu ve sevkiyat için risk ve ödül dengesi"
+      },
+      {
+        "icon": "Uyarı Üçgeni",
+        "title": "Dear Passengers Uçuş Tehlikeleri",
+        "description": "Hava durumu, yangın, kuş çarpması ve kaçan kargoya müdahale"
+      },
+      {
+        "icon": "Onay Listesi",
+        "title": "Dear Passengers Kabin Hizmeti",
+        "description": "Hizmet, güvenlik ve hasar kontrolü için öncelik listesi"
+      },
+      {
+        "icon": "Ayarlar",
+        "title": "Dear Passengers Sistem Gereksinimleri",
+        "description": "Minimum PC özellikleri ve desteklenen arayüz dilleri"
+      },
+      {
+        "icon": "Yükseliş Trendi",
+        "title": "Dear Passengers Güncellemeleri",
+        "description": "Tanıtım videosu, Steam haberleri, Discord ve çıkış takvimi"
+      }
+    ]
+  },
+  "modules": {
+    "dearPassengersReleaseDatePricePlatforms": {
+      "title": "Dear Passengers Çıkış Tarihi, Fiyatı ve Platformları",
+      "eyebrow": "Çıkış Bilgileri",
+      "intro": "FLEXUS, Dear Passengers için 2026 çıkış dönemini onayladı ancak kesin bir çıkış tarihi veya fiyat açıklamadı. Şu anda onaylanan tek platform PC olup, Steam'de hem tek oyunculu hem de çevrimiçi co-op seçenekleri listelenmiştir.",
+      "items": [
+        {
+          "topic": "Çıkış dönemi",
+          "status": "2026",
+          "tone": "bilgi",
+          "details": "Resmî Steam mağaza sayfasında planlanan çıkış tarihi 2026 olarak listelenmiştir. Belirli bir ay veya gün açıklanmamıştır."
+        },
+        {
+          "topic": "PC kullanılabilirliği",
+          "status": "Onaylandı",
+          "tone": "başarılı",
+          "details": "Dear Passengers, Steam üzerinden Windows PC için çıkış yapacak."
+        },
+        {
+          "topic": "Steam istek listesi",
+          "status": "Mevcut",
+          "tone": "başarılı",
+          "details": "Oyuncular, çıkış ve mağaza bildirimlerini almak için oyunu Steam istek listelerine ekleyebilirler."
+        },
+        {
+          "topic": "Fiyat",
+          "status": "Duyurulmadı",
+          "tone": "beklemede",
+          "details": "FLEXUS; çıkış fiyatını, ön sipariş detaylarını veya herhangi bir sürüm bilgisini henüz yayınlamadı."
+        },
+        {
+          "topic": "PlayStation 5",
+          "status": "Duyurulmadı",
+          "tone": "beklemede",
+          "details": "Herhangi bir PlayStation sürümü açıklanmadı."
+        },
+        {
+          "topic": "Xbox Series X|S",
+          "status": "Duyurulmadı",
+          "tone": "beklemede",
+          "details": "Herhangi bir Xbox sürümü açıklanmadı."
+        },
+        {
+          "topic": "Nintendo Switch veya Switch 2",
+          "status": "Duyurulmadı",
+          "tone": "beklemede",
+          "details": "Herhangi bir Nintendo konsol sürümü açıklanmadı."
+        },
+        {
+          "topic": "Steam Deck",
+          "status": "Derecelendirilmedi",
+          "tone": "beklemede",
+          "details": "Steam sayfası şu anda resmi bir Steam Deck uyumluluk derecelendirmesi göstermiyor."
+        },
+        {
+          "topic": "Oyun modları",
+          "status": "Onaylandı",
+          "tone": "başarılı",
+          "details": "Steam; tek oyunculu ve çevrimiçi eşli oyun desteğinin yanı sıra oyun içi sohbet ve çevrimiçi etkileşimi de listeliyor."
+        },
+        {
+          "topic": "Minimum PC gereksinimleri",
+          "status": "Yayınlandı",
+          "tone": "başarılı",
+          "details": "Windows 10 64-bit, 2.5 GHz Intel Core i5 veya eşdeğeri, 8 GB RAM, GTX 1060 veya RX 6600 XT, DirectX 12 ve 4 GB depolama alanı."
+        }
+      ]
+    },
+    "dearPassengersBeginnerGuide": {
+      "title": "Dear Passengers Başlangıç Rehberi",
+      "eyebrow": "Başlarken",
+      "intro": "Her yolculuk, mürettebatı kokpit ve kabin arasında bölüştürmeden önce yolcuları ve kargoyu seçmekle başlar. Ekip daha sonra uçuşu tamamlamak için hava koşullarına, yolcu sorunlarına ve fizik tabanlı acil durumlara göğüs germelidir.",
+      "steps": [
+        {
+          "title": "Yolcularınızı ve Kargonuzu Seçin",
+          "description": "Kalkıştan önce mevcut yolcuları ve kargoyu gözden geçirin. Daha büyük ödemeler genellikle memnun etmesi daha zor yolcular, zorlu kargolar veya daha tehlikeli durumlarla birlikte gelir.",
+          "tip": "Uçağı her türlü yüksek riskli seçenekle doldurmak yerine, yönetilebilir bir kombinasyonla başlayın."
+        },
+        {
+          "title": "Pilotu Belirleyin",
+          "description": "Diğer oyuncular kabin içinde çalışırken bir mürettebat üyesi uçağı uçurmaya odaklanmalıdır.",
+          "tip": ""
+        },
+        {
+          "title": "Divide the Cabin Duties",
+          "description": "Cabin crew members must serve food and drinks, watch the passengers, protect cargo, and respond when something goes wrong.",
+          "tip": "Give each player a main responsibility so multiple crew members do not abandon one problem to handle the same task."
+        },
+        {
+          "title": "Keep Passengers Under Control",
+          "description": "Passengers expect service and a reasonably smooth journey, but some are harder to please or may actively disrupt the cabin.",
+          "tip": "Handle small passenger problems early before they spread into a larger cabin emergency."
+        },
+        {
+          "title": "Secure the Cargo",
+          "description": "Cargo can be difficult to handle, illegal, or dangerous. Physics and turbulence can also throw unsecured objects around the aircraft.",
+          "tip": "Regularly check high-risk cargo instead of assuming it will remain contained for the entire flight."
+        },
+        {
+          "title": "React to Weather and Turbulence",
+          "description": "Dynamic weather, air pockets, and turbulence can throw passengers, luggage, and loose cabin objects through the plane.",
+          "tip": "The pilot should warn the cabin before sharp turns or dangerous weather whenever possible."
+        },
+        {
+          "title": "Stop Problems from Escalating",
+          "description": "Emergencies can begin anywhere onboard. The crew must quickly decide whether to serve, restrain, protect, repair, or remove the source of the problem.",
+          "tip": "Deal with the most dangerous issue first: aircraft safety, escaped cargo, and uncontrolled passengers take priority over routine service."
+        },
+        {
+          "title": "Deliver the Flight",
+          "description": "Reach the destination with as many passengers and as much cargo intact as possible. The central challenge is preserving the value of the flight while surviving the chaos created by the chosen load.",
+          "tip": "A controlled lower-risk flight is better practice than accepting a large payout the crew cannot safely manage."
+        }
+      ]
+    },
+    "dearPassengersCoopRoles": {
+      "title": "Dear Passengers Co-op Roles and Team Strategy",
+      "eyebrow": "Co-op Strategy",
+      "intro": "One player pilots the aircraft while the rest of the team manages the cabin. Clear responsibilities prevent food service, passenger control, and dangerous cargo from being ignored during emergencies.",
+      "roles": [
+        {
+          "role": "Pilot",
+          "location": "Cockpit",
+          "duties": [
+            "Fly the aircraft",
+            "Respond to changing weather",
+            "Manage turns during turbulence and air pockets",
+            "Warn the cabin about dangerous conditions"
+          ],
+          "comms": "Report sharp turns, turbulence, and aircraft problems before they affect the cabin.",
+          "strategy": "The pilot should remain focused on flight control while cabin players handle passengers and cargo whenever possible."
+        },
+        {
+          "role": "Cabin Lead",
+          "location": "Passenger cabin",
+          "duties": [
+            "Track the condition of the cabin",
+            "Choose which problem the team handles first",
+            "Coordinate passenger service",
+            "Relay urgent information to the pilot"
+          ],
+          "comms": "Give short instructions identifying the problem, its location, and the crew member responsible for it.",
+          "strategy": "Use this assignment when several incidents happen at once and the team needs one player to set priorities."
+        },
+        {
+          "role": "Passenger Service",
+          "location": "Seating and service areas",
+          "duties": [
+            "Yiyecek ve içecek servisi yapın",
+            "Talepkar veya hırçın yolculara göz kulak olun",
+            "Yolcu sorunlarının büyümesini engelleyin",
+            "Türbülanstan sonra düzeni sağlamaya yardımcı olun"
+          ],
+          "comms": "Tehlikeli olmaya başlayan veya diğer kabin görevlerine müdahale eden yolcuları uyarın.",
+          "strategy": "Sakin dönemlerde rutin servis devam etmelidir, ancak acil güvenlik sorunları her zaman önceliklidir."
+        },
+        {
+          "role": "Kargo ve Muhafaza",
+          "location": "Kargo bölümü ve depolama alanları",
+          "duties": [
+            "Zorlu veya tehlikeli kargoları izleyin",
+            "Türbülans sırasında kargoyu koruyun",
+            "Kaçan kargoları kontrol altına alın",
+            "Aktif kabin alanlarındaki başıboş nesneleri kaldırın"
+          ],
+          "comms": "Kaçan hayvanları, hasarlı konteynerleri veya uçak içinde hareket eden kargoları derhal bildirin.",
+          "strategy": "Yüksek riskli kargolar sürekli kontrol gerektirir; çünkü türbülans ve fizik kuralları, muhafaza altındaki bir yükü kabin genelinde bir acil duruma dönüştürebilir."
+        },
+        {
+          "role": "Acil Durum Desteği",
+          "location": "Tüm uçak",
+          "duties": [
+            "Kokpit, kabin ve kargo alanları arasında hareket edin",
+            "En büyük sorunla karşılaşan oyuncuya yardım edin",
+            "Başıboş yolcuları ve nesneleri kontrol altına alın",
+            "Birden fazla olay çakıştığında müdahale edin"
+          ],
+          "comms": "Hangi acil durumla ilgilenildiğini teyit edin, böylece mürettebatın geri kalanı atanan işlerine devam edebilir.",
+          "strategy": "Küçük ekiplerde bu rolü yolcu servisi veya kargo göreviyle birleştirin ve durum değiştikçe öncelikleri değiştirin."
+        },
+        {
+          "role": "İki Oyunculu Kurulum",
+          "location": "Kokpit ve kabin",
+          "duties": [
+            "Birinci oyuncu uçağı yönetir",
+            "İkinci oyuncu yolcuları, servisi ve kargoyu yönetir",
+            "Her iki oyuncu da büyük dönüşlerden veya acil durum eylemlerinden önce iletişim kurar"
+          ],
+          "comms": "Pilot yaklaşan türbülansı ve manevraları bildirirken, kabin oyuncusu yalnızca acil sorunları rapor etmelidir.",
+          "strategy": "Daha az yüksek riskli yolcu ve kargo seçin, çünkü tek bir kabin oyuncusu pilot dışındaki tüm sorumlulukları üstlenmelidir."
+        }
+      ]
+    },
+    "dearPassengersPassengersCargo": {
+      "title": "Dear Passengers Yolcu ve Kargo Rehberi",
+      "eyebrow": "Uçuş Planlama",
+      "intro": "Dear Passengers uçuş değerini doğrudan zorlukla ilişkilendirir. Yolcular ve kargolar kalkıştan önce seçilir ve daha kârlı seçimler genellikle hazırlıksız bir mürettebat için daha fazla sorun yaratır.",
+      "risks": [
+        {
+          "category": "Standart Yolcular",
+          "behavior": "Yemek, içecek ve sarsıntısız bir uçuş beklerler.",
+          "reward": "Temel yolcu geliri",
+          "level": "Düşük",
+          "mainRisk": "Mürettebat diğer sorunlarla ilgilenirken, kötü servis ek kabin baskısı oluşturabilir.",
+          "response": "Uçuşun sakin bölümlerinde rutin servisi tamamlayın ve koridorları temiz tutun."
+        },
+        {
+          "category": "Memnun Etmesi Zor Yolcular",
+          "behavior": "Sıradan yolculara göre daha fazla ilgi gerektirirler.",
+          "reward": "---",
+          "level": "Daha yüksek ödemeli yolcu seçimi",
+          "mainRisk": "Orta",
+          "response": "Tekrarlanan talepler, mürettebatın dikkatini kargo ve uçak acil durumlarından uzaklaştırabilir."
+        },
+        {
+          "category": "Bir kabin oyuncusunu yolcu hizmetine atayın ve şikayetleri rahatsız edici hale gelmeden çözün.",
+          "behavior": "Sorunlu Yolcular",
+          "reward": "Kabin düzenini bozabilir ve mürettebata engel olabilirler.",
+          "level": "Daha riskli yolcu seçimi",
+          "mainRisk": "Yüksek",
+          "response": "Tek bir yolcu, kontrollü bir uçuşu geniş çaplı bir kabin olayına dönüştürebilir."
+        },
+        {
+          "category": "Yolcuyu hızla kontrol altına alın ve diğer mürettebat üyelerinin uçuşa ve kargoyu korumaya odaklanmasını sağlayın.",
+          "behavior": "Standart Kargo",
+          "reward": "Varış noktasına ulaştırılmalı ve uçuş sırasında korunmalıdır.",
+          "level": "Temel kargo geliri",
+          "mainRisk": "Düşük",
+          "response": "Türbülans, sabitlenmemiş kargoları hareket ettirebilir ve mürettebatın kabin üzerindeki kontrolünü azaltabilir."
+        },
+        {
+          "category": "Kargoyu muhafaza altında tutun ve şiddetli türbülans veya keskin manevralardan sonra kontrol edin.",
+          "behavior": "Taşıması Güç Kargo",
+          "reward": "Mürettebat için sıradan yüklere göre daha fazla iş çıkarır.",
+          "level": "Daha yüksek ödeme",
+          "mainRisk": "Orta",
+          "response": "Ekstra izleme gerektirir ve uçak hareket ettiğinde kontrol edilmesi zorlaşabilir."
+        },
+        {
+          "category": "Sadece en az bir kabin oyuncusu kargo alanını düzenli olarak kontrol edebildiğinde kabul edin.",
+          "behavior": "Yasa Dışı Kargo",
+          "reward": "Havayolu, riskli kargo seçimlerinin bir parçası olarak yasa dışı yük taşıyabilir.",
+          "level": "Yüksek riskli kargo değeri",
+          "mainRisk": "Yüksek",
+          "response": "Halihazırda zorlu yolcular ve kötü hava koşulları içerebilen bir uçuşa tehlikeli bir sorumluluk daha ekler."
+        },
+        {
+          "category": "Mürettebatın yükü korumak için yeterli kapasiteye sahip olması için diğer yüksek riskli seçimleri sınırlayın.",
+          "behavior": "Hayvan Kargosu",
+          "reward": "Yayınlanan görüntülerde bir taşıma sandığından kaçan bir timsah yer alıyor.",
+          "level": "Üst düzey riskli kargo",
+          "mainRisk": "Aşırı",
+          "response": "Kaçan bir hayvan uçak içinde hareket edebilir ve anında bir güvenlik acil durumu yaratabilir."
+        },
+        {
+          "category": "Kargo alanının yakınında bir mürettebat üyesi bulundurun ve herhangi bir muhafaza hatasını yolcu hizmetinden daha yüksek öncelikli olarak değerlendirin.",
+          "behavior": "Başıboş Bagajlar ve Kabin Nesneleri",
+          "reward": "Türbülans ve hava boşlukları, bagajları ve sabitlenmemiş nesneleri kabin içinde savurabilir.",
+          "level": "Ayrı bir ödeme yok",
+          "mainRisk": "Orta",
+          "response": "Hareket eden nesneler yolculara çarpabilir, hareketi engelleyebilir ve diğer acil durumların yönetilmesini zorlaştırabilir."
+        },
+        {
+          "category": "Karışık Yüksek Riskli Uçuş",
+          "behavior": "Zorlu yolcuları, zor veya tehlikeli kargolarla bir araya getirir.",
+          "reward": "En yüksek genel kazanç potansiyeli",
+          "level": "Ekstrem",
+          "mainRisk": "Aynı anda birden fazla olay meydana gelebilir ve bu durum mürettebatı rutin görevlerini bırakmaya zorlar.",
+          "response": "Net rol dağılımları yapın ve sırasıyla uçak güvenliğine, kaçan kargolara ve kontrolsüz yolculara öncelik verin."
+        }
+      ]
+    },
+    "dearPassengersFlightHazards": {
+      "title": "Dear Passengers Uçuş Tehlikeleri ve Acil Durumlar",
+      "eyebrow": "Uçuş Esnasında Hayatta Kalma",
+      "intro": "Dear Passengers, hem kokpiti hem de kabini etkileyen fizik tabanlı tehlikeler barındırır. Kabin ekibi yolcuları, kargoları ve serbest nesneleri sabitlerken, yangınları söndürürken ve uçuş sırasında kaçan veya kırılan her şeyle ilgilenirken; pilotun uçağı kontrol edilebilir durumda tutması gerekir.",
+      "hazards": [
+        {
+          "hazard": "Dinamik Hava Durumu",
+          "what": "Değişen hava koşulları, sıradan bir uçuşu zorlu bir rotaya dönüştürebilir ve kabin içi kaos riskini artırabilir.",
+          "firstResponse": "Pilot",
+          "actions": [
+            "Uçağın kontrolünü elinizde tutun",
+            "Zorlu koşullar şiddetlenmeden önce kabin ekibini uyarın",
+            "Kabin güvenliği sağlanmamışken gereksiz dönüşler yapmaktan kaçının"
+          ],
+          "escalation": "Kötü uçak kontrolü; serbest kalan yolcular, bagajlar ve kargolarla birleşerek aynı anda birden fazla acil durum yaratabilir."
+        },
+        {
+          "hazard": "Türbülans ve Hava Boşlukları",
+          "what": "Ani hareketler; sabitlenmemiş yolcuları, bagajları, yiyecekleri ve diğer nesneleri kabin içinde etrafa savurur.",
+          "firstResponse": "Pilot ve kabin ekibi eş zamanlı olarak",
+          "actions": [
+            "Pilot uçağı dengeler",
+            "Kabin ekibi koridorları boşaltır ve serbest nesneleri sabitler",
+            "Kabin kontrol altına alınana kadar normal yolcu hizmetini duraklatın"
+          ],
+          "escalation": "Etrafta uçuşan döküntüler hizmeti kesintiye uğratabilir, kargoyu dağıtabilir ve mürettebatın daha ciddi sorunlara müdahale etmesini engelleyebilir."
+        },
+        {
+          "hazard": "Kuş Çarpması ve Motor Hasarı",
+          "what": "Resmi görüntüler, bir kuş sürüsünün uçağa çarparak büyük bir motor hasarına yol açtığını gösteriyor.",
+          "firstResponse": "Pilot",
+          "actions": [
+            "Hasar görmüş uçağı kontrol altında tutun",
+            "Ortaya çıkan hasarlarla ilgilenmesi için bir kabin ekibi üyesini çağırın",
+            "Yangın, gövde onarımı veya ek kontrol kaybı durumlarına karşı hazırlıklı olun"
+          ],
+          "escalation": "Motor hasarı; yangın, kötü hava koşulları veya güvenceye alınmamış bir kabinle birleştiğinde hızla uçuşu sonlandıracak bir acil duruma dönüşebilir."
+        },
+        {
+          "hazard": "Uçak İçi Yangın",
+          "what": "Mürettebatın geri kalanı yolcularla, kargoyla veya uçuş kontrolüyle meşgulken yangın çıkabilir.",
+          "firstResponse": "En yakın kabin ekibi üyesi",
+          "actions": [
+            "Rutin görevlerinize dönmeden önce yangını söndürün",
+            "Yolcuları ve serbest nesneleri etkilenen alandan uzaklaştırın",
+            "Uçak tehlike altındayken pilotu sürekli bilgilendirin"
+          ],
+          "escalation": "Göz ardı edilen bir yangın, daha fazla mürettebat üyesini görevlerinden uzaklaşmaya zorlar ve diğer kabin sorunlarının yayılmasına yol açar."
+        },
+        {
+          "hazard": "Kaçan Canlı Kargo",
+          "what": "Tanıtım görüntülerinde, kargo bölümündeki taşıma sandıklarından kaçan timsahlar yer alıyor.",
+          "firstResponse": "Kabin ekibi",
+          "actions": [
+            "Yakındaki yolcuları bölgeden uzaklaştırın",
+            "Kaçan hayvanı kontrol altına alın veya yönlendirin",
+            "Hasarlı kasayı sabitleyin ve yakındaki kargoları kontrol edin"
+          ],
+          "escalation": "Kaçan kargolar yolcuları yaralayabilir, uçak içindeki hareketi engelleyebilir ve diğer değerli kargoları korumasız bırakabilir."
+        },
+        {
+          "hazard": "Uyumsuz Yolcular",
+          "what": "Bazı yüksek riskli yolcular iş birliği yapmayı reddedebilir, uçuşu aksatabilir veya mürettebat görevlerine müdahale edebilir.",
+          "firstResponse": "Kabin ekibi",
+          "actions": [
+            "Yolcuyu diğer yolculardan ayırın",
+            "Yiyecek ve içecek servisine devam etmeden önce kontrolü yeniden sağlayın",
+            "Durum kontrol altına alınamadığında yolcuyu uzaklaştırın"
+          ],
+          "escalation": "Kontrol edilemeyen tek bir yolcu, hava durumu, kargo veya uçak hasarı kötüleşmeye devam ederken tüm kabin ekibinin dikkatini dağıtabilir."
+        },
+        {
+          "hazard": "Başıboş Bagajlar ve Kabin Enkazı",
+          "what": "Türbülans, hava boşlukları ve ani uçak hareketleri sırasında fizik tabanlı nesneler kabin içinde hareket eder.",
+          "firstResponse": "Kabin ekibi",
+          "actions": [
+            "Önemli geçiş yollarını temizleyin",
+            "Bagajları ve servis ekipmanlarını sabitleyin",
+            "Kokpit, yolcu kabini ve kargo alanı arasındaki erişimi yeniden sağlayın"
+          ],
+          "escalation": "Kapanan koridorlar acil müdahaleyi geciktirir ve zararsız nesneleri tehlikeli mermilere dönüştürür."
+        },
+        {
+          "hazard": "Gövde Hasarı ve Dış Saldırılar",
+          "what": "Tanıtım videosu, mürettebat üyelerinin uçağı onarmak için kabinden ayrıldığını ve gelen saldırganlara karşı sabit bir silah kullandığını gösteriyor.",
+          "firstResponse": "Görevli onarım veya savunma mürettebatı üyesi",
+          "actions": [
+            "Bir oyuncunun uçuşa odaklanmasını sağlayın",
+            "Bir mürettebat üyesini dış tehdide atayın",
+            "Yolcuları ve kargoyu izlemesi için içeride başka bir mürettebat üyesi bırakın"
+          ],
+          "escalation": "Tüm mürettebatı tek bir tehdide göndermek; kokpiti, yolcuları ve kargoyu korumasız bırakır."
+        }
+      ]
+    },
+    "dearPassengersCabinService": {
+      "title": "Dear Passengers Kabin Servisi ve Yolcu Yönetimi",
+      "eyebrow": "Kabin Operasyonları",
+      "intro": "Kabin ekibi, konukseverlik ile hasar kontrolü arasında denge kurar. En güvenli yaklaşım; önce acil tehditleri ortadan kaldırmak, sarsıntılı uçuş sırasında kabini sabitlemek, değerli kargoları korumak ve mürettebat hareketi artık engellenmediğinde yiyecek ve içecek servisine devam etmektir.",
+      "priorities": [
+        {
+          "task": "Acil Durumları Durdurun",
+          "role": "En yakın müsait kabin ekibi üyesi",
+          "trigger": "Yangın, kaçan kargo, hasarlı uçak bölümleri veya aktif bir dış tehdit",
+          "action": "Normal servisi askıya alın ve tehlike yolculara, kargoya veya uçağın başka bir bölümüne yayılmadan önce onu kontrol altına alın.",
+          "value": "Küçük bir olayın tüm mürettebatı meşgul etmesini önler."
+        },
+        {
+          "task": "Sarsıntılı Havada Kabini Sabitleyin",
+          "role": "Pilotla koordineli kabin ekibi",
+          "trigger": "Dinamik hava durumu, türbülans veya hava boşlukları",
+          "action": "Önemli koridorları açık tutarken bagajları, servis ekipmanlarını, yolcuları ve başıboş kargoları sabitleyin.",
+          "value": "Fizik tabanlı kaosu azaltır ve acil durumlara erişimi korur."
+        },
+        {
+          "task": "Uyumsuz Yolcuları Kontrol Edin",
+          "role": "Kabin ekibi",
+          "trigger": "Bir yolcu huzursuzluk çıkarır, saldırganlaşır veya yönetilemez hale gelir",
+          "action": "Sorun çıkaran kişiyi ayırın, çevre koltukların kontrolünü yeniden sağlayın ve kontrol altında tutma başarısız olduğunda yolcuyu uzaklaştırın.",
+          "value": "Bir yolcunun kabin genelinde hizmeti ve acil durum müdahalesini aksatmasını engeller."
+        },
+        {
+          "task": "Yüksek Kazançlı Kargoyu Koruyun",
+          "role": "Görevli kargo sorumlusu",
+          "trigger": "Kargo kayar, açılır veya ek sorunlar yaratmaya başlar",
+          "action": "Kargoyu güvenli bir konuma geri getirin, konteynerini inceleyin ve yolcuların veya kaçan kargoların yakındaki gönderilere zarar vermesini önleyin.",
+          "value": "Uçuş ödemesini korur ve ikincil tehlikeleri sınırlar."
+        },
+        {
+          "task": "Geçiş Yollarını Açık Tutun",
+          "role": "Uçak içinde hareket eden herhangi bir kabin görevlisi",
+          "trigger": "Bagajlar, yemekler, yolcular veya kırık nesneler hareketi engeller",
+          "action": "Boştaki nesneleri kapılardan, koridorlardan ve kokpit, kabin ile kargo bölümü arasındaki geçiş yollarından uzaklaştırın.",
+          "value": "Mürettebat üyelerinin yeni sorunlara gecikmeden ulaşmasını sağlar."
+        },
+        {
+          "task": "Yiyecek ve İçecek Servisi Yapın",
+          "role": "Servis odaklı kabin görevlisi",
+          "trigger": "Uçak stabildir ve ilgilenilmesi gereken acil bir durum yoktur",
+          "action": "Başka bir mürettebat üyesi yolcuları ve kargoyu izlerken yemek ve içecekleri servis edin.",
+          "value": "Uçağı korumasız bırakmadan yolcu beklentilerini karşılar."
+        },
+        {
+          "task": "Bir Olaydan Sonra Kabini Toparlayın",
+          "role": "Müsait kabin görevlileri",
+          "trigger": "Bir yangın, türbülans olayı, yolcu çatışması veya kargo kaçışı kontrol altına alınmıştır",
+          "action": "Dağılan malzemeleri toplayın, yolcuları yerlerine oturtun, bagajları sabitleyin ve bir sonraki olaya hazırlanın.",
+          "value": "Geride kalan kalıntıların bir sonraki acil durumu zorlaştırmasını önler."
+        },
+        {
+          "task": "Pilotla İletişimi Sürdürün",
+          "role": "Kabin amiri",
+          "trigger": "Kabin koşullarındaki herhangi bir önemli değişiklik",
+          "action": "Yaklaşan hava durumu veya uçak hareketleri hakkında uyarılar alırken yangınları, kargo sorunlarını, engellenen alanları ve yolcu acil durumlarını bildirin.",
+          "value": "Kokpit kararlarının ve kabin eylemlerinin aynı öncelik doğrultusunda çalışmasını sağlar."
+        }
+      ]
+    },
+    "dearPassengersSystemRequirements": {
+      "title": "Dear Passengers Sistem Gereksinimleri ve Diller",
+      "eyebrow": "PC Özellikleri",
+      "intro": "Dear Passengers şu anda Steam üzerinden Windows PC için listelenmektedir. Mağaza sayfası minimum donanım gereksinimlerini ve altı arayüz dilini sunmaktadır.",
+      "specs": [
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "İşletim Sistemi",
+          "value": "Windows 10",
+          "details": "64-bit işletim sistemi gereklidir"
+        },
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "İşlemci",
+          "value": "2.5 GHz Intel Core i5 veya eşdeğeri",
+          "details": "Eşdeğer işlemciler desteklenir"
+        },
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "Bellek",
+          "value": "8 GB RAM",
+          "details": "Minimum kurulu sistem belleği"
+        },
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "Ekran Kartı",
+          "value": "NVIDIA GeForce GTX 1060 veya AMD Radeon RX 6600 XT",
+          "details": "Listelenen GPU ailelerinden biri veya uygun bir eşdeğeri"
+        },
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "DirectX",
+          "value": "Sürüm 12",
+          "details": "DirectX 12 desteği gereklidir"
+        },
+        {
+          "section": "Minimum Gereksinimler",
+          "label": "Depolama",
+          "value": "4 GB kullanılabilir alan",
+          "details": "Kurulum için gerekli boş depolama alanı"
+        },
+        {
+          "section": "Önerilen Gereksinimler",
+          "label": "Önerilen PC Yapılandırması",
+          "value": "Steam'de listelenmiyor",
+          "details": "Steam şu anda yalnızca minimum gereksinimleri gösteriyor"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "İngilizce",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "Arapça",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "Basitleştirilmiş Çince",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "Türkçe",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "Ukraynaca",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        },
+        {
+          "section": "Desteklenen Diller",
+          "label": "Japonca",
+          "value": "Arayüz",
+          "details": "Tam seslendirme ve altyazı işaretlenmemiş"
+        }
+      ]
+    },
+    "dearPassengersUpdatesTrailerCommunity": {
+      "title": "Dear Passengers Güncellemeleri, Fragmanı ve Topluluğu",
+      "eyebrow": "Resmî Haberler",
+      "intro": "FLEXUS, 14 Temmuz 2026'da bir duyuru fragmanıyla Dear Passengers oyununu tanıttı ve Steam istek listesi sayfasını açtı. Resmî Steam Haber merkezi, Steam tartışmaları ve Discord sunucusu; gelecekteki sürüm güncellemeleri, özellik tanıtımları ve topluluk etkinlikleri için ana adreslerdir.",
+      "timeline": [
+        {
+          "date": "14 Temmuz 2026",
+          "category": "Oyun Duyurusu",
+          "headline": "Dear Passengers Resmen Tanıtıldı",
+          "details": "FLEXUS, bir oyuncunun uçağı uçurduğu, diğer mürettebat üyelerinin ise yolcuları, kargoları ve uçaktaki acil durumları yönettiği, PC için fizik tabanlı havayolu co-op oyununu duyurdu.",
+          "status": "Yayınlandı",
+          "url": "https://www.youtube.com/watch?v=XRvd_HZesys",
+          "linkLabel": "Tanıtımı İzle"
+        },
+        {
+          "date": "14 Temmuz 2026",
+          "category": "Fragman",
+          "headline": "Resmî Duyuru Fragmanı Yayınlandı",
+          "details": "İlk fragman; yolcu ve kargo seçimini, kabin hizmetini, ragdoll fiziklerini, türbülansı, yangınları, kuş çarpması hasarlarını, kaçan timsahları, uçak onarımlarını ve dış saldırıları tanıttı.",
+          "status": "Mevcut",
+          "url": "https://www.youtube.com/watch?v=XRvd_HZesys",
+          "linkLabel": "Fragmanı İzle"
+        },
+        {
+          "date": "14 Temmuz 2026",
+          "category": "Steam",
+          "headline": "Steam Mağazası ve İstek Listesi Sayfası Açıldı",
+          "details": "Steam sayfası; 2026 çıkış dönemini, Windows PC desteğini, tek oyunculu modu, çevrimiçi co-op desteğini, minimum gereksinimleri ve altı arayüz dilini doğruladı.",
+          "status": "İstek Listesine Eklenebilir",
+          "url": "https://store.steampowered.com/app/4534960/Dear_Passengers/",
+          "linkLabel": "Steam Sayfasını Aç"
+        },
+        {
+          "date": "Devam Ediyor",
+          "category": "Geliştirme Güncellemeleri",
+          "headline": "Steam Haber Merkezi",
+          "details": "Resmî duyurular, sürüm güncellemeleri ve gelecekteki geliştirme yazıları oyunun Steam Haberler sayfasında toplanmaktadır.",
+          "status": "Aktif",
+          "url": "https://store.steampowered.com/news/app/4534960",
+          "linkLabel": "Steam Haberlerini Oku"
+        },
+        {
+          "date": "Devam Ediyor",
+          "category": "Topluluk",
+          "headline": "Steam Topluluk Tartışmaları",
+          "details": "Oyuncular, resmî Steam merkezi aracılığıyla tanıtımı tartışabilir, sorular sorabilir, geri bildirim paylaşabilir ve topluluk etkinliklerini takip edebilir.",
+          "status": "Aktif",
+          "url": "https://steamcommunity.com/app/4534960",
+          "linkLabel": "---"
+        },
+        {
+          "date": "Steam Tartışmalarına Katılın",
+          "category": "Devam Ediyor",
+          "headline": "Topluluk",
+          "details": "Resmi Discord Sunucusu",
+          "status": "Discord sunucusu; duyurular, tartışmalar ve gelecekteki geliştirme haberleri için doğrudan bir topluluk kanalı sağlar.",
+          "url": "Açık",
+          "linkLabel": "https://discord.gg/D6EKQPdFRT"
+        },
+        {
+          "date": "Discord'a Katıl",
+          "category": "2026",
+          "headline": "Çıkış",
+          "details": "Planlanan PC Çıkışı",
+          "status": "Dear Passengers'ın 2026 yılı içerisinde Steam üzerinden çıkış yapması planlanıyor. Kesin çıkış tarihi ve satış fiyatı henüz mağaza sayfasında paylaşılmadı.",
+          "url": "Yakında",
+          "linkLabel": "https://store.steampowered.com/app/4534960/Dear_Passengers/"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Steam'de İstek Listesine Ekle",
+    "titleHighlight": "Dear Passengers",
+    "subtitle": "SSS",
+    "questions": [
+      {
+        "question": "Oyuncuların Dear Passengers hakkında sorduğu çıkış, platform, co-op ve oynanış soruları",
+        "answer": "Dear Passengers'ın çıkış tarihi ne zaman?"
+      },
+      {
+        "question": "Dear Passengers'ın 2026 yılında Steam üzerinden PC için çıkış yapması planlanıyor. FLEXUS, 2026 çıkış aralığını doğruladı ancak henüz kesin bir çıkış tarihi açıklamadı.",
+        "answer": "Dear Passengers hangi platformlarda olacak?"
+      },
+      {
+        "question": "Dear Passengers şu an için Steam üzerinden Windows PC için onaylanmış durumdadır. PlayStation, Xbox ve Nintendo Switch sürümleri henüz duyurulmadı ve Steam Deck uyumluluğu henüz derecelendirilmedi.",
+        "answer": "Dear Passengers tek oyunculu mu yoksa co-op mu?"
+      },
+      {
+        "question": "Dear Passengers hem tek oyunculu hem de çevrimiçi co-op modlarını destekler. Bir oyuncu uçağı tek başına uçurabilir veya tam bir mürettebat işleri kokpit ve kabin arasında bölüşebilir.",
+        "answer": "Dear Passengers co-op modunda kaç kişi oynayabilir?"
+      },
+      {
+        "question": "Dear Passengers, bir oyuncunun uçağı kullandığı, diğer oyuncuların ise kabini, yolcuları, kargoyu ve acil durumları birlikte yönettiği küçük bir mürettebat üzerine kuruludur.",
+        "answer": "Dear Passengers'ın fiyatı ne kadar olacak?"
+      },
+      {
+        "question": "Dear Passengers'ın çıkış fiyatı henüz açıklanmadı. Oyuncular, fiyat ve çıkış bildirimlerini almak için oyunu Steam istek listelerine ekleyebilirler.",
+        "answer": "Dear Passengers sistem gereksinimleri nelerdir?"
+      },
+      {
+        "question": "Steam'de listelenen minimum gereksinimler: Windows 10 64-bit, Intel Core i5 2.5 GHz veya eşdeğeri, 8 GB RAM, GTX 1060 veya RX 6600 XT, DirectX 12 ve 4 GB depolama alanı.",
+        "answer": "Dear Passengers hangi dilleri destekliyor?"
+      },
+      {
+        "question": "Dear Passengers şu anda Steam'de altı arayüz dilini listeliyor: İngilizce, Arapça, Basitleştirilmiş Çince, Türkçe, Ukraynaca ve Japonca. Tam seslendirme ve altyazı desteği henüz işaretlenmedi.",
+        "answer": "Dear Passengers hangi türde bir oyun?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Dear Passengers, kaotik ve fizik tabanlı bir havayolu co-op oyunudur. Mürettebat uçağı uçurur, yolculara hizmet eder, tehlikeli kargoları korur; türbülans, hava koşulları ve havada gerçekleşen felaketlere karşı hayatta kalmaya çalışır.",
+    "description": "Dear Passengers'ta uçuşa hazır mısınız?",
+    "joinCommunity": "Çıkış tarihi haberleri, co-op mürettebat rehberleri ve topluluk güncellemeleri için Dear Passengers'ı Steam'de istek listenize ekleyin ve Discord'umuza katılın.",
+    "joinGame": "Discord'a Katıl"
+  },
+  "footer": {
+    "title": "Steam'de İstek Listesine Ekle",
+    "description": "Dear Passengers Wiki",
+    "resources": "Resources",
+    "community": "Topluluk",
+    "legal": "Yasal",
+    "discord": "Discord",
+    "twitter": "YouTube",
+    "steamCommunity": "Steam Topluluğu",
+    "steamStore": "Steam Mağazası",
+    "about": "Hakkında",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "copyrightNotice": "Telif Hakkı",
+    "copyright": "© 2026 Dear Passengers Wiki. FLEXUS veya Dear Passengers geliştiricileriyle bağlantılı değildir.",
+    "disclaimer": "Resmi olmayan, hayran yapımı kaynak web sitesi."
+  },
+  "pages": {
+    "guide": {
+      "title": "Dear Passengers Rehberleri",
+      "description": "İlk uçuşunuzdan gelişmiş mürettebat stratejilerine kadar; pilotluk, kabin hizmeti, yolcu yönetimi, kargo ve acil durum müdahalesini kapsayan eksiksiz Dear Passengers rehberleri.",
+      "metaTitle": "Dear Passengers Rehberleri - Başlangıç Seviyesinden İleri Düzey Mürettebat Stratejilerine",
+      "metaDescription": "Bu kaotik co-op havayolu oyunu için başlangıç ipuçlarını, kontrolleri, co-op rollerini, yolcu ve kargo yönetimini ve acil durum müdahalesini kapsayan eksiksiz Dear Passengers rehberleri.",
+      "categoryLabel": "MÜRETTEBAT REHBERLERİ",
+      "whatIs": "Dear Passengers Rehberleri Nedir?",
+      "whatIsDescription": "Kalkış öncesi yolcu ve kargo seçiminden pilotluğa, kabin hizmetine ve havada meydana gelen acil durumlardan sağ çıkmaya kadar bir Dear Passengers uçuşunun her aşaması için adım adım açıklamalı rehberler.",
+      "why": "Rehberleri neden okumalısınız?",
+      "whySteps": {
+        "step1Title": "Uçuş Döngüsünü Öğrenin",
+        "step1Description": "Yolcu ve kargo seçimini, mürettebat rollerini ve kalkıştan inişe kadar tam bir rotanın nasıl tamamlanacağını anlayın.",
+        "step2Title": "Kontrollerde Ustalaşın",
+        "step2Description": "Pilotluk, hareket, eşya taşıma ve uçuşu kontrol altında tutan kabin etkileşimlerine alışın.",
+        "step3Title": "Acil Durumlardan Sağ Çıkın",
+        "step3Description": "Hava durumu, türbülans, yangın, kaçan kargolar ve hırçın yolcular için kanıtlanmış öncelikleri takip edin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Rehberler"
+    },
+    "release": {
+      "title": "Dear Passengers Çıkışı",
+      "description": "FLEXUS'tan gelen en son resmi lansman duyuruları, erken erişim durumu, beta, demo ve Dear Passengers çıkış tarihi aralığı.",
+      "metaTitle": "Dear Passengers Çıkış Tarihi, Demo ve Erken Erişim Haberleri",
+      "metaDescription": "2026'daki Steam çıkışı için FLEXUS'tan gelen resmi lansman duyurularını, erken erişimi, betayı, demoyu ve Dear Passengers çıkış tarihini takip edin.",
+      "categoryLabel": "ÇIKIŞ BİLGİLERİ",
+      "whatIs": "Dear Passengers çıkışı nedir?",
+      "whatIsDescription": "2026 çıkış dönemi, demo ve beta erişimi ile erken erişim planları dahil olmak üzere Dear Passengers'ın ne zaman çıkacağına dair resmi olarak onaylanmış her şey.",
+      "why": "Çıkışı neden takip etmelisiniz?",
+      "whySteps": {
+        "step1Title": "Tarihi Not Edin",
+        "step1Description": "Onaylanmış 2026 lansman dönemini ve FLEXUS tarafından açıklanacak kesin çıkış tarihini öğrenin.",
+        "step2Title": "Erken Sürümleri Deneyin",
+        "step2Description": "Lansmandan önce Dear Passengers oynamak için demo, beta ve erken erişim fırsatlarını bulun.",
+        "step3Title": "Her Duyuruyu Yakalayın",
+        "step3Description": "Gecikmeler, tanıtım etkinlikleri ve mağaza sayfası güncellemelerinden anında haberdar olun."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Çıkış Rehberleri"
+    },
+    "platforms": {
+      "title": "Dear Passengers Platformları",
+      "description": "Dear Passengers nerede oynanır: Steam, PS5, Xbox, Nintendo Switch, konsol, VR, Steam Deck desteği, sistem gereksinimleri ve kullanılabilirlik.",
+      "metaTitle": "Dear Passengers Platformları - Steam, PS5, Xbox, Switch ve Sistem Gereksinimleri",
+      "metaDescription": "Steam, PS5, Xbox, Nintendo Switch, VR, Steam Deck dahil olmak üzere Dear Passengers'ın hangi platformlarda olduğunu, PC sistem gereksinimlerini ve nerede oynayabileceğinizi öğrenin.",
+      "categoryLabel": "PLATFORMLAR",
+      "whatIs": "Dear Passengers hangi platformlarda var?",
+      "whatIsDescription": "Dear Passengers'ın desteklediği veya gelebileceği; PC, konsollar, el konsolları, VR ve oyunu çalıştırmak için gereken donanımları kapsayan tüm platformların detaylı listesi.",
+      "why": "Platformları neden kontrol etmeli?",
+      "whySteps": {
+        "step1Title": "Platformunuzu Seçin",
+        "step1Description": "Karar vermeden önce Dear Passengers'ın Steam, PS5, Xbox, Switch veya diğer konsollarda olup olmadığını görün.",
+        "step2Title": "Bilgisayarınızı Doğrulayın",
+        "step2Description": "Donanımınızı resmi minimum sistem gereksinimleriyle karşılaştırın.",
+        "step3Title": "Nerede Oynayacağınızı Bulun",
+        "step3Description": "İstediğiniz yerde oynayabilmek için Steam Deck, VR ve el konsolu uyumluluğunu kontrol edin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Platform Rehberleri"
+    },
+    "pricing": {
+      "title": "Dear Passengers Fiyatlandırması",
+      "description": "Dear Passengers fiyatı, ücretsiz oynanabilirlik durumu, sürümleri ve ön sipariş detaylarının yanı sıra en son resmi fiyatlandırma duyuruları.",
+      "metaTitle": "Dear Passengers Fiyatı, Sürümleri ve Ücretsiz Oynanabilirlik Durumu",
+      "metaDescription": "FLEXUS ve Steam'den gelen en son resmi fiyatlandırma haberleriyle Dear Passengers fiyatı, sürümleri, ücretsiz oynanabilirlik durumu ve ön sipariş detaylarını öğrenin.",
+      "categoryLabel": "FİYATLANDIRMA",
+      "whatIs": "Dear Passengers'ın fiyatı ne kadar?",
+      "whatIsDescription": "Çıkış fiyatı, mevcut sürümler ve herhangi bir ücretsiz oynama veya ücretsiz demo seçeneğinin olup olmadığı dahil olmak üzere Dear Passengers fiyatlandırmasına net bir bakış.",
+      "why": "Fiyatlandırmayı neden kontrol etmeli?",
+      "whySteps": {
+        "step1Title": "Fiyatı Bilin",
+        "step1Description": "Steam'deki onaylanmış çıkış fiyatını ve varsa bölgesel fiyatlandırmayı öğrenin.",
+        "step2Title": "Sürümleri Karşılaştırın",
+        "step2Description": "Çıkışta hangi sürümlerin, paketlerin veya bonus içeriklerin mevcut olduğunu görün.",
+        "step3Title": "Ücretsiz Seçenekleri Yakalayın",
+        "step3Description": "Ücretsiz demo, ücretsiz oynama dönemleri veya istek listesi indirimleri olup olmadığını kontrol edin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Fiyatlandırma Rehberleri"
+    },
+    "multiplayer": {
+      "title": "Dear Passengers Çok Oyunculu",
+      "description": "Dear Passengers çok oyunculu modu açıklaması: oyuncu sayısı, çevrimiçi ve yerel eşli oyun (co-op), çapraz oyun, parti oyunu modları ve arkadaşlarla nasıl oynanacağı.",
+      "metaTitle": "Dear Passengers Çok Oyunculu - Oyuncu Sayısı, Co-op ve Çapraz Oyun",
+      "metaDescription": "Arkadaşlarınızla oynamak için oyuncu sayısı, çevrimiçi ve yerel eşli oyun (co-op), çapraz platform desteği (crossplay) ve parti oyunu kurulumu dahil olmak üzere Dear Passengers çok oyunculu modunun nasıl çalıştığını öğrenin.",
+      "categoryLabel": "ÇOK OYUNCULU",
+      "whatIs": "Dear Passengers çok oyunculu mu?",
+      "whatIsDescription": "Mürettebat boyutu, çevrimiçi ve yerel eşli oyun desteği, platformlar arası çapraz platform desteği ve parti oyunu kurulumunu kapsayan, Dear Passengers çok oyunculu modunun tam bir incelemesi.",
+      "why": "Çok oyunculu modu neden kontrol etmeli?",
+      "whySteps": {
+        "step1Title": "Mürettebat Boyutunu Kontrol Edin",
+        "step1Description": "Tek bir Dear Passengers uçuşunda kaç oyuncunun birlikte uçabileceğini görün.",
+        "step2Title": "Eşli Oyunu Kurun",
+        "step2Description": "Çevrimiçi ve yerel eşli oyunun nasıl çalıştığını ve arkadaşlarınızı nasıl davet edeceğinizi öğrenin.",
+        "step3Title": "Çapraz Platform Desteğini Doğrulayın",
+        "step3Description": "Farklı platformlardaki oyuncuların aynı mürettebata katılıp katılamayacağını öğrenin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Çok Oyunculu Rehberleri"
+    },
+    "features": {
+      "title": "Dear Passengers Özellikleri",
+      "description": "Her uçuşu tanımlayan temel Dear Passengers özellikleri: ragdoll fiziği kaosu, uçuş tehlikeleri, dinamik hava durumu ve yolcu hizmeti sistemleri.",
+      "metaTitle": "Dear Passengers Özellikleri - Fizik, Tehlikeler, Hava Durumu ve Hizmet",
+      "metaDescription": "Ragdoll fiziği kaosu, uçuş tehlikeleri, dinamik hava durumu ve her uçuşun arkasındaki yolcu hizmeti sistemleri dahil olmak üzere temel Dear Passengers özelliklerini keşfedin.",
+      "categoryLabel": "OYUN ÖZELLİKLERİ",
+      "whatIs": "Dear Passengers özellikleri nelerdir?",
+      "whatIsDescription": "Fizik tabanlı ragdoll anları ve dinamik hava durumundan, uçuş tehlikeleri ve yolcu hizmetlerine kadar Dear Passengers'ı kaotik ve eğlenceli kılan göze çarpan sistemler.",
+      "why": "Özellikleri neden keşfetmeli?",
+      "whySteps": {
+        "step1Title": "Kaosa Hazır Olun",
+        "step1Description": "Her uçuşu öngörülemeyen bir eğlenceye dönüştüren ragdoll fiziğini anlayın.",
+        "step2Title": "Hava Durumunu Takip Edin",
+        "step2Description": "Dinamik hava durumunun ve uçuş tehlikelerinin her rotayı nasıl değiştirdiğini görün.",
+        "step3Title": "Kabini Yönetin",
+        "step3Description": "Mürettebatınızın kontrolü elinde tutmasını sağlayan yolcu hizmeti sistemlerini öğrenin."
+      },
+      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "all": "Tüm Özellik Rehberleri"
+    },
+    "media": {
+      "title": "Dear Passengers Medya",
+      "description": "Dear Passengers medya merkezi: resmi duyuru fragmanı, oynanış görüntüleri ve kaostan yakalanan en komik ragdoll anları.",
+      "metaTitle": "Dear Passengers Medya - Fragman, Oynanış ve Komik Anlar",
+      "metaDescription": "Kaotik fizik tabanlı havayolu eşli oyunundan resmi Dear Passengers duyuru fragmanını, oynanış görüntülerini ve en komik ragdoll anlarını izleyin.",
+      "categoryLabel": "MEDYA",
+      "whatIs": "Dear Passengers medyası nedir?",
+      "whatIsDescription": "Resmi tanıtım fragmanı, ham oynanış görüntüleri ve topluluktan gelen en komik kaos anları dahil olmak üzere Dear Passengers videolarından oluşan bir koleksiyon.",
+      "why": "Medyayı neden izlemeli?",
+      "whySteps": {
+        "step1Title": "Tanıtımı İzleyin",
+        "step1Description": "Temel uçuş döngüsünü iş üstünde görmek için resmi duyuru fragmanını izleyin.",
+        "step2Title": "Oynanışa Göz Atın",
+        "step2Description": "---",
+        "step3Title": "Lansman öncesinde pilotluk, kabin hizmeti ve acil durum müdahalesi konularında deneyim kazanın.",
+        "step3Description": "Kaosun Tadını Çıkarın"
+      },
+      "featured": "Fizik motorunun uçuş sırasında yarattığı en iyi ragdoll anlarına gülün.",
+      "all": "Öne Çıkanlar ve Temel Öğeler"
+    }
   }
 }
