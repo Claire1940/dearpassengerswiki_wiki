@@ -1,46 +1,76 @@
 {
+  "topic_name": "dear passengers",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "dear passengers beginner guide",
+        "dear passengers how to play",
+        "dear passengers controls",
+        "dear passengers pilot guide",
+        "dear passengers cabin crew guide",
+        "dear passengers passenger management guide",
+        "dear passengers cargo guide",
+        "dear passengers emergency guide"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "release",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "dear passengers release",
+        "dear passengers early access",
+        "dear passengers beta",
+        "dear passengers demo"
       ]
     },
     {
-      "category": "Items",
+      "category": "platforms",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "dear passengers steam",
+        "dear passengers ps5",
+        "dear passengers xbox",
+        "dear passengers nintendo switch",
+        "dear passengers console",
+        "dear passengers vr",
+        "dear passengers steam deck",
+        "dear passengers system requirements",
+        "dear passengers where to play"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "pricing",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "dear passengers price",
+        "dear passengers free",
+        "dear passengers editions"
       ]
     },
     {
-      "category": "Building",
+      "category": "multiplayer",
       "keywords": [
-        "lucid blocks qualia"
+        "dear passengers number of players",
+        "dear passengers co op",
+        "dear passengers online co op",
+        "dear passengers local co op",
+        "dear passengers crossplay",
+        "dear passengers party game"
       ]
     },
     {
-      "category": "Support",
+      "category": "features",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "dear passengers friendslop",
+        "dear passengers flight hazards",
+        "dear passengers dynamic weather",
+        "dear passengers passenger service"
+      ]
+    },
+    {
+      "category": "media",
+      "keywords": [
+        "dear passengers trailer",
+        "dear passengers gameplay",
+        "dear passengers funny moments"
       ]
     }
   ]

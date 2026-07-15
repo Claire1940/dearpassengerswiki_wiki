@@ -10,7 +10,15 @@
       "twitterDescription": "Dear Passengers Wiki: release date, co-op roles, passenger and cargo guides, flight hazards, and system requirements for the chaotic airline co-op on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "pricing": "Pricing",
+    "multiplayer": "Multiplayer",
+    "features": "Features",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -537,19 +545,84 @@
       "eyebrow": "PC Specifications",
       "intro": "Dear Passengers is currently listed for Windows PC through Steam. The store page provides minimum hardware requirements and six interface languages.",
       "specs": [
-        { "section": "Minimum Requirements", "label": "Operating System", "value": "Windows 10", "details": "64-bit operating system required" },
-        { "section": "Minimum Requirements", "label": "Processor", "value": "Intel Core i5 at 2.5 GHz or equivalent", "details": "Equivalent processors are supported" },
-        { "section": "Minimum Requirements", "label": "Memory", "value": "8 GB RAM", "details": "Minimum installed system memory" },
-        { "section": "Minimum Requirements", "label": "Graphics", "value": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 6600 XT", "details": "Either listed GPU family or a suitable equivalent" },
-        { "section": "Minimum Requirements", "label": "DirectX", "value": "Version 12", "details": "DirectX 12 support required" },
-        { "section": "Minimum Requirements", "label": "Storage", "value": "4 GB available space", "details": "Free storage required for installation" },
-        { "section": "Recommended Requirements", "label": "Recommended PC Configuration", "value": "Not listed on Steam", "details": "Steam currently displays minimum requirements only" },
-        { "section": "Supported Languages", "label": "English", "value": "Interface", "details": "Full audio and subtitles are not marked" },
-        { "section": "Supported Languages", "label": "Arabic", "value": "Interface", "details": "Full audio and subtitles are not marked" },
-        { "section": "Supported Languages", "label": "Simplified Chinese", "value": "Interface", "details": "Full audio and subtitles are not marked" },
-        { "section": "Supported Languages", "label": "Turkish", "value": "Interface", "details": "Full audio and subtitles are not marked" },
-        { "section": "Supported Languages", "label": "Ukrainian", "value": "Interface", "details": "Full audio and subtitles are not marked" },
-        { "section": "Supported Languages", "label": "Japanese", "value": "Interface", "details": "Full audio and subtitles are not marked" }
+        {
+          "section": "Minimum Requirements",
+          "label": "Operating System",
+          "value": "Windows 10",
+          "details": "64-bit operating system required"
+        },
+        {
+          "section": "Minimum Requirements",
+          "label": "Processor",
+          "value": "Intel Core i5 at 2.5 GHz or equivalent",
+          "details": "Equivalent processors are supported"
+        },
+        {
+          "section": "Minimum Requirements",
+          "label": "Memory",
+          "value": "8 GB RAM",
+          "details": "Minimum installed system memory"
+        },
+        {
+          "section": "Minimum Requirements",
+          "label": "Graphics",
+          "value": "NVIDIA GeForce GTX 1060 or AMD Radeon RX 6600 XT",
+          "details": "Either listed GPU family or a suitable equivalent"
+        },
+        {
+          "section": "Minimum Requirements",
+          "label": "DirectX",
+          "value": "Version 12",
+          "details": "DirectX 12 support required"
+        },
+        {
+          "section": "Minimum Requirements",
+          "label": "Storage",
+          "value": "4 GB available space",
+          "details": "Free storage required for installation"
+        },
+        {
+          "section": "Recommended Requirements",
+          "label": "Recommended PC Configuration",
+          "value": "Not listed on Steam",
+          "details": "Steam currently displays minimum requirements only"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "English",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "Arabic",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "Simplified Chinese",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "Turkish",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "Ukrainian",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        },
+        {
+          "section": "Supported Languages",
+          "label": "Japanese",
+          "value": "Interface",
+          "details": "Full audio and subtitles are not marked"
+        }
       ]
     },
     "dearPassengersUpdatesTrailerCommunity": {
@@ -686,125 +759,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Dear Passengers Guides",
-      "description": "Complete gameplay guides from first flight to advanced crew strategy. Master piloting, cabin service, and emergency response.",
-      "metaTitle": "Dear Passengers Guides - Beginner to Advanced Crew Strategies",
-      "metaDescription": "Complete Dear Passengers guides covering beginner tips, co-op roles, passenger and cargo strategy, flight hazards, and expert tactics for the chaotic airline co-op.",
+      "description": "Complete Dear Passengers guides from your first flight to advanced crew strategy, covering piloting, cabin service, passenger management, cargo, and emergency response.",
+      "metaTitle": "Dear Passengers Guides - Beginner to Advanced Crew Strategy",
+      "metaDescription": "Complete Dear Passengers guides covering beginner tips, controls, co-op roles, passenger and cargo management, and emergency response for the chaotic airline co-op.",
       "categoryLabel": "CREW GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering piloting, cabin service, passenger management, cargo protection, and emergency response for the full Dear Passengers flight loop.",
-      "why": "Why read guides?",
+      "whatIs": "What are Dear Passengers Guides?",
+      "whatIsDescription": "Step-by-step walkthroughs for every part of a Dear Passengers flight, from choosing passengers and cargo before takeoff to piloting, cabin service, and surviving mid-air emergencies.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Learn the Flight Loop",
-        "step1Description": "Understand passenger and cargo selection, crew roles, and how to deliver a flight",
-        "step2Title": "Survive Emergencies",
-        "step2Description": "Follow proven priorities for weather, fire, escaped cargo, and unruly passengers",
-        "step3Title": "Master Co-op Strategy",
-        "step3Description": "Develop role assignments and communication for the hardest high-risk flights"
+        "step1Description": "Understand passenger and cargo selection, crew roles, and how to deliver a full route from takeoff to landing.",
+        "step2Title": "Master the Controls",
+        "step2Description": "Get comfortable with piloting, movement, item handling, and the cabin interactions that keep a flight under control.",
+        "step3Title": "Survive Emergencies",
+        "step3Description": "Follow proven priorities for weather, turbulence, fire, escaped cargo, and unruly passengers."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "co-op": {
-      "title": "Dear Passengers Co-op",
-      "description": "Online co-op roles, crew assignments, and team strategy for flying and managing the cabin together.",
-      "metaTitle": "Dear Passengers Co-op - Roles, Crew Strategy & Team Setup",
-      "metaDescription": "Master Dear Passengers co-op with pilot, cabin lead, service, and cargo roles, plus communication priorities and team strategy for surviving every flight.",
-      "categoryLabel": "CO-OP CREW",
-      "whatIs": "What is Co-op?",
-      "whatIsDescription": "Co-op lets a full crew split the work between flying the aircraft and managing passengers, cargo, service, and emergencies inside the cabin.",
-      "why": "Why play co-op?",
+    "release": {
+      "title": "Dear Passengers Release",
+      "description": "Dear Passengers release date window, demo, beta, early access status, and the latest official launch announcements from FLEXUS.",
+      "metaTitle": "Dear Passengers Release Date, Demo & Early Access News",
+      "metaDescription": "Track the Dear Passengers release date, demo, beta, early access, and official launch announcements from FLEXUS for the 2026 Steam debut.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Dear Passengers release?",
+      "whatIsDescription": "Everything officially confirmed about when Dear Passengers launches, including the 2026 release window, demo and beta access, and early access plans.",
+      "why": "Why follow the release?",
       "whySteps": {
-        "step1Title": "Split the Workload",
-        "step1Description": "Assign pilot, cabin lead, service, and cargo roles so nothing is ignored",
-        "step2Title": "Communicate Fast",
-        "step2Description": "Share short, clear calls about problems, locations, and priorities",
-        "step3Title": "Handle High-Risk Flights",
-        "step3Description": "Tackle demanding passengers and dangerous cargo as a coordinated team"
+        "step1Title": "Lock in the Date",
+        "step1Description": "Get the confirmed 2026 launch window and any exact release date FLEXUS announces.",
+        "step2Title": "Try Early Builds",
+        "step2Description": "Find demo, beta, and early access opportunities to play Dear Passengers before launch.",
+        "step3Title": "Catch Every Announcement",
+        "step3Description": "Stay current on delays, reveal events, and store page updates."
       },
       "featured": "Featured & Essential",
-      "all": "All Co-op Guides"
+      "all": "All Release Guides"
     },
-    "passengers": {
-      "title": "Dear Passengers Passengers",
-      "description": "Passenger types, needs, moods, and dangerous behaviors, plus how to keep the cabin under control.",
-      "metaTitle": "Dear Passengers Passengers - Types, Needs & Cabin Control",
-      "metaDescription": "Learn every Dear Passengers passenger type, their food and drink needs, unruly behaviors, and how to control the cabin before problems escalate.",
-      "categoryLabel": "PASSENGERS",
-      "whatIs": "What are Passengers?",
-      "whatIsDescription": "Guides to passenger types, demands, and behaviors, including how to serve standard, hard-to-please, and unruly passengers during a chaotic flight.",
-      "why": "Why study passengers?",
+    "platforms": {
+      "title": "Dear Passengers Platforms",
+      "description": "Where to play Dear Passengers: Steam, PS5, Xbox, Nintendo Switch, console, VR, Steam Deck support, system requirements, and availability.",
+      "metaTitle": "Dear Passengers Platforms - Steam, PS5, Xbox, Switch & System Requirements",
+      "metaDescription": "Find out which platforms Dear Passengers is on, including Steam, PS5, Xbox, Nintendo Switch, VR, Steam Deck, plus PC system requirements and where to play.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is Dear Passengers on?",
+      "whatIsDescription": "A breakdown of every platform Dear Passengers supports or might reach, covering PC, consoles, handhelds, VR, and the hardware needed to run the game.",
+      "why": "Why check the platforms?",
       "whySteps": {
-        "step1Title": "Match Risk to Reward",
-        "step1Description": "Choose passenger loads that fit your crew's skill level",
-        "step2Title": "Serve Efficiently",
-        "step2Description": "Deliver food and drinks while keeping the aisles clear",
-        "step3Title": "Prevent Escalation",
-        "step3Description": "Handle small problems before they spread into cabin emergencies"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "See whether Dear Passengers is on Steam, PS5, Xbox, Switch, or other consoles before you commit.",
+        "step2Title": "Confirm Your PC",
+        "step2Description": "Match your hardware against the official minimum system requirements.",
+        "step3Title": "Find Where to Play",
+        "step3Description": "Check Steam Deck, VR, and handheld compatibility so you can play anywhere."
       },
       "featured": "Featured & Essential",
-      "all": "All Passenger Guides"
+      "all": "All Platform Guides"
     },
-    "cargo": {
-      "title": "Dear Passengers Cargo",
-      "description": "Cargo selection, risk, protection, and payout, including dangerous, illegal, and live animal shipments.",
-      "metaTitle": "Dear Passengers Cargo - Risk, Protection & Payout Guide",
-      "metaDescription": "Master Dear Passengers cargo with risk versus reward breakdowns for regular, hard-to-handle, illegal, and animal shipments, plus containment and protection tactics.",
-      "categoryLabel": "CARGO",
-      "whatIs": "What is Cargo?",
-      "whatIsDescription": "Guides to cargo types, risk levels, and payouts, including how to protect, contain, and deliver high-value and dangerous shipments.",
-      "why": "Why plan cargo?",
+    "pricing": {
+      "title": "Dear Passengers Pricing",
+      "description": "Dear Passengers price, free-to-play status, editions, and pre-order details, plus the latest official pricing announcements.",
+      "metaTitle": "Dear Passengers Price, Editions & Free-to-Play Status",
+      "metaDescription": "Get the Dear Passengers price, editions, free-to-play status, and pre-order details, with the latest official pricing news from FLEXUS and Steam.",
+      "categoryLabel": "PRICING",
+      "whatIs": "What does Dear Passengers cost?",
+      "whatIsDescription": "A clear look at Dear Passengers pricing, including the launch price, available editions, and whether any free-to-play or free demo options exist.",
+      "why": "Why check the pricing?",
       "whySteps": {
-        "step1Title": "Read the Risk",
-        "step1Description": "Judge whether a higher payout is worth the added danger",
-        "step2Title": "Protect the Load",
-        "step2Description": "Secure cargo against turbulence, shifting weight, and escaped animals",
-        "step3Title": "Limit Overload",
-        "step3Description": "Avoid stacking too many high-risk shipments on one flight"
+        "step1Title": "Know the Price",
+        "step1Description": "Find the confirmed launch price and any regional pricing on Steam.",
+        "step2Title": "Compare Editions",
+        "step2Description": "See which editions, bundles, or bonus content are available at release.",
+        "step3Title": "Spot Free Options",
+        "step3Description": "Check for a free demo, free-to-play periods, or wishlist discounts."
       },
       "featured": "Featured & Essential",
-      "all": "All Cargo Guides"
+      "all": "All Pricing Guides"
     },
-    "hazards": {
-      "title": "Dear Passengers Flight Hazards",
-      "description": "In-flight weather, turbulence, fire, bird strikes, and escaped cargo, with crew response priorities.",
-      "metaTitle": "Dear Passengers Flight Hazards - Weather, Fire & Emergency Response",
-      "metaDescription": "Survive Dear Passengers flight hazards with crew response guides for dynamic weather, turbulence, bird strikes, onboard fire, escaped cargo, and unruly passengers.",
-      "categoryLabel": "FLIGHT HAZARDS",
-      "whatIs": "What are Flight Hazards?",
-      "whatIsDescription": "Guides to the physics-based hazards that strike the cockpit and cabin, and the first-response role each crew member should take.",
-      "why": "Why prepare for hazards?",
+    "multiplayer": {
+      "title": "Dear Passengers Multiplayer",
+      "description": "Dear Passengers multiplayer explained: number of players, online and local co-op, crossplay, party game modes, and how to play with friends.",
+      "metaTitle": "Dear Passengers Multiplayer - Player Count, Co-op & Crossplay",
+      "metaDescription": "Learn how Dear Passengers multiplayer works, including the number of players, online and local co-op, crossplay, and party game setup for playing with friends.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "Is Dear Passengers multiplayer?",
+      "whatIsDescription": "A full breakdown of Dear Passengers multiplayer, covering the crew size, online and local co-op support, crossplay between platforms, and party game setup.",
+      "why": "Why check the multiplayer?",
       "whySteps": {
-        "step1Title": "Respond Fast",
-        "step1Description": "Assign the right crew member to each emergency first",
-        "step2Title": "Stop Escalation",
-        "step2Description": "Keep small incidents from combining into flight-ending disasters",
-        "step3Title": "Protect the Aircraft",
-        "step3Description": "Balance flying, firefighting, and cargo containment at once"
+        "step1Title": "Check the Crew Size",
+        "step1Description": "See how many players can fly together in a single Dear Passengers flight.",
+        "step2Title": "Set Up Co-op",
+        "step2Description": "Learn how online and local co-op work and how to invite friends.",
+        "step3Title": "Confirm Crossplay",
+        "step3Description": "Find out whether players on different platforms can join the same crew."
       },
       "featured": "Featured & Essential",
-      "all": "All Hazard Guides"
+      "all": "All Multiplayer Guides"
     },
-    "updates": {
-      "title": "Dear Passengers Updates",
-      "description": "Official announcements, trailer, development news, Steam hub, and Discord community updates.",
-      "metaTitle": "Dear Passengers Updates - Trailer, News & Community Timeline",
-      "metaDescription": "Track Dear Passengers updates with the announcement trailer, Steam news hub, community discussions, Discord, and the 2026 release timeline.",
-      "categoryLabel": "OFFICIAL NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "A dated timeline of Dear Passengers announcements, trailer releases, store updates, and community channels from FLEXUS.",
-      "why": "Why follow updates?",
+    "features": {
+      "title": "Dear Passengers Features",
+      "description": "Core Dear Passengers features: friendslop physics chaos, flight hazards, dynamic weather, and passenger service systems that define every flight.",
+      "metaTitle": "Dear Passengers Features - Physics, Hazards, Weather & Service",
+      "metaDescription": "Explore the core Dear Passengers features, including friendslop physics chaos, flight hazards, dynamic weather, and the passenger service systems behind every flight.",
+      "categoryLabel": "GAME FEATURES",
+      "whatIs": "What are Dear Passengers features?",
+      "whatIsDescription": "The standout systems that make Dear Passengers chaotic and fun, from physics-driven friendslop moments and dynamic weather to flight hazards and passenger service.",
+      "why": "Why explore the features?",
       "whySteps": {
-        "step1Title": "Catch the Release",
-        "step1Description": "Get the 2026 launch date and price as soon as they drop",
-        "step2Title": "See New Features",
-        "step2Description": "Follow gameplay reveals, playtests, and feature announcements",
-        "step3Title": "Join the Community",
-        "step3Description": "Connect on Steam discussions and the official Discord"
+        "step1Title": "Expect Chaos",
+        "step1Description": "Understand the friendslop physics that turn every flight into unpredictable fun.",
+        "step2Title": "Read the Weather",
+        "step2Description": "See how dynamic weather and flight hazards change each route.",
+        "step3Title": "Run the Cabin",
+        "step3Description": "Learn the passenger service systems that keep your crew in control."
       },
       "featured": "Featured & Essential",
-      "all": "All Update Guides"
+      "all": "All Feature Guides"
+    },
+    "media": {
+      "title": "Dear Passengers Media",
+      "description": "Dear Passengers media hub: official announcement trailer, gameplay footage, and the funniest friendslop moments captured from the chaos.",
+      "metaTitle": "Dear Passengers Media - Trailer, Gameplay & Funny Moments",
+      "metaDescription": "Watch the Dear Passengers announcement trailer, gameplay footage, and the funniest friendslop moments from the chaotic physics-based airline co-op.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Dear Passengers media?",
+      "whatIsDescription": "A collection of Dear Passengers videos, including the official reveal trailer, raw gameplay footage, and the funniest chaos moments from the community.",
+      "why": "Why watch the media?",
+      "whySteps": {
+        "step1Title": "See the Reveal",
+        "step1Description": "Watch the official announcement trailer to see the core flight loop in action.",
+        "step2Title": "Preview the Gameplay",
+        "step2Description": "Get a feel for piloting, cabin service, and emergency response before launch.",
+        "step3Title": "Enjoy the Chaos",
+        "step3Description": "Laugh at the best friendslop moments the physics engine creates mid-flight."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media Guides"
     }
   }
 }

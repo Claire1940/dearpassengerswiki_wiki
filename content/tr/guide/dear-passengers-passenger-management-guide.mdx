@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Yolcu Yönetimi Rehberi: Profesyonel Kabin Stratejileri",
+  description: "Kabin rolleri, risk-ödül kargoları ve havada yaşanan fizik tabanlı felaketlerden sağ çıkma rehberimizle Dear Passengers'da yolcu yönetiminde ustalaşın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Passenger+Management+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "Dear Passengers, yolcu yönetimi, kabin stratejileri, oyun rehberi, co-op hayatta kalma"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers yolcu yönetimi rehberi**: Yüksek ödemeli risklerle kaotik kabin güvenliğini dengelemeyi öğrenin.
+- **Rol Ataması**: Maksimum verimlilik için ekibinizi Pilot, Kabin Şefi ve Kargo Uzmanları olarak bölün.
+- **Risk ve Ödül**: Daha yüksek ödeme yapan yolcular ve yasa dışı kargolar, daha sık ve ölümcül acil durumlara yol açar.
+- **Acil Durum Önceliği**: Rutin yemek servisi yerine her zaman **uçak güvenliğine** ve **kaçan hayvanlara** öncelik verin.
+- **Fizik Kurallarına Hakimiyet**: Türbülans vurmadan önce başıboş bagajları ve servis arabalarını sabitleyerek yaralanmaları önleyin.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers'da Uçuş Döngüsünde Ustalaşmak">
+
+**Dear Passengers**'ın kaotik gökyüzünde yol almak, sadece uçuş kolunda sabit bir elden fazlasını gerektirir; dünyanın en zorlu yolcularını yönetebilen son derece koordineli bir ekip şarttır. Bu **dear passengers yolcu yönetimi rehberi**, yükünüzün ilk seçiminden genellikle alevli olan son inişe kadar temel oynanış döngüsünü inceler. Başarı, kargonuzun ne kadarının ve yolcularınızın kaçının yolculuğu sağlam bir şekilde tamamladığıyla ölçülür.
+
+**Video Öne Çıkanlar:**
+- **Fizik Tabanlı Kaos**: Ragdoll fiziğinin aşırı türbülans sırasında yolcuları ve mürettebatı nasıl etkilediğini görün.
+- **Acil Durum Senaryoları**: Derhal onarım gerektiren motor yangınları, kuş çarpmaları ve gövde delinmelerine bir bakış.
+- **Timsah Olayı**: Kaçan canlı kargoların hızlıca kontrol altına alınmazsa kabini nasıl ele geçirebileceğini izleyin.
+- **Kabin Servisi**: İçecek servisi yapmakla yangınla mücadele arasındaki dengenin gösterimi.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Temel döngü kapıda başlar. Sadece bir varış noktası seçmiyorsunuz; başa çıkabileceğiniz kaos seviyesini seçiyorsunuz. Eklenen her yolcu ve yüklenen her kasa potansiyel kazancınızı artırır ancak havada bir felakete yol açabilecek yeni değişkenler sunar.
+
+<Callout type="success" title="Başarı İpucu">
+Oyunun başlarında, yüksek riskli "Hayvan Kargo" görevlerini denemeden önce servis arabalarının fiziğinde ustalaşmak için **Standart Yolculara** odaklanın.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yolcu Türleri ve Risk-Ödül Analizi">
+
+Tüm yolcular eşit yaratılmamıştır. **Dear Passengers**'da manifestonuz, uçuş sırasındaki "olayların" sıklığını belirler. Standart yolcular sadece bir içecek ve biraz uyku isterken, yüksek ödeme yapan VIP'ler veya hırçın bireyler ekibinizin sabrını ve tepki hızını test edecektir. Kabininizin risk profilini anlamak, kârlı bir kariyere giden ilk adımdır.
+
+| Yolcu Kategorisi | Bilinen Davranış | Risk Seviyesi | Temel Risk |
+| :--- | :--- | :--- | :--- |
+| **Standart** | Yemek/içecek bekler | Düşük | Servis gecikmeleri küçük hayal kırıklıklarına neden olur |
+| **Memnun Etmesi Zor** | Sürekli talepler | Orta | Mürettebatın dikkatini kritik acil durumlardan uzaklaştırır |
+| **Hırçın** | Bozucu/Saldırgan | Yüksek | Kavga çıkarabilir veya mürettebata müdahale edebilir |
+| **VIP** | Aşırı talepkar | Yüksek | Yüksek ödeme ancak hatalara sıfır tolerans |
+
+Bu grupları yönetmek özel bir **Yolcu Servisi** rolü gerektirir. Susamış bir yolcuyu çok uzun süre görmezden gelirseniz, hayal kırıklıkları uçağı iç kaosa daha yatkın hale getiren gizli bir metrik olan "Kabin Basıncı"nı artırır.
+
+<Callout type="warning" title="Uyarı">
+**Hırçın Yolcuları** **Yasa Dışı Kargo** ile karıştırmak "Ekstrem" bir risk stratejisidir. Tek bir dikkat dağınıklığı uçağın tamamen kaybına yol açabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Rolleri ve Takım Koordinasyonu">
+
+Kabin içinde verimlilik, net roller olmadan imkansızdır. Bir oyuncu her zaman kokpitte olmalı, ekibin geri kalanı ise kabinin kontrol altında kalmasını sağlamak için görevleri paylaşmalıdır. Operasyonlarınızı düzene sokmak için aşağıdaki rol atamalarını kullanın.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Kokpit Odağı**: Uçağı uçurur ve hava durumunu takip eder.
+    - **İletişim**: Keskin dönüşlerden önce kabini uyarır.
+    - **Güvenlik**: Hasar sırasında motor çıkışını yönetir.
+  </Card>
+  <Card title="Kabin Şefi">
+    - **Öncelik Belirleme**: Hangi yangının önce söndürüleceğine karar verir.
+    - **Koordinasyon**: Servis üyelerine görevler atar.
+    - **Raporlama**: Pilotu kabin durumu hakkında bilgilendirir.
+  </Card>
+  <Card title="Kargo Uzmanı">
+    - **Kontrol Altına Alma**: Tehlikeli veya canlı kargoları izler.
+    - **Güvenlik**: Türbülans sonrası başıboş nesneleri bağlar.
+    - **Savunma**: Dış tehditler veya gövde delinmeleriyle ilgilenir.
+  </Card>
+</CardGrid>
+
+Küçük ekipler (2-3 oyuncu) için esneklik anahtardır. Pilot kokpiti sadece aşırı acil durumlarda terk etmeli, kabin oyuncusu ise servis ve güvenlik arasında geçiş yapmalıdır.
+
+<Callout type="tip" title="Profesyonel Koordinasyon İpucu">
+**Fizik Tabanlı Enkazı** izlemek için "Kabin Şefi"ni kullanın. Tek bir boş yemek tepsisi, hava boşluğu sırasında ölümcül bir mermiye dönüşebilir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Adım Adım Acil Durum Müdahalesi">
+
+Alarm çaldığında panik en büyük düşmanınızdır. İster bir kuş çarpması ister kaçan bir timsah olsun, standart bir müdahale protokolünü izlemek uçuşunuzu kurtaracaktır.
+
+<Steps>
+  <Step num="1" title="Değerlendir ve İletişim Kur">
+    Sorunun kaynağını (Yangın, Kargo veya Yolcu) belirleyin ve uçağı stabilize edebilmesi için derhal Pilotu uyarın.
+  </Step>
+  <Step num="2" title="Yakın Tehdidi Kontrol Altına Al">
+    Yangınlar için söndürücüleri, hırçın yolcular için kısıtlamaları kullanın. Kargo kaçtıysa, tüm standart yolcuları bölgeden uzaklaştırın.
+  </Step>
+  <Step num="3" title="Kabini Stabilize Et">
+    Tehdit etkisiz hale getirildikten sonra, başıboş bagajları sabitleyin ve yolcuları yerlerine oturtun. **Dear Passengers**'daki fizik motoru, dağınık bir kabinin bir sonraki türbülansta daha fazla yaralanmaya yol açacağı anlamına gelir.
+  </Step>
+  <Step num="4" title="Servise Devam Et">
+    Kabin Basıncını düşürmek ve yolcu memnuniyet seviyelerini geri kazanmak için yemek ve içecek servisine geri dönün.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Acil Durum Bilgisi">
+Kuş çarpmalarından kaynaklanan motor hasarı genellikle ikincil kabin yangınlarına yol açar. Büyük bir darbeden sonra uçağın arka kısmını mutlaka kontrol edin.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kargo Yönetimi: Tehlikeli Maddelerin Taşınması">
+
+Kargo genellikle yolculardan daha kârlıdır ancak önemli ölçüde daha tehlikelidir. Yasa dışı sevkiyatlardan gerçek vahşi hayvanlara kadar kargo bölümünüz patlamaya hazır bir bombadır.
+
+| Kargo Türü | Tehlike Seviyesi | Önerilen Müdahale |
+| :--- | :--- | :--- |
+| **Normal Yük** | Düşük | Türbülans sonrası kayışları kontrol edin |
+| **Hassas Eşyalar** | Orta | Pilot keskin manevralardan kaçınmalıdır |
+| **Yasa Dışı Kargo** | Yüksek | Şüpheli yolculardan gizli tutun |
+| **Hayvan (Timsah)** | Ekstrem | Kafes kırılmasını 1. Öncelik olarak ele alın |
+
+Resmi FLEXUS görüntülerinde gösterilen timsahlar gibi canlı kargolar, bir mürettebat üyesinin kargo bölümünün duyulabileceği bir mesafede kalmasını gerektirir. Tırmalama veya tıslama duyarsanız, kasaları kontrol etme zamanı gelmiştir.
+
+<Checklist
+  id="pre-flight-cargo"
+  title="Uçuş Öncesi Hazırlık Kontrol Listesi:"
+  items={[
+    "Tüm kargo kasalarının kilitli olduğunu doğrulayın",
+    "Koridorları her türlü serbest servis ekipmanından temizleyin",
+    "Pilotun en son hava durumu raporuna sahip olduğunu onaylayın",
+    "Yangın söndürücüleri kabinin kilit noktalarına dağıtın",
+    "Manifestodaki yüksek riskli yolcuları belirleyin"
+  ]}
+/>
+
+<Callout type="tip" title="Bakım İpucu">
+Bir olaydan sonra her zaman "Kabini Sıfırlayın". Önceki bir yangından kalan dağılmış malzemeler, bir sonraki acil durumda yolunuzu tıkayacaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistem Gereksinimleri ve Yayın Detayları">
+
+Temmuz 2026 itibarıyla **Dear Passengers**'ın Steam üzerinden PC için çıkacağı onaylanmıştır. Ekibinizin ağır fizik simülasyonlarını gecikme olmadan çalıştırabilmesi için aşağıdaki donanım gereksinimlerini kontrol edin.
+
+| Bileşen | Minimum Özellik |
+| :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz veya eşdeğeri |
+| **Bellek** | 8 GB RAM |
+| **Ekran Kartı** | NVIDIA GTX 1060 / AMD RX 6600 XT |
+| **DirectX** | Versiyon 12 |
+| **Depolama** | 4 GB kullanılabilir alan |
+
+Oyun şu anda İngilizce, Türkçe, Japonca ve Ukraynaca dahil olmak üzere altı arayüz dilini desteklemektedir. 2026 yayın penceresi belirlenmiş olsa da, FLEXUS Steam sayfasını yeni oynanış özellikleri ve topluluk odaklı içeriklerle güncellemeye devam ediyor.
+
+<Callout type="success" title="Topluluk Bilgisi">
+Mürettebat arkadaşları bulmak ve en kaotik uçuş kliplerinizi geliştiricilerle paylaşmak için resmi Discord sunucusuna katılın.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Dear Passengers co-op kaç kişiyle oynanabilir?",
+    answer: "Oyun, kokpit ve kabini etkili bir şekilde yönetmek için genellikle 2 ila 4 kişilik ekipler için tasarlanmış çevrimiçi co-op desteği sunar."
+  },
+  {
+    question: "Oyundaki en tehlikeli kargo hangisidir?",
+    answer: "Hayvan kargoları, özellikle fragmanlarda gösterilen kaçan timsah, kabin içinde hareket edebildiği ve yolcuları yaralayabildiği için en yüksek riskli kargo olarak kabul edilir."
+  },
+  {
+    question: "Dear Passengers tek başına oynanabilir mi?",
+    answer: "Evet, Steam tek oyunculu desteği listeliyor, ancak bir oyuncunun hem uçuşu hem de kabin görevlerini yönetmesi gerektiğinden zorluk seviyesi artar."
+  },
+  {
+    question: "PS5 veya Xbox gibi konsollar için çıkış tarihi var mı?",
+    answer: "Şu anda geliştirici FLEXUS tarafından sadece Steam üzerinden 2026 Windows PC çıkışı onaylanmıştır."
+  }
+]} />
+
+</Section>

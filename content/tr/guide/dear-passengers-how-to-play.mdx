@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Nasıl Oynanır: Co-Op Hayatta Kalma Rehberi ve İpuçları",
+  description: "Co-op hayatta kalma rehberimizle Dear Passengers oynamayı öğrenin. Uçak yönetimi, yolcu güvenliği ve havada yaşanan kaotik tehditlerde ustalaşın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dear+Passengers+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Birincil Hedef**: Uçağı havada tutmak için kabin yönetimi ve uçuş kontrollerinin temellerini öğrenin.
+- **Rol Dağılımı**: Görevleri uçağı uçurmak ve kaotik kabin olaylarını yönetmek arasında paylaştırın.
+- **Tehlike Kontrolü**: Vahşi hayvanlar, silahlı yolcular ve motor arızaları gibi uç durumları yönetin.
+- **Takım İletişimi**: Hareketleri koordine etmek ve gelen tehditleri bildirmek için aktif sesli sohbet kullanın.
+- **Kaynak Yönetimi**: Silahlar ve yangın söndürücüler gibi temel araçları takip edin.
+</Callout>
+
+<Section icon={Map} title="Oyuna Genel Bakış ve Temel Mekanikler">
+
+Dear Passengers, oyuncuları son derece dengesiz koşullar altında ticari bir uçağı havada tutmaya zorlayan kaotik bir co-op çok oyunculu oyundur. Başarı, uçağı yönlendirmek ile kabin içindeki düzeni sağlamak arasında bir denge gerektirir. **Dear passengers nasıl oynanır** sorusunun cevabını etkili bir şekilde anlamak istiyorsanız, uçuş sırasında meydana gelen sürekli kriz akışını yönetmeyi öğrenmelisiniz. Bir oyuncu uçağı yönlendirmeye odaklanmalı, mürettebatın geri kalanı ise kabin acil durumları, asi yolcular ve dış tehditlerle ilgilenmelidir.
+
+**Öne Çıkan Video Detayları:**
+- Kaotik co-op oynanış döngüsüne ve uçak kontrollerine genel bakış.
+- Uçuş sırasında kabin yönetimi ve açık kapı mekaniklerinin gösterimi.
+- Gevşek kargo ve silahlı tehditler dahil olmak üzere beklenmedik tehlike örnekleri.
+- Aşırı acil durumlarda mürettebat üyeleriyle koordinasyon kurma ipuçları.
+
+<YouTubeEmbed videoId="a_W7HsW3eAg" title="CO-OP GAME OF THE YEAR OR FRIENDSLOP?! DEAR PASSENGERS" />
+
+Uçuş fiziği, pilotun sürekli dikkatini gerektirir. Ani eğilmeler ve dönüşler, oyuncuların kabin içindeki hareketlerini etkileyerek basit görevleri bile çok daha zor hale getirir. Mürettebat üyeleri kargo taşırken, yangın söndürürken veya kokpiti savunurken değişen yerçekimine uyum sağlamalıdır.
+
+| Rol | Birincil Görev | Temel Zorluk |
+|------|--------------|---------------|
+| Pilot | Uçağı yönlendirmek ve irtifayı korumak | Engellerden kaçınmak ve kabini sabitlemek |
+| Kabin Memuru | Yolcuları, kargoları ve uçaktaki yangınları yönetmek | Şiddetli türbülans sırasında hareket etmek |
+| Güvenlik | Silahlı tehditleri etkisiz hale getirmek ve düşmanları engellemek | Sınırlı mühimmat ve silahları yönetmek |
+
+<Callout type="info" title="Rol Dağılımı">
+Kalkıştan önce rol atamak kafa karışıklığını önler. En az bir oyuncunun uçağı uçurmaya odaklandığından, diğerlerinin ise ani kabin tehditleriyle başa çıkmak için esnek kaldığından emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Uçuş Sırasındaki Kaos ve Tehlikeleri Yönetmek">
+
+Uçağın kabini, beklenmedik acil durumlar için adeta bir biçilmiş kaftandır. Oyuncular gevşek kargo, tehlikeli vahşi yaşam ve uçuşu sabote etmeye çalışan düşmanca yolcularla uğraşmalıdır. Katastrofik yapısal hasarı önlemek için bu tehlikeleri hızlı bir şekilde yönetmek şarttır.
+
+<CardGrid cols={3}>
+  <Card title="Vahşi Yaşam Kargosu">
+    - **Serbest Kalan Hayvanlar**: Timsahlar ve diğer tehlikeli kargolar serbest kalabilir.
+    - **Bertaraf Etme**: Hayvanları yakalayın ve açık kabin kapılarından dışarı atın.
+    - **Tehlike Seviyesi**: İlgilenilmediğinde mürettebat üyelerine yüksek hasar verir.
+  </Card>
+  <Card title="Düşman Yolcular">
+    - **Silahlı Tehditler**: Bazı yolcular uçuş sırasında silah çekebilir.
+    - **Etkisiz Hale Getirme**: Onları hızlıca silahsızlandırmak için yakın dövüş saldırıları veya ateşli silahlar kullanın.
+    - **Tehlike Seviyesi**: Pilot ve kokpit bütünlüğü için kritik tehdit.
+  </Card>
+  <Card title="Dış Saldırılar">
+    - **Düşman Uçakları**: Düşman uçakları sizi vurmaya çalışacaktır.
+    - **Savunma**: Karşılık vermek için uçaktaki savunma silahlarını kullanın.
+    - **Tehlike Seviyesi**: Hızlı dekompresyona yol açan yapısal hasar.
+  </Card>
+</CardGrid>
+
+Serbest kalan hayvanlar veya patlayıcı maddeler gibi kargolarla uğraşırken, oyuncular bunları dışarı atmak için uçuş sırasında kabin kapılarını açmalıdır. Bu eylem, dekompresyon risklerini beraberinde getirir; sabitlenmemiş nesneleri ve oyuncuları çıkışa doğru çeker. Mürettebat güvenliği için bu eylemleri stabil uçuş koşullarında zamanlamak çok önemlidir.
+
+| Tehlike | Acil Eylem | Gerekli Araçlar |
+|--------|------------------|--------------|
+| Kabin Yangını | Sönene kadar alevlere püskürtün | Yangın Söndürücü |
+| Serbest Timsah | Yakalayın ve kabin kapısından dışarı atın | Yok (Elle Yakalama) |
+| Silahlı Yolcu | Hemen silahsızlandırın ve etkisiz hale getirin | Piyade Tüfeği / Yakın Dövüş |
+| Gövde Sızıntısı | Dekompresyonu durdurmak için sızıntıyı yamayın | Tamir Kiti |
+
+<Callout type="warning" title="Aşırı Tehlikeler">
+Tehlikeli eşyaları açık kapılardan atmak etkilidir, ancak oyuncular önce kendilerini sabitlemelidir. Keskin bir dönüş sırasında açık bir kapıya çok yakın durmak, uçaktan düşmeyle sonuçlanabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Uçuşta Hayatta Kalma Rehberi">
+
+Başarılı bir uçuş gerçekleştirmek için mürettebatın güvenilir bir rutin oluşturması gerekir. Yapılandırılmış adımları izlemek, kalkıştan inişe kadar kaotik olayların tırmanmasını yönetmeye yardımcı olur.
+
+<Steps>
+  <Step num="1" title="Uçuş Öncesi Koordinasyon">
+    Net iletişim kanalları kurun. Pilot hemen kontrolleri ele almalı, kabin memurları ise yangın söndürücüler, silahlar ve tamir aletleri gibi temel eşyaların yerini tespit etmelidir.
+  </Step>
+  <Step num="2" title="Kabin İzleme">
+    Yolcu davranışlarını ve kargo stabilitesini yakından takip edin. Yaralanmaları önlemek için pilot keskin manevralar yapmadan önce gevşek eşyaları sabitleyin.
+  </Step>
+  <Step num="3" title="Tehdit Yanıtı">
+    Acil durumları önem sırasına göre ele alın. Yangın ve kokpit sızıntıları, gevşek kargolardan önceliklidir. Kritik onarımlar sırasında uçağı sabitlemek için pilotla koordinasyon sağlayın.
+  </Step>
+  <Step num="4" title="Acil İniş">
+    Varış noktasına yaklaşıldığında, pilot pistle hizalanmalıdır. Kabin memurları kalan yangınları söndürmeli ve kabin basıncını korumak için tüm kapıların kapalı olduğundan emin olmalıdır.
+  </Step>
+</Steps>
+
+Yüksek stresli anlarda, görevleri önceliklendirmek mürettebatın bunalmasını önler. Müdahale edilmeyen tek bir yangın hızla yayılarak motorları tahrip edebilir ve kontrol edilemeyen bir kazaya yol açabilir.
+
+| Uçuş Aşaması | Birincil Tehdit | Mürettebat Önceliği |
+|--------------|----------------|---------------|
+| Kalkış | Motor kararsızlığı | Sistem göstergelerini izlemek |
+| Uçuş Ortası | Silahlı hava korsanları ve kargo sızıntıları | Savunma ve tehlike kontrolü |
+| İniş | Hizalama hatası ve yüksek hız | Hızı azaltmak ve kabini güvenceye almak |
+
+<Callout type="success" title="Hayatta Kalma Başarısı">
+Uçağı başarıyla indirmek yakın iş birliği gerektirir. Pilot kabini göremediğinden, mürettebat yapısal hasarı ve yangın konumlarını derhal bildirmelidir.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gelişmiş Co-Op Stratejileri">
+
+Oyunda ustalaşmak gelişmiş koordinasyon ve verimli kaynak yönetimi gerektirir. Etkili iletişim kuran mürettebatlar, uçağın kontrolünü kaybetmeden aynı anda birden fazla krizle başa çıkabilir.
+
+Kabin düzenini avantajınıza kullanmak çok önemlidir. Yangın söndürücüler ve silahlar gibi kritik aletleri, herhangi bir mürettebat üyesinin hızlıca ulaşabileceği merkezi yerlerde tutun. Eşyaları kokpitte istiflemekten kaçının, çünkü bu durum ani sızıntılar sırasında kabinin geri kalanını savunmasız bırakır.
+
+<Checklist
+  id="coop-milestones"
+  title="Gelişmiş Takım Çalışması Kontrol Listesi:"
+  items={[
+    "Birincil pilotun iş göremez hale gelmesi durumunda yedek bir pilot belirleyin.",
+    "Tehlikeleri aktif olarak dışarı atmadığınız sürece kabin kapılarını kapalı tutun.",
+    "Savunma silahlarını yolcu oturma alanının yakınında saklayın.",
+    "Düşmeleri önlemek için keskin dönüşleri kabin memurlarıyla koordine edin.",
+    "Uçuş sırasında motor sıcaklık göstergelerini düzenli olarak izleyin."
+  ]}
+/>
+
+Pilotlar, uçuş rotasında ani ayarlamalar yapmadan önce mürettebatı uyarmalıdır. Ani bir dalış veya yatış, mürettebat üyelerini kabin boyunca fırlatarak onarımları veya çatışmayı bölebilir.
+
+| Ekipman | En İyi Kullanım Alanı | Konum Stratejisi |
+|-----------|---------------|-------------------|
+| Yangın Söndürücü | Motor ve elektrik yangınlarıyla mücadele | Merkezi koridorda tutun |
+| Piyade Tüfeği | Silahlı hava korsanlarını hızlıca etkisiz hale getirme | Kokpit kapısının yakınında saklayın |
+| Tamir Aleti | Yapısal gedikleri ve gövde hasarlarını onarma | Arka kargo bölümünün yakınında tutun |
+
+<Callout type="tip" title="Profesyonel Koordinasyon İpucu">
+Yangınların ve serbest kalan tehlikelerin yerini bildirmek için oyun içi sohbeti kullanın. Net iletişim, birden fazla oyuncunun aynı acil duruma koşmasını ve diğer alanları gözetimsiz bırakmasını önler.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Dear passengers nasıl oynanır sorusunun temel amacı nedir?",
+    answer: "Temel amaç, uçağı havada tutmak, kabin acil durumlarını yönetmek, tehditleri etkisiz hale getirmek ve varış noktasına güvenli bir şekilde inmek için bir co-op mürettebatı olarak birlikte çalışmaktır."
+  },
+  {
+    question: "Uçuş sırasında timsah gibi gevşek kargoları nasıl yönetirsiniz?",
+    answer: "Gevşek kargoyu fiziksel olarak yakalamalı, kabin kapılarından birine gitmeli, kapıyı açmalı ve kendiniz dışarı çekilmekten kaçınarak tehlikeyi uçaktan dışarı atmalısınız."
+  },
+  {
+    question: "Tek bir oyuncu hem pilotluğu hem de kabin bakımını yönetebilir mi?",
+    answer: "Mümkün olsa da son derece zordur. Pilotun uçağın düşmesini önlemek için kontrollerde kalması gerekir, bu da kabin acil durumlarını yönetmek için co-op koordinasyonunu şart kılar."
+  },
+  {
+    question: "Motor alev alırsa mürettebat ne yapmalıdır?",
+    answer: "Hemen bir yangın söndürücü bulun, motor bölmesine veya kabin sızıntısına yönelin ve yapısal çökmeyi önlemek için yangın tamamen sönene kadar alevlere püskürtün."
+  }
+]} />
+
+</Section>

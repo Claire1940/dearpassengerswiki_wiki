@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Wind, Flame, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Flight Hazards: Emergency Response & Survival",
+  description: "Master dear passengers flight hazards with our guide to surviving turbulence, bird strikes, fires, and escaped cargo in this chaotic 2026 co-op simulator.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Flight+Hazards+Survival+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear passengers flight hazards**: These are dynamic, physics-based events that require immediate crew coordination to prevent total aircraft failure.
+- **Primary Mechanic**: Use the physics engine to your advantage by securing loose objects before **turbulence** or sharp maneuvers.
+- **Emergency Priority**: Always prioritize **aircraft safety** (fire/hull damage) and **escaped cargo** over routine food and drink service.
+- **Key Strategy**: The Pilot must communicate upcoming maneuvers so the Cabin Crew can brace and secure the environment.
+</Callout>
+
+<Section icon={AlertTriangle} title="Understanding Dear Passengers Flight Hazards">
+
+In the chaotic world of Dear Passengers, scheduled for release in 2026, managing **dear passengers flight hazards** is the core challenge that separates a successful airline from a mid-air disaster. Unlike traditional simulators, this game utilizes a ragdoll physics engine where every unsecured object—from a meal tray to a 500-pound crocodile—becomes a projectile during flight emergencies. As a crew, your ability to identify, categorize, and respond to these hazards determines your final payout and survival.
+
+Hazards in this game are not just scripted events; they are dynamic consequences of your pre-flight choices and the Pilot's handling of the aircraft. When you select high-risk cargo or difficult passengers, you are essentially "buying" into a more dangerous flight path.
+
+| Hazard Type | Primary Trigger | Response Team | Risk Level |
+| :--- | :--- | :--- | :--- |
+| **Turbulence** | Weather / Air Pockets | Pilot & Cabin | Medium |
+| **Onboard Fire** | Electrical / Cargo | Cabin Crew | **High** |
+| **Bird Strike** | Environmental | Pilot | **High** |
+| **Escaped Cargo** | Physics / Damage | Cargo Lead | **Extreme** |
+| **Unruly Passengers** | Poor Service / Stress | Service Lead | Medium |
+
+<Callout type="warning" title="Chain Reaction Warning">
+Small incidents rarely stay small. A simple air pocket can knock over a food trolley, which might block the path to a fire extinguisher, leading to a localized fire becoming a hull-breaching emergency.
+</Callout>
+
+</Section>
+
+<Section icon={Wind} title="Managing Turbulence and Weather Patterns">
+
+Dynamic weather is the most frequent of the **dear passengers flight hazards**. As the Pilot navigates through storm fronts or high-altitude air pockets, the entire cabin environment reacts. If the Cabin Crew has not secured the luggage or service carts, the resulting "cabin slop" can injure passengers and the crew themselves.
+
+The Pilot's role is to act as the early warning system. By monitoring the radar and upcoming flight path, they can signal the team to stop service and secure the cabin before the physics engine takes over.
+
+<Steps>
+  <Step num="1" title="Pilot Early Warning">
+    The Pilot identifies upcoming turbulence on the radar and communicates the severity to the Cabin Crew via voice or in-game signals.
+  </Step>
+  <Step num="2" title="Secure the Cabin">
+    Cabin Crew must immediately stop food service, lock the meal trolleys, and ensure all passengers are seated or at least away from heavy loose objects.
+  </Step>
+  <Step num="3" title="Brace for Impact">
+    During severe air pockets, crew members should hold onto fixed structures to avoid being thrown into the ceiling or walls.
+  </Step>
+  <Step num="4" title="Damage Assessment">
+    Once the aircraft stabilizes, the crew must quickly clear aisles and check if any cargo containers have shifted or broken open.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Physics Pro-Tip">
+If you are caught in the middle of an aisle during turbulence, try to crouch. The lower center of gravity helps your character stay grounded even when the plane takes a sharp dip.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cargo Risks and Animal Containment">
+
+One of the most unique aspects of **dear passengers flight hazards** involves the transport of "Extreme Risk" cargo. Official footage has revealed that players can choose to transport live animals, such as crocodiles, which are prone to escaping if the flight becomes too rocky.
+
+When cargo escapes, it doesn't just sit there; it interacts with the passengers and the environment. An escaped predator will cause mass panic, lowering passenger satisfaction and potentially injuring the crew members needed for other tasks.
+
+<CardGrid cols={3}>
+  <Card title="Standard Freight">
+    - **Risk**: Low
+    - **Behavior**: Shifts during turns
+    - **Response**: Re-stack and secure
+  </Card>
+  <Card title="Illegal/Hazardous">
+    - **Risk**: High
+    - **Behavior**: May leak or combust
+    - **Response**: Isolation and containment
+  </Card>
+  <Card title="Live Animal Cargo">
+    - **Risk**: **Extreme**
+    - **Behavior**: Aggressive escapees
+    - **Response**: Immediate capture/diversion
+  </Card>
+</CardGrid>
+
+| Cargo Category | Payout Bonus | Hazard Potential | Recommended Response |
+| :--- | :--- | :--- | :--- |
+| **Fragile Electronics** | +15% | Becomes debris if dropped | Use padded storage zones |
+| **Chemical Barrels** | +30% | Toxic leaks if damaged | Constant monitoring required |
+| **Exotic Predators** | +50% | Escapes and attacks crew | Dedicated containment guard |
+
+<Callout type="success" title="Containment Strategy">
+Assign your strongest player to the Cargo and Containment role if you take an "Extreme" risk flight. Their sole job is to watch the crates and ensure no locks are rattling loose during turbulence.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mechanical Failures and External Attacks">
+
+Not all **dear passengers flight hazards** originate from inside the cabin. The 2026 gameplay reveal showcased external threats, including bird strikes that can disable engines and even mysterious external attackers that require the crew to use mounted defenses.
+
+When an engine fails or the hull is breached, the Pilot's priority shifts from navigation to basic flight control. Meanwhile, a designated crew member may need to perform "external repairs," a high-stakes mini-game where they leave the safety of the cabin to fix the plane mid-flight.
+
+<Checklist
+  id="emergency-hardware"
+  title="Critical Repair Checklist:"
+  items={[
+    "Identify the source of the fire or hull breach",
+    "Equip the fire extinguisher or repair tool",
+    "Coordinate with the Pilot to maintain a level flight during repairs",
+    "Ensure the repair area is clear of loose passengers",
+    "Seal the breach before cabin pressure drops significantly"
+  ]}
+/>
+
+<Callout type="info" title="External Defense">
+In some scenarios, you may face incoming projectiles. One crew member must man the external weapons while the others handle the internal chaos caused by the evasive maneuvers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passenger Management During Crises">
+
+The "Passengers" in Dear Passengers are not just passive NPCs; they are a primary source of **dear passengers flight hazards**. Their stress levels rise with every bump, fire, or escaped animal. If their stress maxes out, they become "Unruly," refusing to follow instructions and potentially interfering with emergency repairs.
+
+Managing these passengers requires a balance of hospitality and firm control. You cannot fix a hull breach if a panicked passenger is blocking the door or clinging to your leg.
+
+| Passenger State | Visual Cue | Impact on Flight | Required Action |
+| :--- | :--- | :--- | :--- |
+| **Calm** | Seated, smiling | Generating steady income | Routine food/drink service |
+| **Stressed** | Standing, shouting | Blocking aisles | Reassurance / Service |
+| **Panicked** | Running, screaming | Disrupting physics/repairs | Restraint / Isolation |
+| **Unruly** | Aggressive, blocking | Direct interference | Removal / Strict Control |
+
+<Callout type="tip" title="Service Priority">
+During a minor hazard like light turbulence, continuing to serve drinks can actually prevent passengers from reaching the "Stressed" state. However, if there is a fire, ignore the drinks and focus on safety.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Summary and FAQ">
+
+Surviving **dear passengers flight hazards** requires a team that can pivot instantly from being flight attendants to being firefighters and animal wranglers. The key is clear communication and role specialization. By understanding the risks associated with different cargo and passenger types, you can plan your flights for maximum profit with manageable chaos.
+
+<FAQ items={[
+  {
+    question: "What is the most dangerous hazard in Dear Passengers?",
+    answer: "While all hazards can end a flight, Onboard Fires and Escaped Live Cargo (like crocodiles) are the most dangerous because they require immediate attention from multiple crew members and can quickly escalate into a total loss of control."
+  },
+  {
+    question: "Can the Pilot help with cabin hazards?",
+    answer: "The Pilot should generally stay in the cockpit to maintain aircraft stability. If the Pilot leaves their seat, the plane may dive or bank sharply, making cabin hazards even worse due to the physics engine."
+  },
+  {
+    question: "How do I stop passengers from becoming unruly?",
+    answer: "Keep their satisfaction high by providing timely food and drink service, and minimize the impact of turbulence by having the Pilot fly as smoothly as possible. If a hazard occurs, resolve it quickly to prevent mass panic."
+  },
+  {
+    question: "What happens if the hull is breached?",
+    answer: "A hull breach causes a loss of cabin pressure and can suck loose objects or even crew members out of the plane. It must be repaired immediately using tools found in the cabin or cargo hold."
+  }
+]} />
+
+</Section>

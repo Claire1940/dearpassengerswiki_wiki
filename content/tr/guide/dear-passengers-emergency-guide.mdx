@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Users, ClipboardCheck, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Acil Durum Rehberi: Hayatta Kalma Taktikleri ve Roller",
+  description: "Dear Passengers acil durum rehberimizle kaosa hakim olun. 2026'nın hit kooperatif oyunu için mürettebat rollerini, tehlike müdahalesini, kargo kontrolünü ve yolcu yönetimini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Emergency+Survival+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "dear passengers, acil durum rehberi, hayatta kalma taktikleri, mürettebat rolleri, oyun rehberi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers acil durum rehberi**: Başarı, havada yaşanan felaketler sırasında hızlı iletişim ve katı rol dağılımına bağlıdır.
+- **Öncelik Protokolü**: Her zaman **uçak stabilitesine** ve **yangın söndürmeye**, rutin yemek servisi veya yolcu konforundan daha fazla öncelik verin.
+- **Rol Sinerjisi**: Pilot çevreyi yönetirken, Kabin Ekibi gevşek kargo ve asi yolcular gibi fizik tabanlı tehditlerle ilgilenir.
+- **Risk Yönetimi**: Daha yüksek ödemeler, **kaçan canlı kargolar** ve kuş çarpması sonucu motor arızaları gibi aşırı risklerle birlikte gelir.
+- **Fizik Farkındalığı**: Türbülans vurmadan önce tüm gevşek nesneleri sabitleyerek onların ölümcül mermilere dönüşmesini engelleyin.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Acil Durum Rehberi: Hayatta Kalmanın Temelleri">
+
+*Dear Passengers*'ın yüksek riskli dünyasında, başarılı bir uçuş ile tam bir gövde yarılması arasındaki çizgi çok incedir. FLEXUS tarafından geliştirilen bu 2026 yapımı fizik tabanlı kooperatif simülatörü, oyuncuları dünyanın en kaotik havayolunda düzeni sağlamaya davet ediyor. İster ani bir hava boşluğuyla ister taşıma kutusundan kaçan bir timsahla uğraşıyor olun, hayatta kalmak için standart bir müdahale planına sahip olmak esastır.
+
+**Video Öne Çıkanlar:**
+- **Fizik Kaosu**: Şiddetli türbülans sırasında ragdoll fiziğinin mürettebatı ve yolcuları nasıl etkilediğini görün.
+- **Tehlike Çeşitliliği**: Motor yangınları, kuş çarpmaları ve dış gövde hasarlarına bir ön bakış.
+- **Rol Etkileşimi**: Kokpitin yaklaşan hava durumu için kabinle nasıl iletişim kurduğu.
+- **Acil Durum Araçları**: Uçağı havada tutmak için söndürücüler ve tamir araçlarını kullanma.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Resmi Duyuru Fragmanı" />
+
+Bir acil durumu yönetmek sadece hızlı reflekslerden fazlasını gerektirir; oyunun sistemlerinin birbiriyle nasıl etkileşime girdiğini derinlemesine anlamayı gerektirir. Kabindeki her nesne, bir içecek tepsisinden ağır bir valize kadar, uçağın hareketine tabidir. Pilot keskin bir dönüş yaptığında, bu nesneler tehlikeli maddelere dönüşür.
+
+<Callout type="warning" title="Kritik Uyarı">
+Sakin bir dönemde küçük bir yangını veya gevşek bir bagaj parçasını görmezden gelmek, türbülans başladığında "uçuşu bitiren" bir zincirleme reaksiyonu tetiklemenin en hızlı yoludur.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Mürettebat Rolleri ve Acil Durum Sorumlulukları">
+
+Etkili kriz yönetimi net sınırlarla başlar. *Dear Passengers*'da roller sadece öneri değildir; birden fazla olay aynı anda meydana geldiğinde ekibin bunalmasını önleyen çerçevedir.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Konum**: Kokpit
+    - **Temel Görev**: Uçak kontrolünü sağlamak ve hava durumunu izlemek.
+    - **Acil Durum Rolü**: Kabin ekibinin güvenli hareket etmesini sağlamak için uçağı stabilize etmek.
+  </Card>
+  <Card title="Kabin Şefi">
+    - **Konum**: Yolcu Kabini
+    - **Temel Görev**: Ekip müdahalesini koordine etmek ve görev önceliklerini belirlemek.
+    - **Acil Durum Rolü**: En tehlikeli tehdidi belirlemek ve yardım atamak.
+  </Card>
+  <Card title="Kargo Uzmanı">
+    - **Konum**: Kargo Bölümü / Kabin
+    - **Temel Görev**: Yüksek riskli konteynerleri izlemek ve gevşek eşyaları sabitlemek.
+    - **Acil Durum Rolü**: Kaçan hayvanları kontrol altına almak ve hasarlı kasaları onarmak.
+  </Card>
+</CardGrid>
+
+| Rol | Temel Araç | Acil Durum Önceliği | Ekip Etkisi |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | Uçuş Kontrolleri | **Hava Durumundan Kaçınma** | Kabin genelindeki fizik kaosunu önler |
+| **Servis** | Yiyecek/İçecek Arabası | **Yolcu Kontrolü** | Asi davranışların tırmanmasını durdurur |
+| **Destek** | Yangın Söndürücü | **Tehlike Bastırma** | Yangın ve gövde hasarının yayılmasını önler |
+| **Kargo** | Bağlama Aparatları | **Hayvan Kontrolü** | Yüksek değerli uçuş ödemelerini korur |
+
+<Callout type="tip" title="Profesyonel Strateji">
+İki kişilik ekiplerde Pilot, herhangi bir keskin manevradan önce "3 saniyelik uyarı" vermelidir. Bu, kabin oyuncusunun fizik kuralları devreye girmeden önce sabit bir nesneye tutunmasına veya tehlikeli bir nesneyi bırakmasına olanak tanır.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Uçuş Tehlikelerini Belirleme ve Etkisiz Hale Getirme">
+
+*Dear Passengers*'daki acil durumlar dinamiktir. Basit bir "asi yolcu", mutfakta yangın yayılırken mürettebatın dikkatini dağıtırsa hayati bir soruna dönüşebilir. Her tehlikenin tırmanma yolunu anlamak bu **dear passengers acil durum rehberi**nin anahtarıdır.
+
+| Tehlike Türü | Tetikleyici Olay | İlk Müdahale | Tırmanma Riski |
+| :--- | :--- | :--- | :--- |
+| **Dinamik Hava Durumu** | Uçuş rotasının değişmesi | Pilot stabilizasyonu | Gevşek nesnelerin mermiye dönüşmesi |
+| **Motor Hasarı** | Kuş çarpması / Arıza | Pilot ve Destek | Tam kontrol kaybı ve yangın |
+| **Uçak İçi Yangın** | Mutfak kazaları | En yakın mürettebat | Hızlı oksijen tükenmesi ve gövde hasarı |
+| **Kaçan Kargo** | Türbülans / Hasar | Kargo Uzmanı | Yolcu yaralanması ve koridorların tıkanması |
+| **Asi Yolcular** | Kötü servis / Stres | Servis Ekibi | Acil durum onarımlarının kesintiye uğraması |
+
+### Canlı Kargo Acil Durumlarını Yönetme
+En ekstrem senaryolardan biri, resmi görüntülerde gösterilen timsahlar gibi canlı kargoları içerir. Bir kasa kırıldığında, kargo uzmanı derhal harekete geçmelidir.
+
+1. **Alanı Boşaltın**: Yolcuları kargo bölümü girişinden uzaklaştırın.
+2. **Tehdidi İzole Edin**: Hayvanı hapsetmek için kabin ayırıcıları veya fiziksel nesneler kullanın.
+3. **Kasayı Sabitleyin**: Kargoyu geri döndürmeye çalışmadan önce muhafaza ünitesini onarın.
+4. **Pilota Rapor Verin**: Hayvanın diğer mürettebat üyelerine doğru kaymasını önlemek için pilotun düz uçuş yapmasını sağlayın.
+
+<Callout type="success" title="Başarı İpucu">
+"Yeşil Bölge" (sakin uçuş) sırasında koridorları "çöplerden" ve atılmış yemek tepsilerinden temiz tutmak, "Kırmızı Bölge" (acil durum) sırasında mürettebat hareket hızını %40 artırır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Acil Durum Müdahale Protokolü">
+
+Bir alarm çaldığında, mürettebat uçağın güvenliğini sağlamak için standart bir protokol izlemelidir. Herhangi bir krizi etkili bir şekilde yönetmek için bu adımları kullanın.
+
+<Steps>
+  <Step num="1" title="Tespit ve İletişim">
+    Acil durumun türünü ve yerini derhal sesli olarak bildirin (örneğin, "Arka mutfakta yangın!"). Pilot durumu onaylamalı ve yaklaşan türbülansı kontrol etmelidir.
+  </Step>
+  <Step num="2" title="Anında Kontrol Altına Alma">
+    En yakın mürettebat üyesi, tehdidi ele almak için mevcut görevini bırakır. Eğer yangınsa söndürücü kullanın; kaçan bir hayvansa koridoru engelleyin.
+  </Step>
+  <Step num="3" title="Stabilizasyon Manevraları">
+    Pilot, fiziğin mürettebat hareketi üzerindeki etkisini en aza indirmek için uçuş trimini ayarlar. Kabin ekibinin kemerleri çözük ve aktif olduğu sırada yatışlı dönüşlerden kaçının.
+  </Step>
+  <Step num="4" title="İkincil Hasar Kontrolü">
+    Birincil tehdit etkisiz hale getirildikten sonra, yaralı yolcular, gevşek bagajlar veya dış onarım gerektiren yapısal gövde hasarı gibi ikincil sorunları kontrol edin.
+  </Step>
+  <Step num="5" title="Kabin Sıfırlama">
+    Ancak tüm tehlikeler güvence altına alındıktan ve Pilot hava durumunun açık olduğunu onayladıktan sonra rutin servise dönün. Kriz sırasında yerinden edilen yolcuları tekrar oturtun.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Operasyonel Not">
+Geliştirici FLEXUS'a göre, oyunun 2026 sürümü "kademeli arızalar" içerecek; yani ele alınmayan bir sorun doğal olarak bir diğerini tetikleyecek.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Uçuş Öncesi Risk ve Ödül Planlaması">
+
+Acil durumların şiddeti genellikle siz havalanmadan önce belirlenir. Seçim aşamasında ekip, hangi yolcuları ve kargoları kabul edeceğine karar vermelidir.
+
+| Seçim Kategorisi | Ödeme Bonusu | Risk Seviyesi | Temel Tehlike |
+| :--- | :--- | :--- | :--- |
+| **Ekonomi Sınıfı** | Temel | **Düşük** | Yüksek hacimli servis talepleri |
+| **VIP/Zorlu** | Yüksek | **Orta** | Aşırı talepler ve asi davranışlar |
+| **Standart Yük** | Temel | **Düşük** | Dönüşler sırasında kayan ağırlık |
+| **Yasadışı/Riskli** | Çok Yüksek | **Yüksek** | Kendiliğinden yanma veya sızıntılar |
+| **Canlı Hayvanlar** | Ekstrem | **Ekstrem** | Kaçış ve fiziksel saldırılar |
+
+<Checklist
+  id="pre-flight-safety"
+  title="Uçuş Öncesi Güvenlik Kontrol Listesi:"
+  items={[
+    "Tüm yangın söndürücülerin belirlenen duvar askılarında olduğunu doğrulayın.",
+    "Kokpit ile iletişimi yönetmek için bir 'Kabin Şefi' atayın.",
+    "Yüksek riskli kargo kasalarını yapısal bütünlük açısından inceleyin.",
+    "Pilotun en ağır fırtına hücrelerinin etrafından bir rota çizdiğinden emin olun.",
+    "Orta koridordaki ve kokpit kapısındaki tüm gevşek nesneleri temizleyin."
+  ]}
+/>
+
+<Callout type="warning" title="Uyarı">
+Yüksek koordinasyon seviyesine sahip tam dört kişilik bir ekibiniz yoksa, uçağınızı asla hem "Ekstrem Riskli" kargo hem de "Asi" yolcularla doldurmayın.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="PC Sistem Gereksinimleri ve Kurulum">
+
+Fizik tabanlı bir acil durum sırasında ölümcül olabilecek gecikmeler (lag) olmadan akıcı bir deneyim sağlamak için, bilgisayarınızın Steam mağaza sayfasında onaylanan 2026 minimum özelliklerini karşıladığından emin olun.
+
+| Bileşen | Minimum Gereksinim | Önerilen (Tahmini) |
+| :--- | :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Bellek** | 8 GB RAM | 16 GB RAM |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 |
+| **DirectX** | Sürüm 12 | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan | 10 GB (güncellemeler için) |
+
+<Callout type="tip" title="Teknik İpucu">
+Uçağı uçururken "giriş gecikmesi" (input lag) yaşıyorsanız V-Sync'i devre dışı bırakın. Hava boşluklarında gezinmek ve kuş çarpmalarından kaçınmak için hassas kontrol gereklidir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dear Passengers SSS">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers acil durum rehberini tek başıma oynayabilir miyim?",
+    answer: "Evet, oyun hem kokpiti hem de kabini yönetmeniz gereken tek oyunculu modu destekler, ancak bu kooperatif moddan önemli ölçüde daha zordur."
+  },
+  {
+    question: "Dear Passengers'ın çıkış tarihi nedir?",
+    answer: "FLEXUS, oyunun 2026 yılında Steam üzerinden PC için çıkacağını resmen planladı."
+  },
+  {
+    question: "Bir timsahın yolcuları yemesini nasıl durdururum?",
+    answer: "Hayvanı yönlendirmek için fiziksel bariyerler kullanmalı ve kasasını onarmalısınız. Eğer yolculara ulaşırsa, 'güvenlik ihlalleri' nedeniyle uçuş ödemeniz önemli ölçüde düşecektir."
+  },
+  {
+    question: "Oyun çapraz platform desteği sunuyor mu?",
+    answer: "Şu an için sadece Steam'deki Windows PC sürümü onaylandı. Temmuz 2026 itibarıyla konsol sürümleri duyurulmadı."
+  }
+]} />
+
+</Section>

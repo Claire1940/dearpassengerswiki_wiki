@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Başlangıç Rehberi: Adım Adım Uçuş Eğitimi",
+  description: "2026 başlangıç rehberimizle Dear Passengers'ın kaosunda uzmanlaşın. Eşli oyun (co-op) rollerini, yolcu hizmetlerini, kargo yönetimini ve tehlikeye müdahale stratejilerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Beginner+Flight+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers başlangıç rehberi**, yüksek ödüllü kargolar ile yönetilebilir yolcu kaosu arasındaki dengeyi kurmaya odaklanır.
+- **Rol dağılımı** hayati önem taşır; diğerleri kabini yönetirken bir oyuncu her zaman kokpitte kalmalıdır.
+- **Öncelik yönetimi**, uçak güvenliğinin ve kaçan kargoların yemek servisinden önce geldiğini dikte eder.
+- Türbülans ve hava boşlukları gibi **fizik tabanlı tehlikeler**, sabitlenmemiş nesneleri ölümcül fırlatıcılara dönüştürebilir.
+- Dinamik hava olaylarından sağ çıkmanın tek yolu, pilot ile kabin ekibi arasındaki **iletişimdir**.
+</Callout>
+
+<Section icon={Map} title="Temel Mekanikler ve Uçuş Döngüsü">
+
+Dear Passengers, bir oyuncu ekibini dünyanın en tehlikeli havayolunu işletmekle görevlendiren, fizik tabanlı, kaotik bir eşli oyun (co-op) simülasyonudur. Geleneksel uçuş simülatörlerinin aksine buradaki zorluk, uçuş kontrolü ile kabin yönetiminin kesişiminde yatmaktadır. Bu **dear passengers başlangıç rehberi**, yeni ekiplerin 2026'daki ilk birkaç uçuşlarında yollarını bulmalarına yardımcı olmak, hem uçağın hem de içindekilerin varış noktasına tek parça halinde ulaşmasını sağlamak için tasarlanmıştır. Oyun büyük ölçüde ragdoll fiziğine dayanır, yani pilotun yaptığı her dönüş kabin içindeki her şey üzerinde doğrudan fiziksel bir etkiye sahiptir.
+
+**Öne Çıkan Video Detayları:**
+- 2026 duyuru fragmanına ve temel oynanış döngüsüne genel bakış.
+- Yolcu servisinin ve fizik tabanlı kaotik kazaların görsel gösterimi.
+- Kuş çarpması ve motor yangınları dahil havada meydana gelen felaket örnekleri.
+- Yolcu ve kargo seçim arayüzünün önizlemesi.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Dear Passengers'ta başarı, sadece bir uçağı uçurmaktan daha fazlasını gerektirir; sürekli tetikte olmayı zorunlu kılar. Uçuş döngüsü, kazancınızı belirleyen yolcu ve kargo kombinasyonu olan "yükünüzü" (loadout) seçmekle başır. Havalandıktan sonra pilot hava durumunu takip etmeli, kabin ekibi ise yolcuların ihtiyaçlarıyla ve kargonun dengesiyle ilgilenmelidir. Önceden uyarı yapılmadan gerçekleştirilen keskin bir dönüş gibi en ufak bir muhakeme hatası, valizlerin koridorlarda uçuşmasına veya yolcuların hırçınlaşmasına neden olabilir.
+
+| Özellik | Detay | Oynanışa Etkisi |
+|---------|--------|-----------------|
+| **Fizik Motoru** | Ragdoll ve Nesne Fiziği | Hareket kabindeki her şeyi etkiler |
+| **Co-op Desteği** | Çevrimiçi Çok Oyunculu | Net iletişim ve rol dağılımı gerektirir |
+| **Tehlike Sistemi** | Dinamik ve Prosedürel | Hava durumu ve kazalar rastgele gerçekleşir |
+| **İlerleme** | Risk-Ödül Kazançları | Yüksek riskli yükler daha fazla para kazandırır |
+| **Platformlar** | Windows PC (Steam) | 2026 için birincil çıkış platformu |
+
+<Callout type="tip" title="Editörün Önerisi">
+Yüksek riskli bir kargo sözleşmesini kabul etmeden önce her zaman hava durumunu kontrol edin. Rota yoğun türbülans içeriyorsa, en yetenekli kabin ekibi bile kargoyu güvende tutmakta zorlanacaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Uçuş Öncesi Planlama: Yolcular ve Kargo">
+
+Motorlar daha çalışmadan önce, ekibin hangardaki en önemli kararları vermesi gerekir. Yolcu ve kargo seçimi, oyunun zorluk derecesi işlevini görür. Standart yolcular istikrarlı ve düşük riskli bir gelir sağlarken, özel "Memnun Etmesi Zor" veya "Hırçın" yolcular, sürekli dikkat ve olası aksaklıklar pahasına önemli ölçüde daha yüksek ödüller sunar.
+
+<Checklist
+  id="pre-flight-prep"
+  title="Uçuş Öncesi Kontrol Listesi:"
+  items={[
+    "Hırçın bireyler için yolcu manifestosunu inceleyin",
+    "Yapısal bütünlük için kargo kasalarını kontrol edin",
+    "Belirlenmiş bir Pilot ve Kabin Şefi atayın",
+    "Tahmin edilen hava boşlukları için uçuş rotasını kontrol edin",
+    "Tüm servis ekipmanlarının mutfakta (galley) saklandığından emin olun"
+  ]}
+/>
+
+Kargo yönetimi de bir o kadar karmaşıktır. Normal kasalar hafif türbülans sırasında yerinde kalırken, "Canlı Kargo" veya "Yasadışı Yükler" aşırı riskler barındırır. Örneğin, düzgün izlenmediği takdirde hayvan kargolarının kafeslerinden kaçtığı ve acil güvenlik durumlarına yol açtığı bilinmektedir. Potansiyel kazancı, ekibinizin baskı altında çoklu görev yapabilme yeteneğiyle dengelemelisiniz.
+
+| Kargo Türü | Risk Seviyesi | Ana Tehdit | Kazanç Profili |
+|------------|------------|-------------|----------------|
+| **Standart** | Düşük | Başıboş valizler | Temel |
+| **Hassas** | Orta | Fiziksel hasar | Yüksek |
+| **Hırçın Yolcu** | Yüksek | Kabin düzeninin bozulması | Çok Yüksek |
+| **Canlı Hayvan** | Sıradışı | Kaçış/Yaralanma | Premium |
+| **Yasadışı** | Yüksek | Güvenlik/Emniyet | Muazzam |
+
+<Callout type="warning" title="Tehlike Uyarısı">
+İlk birkaç uçuşunuzda kabini yüksek riskli yolcularla aşırı doldurmayın. Tek bir hırçın yolcu ve kaçan bir hayvanın birleşimi, saniyeler içinde uçuşun tamamen başarısız olmasına yol açabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Rolleri ve Takım Stratejisi">
+
+Etkili ekip çalışması, Dear Passengers'taki her başarılı uçuşun temel taşıdır. Oyuncular teknik olarak her yere hareket edebilseler de, belirli roller atamak, herkesin diğerlerini görmezden gelerek aynı sorunu çözmeye çalıştığı "acil durum felcini" önler. Standart bir ekipte, iş bölümü kalkıştan önce net bir şekilde tanımlanmalıdır.
+
+<CardGrid cols={2}>
+  <Card title="Pilot">
+    - **Konum**: Kokpit
+    - **Birincil Görev**: Uçuş kontrolü ve navigasyon
+    - **Strateji**: Keskin manevralardan veya türbülansa girmeden önce kabini mutlaka uyarmalıdır.
+  </Card>
+  <Card title="Kabin Şefi">
+    - **Konum**: Yolcu Kabini
+    - **Birincil Görev**: Acil durum koordinasyonu
+    - **Strateji**: Aynı anda birden fazla olay meydana geldiğinde öncelikleri belirler.
+  </Card>
+  <Card title="Servis Uzmanı">
+    - **Konum**: Mutfak / Koridorlar
+    - **Birincil Görev**: Yemek ve yolcu ihtiyaçları
+    - **Strateji**: Hırçın davranışları önlemek için yolcu memnuniyetini yüksek tutar.
+  </Card>
+  <Card title="Kargo Görevlisi">
+    - **Konum**: Kargo Bölümü / Depo
+    - **Birincil Görev**: Muhafaza ve güvenlik
+    - **Strateji**: Kilitleri düzenli olarak kontrol eder ve türbülans sonrasında gevşeyen eşyaları sabitler.
+  </Card>
+</CardGrid>
+
+İletişim, cephaneliğinizdeki en güçlü araçtır. Pilot, hava durumunu ve kuş çarpmalarını uçağa çarpmadan önce tespit ederek ekibin "gözü" olarak hareket etmelidir. Bu sırada Kabin Şefi, bilgileri süzerek Pilota aktarmalı ve yalnızca yangın veya yapısal gövde hasarı gibi uçuş rotasının değiştirilmesini gerektirebilecek kritik acil durumları bildirmelidir.
+
+<Callout type="success" title="Profesyonel Strateji">
+İki oyunculu seanslarda Pilot navigasyon ve dış onarımlarla ilgilenirken, ikinci oyuncu hem servis hem de kargo yönetimini üstlenmelidir. Tam dört oyunculu bir ekibe sahip olana kadar "Sıradışı" riskli yüklerden kaçının.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Uçuş Esnasında Tehlike Yönetimi">
+
+Tekerlekler yerden kesildikten sonra ortam dinamik hale gelir. Dear Passengers'taki tehlikeler sadece önceden yazılmış senaryolardan ibaret değildir; hızlı bir şekilde müdahale edilmezse büyüyebilecek sistemik arızalardır. Küçük bir kuş çarpması motora hasar verebilir, bu yangına yol açabilir, yangın yolcuları paniğe sürükleyebilir ve böylece zincirleme bir felaket reaksiyonu oluşabilir.
+
+<Steps>
+  <Step num="1" title="Tespit Etme">
+    Tehlikeyi erkenden fark edin (örneğin, bir kasanın kırılma sesi veya motordan duman çıkması).
+  </Step>
+  <Step num="2" title="İlk Müdahale">
+    En yakındaki ekip üyesi, acil tehdide müdahale etmek için rutin görevlerini (içecek servisi gibi) hemen bırakmalıdır.
+  </Step>
+  <Step num="3" title="Sınırlandırma">
+    Sorunun yayılmasını önlemek için yangınlarda söndürücüleri, hırçın yolcular için ise fiziksel bağları kullanın.
+  </Step>
+  <Step num="4" title="Stabilizasyon">
+    Pilot, kabin ekibinin koridorlarda güvenli bir şekilde hareket edebilmesini sağlamak için uçağı dengeler.
+  </Step>
+  <Step num="5" title="Kurtarma">
+    Bir sonraki kaos dalgası gelmeden önce döküntüleri temizleyin, yolcuları yerlerine oturtun ve gövdedeki ufak hasarları onarın.
+  </Step>
+</Steps>
+
+| Tehlike | İlk Müdahale Edecek Kişi | Büyüme Riski | Önerilen Eylem |
+|--------|-----------------|-----------------|-------------------|
+| **Türbülans** | Pilot | Yüksek | Kanatları düzleştirin, kabini uyarın |
+| **Motor Yangını** | Kabin Ekibi | Kritik | Söndürücü kullanın, Pilot yakıtı kessin |
+| **Hayvan Kaçması** | Kargo Görevlisi | Sıradışı | Koridorları boşaltın, yakalama araçlarını kullanın |
+| **Gövde Yırtılması** | Destek Ekibi | Kritik | Dış onarım yapın, oksijen maskelerini indirin |
+| **Kuş Çarpması** | Pilot | Orta | Motor sağlığını kontrol edin, eğimi ayarlayın |
+
+<Callout type="info" title="Operasyonel Öncelik">
+Uçağı uçurmayı (Aviation) her zaman servisin (Service) önünde tutun. Düşmekte olan bir uçaktaki mutlu bir yolcu, yine de "Oyun Bitti" (Game Over) ile sonuçlanır.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistem Gereksinimleri ve Teknik Özellikler">
+
+2026 lansmanında sorunsuz bir deneyim yaşamak için oyuncular donanımlarının minimum gereksinimleri karşıladığından emin olmalıdır. Dear Passengers'ın yoğun fizik yapısı göz önüne alındığında, kararlı bir işlemci ve yeterli RAM, üst düzey bir ekran kartından daha önemlidir. Oyun, çıkışında Türkçe, İngilizce, Japonca ve Ukraynaca dahil olmak üzere altı adede kadar arayüz dilini desteklemektedir.
+
+| Bileşen | Minimum Gereksinim | Önerilen (Tahmini) |
+|-----------|---------------------|-------------------------|
+| **İşletim Sistemi** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Bellek** | 8 GB RAM | 16 GB RAM |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 XT |
+| **DirectX** | Sürüm 12 | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan | 10 GB (güncellemeler için) |
+
+<Callout type="warning" title="Teknik İpucu">
+Türbülans sırasında nesnelerin takılması gibi bir \"fizik gecikmesi\" yaşıyorsanız, gölge kalitesini düşürmeyi deneyin ve internet bağlantınızın kararlı olduğundan emin olun; çünkü fizik hesaplamaları eşli oyun oturumu boyunca senkronize edilir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers başlangıç rehberinde tek oyunculu bir mod var mı?",
+    answer: "Evet, Dear Passengers tek oyunculu modu destekler ancak hem kokpiti hem de kabini tek başınıza yönetmeniz gerektiğinden zorluk derecesi oldukça yüksektir. En az bir kişiyle daha oynamanız şiddetle tavsiye edilir."
+  },
+  {
+    question: "Timsah gibi kaçan bir hayvanla nasıl başa çıkabilirim?",
+    answer: "Kaçan hayvanlar sıradışı tehlikelerdir. Yaralanmaları önlemek için önce yolcuları bölgeden uzaklaştırmalı, ardından hayvanı kargo bölümüne geri yönlendirmek için yakalama araçlarını veya fiziksel engelleri kullanmalısınız."
+  },
+  {
+    question: "Uçak hala havadayken onarım yapabilir miyim?",
+    answer: "Evet. 2026 fragmanı, mürettebat üyelerinin uçuş sırasında gövde ve motorlar üzerinde dış onarımlar gerçekleştirdiğini gösteriyor. Bu genellikle Pilot sabit bir irtifayı korurken bir oyuncunun kabinden çıkmasını gerektirir."
+  },
+  {
+    question: "Uçuşun sonunda yolcular mutsuz olursa ne olur?",
+    answer: "Yolcu memnuniyetinin düşük olması nihai kazancınızı azaltır ve havayolu puanınızın düşmesine neden olarak gelecekteki görevlerde yüksek değerli kargo sözleşmelerinin kilidini açmayı zorlaştırır."
+  }
+]} />
+
+</Section>

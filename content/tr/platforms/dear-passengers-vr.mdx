@@ -1,0 +1,219 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Globe, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers VR: 2026 Çıkış Tarihi & Oynanış Rehberi",
+  description: "Steam'deki çıkış tarihleri, eşli oyun (co-op) rolleri, yolcu yönetimi ve fizik tabanlı uçuş tehlikelerine yönelik rehberimizle Dear Passengers VR deneyimini keşfedin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dear+Passengers+VR+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers VR**, Steam üzerinden PC için **2026 yılında çıkması** planlanan, fizik tabanlı ve kaos dolu bir eşli oyun (co-op) simülasyonudur.
+- **Temel Oynanış**, oyuncuların aynı anda hem pilotluk yapması, hem yolculara hizmet etmesi hem de kargoları güvenceye alması gereken sorunlu bir havayolunu yönetmeyi içerir.
+- **Ekip Stratejisi** hayati önem taşır; havada tırmanan felaketlerden sağ kurtulmak için roller kokpit ve kabin arasında paylaştırılmalıdır.
+- **Yüksek Riskli Ödüller**, ekiplerin memnun edilmesi zor yolcuları ve kaçan hayvanlar gibi tehlikeli kargoları seçerek daha fazla kazanmasını sağlar.
+- **Sistem Gereksinimleri**, yoğun fizik hesaplamalarını ve dinamik hava durumu efektlerini kaldırabilmek için en az 8 GB RAM ve bir GTX 1060 gerektirir.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers VR: Çıkış Dönemi ve Platform Genel Bakışı">
+
+**Dear Passengers VR** (PC oynanışı için optimize edilmiştir), eşli simülasyon türüne yepyeni bir yoğunluk seviyesi getiriyor. FLEXUS tarafından geliştirilen bu yapım, arkadaşları dünyanın en kaotik havayolunu işletmeye davet ediyor. Oyun, birçok kişinin sürükleyici VR deneyimleriyle bağdaştırdığı bez bebek (ragdoll) fiziği ve çevresel etkileşim temelleri üzerine kurulmuş olsa da, şu an için onaylanan tek platform Steam üzerinden Windows PC'dir. Birinci şahıs bakış açısı ve kabin görevlerinin dokunsal yapısı göz önüne alındığında, oyuncular resmi VR desteğinin bir güncelleme ile eklenip eklenmeyeceğini merakla bekliyor.
+
+**Öne Çıkan Video Detayları:**
+- **Fizik tabanlı havayolu eşli oyunu** mekaniklerine genel bakış.
+- **Yolcu hizmeti** ve acil durum müdahalesi karşılaştırmalı gösterimi.
+- **Dinamik hava durumu** ve motor arızası senaryolarına ilk bakış.
+- Meşhur kaçan timsah da dahil olmak üzere **tehlikeli kargoların** tanıtımı.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Trailer" />
+
+Temmuz 2026 itibarıyla, geliştirme ekibi ilk çıkışa ilişkin net ayrıntılar paylaştı. Oyun şu anda Steam'de istek listesine eklenebilir durumda; bu da 2026 çıkış dönemi netleştiğinde tam çıkış gününü takip etmenin en iyi yoludur.
+
+| Özellik | Durum | Ek Notlar |
+| :--- | :--- | :--- |
+| **Çıkış Dönemi** | 2026 | Genel bir 2026 çıkışı için onaylandı |
+| **Platform** | Windows PC | Steam Mağazası üzerinden erişilebilir |
+| **İstek Listesi** | Mevcut | Bildirimler için şu an açık |
+| **Fiyat** | Belirlenmedi | FLEXUS tarafından henüz açıklanmadı |
+| **Oyun Modları** | Eşli / Tek Oyunculu | Çevrimiçi etkileşimi destekler |
+
+<Callout type="tip" title="İstek Listesi Önceliği">
+Oyunu Steam istek listenize eklemek, 2026 çıkış tarihi kesinleştiğinde veya oynanabilir bir demo sunulduğunda anında bildirim almanın en güvenilir yoludur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Başlangıç Rehberi: İlk Uçuşunuzu Tamamlamak">
+
+**Dear Passengers VR** oyununda başarı, uçağı sadece havada tutmaktan çok daha fazlasını gerektirir. Her yolculuk, kâr ile hayatta kalma arasında hassas bir dengedir. Yeni başlayanlar, uçuş öncesi planlamadan türbülans sonrası toparlanmaya kadar uzanan uçuş döngüsünü anlamaya odaklanmalıdır.
+
+Birincil amacınız, hem yolcularınızı hem de kargonuzu varış noktasına minimum hasarla ulaştırmaktır. Oyun fizik odaklı bir motor kullandığından, pilotun yapacağı her keskin dönüşün veya kabindeki kilitlenmemiş bir valizin uçuş güvenliği üzerinde gerçek sonuçları olacaktır.
+
+<Steps>
+  <Step num="1" title="Yolcu ve Kargo Seçimi">
+    Kalkıştan önce yolcularınızı ve kargonuzu seçmelisiniz. Daha yüksek ödemeler, uçuş sırasında olay çıkma olasılığını artıran \"Memnun Edilmesi Zor\" yolcular veya \"Yasa Dışı Kargolar\" ile birlikte gelir.
+  </Step>
+  <Step num="2" title="Rol Dağılımı">
+    Ekibinizi bölün. En az bir kişi her zaman kokpitte olmalı, ekibin geri kalanı ise kabini yönetmelidir. Ani hava boşluklarından kurtulmanın tek yolu iletişimdir.
+  </Step>
+  <Step num="3" title="Hizmet ve Güvenlik">
+    Havalandıktan sonra, kabin ekibi yolcu memnuniyetini yüksek tutmak için yiyecek ve içecek servisi yapmalıdır. Aynı zamanda, manevralar sırasında kargoların bağlı kaldığından emin olmalısınız.
+  </Step>
+  <Step num="4" title="Acil Durum Müdahalesi">
+    Motor yangınları veya kaçan hayvanlar gibi felaketler meydana geldiğinde tüm servisi derhal durdurun. Tehdidi gövdeye zarar vermeden kontrol altına almak için yangın söndürücüler veya bağlama aparatları kullanın.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Fizik Uyarısı">
+Sabitlenmemiş nesneler türbülans sırasında fırlayan tehlikeli maddelere dönüşür. Pilot bir fırtına bölgesine girmeden önce servis arabalarının ve bagajların her zaman belirlenmiş yerlerine geri konulduğundan emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eşli Oyun Rolleri ve Ekip Stratejisi">
+
+**Dear Passengers VR** oyununu tek başınıza oynayabilseniz de, oyun ekip tabanlı kaos için tasarlanmıştır. Belirli rolleri atamak, hiçbir acil durumun grubu tek başına çaresiz bırakmamasını sağlar. İyi organize olmuş bir ekip, pilot bir kuş sürüsü çarpmasıyla uğraşırken kuyruk bölümündeki bir yangını başarıyla söndürebilir.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Konum**: Kokpit
+    - **Görev**: Uçağı uçurmak ve hava durumunu izlemek.
+    - **Öncelik**: Keskin dönüşler yapmadan veya türbülansa girmeden önce kabini uyarmak.
+  </Card>
+  <Card title="Kabin Şefi">
+    - **Konum**: Yolcu Kabini
+    - **Görev**: Servis ve acil durum müdahalesini koordine etmek.
+    - **Öncelik**: Birden fazla olay çıktığında önce hangi yangının söndürüleceğine karar vermek.
+  </Card>
+  <Card title="Servis Görevlisi">
+    - **Konum**: Koridorlar/Mutfak
+    - **Görev**: Yiyecek, içecek ve konfor sağlamak.
+    - **Öncelik**: Taşkınlıkları önlemek için yolcuların \"öfke ölçerlerini\" düşük tutmak.
+  </Card>
+  <Card title="Kargo Sorumlusu">
+    - **Konum**: Kargo Bölümü
+    - **Görev**: Yüksek riskli ve canlı kargoları izlemek.
+    - **Öncelik**: Timsah gibi hayvanların kafeslerinden kaçmamasını sağlamak.
+  </Card>
+  <Card title="Acil Durum Teknisyeni">
+    - **Konum**: Tüm Uçak
+    - **Görev**: Gövde onarımları ve yangın söndürme.
+    - **Öncelik**: Kuş çarpmalarına ve dış hasarlara anında müdahale etmek.
+  </Card>
+  <Card title="Yedek Oyuncu (Floater)">
+    - **Konum**: Dinamik
+    - **Görev**: Kaosun en yoğun olduğu yere yardım etmek.
+    - **Öncelik**: Diğer ekibin rahatça hareket edebilmesi için tıkanmış koridorları temizlemek.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="İletişim İpucu">
+Kısa ve net komutlar kullanın. \"Arkada bir sorun var\" demek yerine \"Kuyrukta yangın var, söndürücü lazım!\" deyin. Bu, kriz anında değerli saniyeler kazandırır.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Yolcu ve Kargo Risk Yönetimi">
+
+**Dear Passengers VR** ekonomisi bir risk-ödül sistemi üzerine kuruludur. Uçuş listenizi seçerken aslında zorluk seviyenizi seçmiş olursunuz. Standart yolcuları ve normal kargoları seçmek istikrarlı ve güvenli bir gelir sağlar, ancak asıl büyük geliştirmelerin kilidi en tehlikeli görevlerin arkasında saklıdır.
+
+| Kategori | Risk Seviyesi | Ödül | Birincil Tehlike |
+| :--- | :--- | :--- | :--- |
+| **Standart Yolcular** | Düşük | Temel | Küçük servis şikayetleri |
+| **Memnun Edilmesi Zor** | Orta | Yüksek | Sık talepler/Dikkat dağıtma |
+| **Hırçın Yolcular** | Yüksek | Çok Yüksek | Fiziksel karmaşa/Müdahale |
+| **Normal Kargo** | Düşük | Temel | Dönüşlerde kayan ağırlık |
+| **Tehlikeli Kargo** | Orta | Yüksek | Sızıntı veya yangın potansiyeli |
+| **Canlı Hayvan Kargosu** | Ekstrem | Premium | Kaçan timsahlar/Yaralanmalar |
+| **Yasa Dışı Yük** | Yüksek | Ekstrem | Yüksek yoğunluklu uçuş tehlikeleri |
+
+<Callout type="info" title="Uzman Stratejisi">
+Yeni bir ekiple oynuyorsanız \"Ekstrem\" canlı hayvan kargolarından kaçının. Ekip yakalama mekaniklerine alışkın değilse, kaçan tek bir yırtıcı uçuşu saniyeler içinde bitirebilir.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Uçuş Tehlikeleri ve Acil Durum Protokolleri">
+
+**Dear Passengers VR** oyununda çevre sizin en büyük düşmanınızdır. Dinamik hava durumu açık bir uçuşu kabusa dönüştürebilirken, mekanik arızalar anında müdahale gerektirir. Tehlike hiyerarşisini anlamak, uzun vadeli ilerleme için hayati önem taşır.
+
+**Yaygın Tehlikeler ve Müdahaleler:**
+- **Dinamik Hava Durumu**: Pilot irtifa ve hızı ayarlamalıdır. Kabin ekibi tüm boş servis arabalarını sabitlemelidir.
+- **Türbülans**: Fizik kuralları oyuncuları ve eşyaları etrafa fırlatır. Yaralanmamak için çömelin veya sabit yapılara tutunun.
+- **Kuş Çarpmaları**: Motor arızasına veya gövde çatlaklarına neden olabilir. Kabin dışına çıkıp dış onarım yapacak bir ekip üyesi gerektirir.
+- **Uçak İçi Yangınlar**: Kabinde hızla yayılır. Yangın söndürücülerin anında kullanılmasını ve yolcuların yerinin değiştirilmesini gerektirir.
+
+| Tehlike Türü | İlk Müdahaleci | Kritik Eylem | Tırmanma Riski |
+| :--- | :--- | :--- | :--- |
+| **Motor Yangını** | Pilot/Teknisyen | Yakıtı kes/Söndür | Tamamen kontrol kaybı |
+| **Gövde Çatlağı** | Acil Durum Teknisyeni | Dış onarım | Basınç kaybı/Yolcu kaybı |
+| **Kargo Kaçışı** | Kargo Sorumlusu | Kontrol altına alma/Bağlama | Ekip yaralanmaları/Servis durması |
+| **Hırçın Kalabalık** | Kabin Şefi | Sakinleştirme | Kabin genelinde kaos |
+
+<Callout type="warning" title="Gövde Bütünlüğü">
+Gövdede bir çatlak meydana gelirse, pilot derhal güvenli bir irtifaya alçalmalıdır. Bunun yapılmaması, yolcuların sağlığının hızla tükenmesine neden olur.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Sistem Gereksinimleri ve Topluluk">
+
+**Dear Passengers VR** oyununu sorunsuz bir şekilde çalıştırmak için bilgisayarınızın aynı anda düzinelerce nesnenin karmaşık fizik hesaplamalarını gerçekleştirebilmesi gerekir. FLEXUS, oyuncuların 2026 çıkışına hazırlanmalarına yardımcı olmak için minimum özellikleri yayınladı.
+
+| Bileşen | Minimum Gereksinim |
+| :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) |
+| **İşlemci** | Intel Core i5 2.5 GHz / Eşdeğeri |
+| **Bellek** | 8 GB RAM |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT |
+| **DirectX** | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan |
+
+<Checklist
+  id="launch-prep"
+  title="Uçuş Öncesi Kontrol Listesi:"
+  items={[
+    "Bilgisayarınızın minimum GPU gereksinimlerini karşıladığını doğrulayın",
+    "Dear Passengers'ı Steam İstek Listenize ekleyin",
+    "Geliştirici güncellemeleri için resmi Discord sunucusuna katılın",
+    "Eşli oyun için en az 2 arkadaşınızı ekibe dahil edin"
+  ]}
+/>
+
+<Callout type="info" title="Dil Desteği">
+Oyun çıkışta 6 arayüz dilini destekleyecek: İngilizce, Arapça, Basitleştirilmiş Çince, Türkçe, Ukraynaca ve Japonca.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dear Passengers VR SSS">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers VR çıkış tarihi ne zaman?",
+    answer: "Oyunun resmi olarak 2026 yılında Steam üzerinden PC için çıkması planlanıyor. Henüz kesin bir gün ve ay açıklanmadı."
+  },
+  {
+    question: "Dear Passengers VR sanal gerçeklik (VR) gözlüklerini destekliyor mu?",
+    answer: "Oyunun sürükleyici fiziği nedeniyle 'Dear Passengers VR' anahtar kelimesi popüler olsa da, geliştirici şu an için yalnızca Steam'de standart bir PC sürümünü onayladı."
+  },
+  {
+    question: "Eşli oyunda kaç oyuncu birlikte oynayabilir?",
+    answer: "Oyun, genellikle tam bir uçuş ekibine izin veren çevrimiçi eşli oyunu destekler. Belirli oyuncu sınırları netleştirilmekle birlikte, küçük arkadaş grupları için tasarlanmıştır."
+  },
+  {
+    question: "Pilot ölürse veya kokpitten ayrılırsa ne olur?",
+    answer: "Uçak, fizik kurallarına bağlı olarak mevcut rotasını izlemeye devam eder. Pilotun özel kontrollerine sahip olmasalar bile, kazayı önlemek için başka bir ekip üyesinin derhal kokpite ulaşması gerekir."
+  }
+]} />
+
+</Section>

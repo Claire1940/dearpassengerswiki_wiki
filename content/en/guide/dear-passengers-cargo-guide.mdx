@@ -1,0 +1,178 @@
+import { Map, Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Cargo Guide: Flight Planning & Safe Transport",
+  description: "Master the risk-and-reward cargo system in Dear Passengers. Learn how to secure high-paying freight, handle escape-prone live cargo, and survive turbulence.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Cargo+Management+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear passengers cargo guide**: Balancing high payouts with cabin chaos is key to surviving your flights.
+- **Risk management**: Higher-paying cargo options introduce dangerous elements like escaped animals or fragile containers.
+- **Crew coordination**: Dedicating a specific crew member to cargo monitoring prevents minor shifts from causing crashes.
+- **Physics impact**: Unsecured luggage and freight turn into deadly projectiles during turbulence or sharp turns.
+</Callout>
+
+<Section icon={Map} title="Understanding the Cargo System in Dear Passengers">
+
+In the chaotic skies of [Dear Passengers on Steam](https://store.steampowered.com/app/4534960/Dear_Passengers/), your primary source of income relies heavily on what you carry in the hold. Before every takeoff, your crew must review the flight manifest to select passengers and cargo. This pre-flight phase serves as the difficulty selector for your journey. Choosing standard crates provides a smooth, low-risk route, while selecting high-value, unstable, or illegal shipments increases your potential payout at the cost of extreme cabin danger.
+
+**Video Highlights:**
+- **Pre-flight selection**: How choosing cargo changes the difficulty of your route.
+- **Physics engine**: Watching unsecured items fly through the cabin during turbulence.
+- **Emergency response**: Managing escaped animals and structural damage mid-flight.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+| Cargo Type | Risk Level | Payout Potential | Primary Hazard |
+|---|---|---|---|
+| **Regular Cargo** | Low | Baseline | Shifts slightly during moderate turbulence |
+| **Hard-to-Handle** | Medium | High | Requires constant checks and manual stabilization |
+| **Illegal Cargo** | High | Very High | Attracts external threats and high cabin pressure |
+| **Animal Cargo** | Extreme | Premium | Containment failure leads to loose predators in-cabin |
+
+<Callout type="warning" title="Risk Warning">
+Accepting a premium-payout flight without assigning a dedicated cargo handler is the fastest way to trigger a cascade of failures. Always evaluate your team's coordination limits before loading high-risk freight.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dear Passengers Cargo Guide: Risk vs. Reward Profiles">
+
+Every cargo category in the game demands a unique operational strategy. You cannot treat a crate of illegal goods the same way you treat standard luggage. Physics-based movement means that any shift in the aircraft's pitch or altitude directly impacts the physical state of your cargo. 
+
+To maximize profits, your crew must understand the behavior profiles of each shipment type:
+
+<CardGrid cols={3}>
+  <Card title="Standard Freight">
+    - **Low risk level**
+    - Stable baseline income
+    - Minimal monitoring required
+    - Secure once at takeoff
+  </Card>
+  <Card title="Fragile & Unstable">
+    - **Medium risk level**
+    - High payout potential
+    - Breaks under heavy G-force
+    - Requires smooth piloting
+  </Card>
+  <Card title="Live & Hazardous">
+    - **Extreme risk level**
+    - Premium payout potential
+    - Can escape shipping crates
+    - Demands immediate containment
+  </Card>
+</CardGrid>
+
+| Cargo Category | Known Cabin Behavior | Recommended Crew Response |
+|---|---|---|
+| **Standard Passengers** | Expect food and smooth flights | Complete routine service during calm periods |
+| **Unruly Passengers** | Disrupt cabin and interfere with crew | Restrain quickly to prevent cargo distractions |
+| **Loose Luggage** | Flies through cabin during air pockets | Clear walkways and secure in overhead bins |
+| **Escaped Predators** | Attacks passengers and blocks movement | Prioritize containment over food service |
+
+<Callout type="tip" title="Pro Tip">
+If you are running a two-player crew, avoid mixing unruly passengers with animal cargo. One player must remain in the cockpit at all times, leaving only one crew member to handle both cabin service and containment emergencies.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Cargo Securing and Flight Plan">
+
+Succeeding in your transport missions requires a systematic approach to cabin organization and flight execution. Follow this step-by-step procedure to ensure your cargo reaches the destination intact.
+
+<Steps>
+  <Step num="1" title="Analyze the Flight Manifest">
+    Review the cargo choices before takeoff. Balance high-paying, high-risk items with standard, low-maintenance passengers to keep the overall cabin chaos manageable.
+  </Step>
+  <Step num="2" title="Assign the Cargo Lead">
+    Designate one cabin crew member to monitor the cargo hold. This player must check container integrity and secure loose luggage before the pilot initiates sharp turns.
+  </Step>
+  <Step num="3" title="Establish Pilot Communication">
+    The pilot must warn the cabin crew before entering dynamic weather or navigating air pockets. This warning allows the cargo lead to hold down unstable crates.
+  </Step>
+  <Step num="4" title="Manage Mid-Flight Shifts">
+    If turbulence strikes, immediately pause routine food service. Clear the main aisles of loose bags and debris to maintain pathways to the cargo bay.
+  </Step>
+  <Step num="5" title="Contain Breaches Immediately">
+    If live cargo escapes (such as the crocodiles shown in official gameplay footage), treat it as a priority one emergency. Contain the threat before it damages the hull or injures passengers.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Operational Impact">
+Keeping cabin walkways clear is not just about passenger comfort. Blocked aisles delay your emergency response times, turning a simple loose crate into a flight-ending disaster.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cargo Protection Goals and Checklists">
+
+To maintain a profitable airline, your crew should aim to complete specific safety milestones during every flight. Use this checklist to keep your team focused during high-pressure situations.
+
+<Checklist
+  id="cargo-safety-goals"
+  title="Flight Safety Milestones:"
+  items={[
+    "Secure all overhead luggage before reaching cruising altitude",
+    "Perform a manual cargo integrity check after every major turbulence event",
+    "Isolate unruly passengers away from fragile shipping crates",
+    "Keep cockpit-to-cabin communication active during weather changes",
+    "Deliver at least 90% of selected cargo undamaged for maximum payout bonus"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+A perfectly executed low-risk flight often yields better long-term profits than a failed high-risk run that results in destroyed cargo and expensive aircraft repairs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Managing Cargo Emergencies and Flight Hazards">
+
+When things go wrong in the cabin, they go wrong quickly. The physics-based simulation in Dear Passengers means that one unaddressed hazard can rapidly trigger secondary emergencies. For example, a minor bird strike can damage an engine, causing the pilot to lose altitude control, which then throws unsecured cargo out of its hold, starting a cabin fire.
+
+| Emergency Scenario | First-Response Role | Primary Action Required | Escalation Risk |
+|---|---|---|---|
+| **Turbulence Shift** | Cabin Crew | Secure loose items and lock cargo latches | Blocked aisles, injured passengers |
+| **Engine Fire** | Nearest Crew | Extinguish source; pilot stabilizes aircraft | Loss of flight control, hull breach |
+| **Cargo Escape** | Cargo Handler | Clear passengers, redirect/contain animal | Damaged systems, passenger panic |
+| **External Attack** | Gunner Crew | Man external weapons to defend hull | Structural failure, total decompression |
+
+<Callout type="warning" title="Critical Warning">
+Never send your entire cabin crew to handle an external threat or repair a hull breach. Leaving the passenger cabin and cargo hold completely unattended allows minor shifts to escalate into uncontrollable fires or escapes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dear Passengers Cargo FAQ">
+
+<FAQ items={[
+  {
+    question: "How does cargo selection affect the difficulty in Dear Passengers?",
+    answer: "Cargo selection acts as a dynamic difficulty modifier. High-paying cargo often includes fragile items that break easily, illegal goods that attract external attacks, or live animals that can escape and roam the cabin."
+  },
+  {
+    question: "What happens if cargo is damaged during the flight?",
+    answer: "Damaged cargo significantly reduces your flight payout at the destination. If critical cargo is completely destroyed or lost over the side of the aircraft, you may fail the mission entirely."
+  },
+  {
+    question: "How do you stop cargo from sliding around during turbulence?",
+    answer: "The cabin crew must manually secure cargo containers and loose luggage. Additionally, the pilot must communicate upcoming weather changes so the crew can lock down the hold before the turbulence starts."
+  },
+  {
+    question: "Can cargo escape and attack passengers?",
+    answer: "Yes, certain high-risk animal cargo shipments, like crocodiles, can break out of their crates if they are not monitored. Once loose, they will disrupt the cabin, block walkways, and threaten passengers."
+  }
+]} />
+
+</Section>

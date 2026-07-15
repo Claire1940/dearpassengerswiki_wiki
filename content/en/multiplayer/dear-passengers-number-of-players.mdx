@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Number of Players: Co-Op Multiplayer Guide",
+  description: "Discover the player count limits, co-op mechanics, and party setup steps for Dear Passengers. Learn how to manage airplane chaos with your friends.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dear+Passengers+Player+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Player Limits**: The dear passengers number of players configuration supports up to four players in local or online cooperative play modes.
+- **Core Gameplay**: Work together with your crew to manage chaotic airports, passenger requests, mid-flight repairs, and aerial combat.
+- **Party Focus**: Designed as a lighthearted indie party game emphasizing laughter, chaotic coordination, and quick reflexes over serious simulation.
+- **Platform Support**: Available with cross-play compatibility across major gaming platforms to ensure easy lobby connections with friends.
+</Callout>
+
+<Section icon={Map} title="Player Count: Dear Passengers Number of Players & Platform Support">
+
+Managing an entire airport and keeping a chaotic commercial flight in the air requires coordinated teamwork. When planning your cooperative sessions, knowing the official dear passengers number of players capacity helps you organize the perfect crew. The game is built from the ground up to accommodate different party sizes, ensuring that whether you play solo or with a full group of four, the difficulty scales to match the chaos. 
+
+In the modern gaming landscape of 2026, casual party games serve as a vital outlet for friend groups looking for quick, high-energy sessions. This title embraces that philosophy completely, prioritizing fun and unpredictable physics over complex mechanics. The multiplayer system supports seamless drop-in and drop-out functionality, making it easy to adjust your team size between flights.
+
+**Video Highlights:**
+- **Pure Airplane Chaos**: A reaction to the wild gameplay mechanics, showing players falling off planes and managing absurd passenger situations.
+- **Party Game Design**: Analysis of why the game is best enjoyed with friends, comparing it to other classic party titles.
+- **Absurd Combat**: Visual confirmation of weapons like rifles being used to defend the airport and planes fighting mid-air.
+- **Release Window**: Discussion regarding the release scheduled for the year 2026.
+
+<YouTubeEmbed videoId="5Ub_EluALcE" title="Dear Passengers Is Pure Airplane Chaos! | Reaction" />
+
+Understanding how the lobby scales based on your group size is essential before launching your first flight. The cooperative structure adapts dynamically to the active player count, modifying the frequency of passenger demands, mechanical failures, and external threats. This dynamic scaling prevents solo players from being overwhelmed while ensuring that full four-player lobbies remain chaotic and challenging.
+
+| Play Mode | Player Count Range | Connection Type | Recommended Experience |
+|---|---|---|---|
+| Solo Flight | 1 Player | Offline | High difficulty multitasking challenge |
+| Duo Crew | 2 Players | Local / Online | Balanced coordination and task sharing |
+| Full Party | 3-4 Players | Local / Online | Maximum chaotic gameplay and high difficulty |
+
+<Callout type="info" title="Lobby Scaling">
+Lobbies automatically adjust the frequency of random events based on the active player count. More players will trigger simultaneous emergencies.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cooperative Gameplay & Flight Mechanics">
+
+The core experience revolves around keeping an airplane functional while catering to the increasingly demanding needs of your passengers. Players must divide responsibilities dynamically to survive each route. One moment you might be serving beverages, and the next you could be patching a hole in the fuselage or using defensive weapons to ward off hostile aircraft. 
+
+Lobbies that fail to communicate quickly devolve into disaster. If passengers are neglected for too long, or if the plane damages accumulate, the flight will end in a spectacular crash. Players can even accidentally throw each other or passengers out of the aircraft if they are not careful during high-stress maneuvers. The environment is highly interactive, requiring players to pick up tools, throw items to teammates, and physically block hazards.
+
+| Game Phase | Primary Objective | Key Hazards | Player Cooperation Level |
+|---|---|---|---|
+| Airport Terminal | Check in passengers and load cargo | Unruly travelers, luggage pileups, security threats | Moderate coordination |
+| Takeoff Sequence | Maintain engine balance and clear runway | Engine fires, bird strikes, debris | High coordination |
+| Mid-Flight Service | Satisfy passenger requests and repair leaks | Cabin depressurization, turbulence, combat | Maximum coordination |
+| Landing Phase | Guide plane to safe runway docking | Crosswinds, landing gear failures, ground traffic | High coordination |
+
+<CardGrid cols={3}>
+  <Card title="The Mechanic Role">
+    Focuses on cabin repairs, patching fuselage holes, and extinguishing engine fires before they spread.
+  </Card>
+  <Card title="The Flight Attendant">
+    Manages passenger satisfaction by delivering food, drinks, and resolving seating conflicts during turbulence.
+  </Card>
+  <Card title="The Security Officer">
+    Defends against hijackers, clears runway obstacles, and handles rowdy passengers using defensive gear.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Friendly Fire Hazards">
+Be careful when swinging tools or discharging defensive weapons. It is entirely possible to accidentally knock your teammates out of the open cabin doors.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Multiplayer Setup Guide">
+
+Getting your crew together is straightforward, but configuring the lobby correctly ensures a smooth connection. The game supports both local couch co-op and online multiplayer lobbies, allowing you to mix and match local and remote players depending on your setup. Follow these steps to host or join a session.
+
+<Steps>
+  <Step num="1" title="Select Multiplayer Mode">
+    Navigate to the main menu and select the multiplayer option. Choose between hosting a local split-screen session or hosting an online lobby.
+  </Step>
+  <Step num="2" title="Configure Lobby Settings">
+    Set your lobby privacy to public or invite-only. Adjust the difficulty modifiers and select the flight route your crew will attempt to clear.
+  </Step>
+  <Step num="3" title="Invite Your Crew">
+    Send direct invites to your friends list or share the unique lobby join code. Ensure all players have completed the basic tutorial before joining.
+  </Step>
+  <Step num="4" title="Confirm Ready Status">
+    Once all players have customized their characters and selected their starting tools, every crew member must toggle their status to ready to begin the takeoff sequence.
+  </Step>
+</Steps>
+
+If you encounter connection drops or invite failures, check the network status table below to diagnose common lobby issues.
+
+| Issue Encountered | Potential Cause | Recommended Resolution |
+|---|---|---|
+| Lobby code invalid | Host closed session or mistyped code | Re-generate code and verify characters |
+| High latency spikes | Regional server mismatch | Set host to player with fastest connection |
+| Disconnected mid-flight | Host migration failure | Re-host lobby and check internet stability |
+
+<Callout type="tip" title="Host Selection">
+Always have the player with the most stable wired internet connection host the online lobby to minimize lag during intense repair sequences.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Co-Op Progression & Flight Milestones">
+
+As your crew successfully completes flights, you will unlock new routes, cosmetic items, and upgraded tools. Progression is shared among all players in the lobby, meaning everyone contributes to the overall rank of the airline. Reaching higher ranks unlocks more complex airports and challenging weather conditions.
+
+Working toward specific milestones keeps the gameplay loop fresh and rewards coordinated teams with unique outfits to show off during online matches. The progression path is designed to encourage replayability, offering unique cosmetic rewards for achieving specific high scores on the hardest flight paths.
+
+| Airline Rank | XP Required | Unlocks Featured | Difficulty Modifier |
+|---|---|---|---|
+| Rookie Carrier | 0 XP | Standard regional routes, basic uniforms | Normal |
+| Commercial Transport | 5000 XP | Mountainous routes, advanced repair wrench | Hard |
+| Elite Charter | 15000 XP | International airspace, security rifle, custom pilot hats | Expert |
+
+<Checklist
+  id="coop-milestones"
+  title="Essential Crew Milestones:"
+  items={[
+    "Complete a flight without losing a single passenger",
+    "Repair ten cabin breaches in a single route",
+    "Successfully defend the plane from an aerial pirate attack",
+    "Reach Elite Charter airline rank with your crew",
+    "Safely land a plane with both engines on fire"
+  ]}
+/>
+
+<Callout type="success" title="Milestone Rewards">
+Unlocking cosmetic items does not grant gameplay advantages, keeping the competitive balance fair for all players joining your lobby.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the maximum dear passengers number of players supported?",
+    answer: "The game supports up to four players in co-op mode, allowing you to play locally on a shared screen or online with remote friends."
+  },
+  {
+    question: "Does the game support cross-play between different platforms?",
+    answer: "Yes, cross-play is fully supported, allowing PC and console players to join the same lobby using connection codes."
+  },
+  {
+    question: "Can I play the game entirely solo?",
+    answer: "Yes, you can play solo. The game scales the difficulty down, though managing all tasks alone increases the multitasking challenge significantly."
+  },
+  {
+    question: "What happens if a player disconnects during a flight?",
+    answer: "If a player disconnects, the lobby remains active, and the difficulty dynamically adjusts to the remaining player count."
+  }
+]} />
+
+<Callout type="info" title="Updates and Patches">
+Keep your game client updated to the latest version to ensure cross-play compatibility remains functional across all supported systems.
+</Callout>
+
+</Section>

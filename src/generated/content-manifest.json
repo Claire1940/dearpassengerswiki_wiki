@@ -1,1 +1,658 @@
-{}
+{
+  "en": {
+    "features": [
+      {
+        "slug": "dear-passengers-dynamic-weather",
+        "file": "dear-passengers-dynamic-weather"
+      },
+      {
+        "slug": "dear-passengers-flight-hazards",
+        "file": "dear-passengers-flight-hazards"
+      },
+      {
+        "slug": "dear-passengers-friendslop",
+        "file": "dear-passengers-friendslop"
+      },
+      {
+        "slug": "dear-passengers-passenger-service",
+        "file": "dear-passengers-passenger-service"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dear-passengers-beginner-guide",
+        "file": "dear-passengers-beginner-guide"
+      },
+      {
+        "slug": "dear-passengers-cabin-crew-guide",
+        "file": "dear-passengers-cabin-crew-guide"
+      },
+      {
+        "slug": "dear-passengers-cargo-guide",
+        "file": "dear-passengers-cargo-guide"
+      },
+      {
+        "slug": "dear-passengers-controls",
+        "file": "dear-passengers-controls"
+      },
+      {
+        "slug": "dear-passengers-emergency-guide",
+        "file": "dear-passengers-emergency-guide"
+      },
+      {
+        "slug": "dear-passengers-how-to-play",
+        "file": "dear-passengers-how-to-play"
+      },
+      {
+        "slug": "dear-passengers-passenger-management-guide",
+        "file": "dear-passengers-passenger-management-guide"
+      },
+      {
+        "slug": "dear-passengers-pilot-guide",
+        "file": "dear-passengers-pilot-guide"
+      }
+    ],
+    "media": [
+      {
+        "slug": "dear-passengers-funny-moments",
+        "file": "dear-passengers-funny-moments"
+      },
+      {
+        "slug": "dear-passengers-gameplay",
+        "file": "dear-passengers-gameplay"
+      },
+      {
+        "slug": "dear-passengers-trailer",
+        "file": "dear-passengers-trailer"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "dear-passengers-co-op",
+        "file": "dear-passengers-co-op"
+      },
+      {
+        "slug": "dear-passengers-crossplay",
+        "file": "dear-passengers-crossplay"
+      },
+      {
+        "slug": "dear-passengers-local-co-op",
+        "file": "dear-passengers-local-co-op"
+      },
+      {
+        "slug": "dear-passengers-number-of-players",
+        "file": "dear-passengers-number-of-players"
+      },
+      {
+        "slug": "dear-passengers-online-co-op",
+        "file": "dear-passengers-online-co-op"
+      },
+      {
+        "slug": "dear-passengers-party-game",
+        "file": "dear-passengers-party-game"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dear-passengers-console",
+        "file": "dear-passengers-console"
+      },
+      {
+        "slug": "dear-passengers-nintendo-switch",
+        "file": "dear-passengers-nintendo-switch"
+      },
+      {
+        "slug": "dear-passengers-ps5",
+        "file": "dear-passengers-ps5"
+      },
+      {
+        "slug": "dear-passengers-steam-deck",
+        "file": "dear-passengers-steam-deck"
+      },
+      {
+        "slug": "dear-passengers-steam",
+        "file": "dear-passengers-steam"
+      },
+      {
+        "slug": "dear-passengers-system-requirements",
+        "file": "dear-passengers-system-requirements"
+      },
+      {
+        "slug": "dear-passengers-vr",
+        "file": "dear-passengers-vr"
+      },
+      {
+        "slug": "dear-passengers-where-to-play",
+        "file": "dear-passengers-where-to-play"
+      },
+      {
+        "slug": "dear-passengers-xbox",
+        "file": "dear-passengers-xbox"
+      }
+    ],
+    "pricing": [
+      {
+        "slug": "dear-passengers-editions",
+        "file": "dear-passengers-editions"
+      },
+      {
+        "slug": "dear-passengers-free",
+        "file": "dear-passengers-free"
+      },
+      {
+        "slug": "dear-passengers-price",
+        "file": "dear-passengers-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dear-passengers-beta",
+        "file": "dear-passengers-beta"
+      },
+      {
+        "slug": "dear-passengers-demo",
+        "file": "dear-passengers-demo"
+      },
+      {
+        "slug": "dear-passengers-early-access",
+        "file": "dear-passengers-early-access"
+      },
+      {
+        "slug": "dear-passengers-release",
+        "file": "dear-passengers-release"
+      }
+    ]
+  },
+  "ja": {
+    "features": [
+      {
+        "slug": "dear-passengers-dynamic-weather",
+        "file": "dear-passengers-dynamic-weather"
+      },
+      {
+        "slug": "dear-passengers-flight-hazards",
+        "file": "dear-passengers-flight-hazards"
+      },
+      {
+        "slug": "dear-passengers-friendslop",
+        "file": "dear-passengers-friendslop"
+      },
+      {
+        "slug": "dear-passengers-passenger-service",
+        "file": "dear-passengers-passenger-service"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dear-passengers-beginner-guide",
+        "file": "dear-passengers-beginner-guide"
+      },
+      {
+        "slug": "dear-passengers-cabin-crew-guide",
+        "file": "dear-passengers-cabin-crew-guide"
+      },
+      {
+        "slug": "dear-passengers-cargo-guide",
+        "file": "dear-passengers-cargo-guide"
+      },
+      {
+        "slug": "dear-passengers-controls",
+        "file": "dear-passengers-controls"
+      },
+      {
+        "slug": "dear-passengers-emergency-guide",
+        "file": "dear-passengers-emergency-guide"
+      },
+      {
+        "slug": "dear-passengers-how-to-play",
+        "file": "dear-passengers-how-to-play"
+      },
+      {
+        "slug": "dear-passengers-passenger-management-guide",
+        "file": "dear-passengers-passenger-management-guide"
+      },
+      {
+        "slug": "dear-passengers-pilot-guide",
+        "file": "dear-passengers-pilot-guide"
+      }
+    ],
+    "media": [
+      {
+        "slug": "dear-passengers-funny-moments",
+        "file": "dear-passengers-funny-moments"
+      },
+      {
+        "slug": "dear-passengers-gameplay",
+        "file": "dear-passengers-gameplay"
+      },
+      {
+        "slug": "dear-passengers-trailer",
+        "file": "dear-passengers-trailer"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "dear-passengers-co-op",
+        "file": "dear-passengers-co-op"
+      },
+      {
+        "slug": "dear-passengers-crossplay",
+        "file": "dear-passengers-crossplay"
+      },
+      {
+        "slug": "dear-passengers-local-co-op",
+        "file": "dear-passengers-local-co-op"
+      },
+      {
+        "slug": "dear-passengers-number-of-players",
+        "file": "dear-passengers-number-of-players"
+      },
+      {
+        "slug": "dear-passengers-online-co-op",
+        "file": "dear-passengers-online-co-op"
+      },
+      {
+        "slug": "dear-passengers-party-game",
+        "file": "dear-passengers-party-game"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dear-passengers-console",
+        "file": "dear-passengers-console"
+      },
+      {
+        "slug": "dear-passengers-nintendo-switch",
+        "file": "dear-passengers-nintendo-switch"
+      },
+      {
+        "slug": "dear-passengers-ps5",
+        "file": "dear-passengers-ps5"
+      },
+      {
+        "slug": "dear-passengers-steam-deck",
+        "file": "dear-passengers-steam-deck"
+      },
+      {
+        "slug": "dear-passengers-steam",
+        "file": "dear-passengers-steam"
+      },
+      {
+        "slug": "dear-passengers-system-requirements",
+        "file": "dear-passengers-system-requirements"
+      },
+      {
+        "slug": "dear-passengers-vr",
+        "file": "dear-passengers-vr"
+      },
+      {
+        "slug": "dear-passengers-where-to-play",
+        "file": "dear-passengers-where-to-play"
+      },
+      {
+        "slug": "dear-passengers-xbox",
+        "file": "dear-passengers-xbox"
+      }
+    ],
+    "pricing": [
+      {
+        "slug": "dear-passengers-editions",
+        "file": "dear-passengers-editions"
+      },
+      {
+        "slug": "dear-passengers-free",
+        "file": "dear-passengers-free"
+      },
+      {
+        "slug": "dear-passengers-price",
+        "file": "dear-passengers-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dear-passengers-beta",
+        "file": "dear-passengers-beta"
+      },
+      {
+        "slug": "dear-passengers-demo",
+        "file": "dear-passengers-demo"
+      },
+      {
+        "slug": "dear-passengers-early-access",
+        "file": "dear-passengers-early-access"
+      },
+      {
+        "slug": "dear-passengers-release",
+        "file": "dear-passengers-release"
+      }
+    ]
+  },
+  "tr": {
+    "features": [
+      {
+        "slug": "dear-passengers-dynamic-weather",
+        "file": "dear-passengers-dynamic-weather"
+      },
+      {
+        "slug": "dear-passengers-flight-hazards",
+        "file": "dear-passengers-flight-hazards"
+      },
+      {
+        "slug": "dear-passengers-friendslop",
+        "file": "dear-passengers-friendslop"
+      },
+      {
+        "slug": "dear-passengers-passenger-service",
+        "file": "dear-passengers-passenger-service"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dear-passengers-beginner-guide",
+        "file": "dear-passengers-beginner-guide"
+      },
+      {
+        "slug": "dear-passengers-cabin-crew-guide",
+        "file": "dear-passengers-cabin-crew-guide"
+      },
+      {
+        "slug": "dear-passengers-cargo-guide",
+        "file": "dear-passengers-cargo-guide"
+      },
+      {
+        "slug": "dear-passengers-controls",
+        "file": "dear-passengers-controls"
+      },
+      {
+        "slug": "dear-passengers-emergency-guide",
+        "file": "dear-passengers-emergency-guide"
+      },
+      {
+        "slug": "dear-passengers-how-to-play",
+        "file": "dear-passengers-how-to-play"
+      },
+      {
+        "slug": "dear-passengers-passenger-management-guide",
+        "file": "dear-passengers-passenger-management-guide"
+      },
+      {
+        "slug": "dear-passengers-pilot-guide",
+        "file": "dear-passengers-pilot-guide"
+      }
+    ],
+    "media": [
+      {
+        "slug": "dear-passengers-funny-moments",
+        "file": "dear-passengers-funny-moments"
+      },
+      {
+        "slug": "dear-passengers-gameplay",
+        "file": "dear-passengers-gameplay"
+      },
+      {
+        "slug": "dear-passengers-trailer",
+        "file": "dear-passengers-trailer"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "dear-passengers-co-op",
+        "file": "dear-passengers-co-op"
+      },
+      {
+        "slug": "dear-passengers-crossplay",
+        "file": "dear-passengers-crossplay"
+      },
+      {
+        "slug": "dear-passengers-local-co-op",
+        "file": "dear-passengers-local-co-op"
+      },
+      {
+        "slug": "dear-passengers-number-of-players",
+        "file": "dear-passengers-number-of-players"
+      },
+      {
+        "slug": "dear-passengers-online-co-op",
+        "file": "dear-passengers-online-co-op"
+      },
+      {
+        "slug": "dear-passengers-party-game",
+        "file": "dear-passengers-party-game"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dear-passengers-console",
+        "file": "dear-passengers-console"
+      },
+      {
+        "slug": "dear-passengers-nintendo-switch",
+        "file": "dear-passengers-nintendo-switch"
+      },
+      {
+        "slug": "dear-passengers-ps5",
+        "file": "dear-passengers-ps5"
+      },
+      {
+        "slug": "dear-passengers-steam-deck",
+        "file": "dear-passengers-steam-deck"
+      },
+      {
+        "slug": "dear-passengers-steam",
+        "file": "dear-passengers-steam"
+      },
+      {
+        "slug": "dear-passengers-system-requirements",
+        "file": "dear-passengers-system-requirements"
+      },
+      {
+        "slug": "dear-passengers-vr",
+        "file": "dear-passengers-vr"
+      },
+      {
+        "slug": "dear-passengers-where-to-play",
+        "file": "dear-passengers-where-to-play"
+      },
+      {
+        "slug": "dear-passengers-xbox",
+        "file": "dear-passengers-xbox"
+      }
+    ],
+    "pricing": [
+      {
+        "slug": "dear-passengers-editions",
+        "file": "dear-passengers-editions"
+      },
+      {
+        "slug": "dear-passengers-free",
+        "file": "dear-passengers-free"
+      },
+      {
+        "slug": "dear-passengers-price",
+        "file": "dear-passengers-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dear-passengers-beta",
+        "file": "dear-passengers-beta"
+      },
+      {
+        "slug": "dear-passengers-demo",
+        "file": "dear-passengers-demo"
+      },
+      {
+        "slug": "dear-passengers-early-access",
+        "file": "dear-passengers-early-access"
+      },
+      {
+        "slug": "dear-passengers-release",
+        "file": "dear-passengers-release"
+      }
+    ]
+  },
+  "uk": {
+    "features": [
+      {
+        "slug": "dear-passengers-dynamic-weather",
+        "file": "dear-passengers-dynamic-weather"
+      },
+      {
+        "slug": "dear-passengers-flight-hazards",
+        "file": "dear-passengers-flight-hazards"
+      },
+      {
+        "slug": "dear-passengers-friendslop",
+        "file": "dear-passengers-friendslop"
+      },
+      {
+        "slug": "dear-passengers-passenger-service",
+        "file": "dear-passengers-passenger-service"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dear-passengers-beginner-guide",
+        "file": "dear-passengers-beginner-guide"
+      },
+      {
+        "slug": "dear-passengers-cabin-crew-guide",
+        "file": "dear-passengers-cabin-crew-guide"
+      },
+      {
+        "slug": "dear-passengers-cargo-guide",
+        "file": "dear-passengers-cargo-guide"
+      },
+      {
+        "slug": "dear-passengers-controls",
+        "file": "dear-passengers-controls"
+      },
+      {
+        "slug": "dear-passengers-emergency-guide",
+        "file": "dear-passengers-emergency-guide"
+      },
+      {
+        "slug": "dear-passengers-how-to-play",
+        "file": "dear-passengers-how-to-play"
+      },
+      {
+        "slug": "dear-passengers-passenger-management-guide",
+        "file": "dear-passengers-passenger-management-guide"
+      },
+      {
+        "slug": "dear-passengers-pilot-guide",
+        "file": "dear-passengers-pilot-guide"
+      }
+    ],
+    "media": [
+      {
+        "slug": "dear-passengers-funny-moments",
+        "file": "dear-passengers-funny-moments"
+      },
+      {
+        "slug": "dear-passengers-gameplay",
+        "file": "dear-passengers-gameplay"
+      },
+      {
+        "slug": "dear-passengers-trailer",
+        "file": "dear-passengers-trailer"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "dear-passengers-co-op",
+        "file": "dear-passengers-co-op"
+      },
+      {
+        "slug": "dear-passengers-crossplay",
+        "file": "dear-passengers-crossplay"
+      },
+      {
+        "slug": "dear-passengers-local-co-op",
+        "file": "dear-passengers-local-co-op"
+      },
+      {
+        "slug": "dear-passengers-number-of-players",
+        "file": "dear-passengers-number-of-players"
+      },
+      {
+        "slug": "dear-passengers-online-co-op",
+        "file": "dear-passengers-online-co-op"
+      },
+      {
+        "slug": "dear-passengers-party-game",
+        "file": "dear-passengers-party-game"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dear-passengers-console",
+        "file": "dear-passengers-console"
+      },
+      {
+        "slug": "dear-passengers-nintendo-switch",
+        "file": "dear-passengers-nintendo-switch"
+      },
+      {
+        "slug": "dear-passengers-ps5",
+        "file": "dear-passengers-ps5"
+      },
+      {
+        "slug": "dear-passengers-steam-deck",
+        "file": "dear-passengers-steam-deck"
+      },
+      {
+        "slug": "dear-passengers-steam",
+        "file": "dear-passengers-steam"
+      },
+      {
+        "slug": "dear-passengers-system-requirements",
+        "file": "dear-passengers-system-requirements"
+      },
+      {
+        "slug": "dear-passengers-vr",
+        "file": "dear-passengers-vr"
+      },
+      {
+        "slug": "dear-passengers-where-to-play",
+        "file": "dear-passengers-where-to-play"
+      },
+      {
+        "slug": "dear-passengers-xbox",
+        "file": "dear-passengers-xbox"
+      }
+    ],
+    "pricing": [
+      {
+        "slug": "dear-passengers-editions",
+        "file": "dear-passengers-editions"
+      },
+      {
+        "slug": "dear-passengers-free",
+        "file": "dear-passengers-free"
+      },
+      {
+        "slug": "dear-passengers-price",
+        "file": "dear-passengers-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "dear-passengers-beta",
+        "file": "dear-passengers-beta"
+      },
+      {
+        "slug": "dear-passengers-demo",
+        "file": "dear-passengers-demo"
+      },
+      {
+        "slug": "dear-passengers-early-access",
+        "file": "dear-passengers-early-access"
+      },
+      {
+        "slug": "dear-passengers-release",
+        "file": "dear-passengers-release"
+      }
+    ]
+  }
+}

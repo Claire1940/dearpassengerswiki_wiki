@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Beginner Guide: Step-by-Step Flight Tutorial",
+  description: "Master the chaos of Dear Passengers with our 2026 beginner guide. Learn co-op roles, passenger service, cargo management, and hazard response strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Beginner+Flight+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear Passengers beginner guide** focuses on balancing high-reward cargo with manageable passenger chaos.
+- **Role division** is essential; one player must always remain in the cockpit while others manage the cabin.
+- **Priority management** dictates that aircraft safety and escaped cargo take precedence over food service.
+- **Physics-based hazards** like turbulence and air pockets can turn loose objects into deadly projectiles.
+- **Communication** between the pilot and cabin crew is the only way to survive dynamic weather events.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics and Flight Loop">
+
+Dear Passengers is a chaotic, physics-based co-op simulation that tasks a crew of players with running the world's most dangerous airline. Unlike traditional flight simulators, the challenge here lies in the intersection of flight control and cabin management. This **dear passengers beginner guide** is designed to help new crews navigate their first few flights in 2026, ensuring that both the aircraft and its contents reach the destination in one piece. The game relies heavily on ragdoll physics, meaning every turn the pilot takes has a direct physical impact on everything inside the cabin.
+
+**Video Highlights:**
+- Overview of the 2026 announcement trailer and core gameplay loop.
+- Visual demonstration of passenger service and chaotic physics-based accidents.
+- Examples of mid-air disasters including bird strikes and engine fires.
+- Preview of the passenger and cargo selection interface.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Success in Dear Passengers requires more than just flying a plane; it demands constant vigilance. The flight loop begins with selecting your "loadout"—a combination of passengers and cargo that determines your payout. Once in the air, the pilot must navigate weather while the cabin crew handles the needs of the travelers and the stability of the freight. Any lapse in judgment, such as a sharp turn without warning, can lead to luggage flying through the aisles or passengers becoming unruly.
+
+| Feature | Detail | Impact on Gameplay |
+|---------|--------|-------------------|
+| **Physics Engine** | Ragdoll & Object Physics | Movement affects everything in the cabin |
+| **Co-op Support** | Online Multiplayer | Requires clear communication and role split |
+| **Hazard System** | Dynamic & Procedural | Weather and accidents occur randomly |
+| **Progression** | Risk-Reward Payouts | Higher risk loads yield more currency |
+| **Platforms** | Windows PC (Steam) | Primary launch platform for 2026 |
+
+<Callout type="tip" title="Editor's Recommendation">
+Always check the weather forecast before accepting a high-risk cargo contract. If the route involves heavy turbulence, even the most skilled cabin crew will struggle to keep the cargo secured.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pre-Flight Planning: Passengers and Cargo">
+
+Before the engines even start, the crew must make their most important decisions in the hangar. The selection of passengers and cargo acts as the game's difficulty setting. Standard passengers provide a steady, low-risk income, while specialized "Hard-to-Please" or "Unruly" passengers offer significantly higher rewards at the cost of constant attention and potential disruptions.
+
+<Checklist
+  id="pre-flight-prep"
+  title="Pre-Takeoff Checklist:"
+  items={[
+    "Review the passenger manifest for unruly individuals",
+    "Inspect cargo crates for structural integrity",
+    "Assign a designated Pilot and Cabin Lead",
+    "Check the flight path for predicted air pockets",
+    "Ensure all service equipment is stored in the galley"
+  ]}
+/>
+
+Cargo management is equally complex. While regular crates stay put during minor turbulence, "Live Cargo" or "Illegal Freight" introduces extreme risks. For example, animal cargo has been known to escape its containment if not monitored properly, leading to immediate safety emergencies. You must balance the potential profit against your crew's ability to multitask under pressure.
+
+| Cargo Type | Risk Level | Main Threat | Payout Profile |
+|------------|------------|-------------|----------------|
+| **Standard** | Low | Loose luggage | Baseline |
+| **Fragile** | Medium | Physics damage | High |
+| **Unruly Pax** | High | Cabin disruption | Very High |
+| **Live Animal** | Extreme | Escape/Injury | Premium |
+| **Illegal** | High | Security/Safety | Massive |
+
+<Callout type="warning" title="Hazard Warning">
+Do not overfill the cabin with high-risk passengers on your first few flights. A single unruly passenger combined with an escaped animal can lead to a total flight failure within seconds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Roles and Team Strategy">
+
+Effective teamwork is the backbone of any successful flight in Dear Passengers. While players can technically move anywhere, assigning specific roles prevents "emergency paralysis" where everyone tries to fix the same problem while ignoring others. In a standard crew, the division of labor should be clearly defined before takeoff.
+
+<CardGrid cols={2}>
+  <Card title="The Pilot">
+    - **Location**: Cockpit
+    - **Primary Duty**: Flight control and navigation
+    - **Strategy**: Must warn the cabin before any sharp maneuvers or entering turbulence.
+  </Card>
+  <Card title="Cabin Lead">
+    - **Location**: Passenger Cabin
+    - **Primary Duty**: Emergency coordination
+    - **Strategy**: Sets priorities when multiple incidents occur simultaneously.
+  </Card>
+  <Card title="Service Specialist">
+    - **Location**: Galley / Aisles
+    - **Primary Duty**: Food and passenger needs
+    - **Strategy**: Keeps passenger satisfaction high to prevent unruly behavior.
+  </Card>
+  <Card title="Cargo Warden">
+    - **Location**: Cargo Hold / Storage
+    - **Primary Duty**: Containment and security
+    - **Strategy**: Regularly checks locks and secures loose items after turbulence.
+  </Card>
+</CardGrid>
+
+Communication is the most powerful tool in your arsenal. The Pilot must act as the "eyes" of the crew, spotting weather patterns and bird strikes before they impact the aircraft. Meanwhile, the Cabin Lead must filter information to the Pilot, only reporting critical emergencies that might require a change in flight path, such as a fire or structural hull damage.
+
+<Callout type="success" title="Pro Strategy">
+In two-player sessions, the Pilot should handle navigation and external repairs, while the second player manages both service and cargo. Avoid "Extreme" risk loads until you have a full four-player crew.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="In-Flight Hazard Management">
+
+Once the wheels are up, the environment becomes dynamic. Hazards in Dear Passengers are not just scripted events; they are systemic failures that can escalate if not handled quickly. A minor bird strike can damage an engine, which leads to a fire, which then panics the passengers, creating a chain reaction of disasters.
+
+<Steps>
+  <Step num="1" title="Identification">
+    Recognize the hazard early (e.g., the sound of a crate breaking or the visual of an engine smoking).
+  </Step>
+  <Step num="2" title="First Response">
+    The nearest crew member must drop routine tasks (like serving drinks) to address the immediate threat.
+  </Step>
+  <Step num="3" title="Containment">
+    Use extinguishers for fires or physical restraints for unruly passengers to stop the problem from spreading.
+  </Step>
+  <Step num="4" title="Stabilization">
+    The Pilot stabilizes the aircraft to ensure the cabin crew can move safely through the aisles.
+  </Step>
+  <Step num="5" title="Recovery">
+    Clean up debris, reseat passengers, and repair any minor hull damage before the next wave of chaos.
+  </Step>
+</Steps>
+
+| Hazard | First Responder | Escalation Risk | Recommended Action |
+|--------|-----------------|-----------------|-------------------|
+| **Turbulence** | Pilot | High | Level the wings, warn cabin |
+| **Engine Fire** | Cabin Crew | Critical | Use extinguisher, Pilot cuts fuel |
+| **Animal Escape** | Cargo Warden | Extreme | Clear aisles, use containment |
+| **Hull Breach** | Support Crew | Critical | External repair, oxygen masks |
+| **Bird Strike** | Pilot | Medium | Check engine health, adjust pitch |
+
+<Callout type="info" title="Operational Priority">
+Always prioritize "Aviation" (flying the plane) over "Service." A happy passenger on a crashing plane still results in a "Game Over."
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="System Requirements and Technical Specs">
+
+To ensure a smooth experience during the 2026 launch, players should verify that their hardware meets the minimum requirements. Given the physics-heavy nature of Dear Passengers, a stable CPU and sufficient RAM are more important than a top-tier GPU. The game supports up to six interface languages at launch, including English, Turkish, Japanese, and Ukrainian.
+
+| Component | Minimum Requirement | Recommended (Estimated) |
+|-----------|---------------------|-------------------------|
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 XT |
+| **DirectX** | Version 12 | Version 12 |
+| **Storage** | 4 GB available space | 10 GB (for updates) |
+
+<Callout type="warning" title="Technical Tip">
+If you experience "physics lag" where objects stutter during turbulence, try lowering the shadow quality and ensuring your internet connection is stable, as physics calculations are synced across the co-op session.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there a single-player mode in the Dear Passengers beginner guide?",
+    answer: "Yes, Dear Passengers supports single-player mode, but the difficulty is significantly higher as you must manage both the cockpit and the cabin alone. It is highly recommended to play with at least one other person."
+  },
+  {
+    question: "How do I deal with an escaped animal like the crocodile?",
+    answer: "Escaped animals are extreme hazards. You must first clear passengers from the area to prevent injuries, then use containment tools or physical barriers to redirect the animal back to the cargo hold."
+  },
+  {
+    question: "Can I repair the plane while it is still in the air?",
+    answer: "Yes. The 2026 trailer shows crew members performing external repairs on the hull and engines mid-flight. This usually requires one player to leave the cabin while the Pilot maintains a steady altitude."
+  },
+  {
+    question: "What happens if the passengers are unhappy at the end of the flight?",
+    answer: "Low passenger satisfaction reduces your final payout and can lead to lower airline ratings, making it harder to unlock high-value cargo contracts in future missions."
+  }
+]} />
+
+</Section>

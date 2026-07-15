@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Controls: Step-by-Step Flight Setup Guide",
+  description: "Master the essential dear passengers controls to fly, serve, and survive. Learn cockpit layouts, cabin interaction steps, and co-op emergency management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Controls+and+Flight+Setup",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear passengers controls** require split-second coordination between the cockpit and the cabin.
+- **The Pilot** must maintain aircraft stability using dedicated flight controls while navigating dynamic weather.
+- **The Cabin Crew** utilizes physical interaction keys to grab items, serve food, and restrain passengers.
+- **Emergency situations** like engine fires, escaped cargo, and turbulence require immediate manual overrides.
+- **Clear communication** is the ultimate control mechanism to prevent minor flight issues from ending in a crash.
+</Callout>
+
+<Section icon={Map} title="Mastering Dear Passengers Controls and Cockpit Basics">
+
+To successfully complete a flight in FLEXUS's chaotic physics-based co-op game, every crew member must master the primary **dear passengers controls**. The game splits players into highly specialized roles, meaning your control scheme changes drastically depending on whether you are sitting in the pilot's seat or running through the passenger cabin.
+
+**Video Highlights:**
+- Learn the basic layout of the cockpit and cabin interaction zones.
+- See how physics-based movement affects your control responsiveness during turbulence.
+- Watch a demonstration of emergency controls during an engine failure or animal escape.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Trailer" />
+
+Operating the aircraft requires precise inputs to balance the plane's pitch, roll, and yaw while managing engine output. The table below outlines the core control inputs for both the cockpit and the cabin environments.
+
+| Role | Action Type | Primary Control Input | Operational Impact |
+|------|-------------|-----------------------|--------------------|
+| **Pilot** | Flight Steering | Flight Stick / WASD | Adjusts pitch and roll |
+| **Pilot** | Throttle Control | Throttle Lever / Mouse | Manages airspeed |
+| **Pilot** | Systems Toggle | Cockpit Switches | Toggles lights and landing gear |
+| **Cabin** | Movement | WASD / Left Stick | Navigates the physics-heavy cabin |
+| **Cabin** | Grab / Interact | Primary Action Key | Picks up food, luggage, or tools |
+| **Cabin** | Use Item | Secondary Action Key | Extinguishes fires or repairs hulls |
+| **Cabin** | Restrain | Hold Interact Key | Subdues unruly passengers |
+
+<Callout type="warning" title="Turbulence Warning">
+When the pilot encounters rough air or air pockets, cabin movement controls become highly unstable. Ragdoll physics will pull your character, making it difficult to target items or reach passengers in time.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Flight Setup and Control Procedure">
+
+Completing a flight requires a structured sequence of actions. Your team must transition from pre-flight planning to active flight management without losing control of the cabin. 
+
+<Steps>
+  <Step num="1" title="Choose Passengers and Cargo">
+    Before takeoff, use the terminal controls to select your load. Balancing risk and reward is key. Higher-paying flights feature more demanding passengers or highly volatile cargo.
+  </Step>
+  <Step num="2" title="Assign Crew Stations">
+    Designate one player to the cockpit controls while the remaining players position themselves in the cabin and cargo hold. Ensure everyone knows their primary interaction zone.
+  </Step>
+  <Step num="3" title="Execute Takeoff Controls">
+    The pilot must increase throttle, maintain a steady climb angle, and retract the landing gear once airborne. Cabin crew should stand by to secure loose objects immediately.
+  </Step>
+  <Step num="4" title="Manage Mid-Flight Service">
+    Cabin players must interact with food carts and drink dispensers to serve passengers. Keep the aisles clear of loose luggage to maintain fast movement pathways.
+  </Step>
+  <Step num="5" title="Respond to Emergencies">
+    When alarms sound, drop routine tasks. Use emergency tools like fire extinguishers or weapons to neutralize immediate threats to the aircraft's hull.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Co-op Pro-Tip">
+Always have a designated backup pilot. If the primary pilot is knocked out by extreme turbulence or an external hazard, a cabin crew member must quickly access the cockpit controls to prevent a nose dive.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Roles and Control Strategies">
+
+Coordinating your crew is just as important as knowing which buttons to press. Dear Passengers relies heavily on team synergy, where each player manages a specific set of responsibilities.
+
+<CardGrid cols={3}>
+  <Card title="The Pilot">
+    - **Focuses on flight controls**
+    - Navigates around dynamic weather
+    - Stabilizes the plane during air pockets
+    - Warns the cabin crew of incoming turns
+  </Card>
+  <Card title="Cabin Lead">
+    - **Coordinates passenger service**
+    - Prioritizes emergency responses
+    - Directs crew to loose cargo or fires
+    - Relays critical cabin status to the pilot
+  </Card>
+  <Card title="Cargo Specialist">
+    - **Monitors volatile shipments**
+    - Secures loose crates and luggage
+    - Handles escaped animal emergencies
+    - Keeps movement pathways clear of debris
+  </Card>
+</CardGrid>
+
+To maximize your team's efficiency, use this role-based control prioritization table during standard flight operations.
+
+| Scenario | Pilot Priority | Cabin Crew Priority | Cargo Handler Priority |
+|------|------|------|------|
+| **Clear Weather** | Maintain course and speed | Serve food and drinks | Check crate security |
+| **Severe Turbulence** | Stabilize pitch and roll | Hold onto seats or walls | Secure shifting cargo |
+| **Engine Fire** | Adjust flight path for safety | Grab extinguisher and put out fire | Assist cabin crew |
+| **Animal Escape** | Keep flight steady | Evacuate nearby passengers | Use restraint controls on animal |
+| **External Attack** | Perform evasive maneuvers | Use defensive weapons | Repair hull damage |
+
+<Callout type="success" title="Communication is Key">
+The pilot should always call out "Left turn!" or "Turbulence ahead!" a few seconds before executing maneuvers. This gives cabin players enough time to secure themselves and stop carrying dangerous items.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Flight Checklist and Hazard Preparation">
+
+Before you push the throttle forward, make sure your crew has completed all safety checks. A single unsecured item can become a deadly projectile once the physics engine takes over.
+
+<Checklist
+  id="pre-flight-safety"
+  title="Essential Pre-Flight Checklist:"
+  items={[
+    "Verify pilot is in the cockpit seat and controls are responsive",
+    "Confirm all cargo crates are locked down in the cargo hold",
+    "Clear all loose luggage and food items from the cabin aisles",
+    "Assign specific crew members to fire safety and passenger restraint duties",
+    "Review the flight path for upcoming dynamic weather hazards"
+  ]}
+/>
+
+<Callout type="info" title="System Specifications">
+Ensure your PC meets the minimum requirements to avoid control latency or frame drops during chaotic physics calculations: Windows 10 (64-bit), Intel Core i5 at 2.5 GHz, 8 GB RAM, GTX 1060 or RX 6600 XT, DirectX 12, and 4 GB of storage space.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dear Passengers Controls FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the primary dear passengers controls for flying the plane?",
+    answer: "The pilot uses the flight stick (or WASD keys) to control pitch and roll, a manual throttle lever to manage airspeed, and cockpit switches to toggle aircraft systems like landing gear and lights."
+  },
+  {
+    question: "Can one player handle both the pilot controls and cabin service?",
+    answer: "While Steam lists single-player support, managing both cockpit steering and cabin emergencies is extremely difficult. The game is designed for online co-op where duties are split."
+  },
+  {
+    question: "How do physics and turbulence affect the cabin controls?",
+    answer: "During turbulence or sharp turns, ragdoll physics are activated. This makes walking, aiming, and interacting with objects highly unstable, requiring players to hold onto secure surfaces."
+  },
+  {
+    question: "What should I do if a cargo crate breaks open during flight?",
+    answer: "Immediately drop routine services, coordinate with the pilot to stabilize the plane, use your interaction controls to subdue any escaped cargo, and secure the damaged crate."
+  }
+]} />
+
+</Section>

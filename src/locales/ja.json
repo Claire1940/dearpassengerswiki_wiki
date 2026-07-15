@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "pricing": "Pricing",
+    "multiplayer": "Multiplayer",
+    "features": "Features",
+    "media": "Media"
+  }
+}

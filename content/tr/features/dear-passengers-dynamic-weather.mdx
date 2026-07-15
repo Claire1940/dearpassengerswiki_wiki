@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Dinamik Hava Durumu: Hayatta Kalma ve Pilot Rehberi",
+  description: "2026 rehberimizle dear passengers dinamik hava durumu sisteminde ustalaşın. Pilot stabilizasyon tekniklerini, kabin güvenlik protokollerini ve tehlike anı müdahalelerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dynamic+Weather+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Temel Mekanik**: **dear passengers dinamik hava durumu** sistemi, hem uçuş kontrolünü hem de kabin stabilitesini etkilemek için gerçek zamanlı fizik kurallarını kullanır.
+- **Pilot Önceliği**: Yatay stabilizasyona ve kabin ekibine erken uyarı iletişimine odaklanın.
+- **Kabin Stratejisi**: Pilot yaklaşan türbülans sinyali verdiğinde, gevşek bagajları ve yüksek riskli kargoları derhal sabitleyin.
+- **Tehlike Tırmanışı**: Küçük hava cepleri, hızlı yönetilmezse yapısal hasara veya kargo kaçışlarına yol açabilir.
+- **En İyi Araç**: Fırtınalar sırasında kokpit ile servis bölümü arasında koordinasyon sağlamak için interkom sistemini kullanın.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Dinamik Hava Durumu Mekaniklerinde Uzmanlaşma">
+
+FLEXUS'un 2026 yapımı kaotik co-op oyununda, **dear passengers dinamik hava durumu** sistemi sadece görsel bir efekt değildir; her uçuşun başarısını veya başarısızlığını belirleyen temel bir oyun motorudur. Geleneksel uçuş simülatörlerinden farklı olarak hava durumu, burada gelişmiş bir ragdoll fizik sistemiyle etkileşime girer. Uçak bir fırtınaya girdiğinde, yolcularınız, kızarmış tavuk yemeği ve kaçan timsahlar dahil olmak üzere sabitlenmemiş her şey G-kuvvetlerine tepki verecektir.
+
+**Video Öne Çıkanlar:**
+- Yaklaşan fırtınalar ve hava cepleri için görsel ipuçları.
+- Şiddetli türbülans sırasında pilot tarafı kokpit kontrolleri.
+- Kabin ekibi fizik etkileşimleri ve "tutunma" mekanikleri.
+- Kötü hava koşullarından acil motor onarımlarına geçiş.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Resmi Duyuru Fragmanı" />
+
+Bu sistemleri yönetmek, çevresel faktörlerin uçağın ağırlık merkezini nasıl etkilediğine dair derin bir anlayış gerektirir. Pilot olarak sadece rüzgarla savaşmıyorsunuz; aynı zamanda düzensiz bir kabinin değişen ağırlığıyla da mücadele ediyorsunuz. Eğer hava durumu bir yolcunun kargo bölümüne düşmesine neden olursa, ortaya çıkan ağırlık değişimi uçağı düzeltmeyi önemli ölçüde zorlaştırır.
+
+<Callout type="success" title="Fizik İpucu">
+Oyun, ağırlık dağılımını gerçek zamanlı olarak hesaplar. Fırtına sırasında yolcuları koltuklarında tutmak sadece "hizmet puanı" için değildir; kütle merkezini stabilize ederek uçağı uçurmayı kelimenin tam anlamıyla kolaylaştırır.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hava Durumu Türleri ve Tehlike Seviyeleri">
+
+Dear Passengers'da tüm fırtınalar eşit yaratılmamıştır. 2026 sürümü, uçuş öncesi planlama aşamasında seçtiğiniz rotanın zorluğuna göre ölçeklenen kademeli bir hava durumu sistemine sahiptir. Her hava durumu türüyle ilişkili spesifik tehlikeleri anlamak, mürettebatın hayatta kalması ve kazancınızı maksimize etmek için şarttır.
+
+| Hava Durumu Türü | Tehlike Seviyesi | Kokpit Etkisi | Kabin Etkisi |
+| :--- | :--- | :--- | :--- |
+| Açık Hava | 1/5 | Yüksek görüş, stabil uçuş | Normal servis, mutlu yolcular |
+| Şiddetli Rüzgar | 2/5 | Yanal sürüklenme, sürekli düzeltme gerektirir | Hafif tepsi kayması, yolcu huzursuzluğu |
+| Fırtına | 4/5 | Ağır türbülans, yıldırım çarpmaları | Ragdoll fiziği aktif, gevşek eşyalar uçar |
+| Süper Hücre | 5/5 | Motor arızası riski, gövde stresi | Ciddi enkaz, kargo konteyner kaybı |
+| Kuş Çarpması | Ekstrem | Ani itiş kaybı, yangın riski | Ani sarsıntı, gövde delinme potansiyeli |
+
+Standart rüzgar ve yağmurun ötesinde, **dear passengers dinamik hava durumu** sisteminin en tehlikeli yönü "Hava Cebidir". Bunlar, uçağın bir saniyede yüzlerce fit düşmesine neden olan görünmez tehlikelerdir. Kabinde bu, sabitlenmemiş her nesnenin tavana çarpması anlamına gelir. Deneyimli ekipler pilotun göstergelerini izlemeyi öğrenir; altimetredeki ani bir düşüş, her şeyi bırakıp bir tırabzana tutunma sinyalidir.
+
+<CardGrid cols={3}>
+  <Card title="Yıldırım Çarpmaları">
+    - **Elektronik Arıza**: Kokpit HUD'unu geçici olarak devre dışı bırakabilir.
+    - **Yangın Riski**: Mutfak ekipmanını tutuşturma ihtimali düşüktür.
+    - **Müdahale**: Pilot devre kesicileri sıfırlamalı, kabin ekibi duman kontrolü yapmalıdır.
+  </Card>
+  <Card title="Şiddetli Türbülans">
+    - **Ragdoll Kaosu**: Yolcular ve mürettebat sağa sola savrulur.
+    - **Kargo Kayması**: Sabitlenmemiş kasalar kayar ve kırılır.
+    - **Müdahale**: "Kabin Güvenliğini Sağla" komutunu kullanın ve tüm yemek servisini durdurun.
+  </Card>
+  <Card title="Buz Birikimi">
+    - **Ağırlık Artışı**: Uçağı hantal ve ağır yapar.
+    - **Stall Riski**: Kanatlardaki taşıma kuvvetini azaltır.
+    - **Müdahale**: Pilot irtifayı daha sıcak havaya göre ayarlamalı veya buz çözücü kullanmalıdır.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Çevresel Not">
+Fragmanlarda görüldüğü gibi dış saldırılar genellikle düşük görüş mesafeli havalarda meydana gelir. Yağmacılar, uçağa yaklaşmak için fırtınaların örtüsünü kullanır ve mürettebatı hem hava durumuyla hem de savunma taretleriyle aynı anda uğraşmaya zorlar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hava Durumu Acillerinde Mürettebat Rolleri">
+
+Dear Passengers'da hayatta kalmak bir ekip işidir. **dear passengers dinamik hava durumu** kötüleştiğinde her saniye önemlidir. İş bölümü, ufukta ilk bulut görünmeden önce netleşmelidir. Düzensiz bir mürettebat, acil iniş ekranıyla sonuçlanan bir uçuşa mahkumdur.
+
+| Rol | Birincil Hava Durumu Görevi | Kritik İletişim | Operasyonel Hedef |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | Uçuş yolunu stabilize et | "5 saniye içinde çarpmaya hazırlanın" | Kanatları dengede tut |
+| **Kabin Lideri** | Yolcu paniğini izle | "Tüm yolcular güvende" | Kitlesel histeriyi önle |
+| **Servis Ekibi** | Koridorları temizle | "Mutfak kilitlendi" | Uçan nesneleri minimize et |
+| **Kargo Görevlisi** | Kasa bütünlüğünü kontrol et | "Timsah serbest kaldı!" | İçerik kaybını önle |
+
+Pilotun rolü fırtına sırasında en zorlayıcı olanıdır. Motorları aşırı zorlamadan hava hızını korumak için gaz kolunu dengelemelisiniz. Türbülansa çok hızlı girerseniz yapısal hasar riskiyle karşılaşırsınız. Çok yavaş uçarsanız, buz birikimi veya rüzgar kırılması stall'a (perdövites) neden olabilir. İletişim, pilotun en iyi silahıdır; keskin bir dönüşten önce kabin ekibine beş saniyelik bir uyarı vermek, onları uçan bir içecek arabasının çarpmasından kurtarabilir.
+
+<Callout type="warning" title="İletişim Uyarısı">
+Pilot yaklaşan türbülans hakkında kabini uyarmazsa, yolcu memnuniyeti önemli ölçüde düşer ve mürettebat yaralanma riski %75 artar. Daima interkomu kullanın!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Fırtına Müdahale Protokolü">
+
+Gökyüzü griye döndüğünde ve alarm zilleri çalmaya başladığında, uçuşunuzun hedefine ulaşmasını sağlamak için bu standartlaştırılmış protokolü izleyin. Bu sıra, **dear passengers dinamik hava durumu** sisteminden kaynaklanan hasarı minimize ederken servis değerini mümkün olduğunca korumak için tasarlanmıştır.
+
+<Steps>
+  <Step num="1" title="Tespit ve Uyarı">
+    Pilot, radarda yaklaşan hava durumunu tespit eder. Derhal "Emniyet Kemerlerini Bağlayın" işaretini tetikleyin. Bu, yolcuları koltuklarına dönmeye zorlar, ancak kural tanımaz yolcular komutu görmezden gelebilir.
+  </Step>
+  <Step num="2" title="Mutfak Kilitleme">
+    Kabin ekibi yemek ve içecek servisini derhal durdurmalıdır. Açık tüm arabalar yuvalarına itilmeli ve kilitlenmelidir. Gevşek tepsiler en yakın güvenli kutuya atılmalıdır.
+  </Step>
+  <Step num="3" title="Kargo Kontrolü">
+    Bir mürettebat üyesi kargo bölümüne koşmalıdır. Yüksek riskli kargonun (özellikle canlı hayvan veya yasadışı mallar) düzgün bir şekilde bağlandığından emin olun. Bir kasa titriyorsa, hemen fazladan kayış ekleyin.
+  </Step>
+  <Step num="4" title="Stabilizasyon Manevraları">
+    Türbülans başladığında, pilot "Pitch ve Roll" (Yunuslama ve Yana Yatış) stabilitesine öncelik vermelidir. Agresif tırmanışlardan veya alçalışlardan kaçının, çünkü bunlar kabindeki fizik tabanlı kaosu artırır.
+  </Step>
+  <Step num="5" title="Hasar Değerlendirmesi">
+    Hava durumu düzeldiğinde, kabin lideri yangın, yaralı yolcular veya koridorları tıkayan gevşek bagajlar olup olmadığını kontrol etmelidir. Pilot, motor sağlığını ve gövde bütünlüğünü denetlemelidir.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profesyonel Strateji">
+İki oyunculu bir ekibiniz varsa, hava durumu olayları sırasında pilot kokpitte %100 kalmalıdır. İkinci oyuncu tamamen kargo bölümüne odaklanmalıdır, çünkü kaçan kargo uçuş için aç yolculardan çok daha büyük bir tehdittir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Yüksek Riskli Kargo ve Hava Durumu Sinerjisi">
+
+Kargonuzu seçmek, Dear Passengers'daki en önemli uçuş öncesi karardır. Yüksek kazançlı kargolar genellikle **dear passengers dinamik hava durumu** karşısında kötü tepki verir. Örneğin, bir timsah taşımak (resmi FLEXUS görüntülerinde görüldüğü gibi) kârlıdır, ancak hayvanın ağır türbülans sırasında kasasını kırma olasılığı daha yüksektir.
+
+| Kargo Kategorisi | Stabilite Derecesi | Hava Durumu Hassasiyeti | Risk Faktörü |
+| :--- | :--- | :--- | :--- |
+| **Standart Posta** | ★★★★★ | Düşük | Düşük kayma riski |
+| **Lüks Cam Eşya** | ★★☆☆☆ | Yüksek | Yüksek kırılma riski |
+| **Egzotik Hayvanlar** | ★☆☆☆☆ | Ekstrem | Yüksek kaçış riski |
+| **Yasadışı Teknoloji** | ★★★☆☆ | Orta | Yüksek yangın/EMP riski |
+
+Hava durumu ve kargo arasındaki sinerji bir "risk-ödül" döngüsü yaratır. Gevşek altın külçeleriyle dolu bir kargo bölümüyle süper hücre içinden geçmek bir felaket tarifidir, çünkü o külçeler ölümcül mermilere dönüşecektir. Ancak, böyle bir uçuşun ödemesi genellikle standart oranın üç katıdır.
+
+<Checklist
+  id="weather-readiness"
+  title="Uçuş Öncesi Hava Durumu Hazırlığı:"
+  items={[
+    "Seçtiğiniz rota için 2026 tahminini kontrol edin",
+    "Tüm mürettebat üyelerinin 'Fırtına İstasyonları'nın atandığından emin olun",
+    "Mutfak kilitlerinin çalıştığını doğrulayın",
+    "Mümkünse pilotu 'Gelişmiş Radar' yükseltmesi ile donatın",
+    "Herhangi bir 'Ekstrem Riskli' kargoyu çift bağ ile sabitleyin"
+  ]}
+/>
+
+<Callout type="tip" title="Uzman Tavsiyesi">
+"Egzotik Hayvanlar" taşırken, kargo bölümünün yakınında sakinleştirici veya kısıtlayıcı bir aletle bir mürettebat üyesi bulundurun. Fırtınalar hayvanları tedirgin eder ve bir konteyner ihlali şansını %40 artırır.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dear Passengers Hava Durumu SSS">
+
+<FAQ items={[
+  {
+    question: "dear passengers dinamik hava durumu uçuş kontrollerini nasıl etkiler?",
+    answer: "Hava durumu sistemi, uçak modelini fiziksel olarak iten rüzgar kırılması, direnç ve türbülans ekler. Pilotlar, uçağı güvenli uçuş zarfı içinde tutmak için karşı dümenleme ve gaz yönetimi kullanmalıdır."
+  },
+  {
+    question: "Hava durumu uçağın düşmesine neden olabilir mi?",
+    answer: "Evet. Süper hücreler veya kuş çarpmaları gibi şiddetli hava koşulları motor durmasına veya yapısal gövde arızasına neden olabilir. Pilot uçağı stabilize edemezse veya kabin çok düzensiz hale gelirse, kaza olasılığı çok yüksektir."
+  },
+  {
+    question: "Fırtına sırasında kural tanımaz yolcularla başa çıkmanın en iyi yolu nedir?",
+    answer: "Kural tanımaz yolcular genellikle türbülans sırasında oturmayı reddederler. Kabin ekibi onları sabitlemek için fiziksel kısıtlamalar veya sözlü komutlar kullanmalıdır. Ayakta kalmaya devam ederlerse, muhtemelen ragdoll mermilerine dönüşerek kendilerine ve başkalarına zarar vereceklerdir."
+  },
+  {
+    question: "2026 sürümü gece fırtınalarını içeriyor mu?",
+    answer: "Evet, gece fırtınaları görüş mesafesini azalttığı ve daha çok pilotun enstrümanlarına dayandığı için önemli ölçüde daha zordur. Yıldırım çarpmaları da gece uçuşlarında görsel olarak daha kafa karıştırıcıdır."
+  }
+]} />
+
+</Section>

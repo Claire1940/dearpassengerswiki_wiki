@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Çapraz Platform Desteği: Çok Oyunculu Modlar ve Eşli Oyun Kurulum Rehberi",
+  description: "Bu kaotik fizik tabanlı havayolu oyunu için Dear Passengers çapraz platform desteğini, çevrimiçi eşli oyun kurulumunu, çok oyunculu sistemleri ve platform kullanılabilirliği ayrıntılarını kontrol edin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Crossplay+and+Co-op+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers Çapraz Platform Desteği**: Şu anda Steam üzerinden Windows PC onaylanan tek platformdur, bu nedenle bu aşamada platformlar arası oynanış geçerli değildir.
+- **Çok Oyunculu Desteği**: Oyun, kaotik mürettebat koordinasyonu için resmi olarak hem tek oyunculu hem de çevrimiçi eşli oyun modlarına sahiptir.
+- **Eşli Oyun Mekanikleri**: Oyuncular görevleri, uçağı uçurmak ve kabin acil durumlarını gerçek zamanlı olarak yönetmek arasında paylaştırmalıdır.
+- **Çıkış Dönemi**: FLEXUS tarafından geliştirilen oyunun 2026 yılında piyasaya sürülmesi planlanmaktadır.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Çapraz Platform Desteği: Mevcut Platformlar ve Çok Oyunculu Durumu">
+
+Dear Passengers, FLEXUS tarafından geliştirilen, yakında çıkacak fizik tabanlı bir havayolu eşli oyun simülasyonudur. Oyuncular arkadaşlarıyla birlikte dünyanın en kaotik havayolunu yönetmeye hazırlanırken, uçuş öncesi sorunsuz bir planlama için çok oyunculu altyapının nasıl çalıştığını anlamak büyük önem taşır. 
+
+Oyun şu an için yalnızca Steam üzerinden Windows PC için duyurulduğundan, farklı konsol ekosistemleri arasında geleneksel çapraz platform desteği aktif değildir. Ancak oyun, PC oyuncularının sorunsuz bir şekilde bağlanmasına olanak tanıyan çevrimiçi eşli oyun modunu tam olarak desteklemektedir.
+
+**Öne Çıkan Video Detayları:**
+- Kaotik fizik tabanlı havayolu eşli oyun oynanışının resmi tanıtımı.
+- Kokpit ile yolcu kabini arasındaki iş bölümüne ilk bakış.
+- Motor hasarı ve gevşek kargolar dahil olmak üzere havada meydana gelen acil durumların gösterimi.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Resmi Fragmanı" />
+
+| Özellik | Durum | Detaylar |
+| :--- | :--- | :--- |
+| **PC Steam** | Onaylandı | İstek listesine eklenebilir, 2026'da çıkıyor |
+| **PlayStation 5** | Duyurulmadı | Onaylanmış bir PlayStation sürümü yok |
+| **Xbox Series X/S** | Duyurulmadı | Onaylanmış bir Xbox sürümü yok |
+| **Nintendo Switch** | Duyurulmadı | Onaylanmış bir Nintendo sürümü yok |
+| **Çevrimiçi Eşli Oyun** | Onaylandı | Çevrimiçi çok oyunculu mod tamamen destekleniyor |
+| **Yerel Eşli Oyun** | Belirsiz | Steam'de yalnızca çevrimiçi eşli oyun listelenmiştir |
+
+<Callout type="warning" title="Platform Kullanılabilirliği Uyarısı">
+FLEXUS; PlayStation, Xbox veya Nintendo Switch için herhangi bir konsol sürümü duyurmadı. Konsol sürümleri 2026 çıkış tarihine yakın bir zamanda duyurulursa, çapraz platform uyumluluğuna ilişkin ayrıntılar derhal güncellenecektir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Çok Oyunculu Modlar ve Bağlantı Seçenekleri">
+
+Dear Passengers'ta bir uçuşu yönetmek, yüksek düzeyde ekip koordinasyonu gerektirir. Oyun, gökyüzüyle tek başınıza mücadele etmek veya tam bir uçuş mürettebatı toplamak isteyip istemediğinize bağlı olarak, farklı grup boyutlarına uyum sağlayacak esnek seçenekler sunar.
+
+<CardGrid cols={3}>
+  <Card title="Tek Oyunculu Mod">
+    - **Tek kişilik operasyonlar**
+    - Kabin ve kokpiti tek başına yönetin
+    - Yüksek zorluk eğrisi
+  </Card>
+  <Card title="Çevrimiçi Eşli Oyun Modu">
+    - **Çok oyunculu ekip çalışması**
+    - Dağıtılmış mürettebat rolleri
+    - Ortak kaos ve fizik unsurları
+  </Card>
+  <Card title="Steam Arkadaş Entegrasyonu">
+    - **Kolay eşleştirme**
+    - Doğrudan lobi davetleri
+    - Entegre sesli/yazılı sohbet
+  </Card>
+</CardGrid>
+
+| Mod | Oyuncu Sayısı | En Uygun Olan Durum | İletişim Tarzı |
+| :--- | :--- | :--- | :--- |
+| **Tek Kişilik Uçuş** | 1 Oyuncu | Zorlu mücadeleler | Kendi kendine yetebilme, hızlı çoklu görev yönetimi |
+| **İki Kişilik Duo** | 2 Oyuncu | Odaklanmış koordinasyon | Doğrudan pilottan kabine iletişim |
+| **Tam Uçuş Mürettebatı** | 3+ Oyuncu | Maksimum kaos yönetimi | Yapılandırılmış roller ve net çağrılar |
+
+<Callout type="tip" title="İletişim Hayati Önem Taşır">
+Fizik tabanlı türbülans, yolcuları ve kargoları bir anda kabinin etrafına fırlatabildiğinden, keskin dönüşler yapmadan önce kabin ekibinizi uyarmak için sesli sohbet kullanmanız şiddetle tavsiye edilir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dear Passengers'ta Eşli Oyun Lobileri Nasıl Kurulur">
+
+Çok oyunculu bir oturum kurmak oldukça basittir. Türbülanslı gökyüzüne havalanmadan önce uçağınızı hazırlamak, mürettebatınızı toplamak ve rollerinizi koordine etmek için bu adımları izleyin.
+
+<Steps>
+  <Step num="1" title="Lobi Oluşturun veya Bir Lobiye Katılın">
+    Oyunu başlatın ve çok oyunculu menüsüne gidin. Yeni bir özel uçuş lobisi kurmayı veya Steam arkadaşlarınız tarafından barındırılan açık bir lobi aramayı seçin.
+  </Step>
+  <Step num="2" title="Yolcuları ve Kargoları Seçin">
+    Uçuş döngüsünü başlatmadan önce mevcut yolcu listelerini ve kargo siparişlerini gözden geçirin. Daha yüksek kazançlı sözleşmeler, daha zorlu yolcuları ve tehlikeli kargoları beraberinde getirir.
+  </Step>
+  <Step num="3" title="Mürettebat Rollerini Atayın">
+    Grubunuz arasında rolleri paylaştırın. En az bir oyuncunun Pilot olarak belirlendiğinden emin olurken, diğer oyuncular kabin hizmeti ve kargo koruması için hazırlık yapmalıdır.
+  </Step>
+  <Step num="4" title="Uçuşu Başlatın">
+    Lobideki tüm oyuncular hazır olduklarını onayladıktan sonra, lobi sahibi uçuşu başlatmak için maçı başlatabilir.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lobi Optimizasyon İpucu">
+İlk birkaç uçuşunuz için düşük riskli yolcu ve kargo kombinasyonlarını seçin. Bu, mürettebatınızın aşırı tehlikelerle karşılaşmadan önce temel hareket fiziklerine ve etkileşim kontrollerine alışmasını sağlar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eşli Oyun Rol Stratejisi ve Ekip Koordinasyonu">
+
+Dear Passengers'taki giderek artan havada dehşet anlarından sağ çıkmak için mürettebatınızın görevleri bölüşmesi gerekir. Amaçsızca koşturmak uçağın düşmesine, kaçan hayvanlara veya öfkeli yolculara hızla yol açacaktır.
+
+| Rol | Birincil Konum | Temel Sorumluluklar | Acil Durum Önceliği |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | Kokpit | Uçağı uçurmak, hava durumunu takip etmek, türbülansı dengelemek | Uçak kontrolü, kabini uyarma |
+| **Kabin Sorumlusu** | Yolcu Kabini | Hizmetleri koordine etmek, görevleri önceliklendirmek, pilota bilgi aktarmak | Yangın kontrolü, yapısal hasarlar |
+| **Yolcu Hizmetleri** | Yolcu Koltukları | Yiyecek ve içecek servisi yapmak, talepkar yolcuları yatıştırmak | Asi yolcuları kontrol altına alma |
+| **Kargo Görevlisi** | Kargo Bölümü | Kayan kasaları sabitlemek, tehlikeli maddeleri izlemek | Kaçan canlı kargoları yakalama |
+
+<Callout type="info" title="Rol Esnekliği">
+Belirlenmiş rollere sahip olmak operasyonu düzenli tutsa da, oyuncular esnek kalmalıdır. Kabinde bir yangın çıkarsa, en yakın mürettebat üyesi yangını söndürmek için rutin hizmeti derhal bırakmalıdır.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Çok Oyunculu Çıkış Hedefleri ve Kilometre Taşları">
+
+Bölgesel uçuşlardan yüksek riskli uluslararası rotalara doğru ilerlerken bu temel çok oyunculu dönüm noktalarını takip ederek mürettebatınızı en büyük eşli oyun mücadelelerine hazırlayın.
+
+<Checklist
+  id="multiplayer-milestones"
+  title="Mürettebat İlerleme Kontrol Listesi:"
+  items={[
+    "Sıfır yolcu şikayeti ile 2 oyuncu eşliğinde bir uçuşu tamamlayın",
+    "Kaçan bir kargo hayvanını zayiat vermeden başarıyla kontrol altına edin",
+    "Hasarlı bir motorla şiddetli bir fırtına uçuşundan sağ çıkın",
+    "Yüksek kazançlı yasa dışı bir kargo sevkiyatını hasarsız teslim edin",
+    "Tüm gelişmiş kabin servisi ekipman yükseltmelerini açın"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Dear Passengers SSS">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers çapraz platform desteği sunuyor mu?",
+    answer: "Şu anda Dear Passengers yalnızca Steam üzerinden Windows PC için onaylanmıştır, bu nedenle farklı platformlar arasında çapraz platform desteği geçerli değildir. Gelecekte konsol sürümleri duyurulursa, çapraz platform desteği ayrıntıları güncellenecektir."
+  },
+  {
+    question: "Eşli oyun oturumuna kaç oyuncu katılabilir?",
+    answer: "FLEXUS tarafından kesin oyuncu sınırı henüz netleştirilmemiş olsa da oyun, çok kişili mürettebat koordinasyonu etrafında kuruludur; hem tek oyunculu hem de çok üyeli çevrimiçi eşli oyun ekipleri için destek sunar."
+  },
+  {
+    question: "Dear Passengers oyununu tek başıma çevrimdışı oynayabilir miyim?",
+    answer: "Evet, Steam tek oyunculu desteği listelemektedir. Kokpiti ve kabini tek başınıza yönetebilirsiniz, ancak bu durum eş zamanlı acil durumları yönetmenin zorluğunu önemli ölçüde artırır."
+  },
+  {
+    question: "Yerel bölünmüş ekran (split-screen) eşli oyun seçeneği var mı?",
+    answer: "Resmi Steam sayfası şu anda çevrimiçi eşli oyun ve çevrimiçi çok oyunculu modları listeliyor ancak yerel bölünmüş ekran veya paylaşımlı ekran etiketlerini barındırmıyor."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Beta: Nihai Oynanış ve Co-op Strateji Rehberi",
+  description: "Dear Passengers'daki kaotik fizik tabanlı havayolu co-op oyununda ustalaşın. Pilot rollerini, yolcu yönetimini, kargo korumasını ve acil durum stratejilerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dear+Passengers+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers Beta**: 2026'da Windows PC'ye gelecek olan kaotik, fizik tabanlı bir havayolu co-op oyunu.
+- **Temel Mekanik**: Bir oyuncu uçağı uçururken, geri kalan mürettebat yolcuları, kargoyu ve acil durumları yönetir.
+- **Takım Stratejisi**: Görevlerin çakışmasını önlemek için Pilot, Kabin Amiri ve Kargo Sorumlusu gibi özel roller atayın.
+- **Uçuş Tehlikeleri**: Türbülans, dinamik hava durumu, motor hasarı, yangınlar ve kaçan canlı kargolar uçuşunuzu sürekli olarak bozacaktır.
+- **En İyi Seçim**: Rutin yolcu servisi yerine uçak stabilitesine ve yangın gibi acil tehlikelere öncelik verin.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Beta: Çıkış, Platformlar ve Temel Döngü">
+
+FLEXUS, 2026 yılında Steam üzerinden Windows PC için çıkması planlanan fizik tabanlı havayolu co-op oyunu Dear Passengers'ı resmi olarak duyurdu. Oyuncular, dünyanın en kaotik havayolunu işletmek için birlikte çalışmalı, yüksek kazançlı ancak riskli uçuşları uçaklarının ve mürettebatının fiziksel sınırlarıyla dengelemelidir. Henüz belirli bir çıkış tarihi veya fiyat açıklanmamış olsa da, resmi Steam sayfası istek listesine eklemek için açıldı.
+
+**Öne Çıkan Videolar:**
+- **Co-op Kaosu**: Oyuncuların pilotluk ve kabin yönetimi arasındaki görevleri nasıl paylaştığını görün.
+- **Fizik Felaketleri**: Türbülansın ve keskin dönüşlerin yolcuları ve kargoları nasıl havaya uçurduğunu izleyin.
+- **Acil Durumlar**: Dış onarımlara ve havada karşılaşılan tehlikelere karşı aktif savunmaya göz atın.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Fragmanı" />
+
+Havalanmadan önce oyuncular yolcu listesini ve kargo yükünü seçmelidir. Daha yüksek ödemeler, daha talepkar yolcuları ve tehlikeli kargoları beraberinde getirerek uçuşu bir hayatta kalma mücadelesine dönüştürür.
+
+| Özellik | Durum | Detaylar |
+|---|---|---|
+| **Çıkış Aralığı** | 2026 | PC'de planlanan çıkış |
+| **PC Platformu** | Onaylandı | Steam'de mevcut |
+| **Steam İstek Listesi** | Aktif | Oyuncular şimdi istek listesine ekleyebilir |
+| **Oyun Fiyatı** | Duyurulmadı | Fiyatlandırma detayları bekleniyor |
+| **Oyun Modları** | Onaylandı | Tek oyunculu ve Çevrimiçi Co-op |
+
+<Callout type="tip" title="İstek Listesi Avantajı">
+Yaklaşan oyun testleri, beta erişimi ve resmi lansman detayları hakkında doğrudan bildirim almak için oyunu Steam istek listenize ekleyin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Uçuş İlerlemesi: Adım Adım Uçuş Rehberi">
+
+Başarılı bir yolculuğu tamamlamak koordinasyon, hızlı refleksler ve net iletişim gerektirir. Mürettebatınızı kalkıştan inişe kadar yönlendirmek için bu adım adım ilerlemeyi kullanın.
+
+<Steps>
+  <Step num="1" title="Yolcuları ve Kargoyu Seçin">
+    Uçuş başlamadan önce mevcut işleri değerlendirin. Yüksek ödemeli riskli yolcuları ve tehlikeli kargoları, ekibinizin kaosla başa çıkma yeteneğiyle dengeleyin.
+  </Step>
+  <Step num="2" title="Mürettebat Rollerini Atayın">
+    Bir oyuncuyu Pilot olarak belirleyin ve geri kalan mürettebat üyelerini kabin görevleri, kargo izleme ve acil durum müdahalesi arasında paylaştırın.
+  </Step>
+  <Step num="3" title="Uçuş Kontrolünü Sağlayın">
+    Pilot, dinamik hava durumu, hava boşlukları ve türbülansa göre ayarlamalar yaparak uçuş yoluna odaklanmalı ve kabini yaklaşan manevralar konusunda uyarmalıdır.
+  </Step>
+  <Step num="4" title="Kabin Servisini Yönetin">
+    Yolcu memnuniyetini korumak için yiyecek ve içecek servisi yapın, ancak fiziksel tehlikeler veya acil durumlar ortaya çıktığında servisi derhal durdurun.
+  </Step>
+  <Step num="5" title="Uçuş Felaketlerini Kontrol Altına Alın">
+    Yangınlara, kaçan kargolara veya gövde hasarına hızla müdahale edin. Yangınları söndürün ve temel yolları kapatmadan önce serbest nesneleri sabitleyin.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Acil Durum Önceliği">
+Yemek servisini asla aktif bir acil durumun önüne koymayın. Kontrolsüz bir yangın veya kaçan bir hayvan, hızla uçuşun sonunu getiren bir kazaya neden olur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Rolleri ve Takım Stratejisi">
+
+Dear Passengers betasında başarılı bir uçuş, net bir iş bölümüne dayanır. Oyuncular oldukça tepkisel bir fizik motoruyla etkileşime girdiğinden, özel rollere sahip olmak birden fazla mürettebat üyesinin aynı acil durumla ilgilenmek için görev yerini terk etmesini önler.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Konum**: Kokpit
+    - **Görevler**: Uçağı uçurmak, hava durumunu yönetmek, hava boşluklarında manevra yapmak.
+    - **Strateji**: Yaklaşan keskin dönüşler veya türbülans hakkında kabin ekibini bilgilendirin.
+  </Card>
+  <Card title="Kabin Amiri">
+    - **Konum**: Yolcu Kabini
+    - **Görevler**: Kabin durumunu takip etmek, servisi koordine etmek, acil durumları önceliklendirmek.
+    - **Strateji**: Boştaki oyuncuları koridorları temizlemeye ve gevşek eşyaları sabitlemeye yönlendirin.
+  </Card>
+  <Card title="Kargo ve Muhafaza">
+    - **Konum**: Kargo Bölümü / Kabin
+    - **Görevler**: Yüksek riskli kargoları izlemek, kaçan hayvanları zapt etmek, bagajları sabitlemek.
+    - **Strateji**: Uçuşun sakin bölümlerinde dengesiz kasalar üzerinde düzenli kontroller yapın.
+  </Card>
+</CardGrid>
+
+Küçük mürettebatlar için roller birleştirilmelidir. İki oyunculu bir düzende, pilot kokpitte kalırken ikinci oyuncu tüm kabin, kargo ve yolcu görevlerini yönetir.
+
+| Mürettebat Boyutu | Pilot Rolü | Kabin Rolü | Kargo Rolü | Destek Rolü |
+|---|---|---|---|---|
+| **4 Oyuncu** | Özel | Özel | Özel | Gezici Destek |
+| **3 Oyuncu** | Özel | Servis ve Yönetim | Kargo ve Güvenlik | Ortak Destek |
+| **2 Oyuncu** | Özel | Servis ve Kargo | Servis ve Kargo | Ortak Destek |
+
+<Callout type="info" title="İletişim Anahtardır">
+Pilot, keskin manevralar yapmadan birkaç saniye önce "Türbülans geliyor!" diye seslenmelidir ki kabin ekibi servis arabalarını ve bagajları sabitleyebilsin.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Yolcu ve Kargo Risk Analizi">
+
+Her uçuş, risk ve ödülün bir hesaplamasıdır. Talepkar yolcular ve dengesiz kargolar büyük ödemeler sunar ancak uçağınızı kolayca devre dışı bırakabilecek tehlikeler yaratır.
+
+| Kategori | Risk Seviyesi | Bilinen Davranış | En İyi Müdahale |
+|---|---|---|---|
+| **Standart Yolcular** | Düşük | Temel yiyecek ve içecek beklerler | Sakin havalarda rutin servisi tamamlayın |
+| **Kurallara Uymayan Yolcular** | Yüksek | Kabini karıştırır, mürettebatı engeller | Onları hızlıca zapt edin veya izole edin |
+| **Normal Kargo** | Düşük | Sabit kasalar, kuru kalmalı | Kalkıştan önce kargo bölmelerine sabitleyin |
+| **Hayvan Kargosu** | Ekstrem | Kasalardan kaçar (örn. Timsahlar) | Kasaları sürekli izleyin; muhafazaya öncelik verin |
+| **Başıboş Bagaj** | Orta | Türbülans sırasında etrafta uçar | Koridorları temiz tutun; boş eşyaları hemen saklayın |
+
+<Callout type="danger" title="Kaçan Hayvanlar">
+Timsahlar gibi canlı kargolar kaçarsa, mürettebata saldırır ve yolcuları korkuturlar. Yaygın paniği önlemek için muhafaza işlemini derhal gerçekleştirin.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Uçuş Tehlikeleri ve Acil Durum Müdahalesi">
+
+Dear Passengers betası sırasında mürettebatınız çeşitli dinamik, fizik tabanlı tehlikelerle karşılaşacaktır. Kimin müdahale etmesi gerektiğini ve hangi eylemlerin yapılması gerektiğini bilmek uçağınızı havada tutacaktır.
+
+| Tehlike | İlk Müdahale Eden | Büyüme Riski | Doğru Eylem |
+|---|---|---|---|
+| **Dinamik Hava Durumu** | Pilot | Türbülans, kabin kaosu | Uçuş yolunu stabilize edin, keskin dönüşleri sınırlayın |
+| **Uçak İçi Yangın** | En Yakın Kabin Ekibi | Hızla yayılır, kargoyu yok eder | Hemen söndürücü kullanın, yolcuları uzaklaştırın |
+| **Motor Hasarı** | Pilot ve Tamir Ekibi | Tam kontrol kaybı, kaza | Pilot süzülmeyi sürdürür; ekip hasarı onarır |
+| **Gövde Hasarı** | Tamir Ekibi | Dekompresyon, ekibin dışarı çekilmesi | Sızıntıyı kapatın, dış onarımları gerçekleştirin |
+| **Dış Tehditler** | Savunma Nişancısı | Uçağa sürekli hasar | Silahların başına geçin, saldırganları etkisiz hale getirin |
+
+<Callout type="success" title="Fırtına Öncesi Kontrol Listesi">
+Kötü havaya girerken, fizik tabanlı yaralanmaları en aza indirmek için tüm servis arabalarının kilitli, başıboş bagajların saklanmış ve yolcuların oturmuş olduğundan emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Uçuş Hedefleri ve Kontrol Listesi">
+
+Mürettebatınızın verimliliğini takip etmek ve Dear Passengers betasında üst düzey uçuşlara hazırlanmak için bu kontrol listesini kullanın.
+
+<Checklist
+  id="flight-readiness"
+  title="Uçuş Öncesi ve Uçuş Sırası Kilometre Taşları:"
+  items={[
+    "Kalkıştan önce özel bir Pilot ve Kabin Amiri atayın",
+    "Tüm başıboş kargo kasalarını belirlenen bölmelere sabitleyin",
+    "Net bir acil durum iletişim protokolü oluşturun",
+    "Tüm kabin koridorlarını başıboş bagaj ve döküntülerden temizleyin",
+    "Uçuş sırasında kaçan bir kargo acil durumunu başarıyla kontrol altına alın",
+    "%100 yolcu hayatta kalma oranıyla yüksek riskli bir uçuşu tamamlayın"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers betası ve resmi çıkış tarihi ne zaman?",
+    answer: "Dear Passengers'ın 2026 yılında Steam üzerinden Windows PC için çıkması planlanıyor. Resmi beta ve oyun testi tarihleri geliştirici FLEXUS tarafından henüz kesinleşmedi."
+  },
+  {
+    question: "Dear Passengers hangi platformları destekleyecek?",
+    answer: "Şu anda onaylanmış tek platform Steam üzerinden Windows PC'dir. PlayStation, Xbox veya Nintendo Switch için konsol sürümleri henüz duyurulmadı."
+  },
+  {
+    question: "Dear Passengers co-op modunda kaç oyuncu oynayabilir?",
+    answer: "Oyun hem tek oyunculu hem de çevrimiçi co-op modunu destekliyor. Maksimum oyuncu sayısı henüz tam olarak detaylandırılmamış olsa da, oynanış çok rollü mürettebat koordinasyonu üzerine tasarlandı."
+  },
+  {
+    question: "Oyun için minimum sistem gereksinimleri nelerdir?",
+    answer: "Minimum gereksinimler arasında Windows 10 (64-bit), 2.5 GHz'de Intel Core i5, 8 GB RAM, NVIDIA GeForce GTX 1060 veya AMD Radeon RX 6600 XT, DirectX 12 ve 4 GB boş depolama alanı bulunmaktadır."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Users, Box, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Cabin Crew Guide: Role Strategies & Setup Tips",
+  description: "Master the chaos with our Dear Passengers cabin crew guide. Learn role assignments, passenger management, cargo safety, and emergency response tactics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Cabin+Crew+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear passengers cabin crew guide**: Success depends on balancing passenger satisfaction with aircraft safety and cargo protection.
+- **Priority System**: Always prioritize **Aircraft Safety** and **Emergency Containment** over routine food and drink service.
+- **Role Specialization**: Assign specific crew members to **Passenger Service** and **Cargo Monitoring** to prevent overlapping duties.
+- **Communication is Key**: The pilot must warn the cabin crew before **Turbulence** or sharp maneuvers to secure loose objects.
+- **Physics Management**: Secure all loose luggage and service carts immediately when the "Fasten Seatbelt" sign is effectively triggered by weather.
+</Callout>
+
+<Section icon={Plane} title="Understanding Cabin Crew Responsibilities">
+
+In the chaotic world of FLEXUS's physics-based simulator, this **dear passengers cabin crew guide** serves as your essential manual for surviving the world's most dangerous airline. Unlike traditional flight sims, your job isn't just to look professional; it is to prevent a total mid-air catastrophe while ragdoll physics and dynamic weather try to tear your aircraft apart.
+
+**Video Highlights:**
+- **Physics Chaos**: See how turbulence affects unstrapped passengers and loose cargo.
+- **Emergency Response**: Watch the crew handle engine fires and bird strikes.
+- **Role Interaction**: Observe the coordination between the cockpit and the main cabin.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Working the cabin requires a high level of multitasking. You are responsible for delivering meals, calming unruly travelers, and ensuring that high-risk cargo—like escaped crocodiles—doesn't reach the cockpit. Every decision you make during the pre-flight selection phase directly impacts the difficulty of your journey and the potential payout for the airline.
+
+<Callout type="tip" title="Pro Tip">
+Before takeoff, review your passenger manifest carefully. If you have a high number of "Hard-to-Please" passengers, assign two crew members to service duties immediately to prevent early-game frustration.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Crew Roles and Team Strategy">
+
+A successful flight in Dear Passengers requires clear division of labor. While the pilot focuses on the horizon, the cabin crew must divide their attention between the galley, the seating area, and the cargo hold. Using a specialized role system prevents "emergency paralysis" where everyone rushes to one problem while another part of the plane is ignored.
+
+<CardGrid cols={3}>
+  <Card title="Cabin Lead">
+    - **Coordination**: Sets task priorities during emergencies.
+    - **Communication**: Relays critical status updates to the pilot.
+    - **Flexibility**: Moves between roles as needed.
+  </Card>
+  <Card title="Service Specialist">
+    - **Satisfaction**: Manages food and drink distribution.
+    - **Passenger Care**: Resolves complaints before they escalate.
+    - **Efficiency**: Keeps service carts secured and stocked.
+  </Card>
+  <Card title="Cargo Warden">
+    - **Security**: Monitors high-risk or illegal cargo containers.
+    - **Containment**: Responds first to escaped animals or shifts.
+    - **Protection**: Ensures cargo value is preserved.
+  </Card>
+</CardGrid>
+
+| Role | Primary Location | Key Equipment | Impact on Payout |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | Cockpit | Flight Controls | High (Survival) |
+| **Cabin Lead** | Main Aisle | Communication Radio | Medium (Efficiency) |
+| **Service** | Galley/Seating | Service Cart | Medium (Tips) |
+| **Cargo Warden** | Cargo Hold | Containment Tools | High (Bonuses) |
+
+<Callout type="success" title="Strategy Note">
+On smaller teams (2-3 players), the Cabin Lead should double as the Cargo Warden. The Pilot should focus 100% on flight stability unless the plane is in a stable cruise.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passenger Management & Service Excellence">
+
+Passengers in Dear Passengers are not just passive NPCs; they are dynamic entities with needs, moods, and the ability to cause physical obstructions. Managing their expectations while the plane is tilting at a 45-degree angle is the core challenge of the cabin crew.
+
+| Passenger Type | Risk Level | Behavior Pattern | Response Strategy |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Low | Expects basic food/drink service. | Routine service during calm air. |
+| **Demanding** | Medium | Frequent requests/high impatience. | Prioritize their orders to avoid noise. |
+| **Unruly** | High | Disrupts cabin/interferes with crew. | Isolate or restrain if safety is at risk. |
+| **VIP** | Medium | Requires high-quality service. | Assign dedicated crew for max payout. |
+
+To maintain a high rating, follow this standard service loop:
+
+<Steps>
+  <Step num="1" title="Galley Preparation">
+    Prepare food trays and drink containers in the galley. Ensure all items are placed on the service cart and the cart is locked to the floor.
+  </Step>
+  <Step num="2" title="Service Delivery">
+    Move the cart slowly through the aisle. Physics can cause the cart to crush passengers or crew if the pilot makes sudden turns.
+  </Step>
+  <Step num="3" title="Conflict Resolution">
+    Address any passengers with "!" icons above their heads. Neglecting them increases cabin stress levels and decreases final rewards.
+  </Step>
+  <Step num="4" title="Waste Management">
+    Collect empty trays and trash. Loose items in the cabin become dangerous projectiles during turbulence or air pockets.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Never leave a service cart unlocked in the aisle. A single air pocket can turn a cart into a lethal weapon that damages the aircraft hull or knocks out crew members.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cargo Protection and Hazard Mitigation">
+
+Cargo is often the highest-paying part of a flight, but it also carries the most risk. From heavy machinery that shifts during turns to live animals that want to escape, the cargo hold is a constant source of emergencies.
+
+<Checklist
+  id="cargo-safety"
+  title="Cargo Safety Checklist:"
+  items={[
+    "Verify all crates are strapped to the floor deck",
+    "Check animal containment seals after every turbulence event",
+    "Remove loose luggage from the walkways immediately",
+    "Identify illegal or dangerous cargo icons before takeoff",
+    "Keep a fire extinguisher near the cargo bay entrance"
+  ]}
+/>
+
+| Hazard Type | Trigger | Cabin Crew Action | Pilot Action |
+| :--- | :--- | :--- | :--- |
+| **Escaped Animal** | Damaged Crate | Contain and redirect to hold. | Maintain level flight. |
+| **Shifting Load** | Sharp Turn | Re-secure straps and anchors. | Minimize bank angle. |
+| **Onboard Fire** | Engine/Cargo Damage | Use extinguisher immediately. | Descend to safer altitude. |
+| **Hull Breach** | External Attack | Seal area and repair damage. | Perform evasive maneuvers. |
+
+<Callout type="info" title="Emergency Tip">
+If a crocodile or other live cargo escapes, prioritize clearing passengers from the aisle. An injured passenger is a permanent penalty to your flight score, whereas cargo can often be re-contained with minimal loss.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Survival During Mid-Air Disasters">
+
+When things go wrong in Dear Passengers, they go wrong quickly. A bird strike can lead to an engine fire, which causes a loss of altitude, which then triggers cabin panic. The cabin crew must remain calm and follow established emergency protocols to ensure the flight reaches its destination.
+
+**Emergency Priority List:**
+1. **Aircraft Integrity**: Repair hull breaches and extinguish fires.
+2. **Crew Safety**: Ensure at least one person is conscious and mobile.
+3. **Passenger Protection**: Keep passengers in their seats during turbulence.
+4. **Cargo Preservation**: Secure high-value items from sliding out of breaches.
+5. **Routine Service**: Completely suspend food/drink service until the crisis is over.
+
+| Emergency | First Responder | Success Criteria |
+| :--- | :--- | :--- |
+| **Engine Failure** | Pilot | Successful emergency landing/restart. |
+| **Bird Strike** | Cabin Crew | Hull repaired/fire extinguished. |
+| **Severe Turbulence** | Entire Team | All objects secured/no crew injuries. |
+| **Unruly Riot** | Cabin Lead | Order restored/passengers seated. |
+
+<Callout type="tip" title="Expert Advice">
+Use the internal communication system to tell the pilot when the cabin is "Clean" (all objects secured). Only then should the pilot attempt high-G maneuvers to avoid storms or external threats.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="System Requirements & FAQ">
+
+Before you begin your journey, ensure your PC can handle the physics-heavy simulation of the 2026 release.
+
+| Component | Minimum Requirement | Recommended (Estimated) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 XT |
+| **DirectX** | Version 12 | Version 12 |
+| **Storage** | 4 GB available space | 10 GB (SSD recommended) |
+
+<Callout type="info" title="Language Support">
+At launch, the game supports 6 interface languages: English, Arabic, Simplified Chinese, Turkish, Ukrainian, and Japanese.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How many players can join the cabin crew in Dear Passengers?",
+    answer: "The game supports online co-op. While the exact player limit for a single flight hasn't been capped, the gameplay is optimized for 2-4 players to manage the cockpit and cabin effectively."
+  },
+  {
+    question: "Can I play the game solo?",
+    answer: "Yes, Dear Passengers includes a single-player mode where you must balance piloting and cabin duties, though the difficulty increases significantly as you manage multiple roles alone."
+  },
+  {
+    question: "What is the most important part of the dear passengers cabin crew guide?",
+    answer: "The most critical takeaway is the 'Safety Over Service' rule. Never attempt to serve food during turbulence or emergencies, as loose carts and trays will cause more damage than unhappy passengers."
+  },
+  {
+    question: "What happens if the cargo escapes?",
+    answer: "Escaped cargo, like crocodiles or loose luggage, can injure passengers and crew. You must use containment tools to secure the items or animals before they reach the cockpit or cause a hull breach."
+  }
+]} />
+
+</Section>

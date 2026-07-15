@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Plane, Users, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Konsol: Platformlar ve Yayın Durumu (2026)",
+  description: "2026 havayolu kooperatif oyunu için Dear Passengers konsol sürümü, PC kullanılabilirliği, oynanış rolleri ve sistem gereksinimleri hakkındaki en son haberleri keşfedin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dear+Passengers+Console+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers Konsol Durumu**: Şu an için 2026'da **Windows PC (Steam)** için onaylandı; konsol sürümleri henüz duyurulmadı.
+- **Temel Oynanış**: Oyuncuların uçuş sırasında bir havayolunu yönettiği kaotik, fizik tabanlı bir kooperatif deneyimi.
+- **Ekip Rolleri**: Oyuncular görevleri **Pilot**, **Kabin Ekibi** ve **Kargo Yönetimi** arasında paylaştırmalıdır.
+- **Başlıca Tehlikeler**: Dinamik hava durumu, motor arızaları, kuş çarpmaları ve hatta kaçan timsahlar bekleyin.
+- **PC Gereksinimleri**: Stabil performans için en az 8 GB RAM ve bir GTX 1060 veya RX 6600 XT gerektirir.
+</Callout>
+
+<Section icon={Plane} title="Dear Passengers Konsol ve Platform Kullanılabilirliği">
+
+FLEXUS'un yaklaşmakta olan havayolu yönetimi felaket simülatörü için heyecan artarken, birçok oyuncu **dear passengers konsol** sürümünü soruyor. Şu an itibarıyla geliştirici, oyunun **2026 yılında Steam üzerinden Windows PC** için çıkacağını resmi olarak onayladı. Oyunun kaotik yapısı PlayStation 5 veya Xbox Series X|S'te salon kooperatifi için mükemmel bir uyum gibi görünse de, şu an için bir konsol portuna ilişkin resmi bir açıklama yapılmadı.
+
+**Video Öne Çıkanlar:**
+- Kokpit ve kabin etkileşimini gösteren resmi oynanış tanıtımı.
+- Türbülans ve yerinden çıkan kargolar gibi fizik tabanlı felaketlerin gösterimi.
+- Yolcu hizmeti mekanikleri ve acil onarımların önizlemesi.
+- PC için 2026 çıkış penceresinin onayı.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Resmi Fragman" />
+
+Elde taşınan cihazlarda oynamak isteyenler için, oyunun 4 GB depolama gereksinimi ve orta düzey GPU ihtiyaçları göz önüne alındığında Steam Deck yüksek bir olasılık olmaya devam ediyor, ancak resmi bir "Onaylandı" derecelendirmesi muhtemelen lansmana daha yakın bir zamanda görünecektir.
+
+| Platform | Durum | Notlar |
+| :--- | :--- | :--- |
+| **Windows PC (Steam)** | **Onaylandı** | 2026 sürümü planlanıyor |
+| **PlayStation 5** | Duyurulmadı | FLEXUS'tan henüz resmi bir açıklama yok |
+| **Xbox Series X|S** | Duyurulmadı | FLEXUS'tan henüz resmi bir açıklama yok |
+| **Nintendo Switch** | Duyurulmadı | Muhtemelen lansman sonrası başarıya bağlı |
+| **Steam Deck** | Derecelendirilmedi | Lansmanda oynanabilir olması bekleniyor |
+
+<Callout type="warning" title="Platform Bildirimi">
+**Dear passengers konsol** sürümü için ön sipariş sattığını iddia eden üçüncü taraf sitelere karşı dikkatli olun. Meşru platform güncellemeleri için her zaman resmi Steam sayfasına veya FLEXUS Games'in resmi kanallarına başvurun.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Kooperatif Rolleri ve Ekip Stratejisi">
+
+Bu oyunda başarı tamamen ekibinizin ne kadar iyi iletişim kurduğuna bağlıdır. Geleneksel simülatörlerin aksine, bu, fiziğin basit bir içecek servisini ölümcül bir olaya dönüştürebildiği bir "arkadaşlık krizi" takıntısıdır. Oyun, oyuncuların uçağı gökyüzünde tutma ve yolcuları mutlu etme sorumluluğunu paylaşmalarına olanak tanıyan çevrimiçi kooperatif modunu destekler.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Ana Odak**: Uçuş kontrolü ve navigasyon.
+    - **Temel Görev**: Türbülans ve hava boşlukları arasında manevra yapmak.
+    - **Risk**: Kuş çarpmaları veya motor arızası sırasında kontrolü kaybetmek.
+  </Card>
+  <Card title="Kabin Ekibi">
+    - **Ana Odak**: Yolcu memnuniyeti ve güvenliği.
+    - **Temel Görev**: Yemek/içecek servisi ve kurallara uymayan yolcuları yönetmek.
+    - **Risk**: Keskin dönüşler sırasında yerinden çıkan bagajların çarpması.
+  </Card>
+  <Card title="Kargo Uzmanı">
+    - **Ana Odak**: Yüksek değerli ve tehlikeli yüklerin emniyete alınması.
+    - **Temel Görev**: Kasa bütünlüğünü izlemek ve kaçanları zapt etmek.
+    - **Risk**: Uçuş sırasında timsahlar gibi kaçan hayvanlarla yüzleşmek.
+  </Card>
+</CardGrid>
+
+İki oyunculu bir kurulumda, bir oyuncu kokpiti idare ederken diğeri tüm kabini yönetmelidir. Bu, kabin oyuncusunun servis, kargo ve onarımları aynı anda idare etmesi gerektiğinden zorluğu önemli ölçüde artırır.
+
+| Ekip Boyutu | Önerilen Dağılım | Zorluk Seviyesi |
+| :--- | :--- | :--- |
+| **1 Oyuncu** | Pilot + Otomatik/Basit Kabin | Zor |
+| **2 Oyuncu** | 1 Pilot, 1 Çok Rollü Kabin | Orta |
+| **4 Oyuncu** | 1 Pilot, 2 Servis, 1 Kargo/Onarım | Optimal |
+
+<Callout type="tip" title="İletişim Anahtardır">
+Pilot, sesli sohbet üzerinden her zaman "Çarpmaya hazırlanın" veya "İleride türbülans var" anonsu yapmalıdır. Bu, kabin ekibine fizik motoru devreye girmeden önce kendilerini sabitlemeleri veya sabit nesnelere tutunmaları için zaman kazandırır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Uçuş Hazırlığı ve İlerleme">
+
+Her uçuştan önce ekip, kazancı ve karşılaşacakları kaos seviyesini belirleyen kritik kararlar vermelidir. Bu risk ve ödül sistemi, oyunun ilerleyişinin kalbidir.
+
+<Steps>
+  <Step num="1" title="Teçhizatınızı Seçin">
+    Standart yolcular, VIP'ler (daha talepkar olanlar) veya yüksek riskli kargolar arasında seçim yapın. Daha yüksek ödemeler her zaman artan tehlikelerle birlikte gelir.
+  </Step>
+  <Step num="2" title="Ekip İstasyonlarını Atayın">
+    Kimin kokpitte kalacağını ve kimin kabini yöneteceğini belirleyin. Kalkıştan önce herkesin birincil sorumluluğunu bildiğinden emin olun.
+  </Step>
+  <Step num="3" title="Uçuş Öncesi Denetim">
+    Kargo bölümünü kontrol edin. Tüm kasaların kilitli olduğundan ve servis arabasının yiyecek ve içeceklerle tam dolu olduğundan emin olun.
+  </Step>
+  <Step num="4" title="Rotada Gezinme">
+    Pilot uçuş yolunu takip ederken, kabin ekibi gerçek zamanlı talepleri karşılar. Radarda görünmeyen dinamik hava değişikliklerine dikkat edin.
+  </Step>
+</Steps>
+
+| Kargo Türü | Ödül | Risk Faktörü | Yaygın Sorun |
+| :--- | :--- | :--- | :--- |
+| **Standart Bagaj** | Düşük | Düşük | Türbülans sırasında kayar |
+| **Canlı Hayvanlar** | Yüksek | Ekstrem | Muhafaza ihlali (örn. Timsahlar) |
+| **Yasadışı Yük** | Çok Yüksek | Yüksek | Sürekli izleme gerektirir |
+| **Hassas Teknoloji** | Orta | Orta | Pilot çok agresifse kırılır |
+
+<Callout type="success" title="Kâr Maksimizasyonu">
+Yeni başlayanlar için, yüksek riskli bir hayvan yerine tam dolu bir standart yolcu yükü almak daha iyidir. Servis arabasının fiziğinde ustalaşmak, erken safhalarda büyük ödemelerin peşinden koşmaktan daha önemlidir.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Uçuş Sırasındaki Acil Durumları Yönetme">
+
+Bu oyunda felaket bir olasılık değil, bir kesinliktir. Fizik motoru, her uçuşun eninde sonunda acil müdahale gerektiren bir krizle karşılaşmasını sağlar. İster harici bir tehdit ister dahili bir arıza olsun, ekip saniyeler içinde tepki vermelidir.
+
+**Yaygın Uçuş Tehlikeleri:**
+- **Kuş Çarpmaları**: Anında motor hasarına ve gövde yarılmalarına neden olur.
+- **Motor Yangını**: Bir kabin ekibi üyesinin alevleri söndürmek için görev yerinden ayrılmasını gerektirir.
+- **Dinamik Türbülans**: Sabitlenmemiş her şeyi —oyuncular dahil— kabin boyunca fırlatır.
+- **Kurallara Uymayan Yolcular**: Bazı yolcular saldırganlaşabilir veya acil durumlarda yerlerinde oturmayı reddedebilir.
+
+| Tehlike | İlk Müdahale Eden | Öncelik | Gereken Eylem |
+| :--- | :--- | :--- | :--- |
+| **Gövde Yarılması** | Onarım Ekibi | 1 (Kritik) | Sızıntıyı kapat/Dış yüzeyi onar |
+| **Kaçan Hayvan** | Kargo/Güvenlik | 2 (Yüksek) | Zapt et ve kasayı tekrar kilitle |
+| **Yolcu Çatışması** | Servis Lideri | 3 (Orta) | Gerginliği azalt veya etkisiz hale getir |
+| **Servis Dökülmesi** | Herhangi Bir Kabin Ekibi | 4 (Düşük) | Takılmaları önlemek için koridorları temizle |
+
+<Callout type="warning" title="Acil Durum Protokolü">
+Bir gövde yarılması meydana gelirse, Pilot derhal daha düşük bir irtifaya alçalmalıdır. Bunu yapmamak kabin basıncının düşmesine neden olarak ekibin hareket etmesini veya onarım yapmasını neredeyse imkansız hale getirir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Yolcu Yönetimi ve Memnuniyeti">
+
+Uçuştan sağ çıkmak asıl hedef olsa da, havayolunuzun itibarı yolcu memnuniyetine bağlıdır. Mutlu yolcular bonuslar sağlarken, mutsuz olanlar kazancın azalmasına ve hatta uçuş ortasında isyanlara yol açabilir.
+
+<Checklist
+  id="passenger-satisfaction"
+  title="Kabin Servis Kontrol Listesi:"
+  items={[
+    "Yiyecek ve içecekleri talep edilen süre içinde teslim edin",
+    "Koridorları sahipsiz bagaj ve döküntülerden temizleyin",
+    "Sabit bir uçuş rotası sürdürün (keskin dönüşleri sınırlayın)",
+    "Yolcu şikayetlerini büyümeden ele alın",
+    "Türbülans sırasında tüm yolcuların kemerlerinin bağlı olduğundan emin olun"
+  ]}
+/>
+
+"Memnun etmesi zor" yolcuları "Yasadışı Kargo" ile karıştırdığınızda zorluk artar. Ekip, memnuniyet kaybını tüm kargo ödemesinin potansiyel kaybına karşı dengeleyerek, kayan bir kasayı emniyete almak için talepkar bir yolcuyu görmezden gelip gelmeyeceğine karar vermelidir.
+
+<Callout type="info" title="Uzman Stratejisi">
+Bir kişiyi özel olarak "Koridor Yönetimi"ne atayın. Kokpit ile kargo bölümü arasındaki yolu çöplerden ve bagajlardan temiz tutmak, bir yangın veya hayvan kaçışı sırasında değerli saniyeler kazandırabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Sistem Gereksinimleri ve Teknik Özellikler">
+
+Oyun 2026'da çıktığında sorunsuz bir deneyim yaşamak için PC oyuncuları donanımlarının minimum özelliklere uygun olduğundan emin olmalıdır. Oyunun yoğun fizik yapısı göz önüne alındığında, stabil bir CPU en az GPU kadar önemlidir.
+
+| Bileşen | Minimum Gereksinim | Önerilen (Tahmini) |
+| :--- | :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Bellek** | 8 GB RAM | 16 GB RAM |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 XT |
+| **DirectX** | Sürüm 12 | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan | SSD Önerilir |
+
+Oyun şu anda İngilizce, Arapça, Basitleştirilmiş Çince, Türkçe, Ukraynaca ve Japonca dahil olmak üzere altı arayüz dilini desteklemektedir. Bu geniş destek, FLEXUS'un ilk günden itibaren küresel bir topluluğu hedeflediğini göstermektedir.
+
+<Callout type="tip" title="Performans İpucu">
+Yoğun türbülans sırasında takılmalar yaşıyorsanız, seçenekler menüsünden "Fizik Etkileşimi" ayarını düşürmeyi deneyin. Bu, kabin içinde birden fazla nesne uçuşurken kare hızını stabilize etmeye yardımcı olabilir.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Dear Passengers konsol çıkış tarihi belli mi?",
+    answer: "2026 itibarıyla konsol sürümü için resmi bir çıkış tarihi yoktur. Oyun şu an için sadece Steam üzerinden Windows PC için onaylanmıştır."
+  },
+  {
+    question: "Dear Passengers'ı tek başıma oynayabilir miyim?",
+    answer: "Evet, oyun tek oyunculu modu desteklemektedir, ancak öncelikle arkadaşlarla kaotik bir kooperatif deneyimi için tasarlanmıştır."
+  },
+  {
+    question: "Bir oturuma kaç oyuncu katılabilir?",
+    answer: "Nihai oyuncu sayısı dengelenmeye devam etse de, oynanış bir uçuş ekibi olarak birlikte çalışan 2 ila 4 oyuncu için optimize edilmiştir."
+  },
+  {
+    question: "Oyun çapraz platform desteği sunacak mı?",
+    answer: "2026 için yalnızca PC sürümü onaylandığından, çapraz platform özellikleri duyurulmadı. Daha sonra bir konsol sürümü yayınlanırsa, çapraz platform desteği değerlendirilebilir."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Yerel Kooperatif: 2026 Çok Oyunculu ve Takım Stratejisi",
+  description: "2026 fizik tabanlı havayolu simülatörü için dear passengers yerel kooperatif özellikleri, çevrimiçi çok oyunculu rolleri ve takım stratejileri hakkında bilgi edinin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Local+Co-op+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear passengers yerel kooperatif**: 2026 çıkış dönemi için Steam'de şu an için **Çevrimiçi Kooperatif** (Online Co-op) olarak onaylandı.
+- **Takım Rolleri**: Oyuncular hayatta kalabilmek için görevleri **Pilot**, **Kabin Memuru** ve **Kargo Yönetimi** arasında paylaştırmalıdır.
+- **Fizik Kaosu**: Başarı; **ragdoll fizikleri**, türbülans ve kaçan kargoların gerçek zamanlı olarak yönetilmesine bağlıdır.
+- **Kritik İpucu**: Motor yangınları ve asi yolcular gibi **eş zamanlı acil durumları** yönetmenin tek yolu iletişimdir.
+- **Platform**: Oyun, desteklenen 6 arayüz dili ile **Windows PC (Steam)** üzerinde çıkış yapıyor.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Yerel Kooperatif ve Çok Oyunculu Moda Genel Bakış">
+
+Kaotik fizik tabanlı simülatörlerin hayranları için **dear passengers yerel kooperatif** yapısını anlamak hayati önem taşır. FLEXUS tarafından geliştirilen bu yapım, sizi ve arkadaşlarınızı batmakta olan bir havayolunun yüksek riskli ortamına bırakıyor. Resmi Steam listesi **Çevrimiçi Kooperatif** ve tek oyunculu modlara odaklansa da topluluk, yerel bir koltukta kooperatif deneyimini simüle etmek için genellikle Steam Remote Play Together gibi araçları kullanır. 2026 lansmanına yaklaşırken, uçağı havada tutmak için takım tabanlı koordinasyon ana odak noktası olmaya devam ediyor.
+
+**Öne Çıkan Video Detayları:**
+- **Fizik Güdümlü Oynanış**: Yolcuların ve kargoların sert dönüşlere ve türbülansa nasıl tepki verdiğini görün.
+- **Mürettebat Rolleri**: Kokpit ile hizmet kabini arasındaki etkileşimi izleyin.
+- **Acil Durum Senaryoları**: Yangınlar, kuş çarpmaları ve kaçan hayvanlara genel bakış.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Trailer" />
+
+Çok oyunculu deneyim bilerek bunaltıcı olacak şekilde tasarlanmıştır. Hassasiyetin anahtar olduğu geleneksel simülatörlerin aksine, bu oyun "en kötü senaryo" üzerinden beslenir. İster tam bir ekiple ister iki kişi oynayın, oyun zorluğunu kalkıştan önce seçtiğiniz yolculara ve kargolara göre ölçeklendirir.
+
+| Özellik | Durum (2026) | Detaylar |
+| :--- | :--- | :--- |
+| **Çevrimiçi Kooperatif** | Onaylandı | Steam ağı üzerinden 4 oyuncuya kadar oynayın |
+| **Yerel Kooperatif** | Remote Play | Yerel tarzda oturumlar için Steam Remote Play kullanın |
+| **Tek Oyunculu** | Onaylandı | Yapay zeka veya tekli görevlendirme ile tüm uçağı yönetin |
+| **Çapraz Platform** | Duyurulmadı | PC şu anda onaylanan tek platformdur |
+| **Oyuncu Sayısı** | 1-4 Oyuncu | Zorluk, mürettebat boyutuna ve kargoya göre ölçeklenir |
+
+<Callout type="tip" title="Çok Oyunculu İpucu">
+Eğer bir **dear passengers yerel kooperatif** hissi hedefliyorsanız, fizik motoru kargoların "ışınlanmasını" ve yolcuların takılmasını önlemek için düşük gecikme süresi gerektirdiğinden tüm oyuncuların istikrarlı bir bağlantıya sahip olduğundan emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mürettebat Rolleri ve Takım Görevleri">
+
+**Dear passengers yerel kooperatif** oturumlarında başarı, net bir iş bölümü gerektirir. Herkes aynı anda bir yangını söndürmeye çalışırsa, uçak muhtemelen durma noktasına gelir veya bir yolcu acil çıkış kapısından kaçar. Uçuş başlamadan önce belirli roller atamak, uçağın her bölümünün izlenmesini sağlar.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Konum**: Kokpit
+    - **Görev**: Uçağı kontrol eder, hava durumunu izler ve türbülansı yönetir.
+    - **Öncelik**: Yaralanmaları önlemek için sert manevralar yapmadan önce kabini uyarmalıdır.
+  </Card>
+  <Card title="Kabin Şefi">
+    - **Konum**: Ana Kabin
+    - **Görev**: Yolcu memnuniyetini yönetir ve yiyecek/içecek servisini koordine eder.
+    - **Öncelik**: Pilot ile yer ekibi arasındaki birincil iletişimci olarak hareket eder.
+  </Card>
+  <Card title="Kargo Uzmanı">
+    - **Konum**: Kargo Bölümü
+    - **Görev**: Gevşek bagajları sabitler ve hayvanlar gibi yüksek riskli öğeleri izler.
+    - **Öncelik**: Sızma veya değişen ağırlıklara anında müdahale eder.
+  </Card>
+</CardGrid>
+
+Daha küçük takımlar için roller birleştirilmelidir. İki oyunculu bir düzende, bir oyuncu uçuşu yönetirken diğeri tüm kabini idare eder. Kabin oyuncusu aç bir yolcuya hizmet etmek ile kaçan bir timsahı yakalamak arasında seçim yapmak zorunda kalacağından, bu durum riski önemli ölçüde artırır.
+
+| Rol | İletişim Önceliği | En İyi Yetenek Seti |
+| :--- | :--- | :--- |
+| **Pilot** | Yüksek (Uyarı çağrıları) | Sabit eller, baskı altında sakinlik |
+| **Hizmet** | Orta (Durum güncellemeleri) | Hızlı hareket, çoklu görev |
+| **Kargo** | Yüksek (Sadece acil durum) | Mekansal farkındalık, hızlı tepkiler |
+| **Destek** | Düşük (Diğerlerine yardım) | Esneklik, genel bilgi birikimi |
+
+<Callout type="warning" title="İletişim Kopukluğu">
+Kooperatif modda uçağın düşmesinin en yaygın nedeni, pilotun türbülansı duyurmamasıdır. Sabitlenmemiş mürettebat üyeleri kabin boyunca savrulacak, bu da zaman kaybına ve olası hasara yol açacaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kooperatif Uçuşlar İçin Kurulum Rehberi">
+
+**Dear passengers yerel kooperatif** modunda bir oturum başlatmak belirli bir ilerlemeyi takip eder. Sadece kokpite atlamakla kalmaz; rotanızı planlamalı ve yükünüzü seçmelisiniz. Ödeme ne kadar yüksek olursa, uçuş o kadar kaotik olacaktır.
+
+<Steps>
+  <Step num="1" title="Lobi Oluşturma">
+    Steam arayüzü üzerinden bir oturum barındırın. Arkadaşlarınızı davet edin ve herkesin fizik tabanlı etkileşimler için tercih ettiği giriş cihazını yapılandırdığından emin olun.
+  </Step>
+  <Step num="2" title="Sözleşme Seçimi">
+    Mevcut uçuş sözleşmelerini inceleyin. Her sözleşme yolcu sayısını, kargo türünü ve beklenen hava koşullarını listeler. İlk birkaç uçuşunuz için "Standart" zorlukla başlayın.
+  </Step>
+  <Step num="3" title="Rol Atama">
+    'Başlat' düğmesine tıklamadan önce pilotun kim olacağına karar verin. Bu en kritik roldür. Kargo uzmanının, nakliye kasalarının fiziğini anlayan biri olduğundan emin olun.
+  </Step>
+  <Step num="4" title="Uçuş Öncesi Kontrol">
+    Kabinde yürüyün. Yangın söndürücülerin nerede olduğunu kontrol edin ve yüksek riskli kargo konteynerlerini belirleyin. Işıklar sönmeden önce yerleşimi bilmek çok önemlidir.
+  </Step>
+  <Step num="5" title="Kalkış ve Stabilizasyon">
+    Pilot tırmanışa geçtiğinde, kabin ekibi hemen gevşek nesneleri sabitlemeye başlamalıdır. Türbülans genellikle erken vurur ve aşağıya sabitlenmemiş her şey bir fırlatıcıya dönüşebilir.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strateji Başarısı">
+Kalkıştan önce "Acil Durum İstasyonlarını" planlamak için 60 saniye harcayan takımların, kuş çarpmalarından ve motor arızalarından sağ çıkma başarı oranı %40 daha yüksektir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Uçuş Sırasındaki Tehlikeleri Takım Olarak Yönetmek">
+
+**Dear passengers yerel kooperatif** deneyiminin özü felaketleri yönetmektir. Oyun, dökülen bir içecek gibi küçük bir sorunun, doğru şekilde müdahale edilmezse gövde yırtılmasına kadar dönüşebileceği dinamik bir tehlike sistemi kullanır.
+
+| Tehlike | Tetikleyici | Takım Tepkisi |
+| :--- | :--- | :--- |
+| **Türbülans** | Hava durumu / Pilot hatası | Pilot uçağı düzleştirir; Ekip tutunma barlarına veya koltuklara tutunur |
+| **Motor Yangını** | Kuş çarpması / Aşırı ısınma | Pilot irtifayı korur; Ekip söndürücüleri kullanır |
+| **Kaçan Kargo** | Fizik / Hasar | Kargo sorumlusu kontrol altına alır; Destek yolcuları uzaklaştırır |
+| **Asi Yolcu** | Düşük memnuniyet | Hizmet ekibi kelepçe veya dikkat dağıtıcı şeyler kullanır |
+| **Gövde Yırtılması** | Dış saldırı | Bir oyuncu onarır; Diğerleri kabin basıncını korur |
+
+Bu tehlikeleri yönetmek "Önceliklendirme" gerektirir. Uçuşu en çok neyin sonlandırabileceğine karar vermelisiniz. Motordaki bir yangın, kızgın bir yolcudan daha tehlikelidir. Kargo bölümünde serbest kalmış bir timsah, dökülen bir kahveden daha tehlikelidir.
+
+<Checklist
+  id="flight-safety"
+  title="Uçuş Öncesi Kooperatif Kontrol Listesi:"
+  items={[
+    "Tüm mürettebat üyelerinin belirlenmiş bir rolü olduğunu doğrulayın",
+    "Tüm yangın söndürücülerin ve onarım araçlarının yerini tespit edin",
+    "Yüksek Riskli kargoları belirleyin (örn. canlı hayvanlar)",
+    "Pilot-Kabin iletişim kanalının açık olduğunu onaylayın",
+    "Kalkıştan önce tüm gevşek servis arabalarını sabitleyin"
+  ]}
+/>
+
+<Callout type="info" title="Fizik Notu">
+Kabindeki her şey bir fizik nesnesidir. Pilot sola çok sert dönüş yaparsa, tüm yemek tepsileri ve yolcular uçağın sol tarafına kayarak potansiyel olarak ağırlık merkezini kaydırabilir ve uçağın uçurulmasını zorlaştırabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Yolcu ve Kargo Risk Yönetimi">
+
+**Dear passengers yerel kooperatif** modunda geliriniz aldığınız risklere göre belirlenir. "Standart" yolcuları seçmek istikrarlı ancak düşük bir gelir sağlar. "Yasadışı Kargo" veya "Yüksek Riskli Hayvanlar" seçmek büyük ödemeler sunar ancak toplam kayıp şansını önemli ölçüde artırır.
+
+| Kategori | Risk Seviyesi | Ödeme | Ana Zorluk |
+| :--- | :--- | :--- | :--- |
+| **Standart Yolcular** | Düşük | Düşük | Rutin servis, can sıkıntısı |
+| **VIP Yolcular** | Orta | Yüksek | Yüksek talepler, özel ihtiyaçlar |
+| **Asi Gruplar** | Yüksek | Çok Yüksek | Sık kavgalar, kabin hasarı |
+| **Temel Yük** | Düşük | Düşük | Ağırlık yönetimi |
+| **Canlı Hayvanlar** | Aşırı | Çok Büyük | Sızmalar, yaralanmalar |
+| **Yasadışı Mallar** | Yüksek | Yüksek | Dış tehditler, yüksek ağırlık |
+
+Tam 4 oyunculu bir takımla oynarken, "Karışık Yüksek Riskli" uçuşları üstlenebilirsiniz. Daha az oyuncuyla, bir yandan sürüngenle güreşirken diğer yandan bir isyanı yönetecek insan gücünüz olmayacağından, yüksek değerli kargo ve düşük riskli yolculara sadık kalmanız önerilir.
+
+<Callout type="tip" title="Profesyonel Strateji">
+"Hayvan Kargo" alırsanız, bir oyuncunun uçuş boyunca kargo bölümünde durmasını sağlayın. Bir kafesi kırılmadan önce yakalamak, hayvan kaçtıktan sonra yakalamaktan çok daha kolaydır.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sistem Gereksinimleri ve SSS">
+
+**Dear passengers yerel kooperatif** moduna dalmadan önce, bilgisayarınızın 2026 teknik standartlarını karşıladığından emin olun. Oyun, çok oyunculu oturumlar sırasında eski işlemcileri zorlayabilecek fizik hesaplamalarına büyük ölçüde dayanır.
+
+| Bileşen | Minimum Gereksinim (2026) |
+| :--- | :--- |
+| **İşletim Sistemi** | Windows 10/11 (64-bit) |
+| **İşlemci** | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Bellek** | 8 GB RAM |
+| **Ekran Kartı** | NVIDIA GTX 1060 / AMD RX 580 |
+| **DirectX** | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan |
+
+<Callout type="warning" title="Performans Uyarısı">
+4 oyunculu kooperatif modda, sunucunun işlemcisi zayıfsa fizik gecikmesi yaşanabilir. En güçlü işlemciye sahip oyuncunun oturum sahibi olmasını öneririz.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Dear Passengers yerel bölünmüş ekran (split-screen) kooperatif modunu destekliyor mu?",
+    answer: "2026 çıkış dönemi itibarıyla oyun resmi olarak Çevrimiçi Kooperatif modunu desteklemektedir. Ancak oyuncular, arkadaşlarıyla yerel bir kurulumdaymış gibi oynamak için Steam Remote Play Together özelliğini kullanabilirler."
+  },
+  {
+    question: "Bir dear passengers yerel kooperatif oturumuna kaç oyuncu katılabilir?",
+    answer: "Oyun 1 ila 4 oyuncu için tasarlanmıştır. Zorluk ve görev yoğunluğu, mürettebatta kaç kişinin olduğuna bağlı olarak ölçeklenir."
+  },
+  {
+    question: "Pilot, kabine yardım etmek için kokpitten ayrılabilir mi?",
+    answer: "Teknik olarak evet, ancak bu son derece tehlikelidir. Pilot olmadan uçak sürüklenecek, irtifa kaybedecek veya hava sistemlerine çarpacaktır. Sadece mutlak acil durumlarda önerilir."
+  },
+  {
+    question: "Uçuş sırasında bir yolcu ölürse ne olur?",
+    answer: "Nihai ödemeniz önemli ölçüde düşecek ve bazı sözleşme hedeflerinde başarısız olabilirsiniz. Yolcuları hayatta tutmak, kargoyu teslim etmekle birlikte birincil hedeftir."
+  }
+]} />
+
+</Section>

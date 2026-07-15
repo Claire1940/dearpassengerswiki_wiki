@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "dear passengers oynanışı: Eşli Uçuşta Hayatta Kalma Rehberi",
+  description: "Dear Passengers'ın kaotik mekaniklerinde ustalaşın. Başarılı eşli oyunlar için uçuş kontrollerini, kargo yönetimini ve savunma stratejilerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dear+Passengers+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **dear passengers oynanışında** ustalaşmak; koordinasyon, hızlı refleksler ve havada tuhaf kargoları yönetmeyi gerektirir.
+- Diğerleri tehditleri yönetirken bir oyuncuyu kokpite atayarak **uçuş stabilitesini koruyun**.
+- Katastrofik gövde hasarını önlemek için timsahlar ve patlayıcılar gibi **istikrarsız kargoları** derhal emniyete alın.
+- Düşman önleme uçaklarına ve uçan tehlikelere karşı uçaktaki silahları kullanarak **uçağı savunun**.
+- Uçağın yapısal bütünlüğü kritik seviyelerin altına düştüğünde paraşüt gibi **acil durum ekipmanlarını kullanın**.
+</Callout>
+
+<Section icon={Map} title="dear passengers oynanışı: Eşli Kaos ve Uçuş Mekanikleri">
+
+Yakında çıkacak olan eşli (co-op) bağımsız yapım, çok oyunculu hayatta kalma oyunlarına taze bir bakış açısı getiriyor. Bu incelemede, oyuncuların absürt tehlikelerle, istikrarsız kargolarla ve dış tehditlerle uğraşırken ticari bir uçağı uçurmak için nasıl birlikte çalışmaları gerektiğine odaklanarak temel **dear passengers oynanış** döngüsünü analiz ediyoruz. Oyuncuların uçağı havada tutmak için görevleri dinamik olarak paylaşması gerektiğinden, iletişim hayatta kalmanın birincil aracıdır.
+
+**Videoda Öne Çıkanlar:**
+- **Uçuş sırasında özgürlük**: Oyuncular uçuş sırasında kabin kapılarını açabilir ve hatta kanatlarda yürüyebilirler.
+- **Tuhaf kargo yönetimi**: Vahşi hayvanlar ve ağır silahlar dahil tehlikeli varlıkların taşınması.
+- **Savunma savaşı**: Dış tehditleri savuşturmak ve düşman uçaklarını engellemek için ateşli silahların kullanılması.
+- **Katastrofik arızalar**: Motor yangınlarını, yapısal hasarları ve acil durum tahliyelerini yönetme.
+
+<YouTubeEmbed videoId="a_W7HsW3eAg" title="YILIN EŞLİ OYUNU MU YOKSA ARKADAŞ FİYASKOSU MU?! DEAR PASSENGERS" />
+
+Bu ortamda hayatta kalmak, uçuş yönetimi ile tehlike kontrolü arasında bir denge gerektirir. Oyun, standart bir uçuş simülatöründen, tek bir hatanın tüm mürettebatı hızla yere çakılmasına neden olabileceği aksiyon dolu bir savunma oyununa hızla dönüşür. Oyuncular, uçağa yönelik acil tehdit seviyesine göre görevlere öncelik vermeyi öğrenmelidir.
+
+<Callout type="warning" title="Mürettebat Koordinasyonu">
+Tek başınıza uçmaya çalışmayın. Kokpit kontrolleri, kargo bölümü ve savunma taretleri birbirinden uzak mesafededir, bu da hayatta kalmak için iş bölümünü zorunlu kılar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Uçuş Mekanikleri: Kaosu Yönetmek">
+
+Uçağı havada tutmak birincil hedeftir, ancak bunu yapmak birden fazla mekanik sisteme sürekli dikkat edilmesini gerektirir. Kokpit, uçağın irtifasını, hızını ve rotasını belirleyen gerçekçi ancak basitleştirilmiş kontrollere sahiptir. Türbülans vurduğunda veya dış hasar meydana geldiğinde, pilot düz uçuşu korumak için kontrollerle mücadele etmelidir.
+
+<Callout type="info" title="Kokpit Önceliği">
+Pilot tamamen navigasyon ve kaçınma manevralarına odaklanmalı, kargo yönetimini ve savunmayı mürettebatın geri kalanına bırakmalıdır.
+</Callout>
+
+Gökyüzünde başarıyla gezinmek için oyuncuların rolleri etkili bir şekilde dağıtması gerekir. Aşağıdaki roller, standart uçuşlar için en verimli mürettebat kurulumunu temsil eder:
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Navigasyonu** ve irtifayı kontrol eder
+    - Yaklaşan türbülansı bildirir
+    - Kaçınma manevraları gerçekleştirir
+  </Card>
+  <Card title="Kargo Sorumlusu">
+    - Bölmedeki **gevşek eşyaları sabitler**
+    - İstikrarsız kargo tepkimelerini yönetir
+    - Tehlikeli maddeleri bertaraf eder
+  </Card>
+  <Card title="Savunmacı">
+    - **Savunma silahlarını kullanır**
+    - Gemiye sızma tehditlerini püskürtür
+    - Yapısal hasarları onarır
+  </Card>
+</CardGrid>
+
+Aşağıdaki tablo, temel uçuş eylemlerini ve standart bir uçuş sırasında bunların ihmal edilmesiyle ilişkili riskleri ayrıntılı olarak açıklamaktadır:
+
+| Uçuş Eylemi | Birincil İşlev | Risk Seviyesi | İhmal Sonucu |
+| :--- | :--- | :--- | :--- |
+| **Yunuslama Kontrolü (Pitch)** | Uçuş irtifasını ayarlar | **Kritik** | Kontrolsüz alçalma veya havada kalma kaybı (stall) |
+| **Gaz Yönetimi (Throttle)** | Hava hızını ve yakıt tüketimini kontrol eder | **Yüksek** | Motor sönmesi veya yakıt tükenmesi |
+| **Kapı Düzenlemesi** | Kabin basıncını ve erişimi dengeler | **Orta** | Mürettebat üyelerinin uçaktan dışarı çekilmesi |
+| **Sistem Yeniden Başlatma** | Elektrik arızasından sonra gücü geri yükler | **Kritik** | Kontrol sistemlerinin tamamen kaybı |
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Uçuş Hayatta Kalma Rehberi">
+
+Bir uçuşu başarıyla tamamlamak, kalkıştan inişe kadar yapılandırılmış bir uygulama gerektirir. Mürettebatınızın yolculuktan sağ çıkmasını sağlamak için bu adım adım prosedürü izleyin.
+
+<Callout type="tip" title="Uçuş Öncesi Hazırlık">
+Kalkıştan önce tüm acil durum paraşütlerinin yerini tespit edin ve her mürettebat üyesinin belirlenen başlangıç pozisyonunu bildiğinden emin olun.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Kokpiti Emniyete Alın ve Kalkış Yapın">
+    Pilot, güvenli bir seyir irtifası oluşturmak için motorları çalıştırmalı ve lövyeyi geri çekmelidir. Bu sırada mürettebat, kabin basıncı değişmeden önce bölmedeki tüm gevşek kargoları sabitlemelidir.
+  </Step>
+  <Step num="2" title="Sistem Bütünlüğünü İzleyin">
+    Gösterge panelindeki göstergelere yakından dikkat edin. Motor sıcaklığı fırlarsa veya kabin basıncı düşerse, gövdeyi veya kanatları incelemek üzere derhal bir mürettebat üyesi gönderin.
+  </Step>
+  <Step num="3" title="Havadaki Tehditleri Etkisiz Hale Getirin">
+    Düşman uçakları veya uçan tehlikeler göründüğünde savunma istasyonlarına geçin. Önleme uçakları kanatlara zarar vermeden önce onları düşürmek için uçaktaki ateşli silahları veya taretleri kullanın.
+  </Step>
+  <Step num="4" title="Kontrollü İniş veya Tahliye Gerçekleştirin">
+    Uçak hedefe ulaşırsa, pistle hizalayın ve gazı azaltın. Yapısal bütünlük sıfıra düşerse, tüm yolculara ve mürettebata paraşütleri alıp atlamalarını emredin.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Kargo Yönetimi ve Silah Sistemleri">
+
+Kargo bölümü hem finansmanınızın hem de en büyük tehlikelerinizin kaynağıdır. Kargo öğeleri sabit değildir; türbülans sırasında kayarlar, sıcaklık değişikliklerine tepki verirler ve başıboş bırakılırlarsa mürettebata bile saldırabilirler. Bu öğeleri yönetmek, uçağın dengesini korumak için çok önemlidir.
+
+<Callout type="success" title="Yüksek Değerli Teslimat">
+İstikrarsız kargoyu hasarsız teslim etmek, uçağın savunma sistemlerini yükseltmek için harcanabilecek önemli bonuslar kazandırır.
+</Callout>
+
+Aşağıdaki tablo temel kargo türlerini, bunlarla nasıl başa çıkılacağını ve ilişkili tehlike seviyelerini listelemektedir:
+
+| Kargo Türü | Özel Davranış | Taşıma Yöntemi | Tehlike Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Timsahlar** | Saldırgan, mürettebata saldırır | Kafeste veya uyuşturulmuş tutun | **Yüksek** |
+| **Bira Fıçıları** | Türbülans sırasında yuvarlanır | Bağlama kayışlarıyla sabitleyin | **Düşük** |
+| **Patlayıcılar** | Sert darbelerde patlar | Sert pilotluk manevralarından kaçının | **Kritik** |
+| **Kaçak Mal** | Korsan önleme uçaklarını çeker | Korumalı bölmelerde saklayın | **Orta** |
+
+Kargo yönetimi başarısız olduğunda veya dış düşmanlar saldırdığında, oyuncular uçaktaki cephaneliğe başvurmalıdır. Uçak, saldırganları püskürtmek için çeşitli savunma araçlarıyla donatılabilir.
+
+| Silah Sınıfı | Birincil Hedef | Mühimmat Türü | Etkililik |
+| :--- | :--- | :--- | :--- |
+| **AK-47** | Sızanlar ve yakın mesafe tehditleri | Orta Boy Tüfek | Piyadelere karşı **Yüksek** |
+| **İşaret Fişeği Tabancası** | Isı güdümlü füzeler | Magnezyum İşaret Fişekleri | **Mükemmel** savunma aracı |
+| **Kanat Tareti** | Düşman savaş uçakları | Ağır Kalibre | Hava savunması için **Kritik** |
+
+</Section>
+
+<Section icon={Trophy} title="Uçuş Hazırlık Kontrol Listesi">
+
+Bir sonraki uçuşunuzu başlatmadan önce, mürettebatın ve uçağın önünüzdeki zorluklara tamamen hazır olduğundan emin olmak için bu kontrol listesini gözden geçirin.
+
+<Callout type="warning" title="Kontrol Listesi Doğrulaması">
+Kalkıştan önce bu sistemleri doğrulamamak, havada felaket yaşanma olasılığını önemli ölçüde artırır.
+</Callout>
+
+<Checklist
+  id="flight-readiness"
+  title="Uçuş Öncesi Güvenlik Kontrolleri:"
+  items={[
+    "Tüm mürettebat üyelerinin sesli sohbetinin etkin olduğunu doğrulayın",
+    "Frenleri bırakmadan önce pilot koltuğunun dolu olduğunu onaylayın",
+    "Kargo bölümünü sabitlenmemiş kasalar için inceleyin",
+    "Kanat taretlerinin mühimmatla tamamen dolu olduğunu kontrol edin",
+    "Acil durum paraşütlerinin yerini tespit edin ve dağıtımını doğrulayın"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Sıkça Sorulan Sorular">
+
+Oyuna başlamanıza yardımcı olmak için, oynanış sistemleri ve hayatta kalma stratejileriyle ilgili en yaygın soruların yanıtlarını derledik.
+
+<Callout type="info" title="Topluluk Güncellemeleri">
+Yeni kargo türleri, silahlar ve uçuş haritaları hakkındaki güncellemeler için resmi oyun sayfasını düzenli olarak kontrol edin.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "dear passengers oynanışında birincil hedef nedir?",
+    answer: "Birincil hedef, kayan kargolar gibi dahili tehlikeleri ve düşman önleme uçakları gibi harici tehditleri yönetirken uçağı güvenli bir şekilde hedefine ulaştırmaktır."
+  },
+  {
+    question: "Oyun tek oyunculu oynanabilir mi?",
+    answer: "Tek başınıza oynamak teknik olarak mümkün olsa da oyun eşli (co-op) oynanış için tasarlanmıştır. Kokpiti, kargo bölümünü ve savunmaları aynı anda yönetmek tek bir oyuncu için son derece zordur."
+  },
+  {
+    question: "Uçak uçuş sırasında patlarsa ne olur?",
+    answer: "Uçağın yapısal bütünlüğü sıfıra ulaşırsa uçak patlar. Mürettebat üyelerinin turda hayatta kalabilmek için patlamadan önce paraşütleri alıp uçaktan atlamaları gerekir."
+  },
+  {
+    question: "Timsahlar gibi tehlikeli kargoları nasıl yönetirsiniz?",
+    answer: "Tehlikeli kargolar sürekli izlenmelidir. Hayvanları kontrol altında veya etkisiz hale getirilmiş olarak tutun ve türbülanslı uçuşlar sırasında patlayıcı kasalarının etrafta kaymadığından emin olun."
+  }
+]} />
+
+</Section>

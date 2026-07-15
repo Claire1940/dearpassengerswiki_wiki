@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Çevrimiçi Eşli Oyun: Kurulum Rehberi ve Hayatta Kalma İpuçları",
+  description: "Dear Passengers çevrimiçi eşli oyun modunda kaotik uçuş yönetiminde ustalaşın. Bağlantı adımlarını, rol dağılımını ve uçuş hayatta kalma stratejilerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Co-Op+Survival+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "dear passengers, çevrimiçi eşli oyun, co-op rehberi, hayatta kalma ipuçları, uçuş yönetimi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Eşli Oyun Modu**: **Dear Passengers çevrimiçi eşli oyun** modunu oynamak, iki mürettebat üyesi arasında net bir iletişim ve iş bölümü gerektirir.
+- **Temel Mekanik**: Süre dolmadan önce kritik uçak arızalarını onarırken meyve suyu ve kahve gibi yolcu taleplerini dengeleyin.
+- **En İyi Strateji**: Bir oyuncuyu kabin servisine, diğerini mekanik onarımlara atayın; rolleri yalnızca aşırı acil durumlarda değiştirin.
+- **Kritik İpucu**: Acil durum paraşütlerini her zaman takip edin; yolcular paraşüt almaz, sadece mürettebat alır.
+- **En İyi Seçim**: Yüksek stresli uçuş etkinlikleri sırasında giriş gecikmesini (input lag) önlemek için lobileri kablolu bir Ethernet bağlantısı kullanarak kurun.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Çevrimiçi Eşli Oyun Bağlantınızı Optimize Etme">
+
+**Dear Passengers çevrimiçi eşli oyun** oturumunuzu kurmak, hızlı tempolu fizikleri ve gerçek zamanlı etkileşimleri yönetmek için istikrarlı bir ağ yapılandırması gerektirir. Oyun hızlı koordinasyona dayandığından, küçük bir gecikme bile eşya fırlatmaların kaçırılmasına veya onarımların gecikmesine neden olabilir. Lobi sahibi (host) oyuncular, lobiye başlamadan önce ağ portlarının açık olduğundan ve arka plan indirmelerinin duraklatıldığından emin olmalıdır.
+
+**Video Önemli Anlar:**
+- İki kişilik kabin yönetiminin kaotik doğasını gösterir.
+- Kahve demleme ve yolculara meyve suyu ikram etme önceliğini vurgular.
+- Ani kabin basıncı düşüşleri ve yapısal hasarların nasıl yönetileceğini gösterir.
+- Uçuş başarısız olduğunda mürettebat paraşütlerinin acil durum kullanımını örnekler.
+
+<YouTubeEmbed videoId="bH9zvvhGitY" title="Dear Passengers – dünyanın en kötü havayolunda eşli oyun kaosu!" />
+
+Çevrimiçi lobinizi yapılandırırken, gecikmeyi en aza indirmek için her iki oyuncuya da en yakın bölgeyi seçin. Lobi sahibi oyuncu, türbülans olayları sırasında sorunsuz fizik hesaplamaları sağlamak için en yüksek sistem özelliklerine sahip olmalıdır. Oturumunuz için en iyi lobi ayarlarını belirlemek için aşağıdaki tabloyu kullanın.
+
+| Ayar | Önerilen Değer | Oynanışa Etkisi |
+|---|---|---|
+| **Lobi Türü** | Özel (Sadece Davetle) | Rastgele oyuncuların koordineli ilerleyişinizi bozmasını engeller |
+| **Maks. Oyuncu** | 2 Oyuncu | Oyunun dar kabin alanı ve kaynak sınırları için optimize edilmiştir |
+| **Sesli Sohbet** | Etkin (Harici Uygulama) | Ani ekipman arızalarını ve yolcu ihtiyaçlarını bildirmek için kritiktir |
+| **Sunucu Bölgesi** | En Yakın Eşleşme | Hızlı eşya aktarımı ve QTE etkinlikleri sırasında giriş gecikmesini azaltır |
+
+<Callout type="info" title="Ağ Kararlılığı">
+Eşyaların kaybolduğu veya yolcuların etkileşimlere yanıt vermediği senkronizasyon sorunları yaşıyorsanız, lobiyi yeniden oluşturun ve daha yüksek yükleme (upload) hızına sahip oyuncunun lobi sahibi olmasını sağlayın.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mürettebat Rolleri ve Görev Dağılımı">
+
+Uçuştan sağ çıkmak için oyuncular kabin sorumluluklarını verimli bir şekilde paylaşmalıdır. Her şeyi aynı anda yapmaya çalışmak, hızla kabin basıncının düşmesine veya tam bir motor arızasına yol açacaktır. Bir oyuncu servis arabasına odaklanırken, diğeri uçağın yapısal bütünlüğünü yönetmelidir.
+
+<CardGrid cols={3}>
+  <Card title="Servis Uzmanı">
+    - **Odak**: Kahve demler ve meyve suyu doldurur.
+    - **Öncelik**: Yolcu sabrını yüksek tutmak.
+    - **Temel Araç**: İçecek tepsisi ve ikmal istasyonu.
+  </Card>
+  <Card title="Uçuş Mühendisi">
+    - **Odak**: Kırık panelleri ve motorları onarır.
+    - **Öncelik**: Kabin basıncı düşüşlerini durdurmak.
+    - **Temel Araç**: İngiliz anahtarı ve yama kitleri.
+  </Card>
+  <Card title="Kriz Koordinatörü">
+    - **Odak**: Güvenlik ekipmanlarını dağıtır.
+    - **Öncelik**: Mürettebatın hayatta kalma eşyalarını güvenceye almak.
+    - **Temel Araç**: Paraşüt paketleri.
+  </Card>
+</CardGrid>
+
+Servis uzmanı sürekli olarak yolcu göstergelerini izlemelidir. Öfkeli yolcular uçuş puanını düşürür ve dar koridorlarda fiziksel engeller oluşturabilir. Uçuş mühendisi, bir duvar panelinin veya pencerenin patlamak üzere olduğunu gösteren yapısal alarmları dinlemelidir.
+
+| Görev Kategorisi | Birincil Sorumluluk | İkincil Yedek | Öncelik Seviyesi |
+|---|---|---|---|
+| **İçecek Servisi** | Servis Uzmanı | Uçuş Mühendisi | **Orta** |
+| **Panel Onarımı** | Uçuş Mühendisi | Servis Uzmanı | **Yüksek** |
+| **Basınç Kontrolü** | Uçuş Mühendisi | Servis Uzmanı | **Kritik** |
+| **Paraşüt Yönetimi** | Servis Uzmanı | Uçuş Mühendisi | **Düşük** |
+
+<Callout type="tip" title="Kaynak Paylaşımı">
+Eşyaları kabin boyunca ortağınıza fırlatabilirsiniz. Değerli hareket süresinden tasarruf etmek için anahtarı mühendise atın veya kahve fincanlarını koridor boyunca kaydırın.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Uçuş Hayatta Kalma Rehberi">
+
+Uçuşu yönetmek, belirli rutinleri aciliyet sırasına göre uygulamayı gerektirir. Uçağın kontrolünü elinizde tutmak için her vardiyada bu adımları izleyin.
+
+<Steps>
+  <Step num="1" title="Uçuş Öncesi Hazırlık">
+    İçecek makinelerinin ve onarım aracı üretim noktalarının yerini belirleyin. Yolcular binmeden önce her iki oyuncunun da araçların nerede saklandığını bildiğinden emin olun.
+  </Step>
+  <Step num="2" title="İlk Servis Turu">
+    Hemen kahve demlemeye ve meyve suyu doldurmaya başlayın. Tepsileri tamamen doldurun, böylece koridorda tek bir turda birden fazla yolcuya servis yapabilirsiniz.
+  </Step>
+  <Step num="3" title="Uçuş Ortası Bakım">
+    Alarm çaldığında tüm servis eşyalarını bırakın ve gövdenin yamanmasına yardımcı olun. Yapısal arızalar, mutsuz yolculardan daha hızlı bir şekilde uçuşun sonlanmasına neden olur.
+  </Step>
+  <Step num="4" title="Acil Tahliye">
+    Hasar geri döndürülemezse servis görevlerini bırakın. İki mürettebat paraşütünü bulun ve uçak düşmeden önce terk edin.
+  </Step>
+</Steps>
+
+Uçuş ortası aşamasında, şiddetli türbülans gibi rastgele olaylar eşyaları kabin içinde etrafa savuracaktır. Bir kriz sırasında ulaşılamaz hale gelmelerini önlemek için gevşek araçları belirlenmiş yuvalarına sabitleyin.
+
+| Olay Türü | Gerekli Acil Eylem | Gerekli Araç | Tehlike Seviyesi |
+|---|---|---|---|
+| **Yolcu Uyarısı** | İstenen içeceği teslim et | Kahve potu veya meyve suyu kutusu | **Düşük** |
+| **Duvar Çatlağı** | Sızdıran yeri yamala | Tamir bandı veya metal levha | **Yüksek** |
+| **Motor Yangını** | Söndür ve yeniden başlat | Yangın söndürücü | **Kritik** |
+| **Basınç Düşmesi** | Sabit nesnelere tutun | Yok | **Kritik** |
+
+<Callout type="warning" title="Paraşüt Kıtlığı">
+Sadece mürettebat için yeterli paraşüt vardır. Bunları yolculara dağıtmaya çalışmayın; kaçış aşamasını başarıyla tamamlamak için kendiniz ve ortağınız için paraşütleri güvenceye alın.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Eşli Oyun İlerlemesi ve Kilometre Taşları">
+
+Daha yüksek zorluk seviyelerinin kilidini açmak ve kozmetik ödüller kazanmak, uçuşları yüksek yolcu memnuniyeti dereceleriyle tamamlamayı gerektirir. Final puanınız; başarılı teslimat sayısı, tamamlanan onarımlar ve her iki mürettebat üyesinin de uçuştan sağ çıkıp çıkmadığına göre hesaplanır.
+
+<Checklist
+  id="coop-milestones"
+  title="Temel Eşli Oyun Kilometre Taşları:"
+  items={[
+    "Hiçbir yolcu maksimum öfke seviyesine ulaşmadan tam bir uçuşu tamamlayın",
+    "Tek bir uçuşta beş yapısal arızayı başarıyla onarın",
+    "Kritik bir kaza olayı sırasında mürettebat paraşütlerini kullanarak birlikte kaçın",
+    "En zor zorluk ayarında S-Rank derecesi elde edin"
+  ]}
+/>
+
+Daha zor rotalara ilerledikçe, eşzamanlı arızaların sıklığı artar. Oyun, aşırı baskı altında görevleri önceliklendirme yeteneğinizi test edecek ve görevlerin sözlü olarak onaylanmasını zorunlu kılacaktır.
+
+| Rota Adı | Süre | Tehlike Sıklığı | Ödül Kademesi |
+|---|---|---|---|
+| **Yerel Yolculuk** | 3 Dakika | Düşük | **Bronz** |
+| **Ülke Çapı** | 5 Dakika | Orta | **Gümüş** |
+| **Transatlantik** | 8 Dakika | Yüksek | **Altın** |
+| **Fırtınalı Geçiş** | 10 Dakika | Aşırı | **Platin** |
+
+<Callout type="success" title="Mükemmel Uçuş Ödülü">
+Sıfır yolcu şikayetiyle bir uçuşu tamamlamak, karanlık ve duman dolu kabin ortamlarında oyuncuları ayırt etmeye yardımcı olan benzersiz mürettebat üniformalarının kilidini açar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sıkça Sorulan Sorular">
+
+<Callout type="tip" title="Strateji İncelemesi">
+Başarısız bir uçuşun ardından, hangi görevlerin kabin yönetiminin çökmesine neden olduğunu belirlemek için rol dağılımınızı her zaman gözden geçirin.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Dear Passengers çevrimiçi eşli oyun modunu bölünmüş ekranda (split-screen) oynayabilir misiniz?",
+    answer: "Hayır, çevrimiçi eşli oyun modu ayrı cihazlar ve oyun kopyaları gerektirir. Yerel çok oyunculu seçenekler, platformunuza bağlı olarak ayrı giriş yapılandırmalarıyla yönetilir."
+  },
+  {
+    question: "Uçuş sırasında bir oyuncu ölürse ne olur?",
+    answer: "Bir mürettebat üyesi yetersiz kalırsa veya kabinden dışarı çekilirse, kalan oyuncu tüm görevleri tek başına halletmelidir. Bu, uçuşu başarıyla tamamlama şansınızı büyük ölçüde azaltır."
+  },
+  {
+    question: "Mürettebat paraşütlerinin kilidini nasıl açarız?",
+    answer: "Paraşütler, uçağın yapısal bütünlüğü yüzde yirminin altına düştüğünde arka bölmede otomatik olarak belirir. Son kaza sekansı tetiklenmeden önce onları almalısınız."
+  },
+  {
+    question: "Çevrimiçi eşli oyun için çapraz platform (cross-play) desteği var mı?",
+    answer: "Çapraz platform desteği, platform mağaza ayarlarına bağlıdır. Farklı sistemlerdeki oyuncularla bağlantı kurmaya çalışmadan önce çapraz platform davetlerinin etkin olduğundan emin olmak için lobi menüsünü kontrol edin."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coffee, Trash2, Luggage } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Yolcu Hizmeti: Bar Kuralları ve Kabin Rehberi",
+  description: "Bar kuralları, ikram yönetimi ve kabin memurları için profesyonel kabin protokollerini içeren 2026 rehberimizle Dear Passengers yolcu hizmetinde ustalaşın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Passenger+Service+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers yolcu hizmeti**, ikram yetersizlikleri ile profesyonel iletişimi dengelemeyi gerektirir.
+- **Araba zamanlaması** kritiktir; kabin memurları, servis sırasında koridor sıkışıklığını önlemek için yolcu hareketlerini yönetmelidir.
+- **Kaynak kıtlığı** temel bir mekaniktir, özellikle "tavuklu sandviç" kısıtlaması gibi yiyecek çeşitliliği konusundaki sınırlamalar öne çıkar.
+- **Hijyen protokolleri**, yemek servisi ürünlerinin yakınında yolcu çöpleriyle ilgilenirken yüksek standartlar gerektirir.
+- Su gibi **temel ihtiyaçların parayla satılması**, kesin ama kibar bir şekilde iletilmesi gereken standart bir prosedürdür.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Yolcu Hizmetine Giriş">
+
+**Dear Passengers yolcu hizmetinde** ustalaşmak, başarılı bir uçuş görevlisi simülasyonu deneyiminin temel taşıdır. Bu ortamda oyuncular, sık sık yaşanan ikram hatalarına ve talepkar yolculara rağmen yüksek profesyonellik seviyelerini korurken kabin yönetiminin karmaşıklıklarında gezinmelidir. Servis döngüsü, bar arabasının konuşlandırılmasıyla başlar; bu aşama, zamanlama ve mekansal farkındalığın servis kadar önemli olduğu bir süreçtir.
+
+**Öne Çıkan Video Detayları:**
+- Yolcu hareketlerine göre arabaları konuşlandırmak için en uygun zamanın belirlenmesi.
+- İkram hataları oluştuğunda sınırlı yiyecek envanterinin yönetilmesi.
+- İçecek servisi sırasında yolcu çöplerini toplamak için uygun görgü kuralları.
+- Şişelenmiş su gibi ücretli ürün taleplerinin yönetilmesi.
+- Değerli tasarımcı çantalarının yerleştirilmesine yardımcı olunması.
+
+<YouTubeEmbed videoId="j8uo0dH3gN8" title="Dear Passengers: Bar Servis Kuralları" />
+
+<Callout type="tip" title="Uzman İpucu">
+Yolcuların "stokta kalmadı" şikayetlerini önceden tahmin etmek için araba turuna başlamadan önce her zaman envanter seviyenizi kontrol edin.
+</Callout>
+
+</Section>
+
+<Section icon={Coffee} title="Bar Servis Protokolleri ve Menü Yönetimi">
+
+Bar servisi, **Dear Passengers yolcu hizmeti** döngüsünün en etkileşimli aşamasıdır. Kabin memurları, standart kahveden özel süt ve şeker tercihlerine kadar çeşitli içecek talepleriyle ilgilenmelidir. Ancak en zorlu kısım genellikle, beklenen sandviç veya salata çeşitlerinin bulunmadığı ve geriye sadece fırınlanmış tavuklu sandviç gibi tek bir seçeneğin kaldığı "ikram hatalarını" içerir.
+
+| Servis Ürünü | Bulunabilirlik Durumu | Yolcu Tepkisi | Yönetim Stratejisi |
+| :--- | :--- | :--- | :--- |
+| **Kahve** | Yüksek | Olumlu | Zaman kazanmak için hemen süt ve şeker teklif edin |
+| **Tavuklu Sandviç** | Garantili | Nötr/Olumsuz | Bulunabilirliği net bir şekilde belirtin; alternatif sunmayın |
+| **Salam & Peynir** | Stokta Yok | Hayal Kırıklığı | İkram hatası için özür dileyin ve mevcut seçenekleri tekrarlayın |
+| **Sezar Salata** | Stokta Yok | Yüksek Öfke | Mevcut tavuk seçeneklerine yönlendirin |
+| **Şişe Su** | Sadece Ücretli | Dirençli | Servis yapmadan önce ücret politikasını kesin bir dille açıklayın |
+
+Bu etkileşimleri yönetmek, tekrarlayıcı ancak kararlı bir iletişim tarzı gerektirir. Bir yolcu var olmayan bir ürün istediğinde, en etkili yaklaşım tavuklu sandviçin mevcut olduğunu hemen tekrarlamaktır. Bu, sıra başına harcanan süreyi en aza indirir ve arabanın kabinde ilerlemesini sağlar.
+
+<Callout type="warning" title="İkram Uyarısı">
+İkram hatası meydana gelirse, "gizli" stok bulmaya çalışmayın. Oyun mantığı, hata tetiklendikten sonra sizi genellikle yalnızca tavuklu sandviçle sınırlandırır.
+</Callout>
+
+</Section>
+
+<Section icon={Trash2} title="Hijyen ve Çöp Toplama Kuralları">
+
+**Dear Passengers yolcu hizmetinde** sıkça karşılaşılan bir zorluk, yemek servisi ile atık bertarafının eş zamanlı yönetimidir. Yolcular, siz içecek hazırlarken veya atıştırmalık servis ederken sıklıkla "iğrenç çöpleri" size vermeye çalışacaklardır.
+
+<CardGrid cols={2}>
+  <Card title="Çöp Yönetimi">
+    - Atıklarla ilgilendikten sonra gıda maddeleriyle **doğrudan temastan kaçının**.
+    - Çöpleri asla **kurabiyelerin veya çikolataların** üzerine koymayın.
+    - Açık yüzeyler yerine araba üzerindeki belirlenmiş çöp kutularını kullanın.
+  </Card>
+  <Card title="Servis Hijyeni">
+    - **Temiz servis ürünleri** ile yolcu atıkları arasında net bir ayrım sağlayın.
+    - Yolcuların çöpleri doğrudan ellerinize bırakmasına karşı dikkatli olun.
+    - Yoğun çöp toplama aşamalarından sonra ellerinizi dezenfekte edin.
+  </Card>
+</CardGrid>
+
+Atıkların düzgün bir şekilde yönetilmesi, "iğrenç" maddelerin arabanın görsel düzenini veya kurabiye gibi gerçek gıda maddelerini kirletmesini önler. Yüksek performanslı kabin memurları, kahve istasyonundan uzak tutmak için arabanın belirli bir köşesini çöplere ayıracaktır.
+
+<Callout type="info" title="Hijyen Notu">
+Yolcular çöplerini almanızı takdir ederler, ancak hemen ardından uygun hijyen sağlamadan yiyeceklerine dokunduğunuzu görürlerse olumsuz tepki verirler.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Servis Akışı">
+
+**Dear Passengers yolcu hizmeti** sırasında verimliliği en üst düzeye çıkarmak için, arabayla karşılaştığınız her sıra için bu standartlaştırılmış iş akışını takip edin.
+
+<Steps>
+  <Step num="1" title="Arabanın Konuşlandırılması">
+    Koridorun boş olduğundan emin olun. Yolcular tuvalete gidiyorsa, yolu kapatmamak için geçmelerini veya dönmelerini bekleyin.
+  </Step>
+  <Step num="2" title="İlk Siparişin Alınması">
+    Yolcunun talebinin tamamını dinleyin. Birden fazla ürün istiyorlarsa, hazırlanması en uzun süren içeceğe öncelik verin.
+  </Step>
+  <Step num="3" title="İkram Eksikliklerinin Giderilmesi">
+    Yolcu, ikram hatası nedeniyle mevcut olmayan bir sandviç veya salata isterse, onlara derhal yalnızca tavuklu sandviçin mevcut olduğunu bildirin. Gerektiği kadar tekrarlayın.
+  </Step>
+  <Step num="4" title="Ödeme İşlemleri">
+    Su gibi ödeme gerektiren ürünler için, şişeyi teslim etmeden önce "su ücretini" aldığınızdan emin olun.
+  </Step>
+  <Step num="5" title="Çöp ve Bagaj Kontrolü">
+    Bir sonraki sıraya geçmeden önce, baş üstü dolaplarına düzgün bir şekilde yerleştirilmesi gereken başıboş çöpleri veya tasarımcı çantalarını tarayın.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verimlilik Bonusu">
+Bir sırayı 45 saniyenin altında tamamlamak, genellikle servis değerlendirmesinde bir performans bonusunu tetikler.
+</Callout>
+
+</Section>
+
+<Section icon={Luggage} title="Kabin Güvenliği ve Bagaj Yönetimi">
+
+Güvenlik, **Dear Passengers yolcu hizmetinin** ayrılmaz bir parçasıdır. Yemek servisinin ötesinde, kabin memurları kabinin fiziksel durumundan sorumludur. Buna, yolcuların kalkış ve iniş aşamalarında koridorda veya kucaklarında bırakabilecekleri "çok pahalı tasarımcı çantalarının" yönetimi de dahildir.
+
+| Bagaj Türü | Yerleştirme Kuralı | Yolcu Endişesi | Risk Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Tasarımcı El Çantaları** | Baş Üstü Dolabı / Koltuk Altı | Hasar/Hırsızlık | **Yüksek** |
+| **Standart Kabin Bagajı** | Baş Üstü Dolabı | Erişilebilirlik | **Orta** |
+| **Kişisel Eşyalar** | Koltuk Altı | Ayak Alanı | **Düşük** |
+| **Başıboş Çöpler** | Çöp Kutusu | Hijyen | **Yüksek** |
+
+Bir yolcu tasarımcı çantası için yardım istediğinde, bu yüksek öncelikli bir görevdir. Bu eşyaların profesyonelce taşınması koridor tıkanıklıklarını önler ve kabinin güvenlik düzenlemelerine uygun kalmasını sağlar. Her zaman iki elinizi kullanın ve ürünü baş üstü bölmesine güvenli bir şekilde yerleştirin.
+
+<Callout type="tip" title="Depolama İpucu">
+Baş üstü dolapları doluysa, yolcunun önündeki koltuğun altına bakın, ancak yere "tasarımcı" bir eşya koymadan önce her zaman izin isteyin.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Çatışma Çözümü ve Kaynak Kıtlığı">
+
+Kaynak yönetimi, **Dear Passengers yolcu hizmetinin** gerçekten zorlaştığı yerdir. "Tavuklu Sandviç Döngüsü", yolcuların mevcut olmadıkları söylenmesine rağmen menüdeki her ürünü tek tek sormaya devam ettiği yaygın bir senaryodur.
+
+**Etkileşim Tarzlarının Karşılaştırılması:**
+
+| Özellik | Profesyonel Yaklaşım | Agresif Yaklaşım |
+| :--- | :--- | :--- |
+| **Menü Durumu** | "Maalesef sadece tavuklu sandviçimiz kaldı." | "O bitti, tavukluyu al." |
+| **Su Ödemesi** | "Su küçük bir ücrete tabidir, lütfen." | "Para yoksa su da yok." |
+| **Çöp Toplama** | "Bunu sizin için alayım." | "Onu oraya koyma!" |
+| **Bagaj Taşıma** | "Bu çantayı sizin için güvene alacağım." | "Çantanı hemen kaldır." |
+| **Genel Puan** | ★★★★★ | ★★☆☆☆ |
+
+Sakin ve tekrarlayıcı bir tonu korumak, bu döngüyü kırmanın anahtarıdır. Yolcular su için ödeme yapılmasına veya salamlı peynirli kruvasan olmamasına inanamasalar bile, kabin memuru "havayolunun sesi" olmaya devam etmelidir.
+
+<Callout type="warning" title="Uyarı">
+Agresif yanıtlar, uçuş sonundaki "Servis Kuralları" puanınızı önemli ölçüde düşürür. El kitabında sunulan profesyonel diyaloglara sadık kalın.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Son Servis Kontrol Listesi">
+
+**Dear Passengers**'taki vardiyanızı sonlandırmadan önce, yüksek bir dereceyi garantilemek için aşağıdaki servis hedeflerine ulaştığınızdan emin olun.
+
+<Checklist
+  id="service-milestones"
+  title="Kabin Memuru Performans Hedefleri:"
+  items={[
+    "Öfkeyi kaybetmeden bir ikram hatasını başarıyla yönetti",
+    "Gıda maddelerini kirletmeden tüm çöpleri topladı",
+    "Premium su şişeleri için tüm ödemeleri gerçekleştirdi",
+    "Tüm tasarımcı bagajlarını baş üstü dolaplarında sakladı",
+    "Tuvalet erişimini engellemeden araba hareketini yönetti"
+  ]}
+/>
+
+<Callout type="info" title="Son Özet">
+**Dear Passengers yolcu hizmeti**, bir sabır ve prosedürlere bağlılık testidir. Bu bar servisi görgü kurallarını takip ederek, herkes sadece tavuklu sandviç yiyor olsa bile herkes için sorunsuz bir uçuş sağlayabilirsiniz.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Yolcu su için ödeme yapmayı reddederse ne yapmalıyım?",
+    answer: "Dear Passengers yolcu hizmetinde su ücretli bir üründür. Yolcu ödeme yapmayı reddederse, hizmeti kibarca reddetmeli ve arabayı bir sonraki yolcuya taşımalısınız."
+  },
+  {
+    question: "Sadece 'Tavuklu Sandviç' kalan ikram hatasını nasıl yönetirim?",
+    answer: "Bu hata oluştuğunda, menünün tamamını sunmayın. Tüm yiyecek talepleri için sadece tavuklu sandviçin mevcut olduğunu belirtin. Bunu yolcu başına 3-4 kez tekrarlamanız gerekebilir."
+  },
+  {
+    question: "Çöpleri arabada yiyeceklerin yanına koymak sorun olur mu?",
+    answer: "Hayır. Üst düzey servis kuralları, kontaminasyonu ve olumsuz servis puanlarını önlemek için yolcu çöplerini kurabiye ve çikolatalardan uzak tutmanızı gerektirir."
+  },
+  {
+    question: "Pahalı tasarımcı çantalarını yönetmenin en iyi yolu nedir?",
+    answer: "Her zaman onları baş üstü dolabı gibi güvenli bir yere yerleştirmeyi teklif edin. Yolcuların hasar konusundaki şikayetlerini önlemek için onlara özenle yaklaşın."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Beta: Ultimate Gameplay & Co-op Strategy Guide",
+  description: "Master the chaotic physics-based airline co-op in Dear Passengers. Learn pilot roles, passenger management, cargo protection, and emergency strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Dear+Passengers+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dear Passengers Beta**: A chaotic physics-based airline co-op game coming to Windows PC in 2026.
+- **Core Mechanic**: One player pilots the aircraft while the remaining crew manages passengers, cargo, and emergencies.
+- **Team Strategy**: Assign dedicated roles such as Pilot, Cabin Lead, and Cargo Handler to prevent tasks from overlapping.
+- **Flight Hazards**: Turbulence, dynamic weather, engine damage, fires, and escaped live cargo will constantly disrupt your flight.
+- **Top Choice**: Prioritize aircraft stability and immediate hazards like fires over routine passenger service.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Beta: Release, Platforms, and Core Loop">
+
+FLEXUS has officially revealed Dear Passengers, an upcoming physics-based airline co-op game scheduled to launch on Windows PC via Steam in 2026. Players must work together to run the world's most chaotic airline, balancing high-paying, risky flights with the physical limits of their aircraft and crew. While a specific launch date or price has not been announced, the official Steam page is live for wishlisting. 
+
+**Video Highlights:**
+- **Co-op Chaos**: See how players split duties between piloting and managing the cabin.
+- **Physics Disasters**: Watch how turbulence and sharp turns send passengers and cargo flying.
+- **Emergency Situations**: Check out external repairs and active defense against mid-air hazards.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Trailer" />
+
+Before taking off, players must select their passenger manifest and cargo load. Higher payouts introduce more demanding travelers and dangerous cargo, turning the flight into a struggle for survival.
+
+| Feature | Status | Details |
+|---|---|---|
+| **Release Window** | 2026 | Planned launch on PC |
+| **PC Platform** | Confirmed | Available on Steam |
+| **Steam Wishlist** | Live | Players can wishlist now |
+| **Game Price** | Not Announced | Pricing details pending |
+| **Game Modes** | Confirmed | Single-player & Online Co-op |
+
+<Callout type="tip" title="Wishlist Benefit">
+Add the game to your Steam wishlist to receive direct notifications regarding upcoming playtests, beta access, and official launch details.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flight Progression: Step-by-Step Flight Guide">
+
+Completing a successful journey requires coordination, quick reflexes, and clear communication. Use this step-by-step progression to guide your crew from takeoff to landing.
+
+<Steps>
+  <Step num="1" title="Select Passengers and Cargo">
+    Before the flight begins, evaluate the available jobs. Balance high-paying risky passengers and dangerous cargo with your team's ability to handle chaos.
+  </Step>
+  <Step num="2" title="Assign Crew Roles">
+    Designate one player as the Pilot and divide the remaining crew members among cabin duties, cargo monitoring, and emergency response.
+  </Step>
+  <Step num="3" title="Maintain Flight Control">
+    The Pilot must focus on the flight path, adjusting for dynamic weather, air pockets, and turbulence while warning the cabin of upcoming maneuvers.
+  </Step>
+  <Step num="4" title="Manage Cabin Service">
+    Deliver food and drinks to passengers to maintain satisfaction, but suspend service immediately when physical hazards or emergencies arise.
+  </Step>
+  <Step num="5" title="Contain Flight Disasters">
+    Respond quickly to fires, escaped cargo, or hull damage. Extinguish fires and secure loose objects before they block essential pathways.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Emergency Priority">
+Never prioritize food service over an active emergency. An uncontrolled fire or escaped animal will quickly cause a flight-ending crash.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Roles and Team Strategy">
+
+A successful flight in the Dear Passengers beta relies on clear division of labor. Since players interact with a highly reactive physics engine, having dedicated roles prevents multiple crew members from abandoning their posts to handle the same emergency.
+
+<CardGrid cols={3}>
+  <Card title="The Pilot">
+    - **Location**: Cockpit
+    - **Duties**: Fly the aircraft, manage weather, steer through air pockets.
+    - **Strategy**: Keep the cabin crew informed of upcoming sharp turns or turbulence.
+  </Card>
+  <Card title="Cabin Lead">
+    - **Location**: Passenger Cabin
+    - **Duties**: Track cabin status, coordinate service, prioritize emergencies.
+    - **Strategy**: Direct idle players to clear walkways and secure loose items.
+  </Card>
+  <Card title="Cargo & Containment">
+    - **Location**: Cargo Hold / Cabin
+    - **Duties**: Monitor high-risk cargo, contain escaped animals, secure luggage.
+    - **Strategy**: Perform regular checks on volatile crates during smooth flight segments.
+  </Card>
+</CardGrid>
+
+For smaller crews, roles must be combined. In a two-player setup, the pilot remains in the cockpit while the second player manages all cabin, cargo, and passenger duties.
+
+| Crew Size | Pilot Role | Cabin Role | Cargo Role | Support Role |
+|---|---|---|---|---|
+| **4 Players** | Dedicated | Dedicated | Dedicated | Floating Support |
+| **3 Players** | Dedicated | Service & Lead | Cargo & Security | Shared Support |
+| **2 Players** | Dedicated | Service & Cargo | Service & Cargo | Shared Support |
+
+<Callout type="info" title="Communication is Key">
+The Pilot should call out "Turbulence incoming!" several seconds before making sharp maneuvers so the cabin crew can secure loose service carts and luggage.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Passenger and Cargo Risk Analysis">
+
+Every flight is a calculation of risk versus reward. Demanding passengers and volatile cargo offer massive payouts but introduce hazards that can easily cripple your aircraft.
+
+| Category | Risk Level | Known Behavior | Best Response |
+|---|---|---|---|
+| **Standard Passengers** | Low | Expect basic food and drinks | Complete routine service during calm weather |
+| **Unruly Passengers** | High | Disrupt cabin, block crew | Restrain or isolate them quickly |
+| **Regular Cargo** | Low | Static crates, must stay dry | Secure in cargo bays before takeoff |
+| **Animal Cargo** | Extreme | Escapes crates (e.g., Crocodiles) | Monitor crates constantly; prioritize containment |
+| **Loose Luggage** | Medium | Flies around during turbulence | Keep pathways clear; store loose items immediately |
+
+<Callout type="danger" title="Escaped Animals">
+If live cargo like crocodiles escape, they will attack crew and terrify passengers. Deal with containment immediately to prevent widespread panic.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Flight Hazards and Emergency Response">
+
+During the Dear Passengers beta, your crew will face a variety of dynamic, physics-based hazards. Knowing who should respond and what actions to take will keep your plane in the air.
+
+| Hazard | First Responder | Escalation Risk | Correct Action |
+|---|---|---|---|
+| **Dynamic Weather** | Pilot | Turbulence, cabin chaos | Stabilize flight path, limit sharp turns |
+| **Onboard Fire** | Nearest Cabin Crew | Spreads quickly, destroys cargo | Use extinguishers immediately, move passengers |
+| **Engine Damage** | Pilot & Repair Crew | Total loss of control, crash | Pilot maintains glide; crew repairs damage |
+| **Hull Damage** | Repair Crew | Decompression, crew sucked out | Seal breach, perform external repairs |
+| **External Threats** | Defense Gunner | Continuous damage to aircraft | Man the mounted weapons, eliminate attackers |
+
+<Callout type="success" title="Pre-Storm Checklist">
+When entering bad weather, ensure all service carts are locked, loose luggage is stored, and passengers are seated to minimize physics-based injuries.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Flight Goals and Checklist">
+
+Use this checklist to track your crew's efficiency and prepare for high-tier flights in the Dear Passengers beta.
+
+<Checklist
+  id="flight-readiness"
+  title="Pre-Flight & In-Flight Milestones:"
+  items={[
+    "Assign a dedicated Pilot and Cabin Lead before takeoff",
+    "Secure all loose cargo crates in the designated holds",
+    "Establish a clear emergency communication protocol",
+    "Clear all cabin walkways of loose luggage and debris",
+    "Successfully contain an escaped cargo emergency mid-flight",
+    "Complete a high-risk flight with 100% passenger survival"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "When is the Dear Passengers beta and official release date?",
+    answer: "Dear Passengers is scheduled for a planned release on Windows PC via Steam in 2026. Official beta and playtest dates have not yet been finalized by developer FLEXUS."
+  },
+  {
+    question: "What platforms will support Dear Passengers?",
+    answer: "Currently, Windows PC via Steam is the only confirmed platform. Console versions for PlayStation, Xbox, or Nintendo Switch have not been announced."
+  },
+  {
+    question: "How many players can play Dear Passengers co-op?",
+    answer: "The game supports both single-player and online co-op. While the exact maximum player count is yet to be fully detailed, the gameplay is designed around multi-role crew coordination."
+  },
+  {
+    question: "What are the minimum system requirements for the game?",
+    answer: "The minimum requirements include Windows 10 (64-bit), an Intel Core i5 at 2.5 GHz, 8 GB of RAM, an NVIDIA GeForce GTX 1060 or AMD Radeon RX 6600 XT, DirectX 12, and 4 GB of available storage."
+  }
+]} />
+
+</Section>

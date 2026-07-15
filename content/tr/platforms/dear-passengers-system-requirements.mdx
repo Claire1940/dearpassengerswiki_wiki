@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Sistem Gereksinimleri: Donanım Kurulum Rehberi",
+  description: "Resmi Dear Passengers sistem gereksinimlerini kontrol edin. Minimum ve önerilen PC özellikleri, performans optimizasyonu ve donanım kurulum ipuçları hakkında bilgi edinin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Setup",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "sistem gereksinimleri, donanım, pc özellikleri, optimizasyon, dear passengers"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Sistem Gereksinimleri**: Sorunsuz bir çok oyunculu performans sağlamak için resmi **dear passengers sistem gereksinimlerini** inceleyin.
+- **Donanım Odağı**: Yüksek fizik hesaplamaları, modern bir dört çekirdekli işlemci ve en az 8 GB sistem RAM'i gerektirir.
+- **Ağ Kararlılığı**: Kaotik eşli oyun (co-op) lobilerine ev sahipliği yapmak için kararlı bir geniş bant internet bağlantısı kritik öneme sahiptir.
+- **Depolama Seçimi**: Oyunu bir Katı Hal Sürücüsüne (SSD) yüklemek, uçuş seansları arasındaki yükleme sürelerini önemli ölçüde azaltır.
+- **Grafik Ayarı**: Gölge çözünürlüğünü düşürmek ve hareket bulanıklığını (motion blur) devre dışı bırakmak en yüksek kare hızı kararlılığını sağlar.
+</Callout>
+
+<Section icon={Map} title="Donanım Genel Bakışı ve Co-op Oynanış Ön İzlemesi">
+
+Bu kaotik gökyüzüne atlamadan önce PC konfigürasyonunuzu hazırlamak, bu kooperatif bağımsız yapım için oldukça önemlidir. Oyun; eski işlemcileri ve ekran kartlarını zorlayabilecek öngörülemez fizik kuralları, etkileşimli kokpitler ve hızlı tempolu çok oyunculu senaryolar içerir. Donanımınızın gerekli kriterleri karşıladığından emin olmak, kritik uçuş anlarında ani kare düşüşleri yaşamayacağınızı garanti eder.
+
+**Öne Çıkan Video Detayları:**
+- **Kaotik Fizik**: Havada açılan kapılar, uçuşan enkazlar ve hareketli tehlikeler tutarlı bir CPU performansı gerektirir.
+- **Kooperatif Mekanikler**: Timsahlar gibi beklenmedik yükleri taşımak veya uçağı savunmak düşük gecikme süresi gerektirir.
+- **Patlayıcı Görseller**: Ani motor arızaları ve patlamalar kararlı bir GPU işleme gücü talep eder.
+
+<YouTubeEmbed videoId="a_W7HsW3eAg" title="CO-OP GAME OF THE YEAR OR FRIENDSLOP?! DEAR PASSENGERS" />
+
+Bu yoğun çok oyunculu seanslar sırasında performans darboğazlarını önlemek için oyuncular, PC sistemlerini resmi performans hedefleriyle uyumlu hale getirmelidir. Aşağıdaki bölümler, oyunu farklı grafik ön ayarlarında sorunsuz çalıştırmak için gereken özel bileşenleri detaylandırmaktadır.
+
+<Callout type="info" title="Performans Etkisi">
+Gevşek kargoları yönetmek veya hareket halindeki bir gövdenin içinde silah ateşlemek gibi fizik ağırlıklı etkileşimler, doğrudan CPU hızınızla doğru orantılı olarak ölçeklenir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dear Passengers Sistem Gereksinimleri: PC Özellikleri">
+
+**Dear passengers sistem gereksinimlerini** karşılamak, sisteminizin ayrıntılı ortamların işlenmesini ve hızlı tempolu fizik hesaplamalarını kaldırabilmesini sağlar. Oyun çok çeşitli donanımlarda çalışabilecek şekilde tasarlanmış olsa da, önerilen özelliklere sahip olmak, ekranda aynı anda birden fazla oyuncu etkileşime girdiğinde takılmaları önleyecektir.
+
+Aşağıdaki tablo, oyunu çalıştırmak için gereken minimum ve önerilen donanım özelliklerini göstermektedir.
+
+| Donanım Bileşeni | Minimum Gereksinim | Önerilen Özellikler |
+| :--- | :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) | Windows 10/11 (64-bit) |
+| **İşlemci (CPU)** | Intel Core i3-6100 / AMD FX-6300 | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Bellek (RAM)** | **8 GB RAM** | **16 GB RAM** |
+| **Ekran Kartı (GPU)** | GTX 960 / Radeon RX 470 | GTX 1060 / Radeon RX 580 |
+| **DirectX Sürümü** | DirectX 11 | DirectX 12 |
+| **Depolama Alanı** | 10 GB kullanılabilir alan | 10 GB SSD kullanılabilir alan |
+
+Bütçe dostu sistemlere sahip oyuncular için minimum özellikler, düşük grafik ayarlarında 1080p çözünürlükte kararlı bir 30 FPS'yi hedefler. Ancak, çok oyunculu lobiler barındırmayı veya oynanışınızı yayınlamayı planlıyorsanız, performans düşüşlerini önlemek için önerilen özelliklere yükseltmeniz şiddetle tavsiye edilir.
+
+<Callout type="warning" title="Sistem Mimarisi">
+Oyunu 32-bit bir işletim sisteminde çalıştırmayı denemek desteklenmez ve açılış sırasında anında çökmelere neden olabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Performans Optimizasyonu ve Grafik Ayarları">
+
+Oyun içi ayarlarınızda ince ayarlar yapmak, genel görsel kaliteden ödün vermeden önemli kare hızı artışları sağlayabilir. Oyun yüksek hızlı hareketler ve hızlı kamera geçişleri içerdiğinden, yüksek bir kare hızını korumak, oynanış olaylarını takip etmek ve uçaktaki acil durumlara yanıt vermek için hayati önem taşır.
+
+Bireysel grafik ayarlarının performans üzerindeki etkisini anlamak için aşağıdaki tabloya başvurun.
+
+| Grafik Ayarı | Performans Etkisi | Bütçe PC'ler için Önerilen Değer | Üst Düzey PC'ler için Önerilen Değer |
+| :--- | :--- | :--- | :--- |
+| **Gölge Kalitesi** | **Yüksek Etki** | Düşük / Orta | Yüksek |
+| **Kenar Yumuşatma (Anti-Aliasing)** | **Orta Etki** | SMAA veya Kapalı | Geçici AA (TAA) |
+| **Doku Detayı** | **Düşük Etki** | Orta (VRAM'e bağlı olarak) | Yüksek / Ultra |
+| **Son İşlem (Post-Processing)** | **Yüksek Etki** | Kapalı / Düşük | Yüksek |
+| **Dikey Senkronizasyon (V-Sync)** | **Değişken Etki** | Kapalı (G-Sync/FreeSync kullanın) | Açık (ekran yırtılması varsa) |
+
+Oyunu başlatmadan önce işletim sisteminizi ve donanım yapılandırmanızı optimize etmek için şu adımları izleyin:
+
+<Steps>
+  <Step num="1" title="Grafik Sürücülerini Güncelleyin">
+    Uyumluluktan emin olmak ve özel performans yamalarına erişmek için NVIDIA, AMD veya Intel'den en son sürücüleri indirip yükleyin.
+  </Step>
+  <Step num="2" title="Windows Güç Planını Ayarlayın">
+    Yoğun oyun sekansları sırasında CPU kısıtlamasını önlemek için işletim sisteminizin güç planını Yüksek Performans olarak ayarlayın.
+  </Step>
+  <Step num="3" title="Donanım Hızlandırmalı GPU Zamanlamasını Etkinleştirin">
+    Gecikmeyi azaltmak ve kare süresi tutarlılığını iyileştirmek için Windows Grafik Ayarları menüsünden bu ayarı açın.
+  </Step>
+  <Step num="4" title="Oyun İçi Ön Ayarları Yapılandırın">
+    Oyunu başlatın ve en büyük FPS artışı için gölge azaltmaya öncelik vererek yukarıdaki tabloda listelenen optimize edilmiş ayarları uygulayın.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="VRAM Yönetimi">
+Ekran kartınızda 4 GB'tan az VRAM varsa, yeni ortamlar yüklenirken ciddi takılmaları önlemek için doku kalitesini Orta veya daha düşük bir seviyede tutun.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Depolama ve Kurulum Öncesi Kontrol Listesi">
+
+Kurulum boyutu modern AAA oyunlarına kıyasla nispeten küçüktür, ancak depolama aygıtınızın hızı, geçişler sırasında eşleşme yükleme sürelerinde ve varlık akışında hala kritik bir rol oynamaktadır. Yükleme ekranlarını en aza indirmek için oyunu bir Katı Hal Sürücüsüne (SSD) yüklemek tercih edilen yöntemdir.
+
+Aşağıdaki tablo, depolama ortamı seçenekleri arasındaki performans farklarını vurgulamaktadır.
+
+| Depolama Cihazı Türü | Ortalama Yükleme Süresi | Varlık Akış Performansı | Öneri Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Standart HDD** | Yavaş (30-45 saniye) | Potansiyel geç doku yüklenmesi | Önerilmez |
+| **SATA SSD** | Hızlı (10-15 saniye) | Sorunsuz varlık yükleme | Önerilir |
+| **NVMe M.2 SSD** | Çok Hızlı (5 saniyenin altında) | Anında yükleme | Şiddetle Önerilir |
+
+Sisteminizin kurulum sürecine tamamen hazır olduğunu doğrulamak için aşağıdaki kontrol listesini kullanın.
+
+<Checklist
+  id="pre-install-checklist"
+  title="Kurulum Öncesi Görevler:"
+  items={[
+    "Hedef SSD'nizde en az 10 GB boş alan olduğunu doğrulayın",
+    "Sistem RAM'ini boşaltmak için web tarayıcıları gibi arka plan uygulamalarını kapatın",
+    "DirectX çalışma zamanınızın sürüm 11 veya 12'ye güncellendiğini doğrulayın",
+    "Güvenlik duvarı izinlerinizin oyunun ağ özelliklerine erişmesine izin verdiğini onaylayın"
+  ]}
+/>
+
+<Callout type="success" title="Depolama Ayrımı">
+Kurulumdan önce önbellek dosyalarını ve geçici verileri temizlemek, steam kurulum dosyalarının sürücünüze temiz bir şekilde yazılmasını sağlamaya yardımcı olur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Çok Oyunculu Sistem Gereksinimleri">
+
+Kooperatif çok oyunculu oynamak, özellikle lobi sahibi (host) olarak hareket eden oyuncu için ek donanım yükü getirir. Kurucunun makinesi oyuncu konumlarını, fizik senkronizasyon verilerini ve ağ paketlerini eş zamanlı olarak işlemelidir, bu da CPU ve bellek kullanımını artırır.
+
+Aşağıdaki tablo, kurucular ile istemciler (clients) tarafından deneyimlenen donanım yükünü karşılaştırmaktadır.
+
+| Sistem Kaynağı | Kurucu Makine Yükü | İstemci Makine Yükü | Başarı İçin Kritik Faktör |
+| :--- | :--- | :--- | :--- |
+| **CPU Kullanımı** | **Yüksek** (fizik senkronizasyonunu yönetir) | **Orta** (yerel eylemleri işler) | Yüksek tek çekirdek hızı |
+| **Sistem RAM'i** | **Yüksek** (oyuncu durumlarını yönetir) | **Orta** (standart oyun yükü) | Kurucular için 16GB önerilir |
+| **Ağ Bant Genişliği** | **Yüksek Yükleme** gerekir | **Düşük Yükleme** gerekir | 10+ Mbps kararlı yükleme hızı |
+
+Bu talepleri karşılamak için farklı çok oyunculu senaryolar için en uygun kurulumları kategorize ettik.
+
+<CardGrid cols={3}>
+  <Card title="Solo Oyuncu Kurulumu">
+    - **Odak**: Maksimum görsel doğruluk
+    - **RAM Gereksinimi**: 8 GB yeterlidir
+    - **CPU Önceliği**: Dengeli performans
+  </Card>
+  <Card title="Co-op İstemci Kurulumu">
+    - **Odak**: Düşük giriş gecikmesi
+    - **RAM Gereksinimi**: 8 GB ila 12 GB
+    - **CPU Önceliği**: Kararlı kare süreleri
+  </Card>
+  <Card title="Lobi Kurucusu Kurulumu">
+    - **Odak**: Ağ ve fizik işleme
+    - **RAM Gereksinimi**: 16 GB şiddetle önerilir
+    - **CPU Önceliği**: Çoklu çekirdek performansı
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Ağ Bağlantısı">
+Wi-Fi yerine kablolu Ethernet bağlantısı kullanmak, hızlı tempolu kooperatif manevralar sırasında paket kaybını ve senkronizasyon sorunlarını önemli ölçüde azaltır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sıkça Sorulan Sorular">
+
+Donanım uyumluluğu, performans sorun giderme ve optimizasyonla ilgili bu yaygın soruları inceleyin.
+
+<FAQ items={[
+  {
+    question: "Oyunu çalıştırmak için minimum dear passengers sistem gereksinimleri nelerdir?",
+    answer: "Minimum gereksinimler; 1080p çözünürlükte 30 FPS'yi hedefleyen Intel Core i3-6100 veya AMD FX-6300 işlemci, 8 GB RAM ve GTX 960 veya Radeon RX 470 ekran kartını içerir."
+  },
+  {
+    question: "Oyunu entegre grafik kartına sahip bir dizüstü bilgisayarda oynayabilir miyim?",
+    answer: "Intel Iris Xe veya AMD Radeon Vega gibi entegre grafik yongaları oyunu çalıştırabilir, ancak oynanabilir kare hızlarını korumak için çözünürlüğü 720p'ye düşürmeniz ve tüm grafik seçeneklerini Düşük olarak ayarlamanız gerekecektir."
+  },
+  {
+    question: "Çok oyunculu bir maça ev sahipliği yaptığımda oyun neden takılıyor?",
+    answer: "Lobiyi kurmak, fizikleri hesaplamak ve oyuncu verilerini senkronize etmek için ekstra CPU gücü gerektirir. İşlemciniz minimum gereksinimlere yakınsa, oturumu daha hızlı bir işlemciye sahip bir arkadaşınızın kurmasına izin vermeyi deneyin."
+  },
+  {
+    question: "Oyun ultra geniş monitörleri ve yüksek yenileme hızlarını destekliyor mu?",
+    answer: "Evet, oyun motoru yüksek yenileme hızlarını ve ultra geniş en boy oranlarını destekler, ancak bu yapılandırmalarda kararlı performansı korumak için GTX 1060 veya daha yüksek bir ekran kartına ihtiyacınız olacaktır."
+  }
+]} />
+
+<Callout type="tip" title="Sorun Giderme Kılavuzu">
+Başlangıçta kalıcı çökmelerle karşılaşırsanız, bozuk varlıkları onarmak için oyun istemci platformunuz üzerinden oyun dosyalarının bütünlüğünü doğrulayın.
+</Callout>
+
+</Section>

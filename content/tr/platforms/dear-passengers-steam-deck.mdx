@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, Gamepad2, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Steam Deck: 2026 Uyumluluk ve Kurulum Rehberi",
+  description: "FLEXUS'un fizik tabanlı, kaotik havayolu kooperatif oyunu için Dear Passengers Steam Deck uyumluluğunu, performans beklentilerini ve el konsolu optimizasyonunu keşfedin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/ffffff?text=Dear+Passengers+Steam+Deck+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Steam Deck Uyumluluğu**: Valve tarafından resmi olarak henüz derecelendirilmedi (\"Not Rated\"), ancak donanım özellikleri **Dear Passengers Steam Deck** desteğinin son derece olası olduğunu gösteriyor.
+- **Performans Hedefi**: Orta ayarlarda 30-60 FPS bekleyin; ragdoll fiziklerinin yoğun olduğu sahneler CPU performansını etkileyebilir.
+- **En İyi Kontrol Şeması**: Kabin servisini ve kokpit kontrollerini aynı anda yönetmek için **Trackpad'li Standart Gamepad** şemasını kullanın.
+- **Kooperatif Gereksinimi**: 2026 sürümünün temel deneyimi olan çevrimiçi kooperatif modu için kararlı bir Wi-Fi bağlantısı şarttır.
+- **Depolama İhtiyacı**: Sadece **4 GB** depolama alanı gerektirir, bu da onu dahili SSD'ler veya microSD kartlar için ideal bir oyun haline getirir.
+</Callout>
+
+<Section icon={Monitor} title="Dear Passengers Steam Deck Uyumluluk Durumu">
+
+Steam Deck kullanıcılarının merakla beklediği 2026 çıkışlı **dear passengers steam deck** sürümü, havacılık simülasyonu ile fizik tabanlı kaosun benzersiz bir karışımını vaat ediyor. FLEXUS tarafından geliştirilen oyun, oyuncuları bir yandan uçağı yönetirken diğer yandan tırmanan felaketlerle başa çıkmak zorunda olan uçuş ekibi rollerine sokuyor. Valve henüz resmi bir \"Onaylandı\" (Verified) veya \"Oynanabilir\" (Playable) etiketi vermemiş olsa da, oyunun teknik profili Steam Deck'in yetenekleriyle oldukça iyi uyuşuyor.
+
+**Öne Çıkan Video Detayları:**
+- **Fizik Kaosu**: Resmi görüntüler, türbülansa tepki veren ragdoll yolcuları ve serbest kalan kargoları gösteriyor.
+- **Mürettebat Rolleri**: Kokpitteki Pilot ile Kabin Görevlileri arasındaki iş bölümünü vurguluyor.
+- **Acil Durum Tehlikeleri**: Kuş çarpmaları, motor yangınları ve kargo bölümünden kaçan timsahlar hakkında önizlemeler sunuyor.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Şu anda oyunun Steam üzerinden Windows PC için çıkacağı onaylanmış durumda. Ragdoll efektleri ve dinamik hava durumu içeren fizik tabanlı yapısı, Steam Deck'in APU'su için birincil test alanı olacak. Ancak, 4 GB depolama gereksinimi ve DirectX 12 desteği göz önüne alındığında, oyunun modern donanım yapılandırmaları için optimize edildiği görülüyor.
+
+| Platform Detayı | Durum | Notlar |
+| :--- | :--- | :--- |
+| **Çıkış Dönemi** | 2026 | Steam üzerinden PC için onaylandı |
+| **Steam Deck Derecesi** | Derecelendirilmedi | Resmi doğrulama bekleniyor |
+| **İşletim Sistemi** | Windows 10 | Proton uyumluluğu bekleniyor |
+| **Giriş Desteği** | Tam Kontrolcü Desteği | Gamepad ve trackpad'ler için optimize edildi |
+| **Çok Oyunculu** | Çevrimiçi Eşli Oyun | Kararlı bir internet bağlantısı gerektirir |
+
+<Callout type="warning" title="Erken Erişim Notu">
+2026 itibarıyla FLEXUS, yerel bir Linux sürümünü onaylamadı. Oyuncular, SteamOS üzerinde en iyi uyumluluğu sağlamak için **Proton Experimental** veya **Proton Hotfix** kullanmayı beklemelidir.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Donanım Gereksinimleri ve El Konsolu Performansı">
+
+**Dear passengers steam deck** performansının nasıl olacağını anlamak için resmi minimum sistem gereksinimlerine bakmamız gerekiyor. Oyun, masaüstü kullanıcıları için yalnızca bir GTX 1060 veya RX 6600 XT gerektirerek erişilebilir olacak şekilde tasarlanmıştır. Steam Deck'in GPU'su 800p oyunculuk için benzer bir performans sınıfında yer aldığından, görünüm oldukça olumlu.
+
+El konsolu oyuncuları için birincil endişe kaynağı, işlemciyi (CPU) yoğun şekilde kullanan fizik hesaplamaları olacaktır. Türbülans vurduğunda her yolcu, yemek tepsisi ve bagaj parçası birer fizik nesnesine dönüşür. Bu durum, kabinin asi yolcular ve serbest kalan kargolarla dolu olduğu \"Ekstrem\" riskli uçuşlar sırasında kare hızı düşüşlerine neden olabilir.
+
+| Bileşen | Minimum PC Gereksinimi | Steam Deck Yeteneği |
+| :--- | :--- | :--- |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz | Özel Zen 2 (4 Çekirdek/8 İzlek) |
+| **Bellek** | 8 GB RAM | 16 GB LPDDR5 |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT | Özel RDNA 2 (8 CU) |
+| **DirectX** | Sürüm 12 | Destekleniyor |
+| **Depolama** | 4 GB | Yüksek hızlı NVMe/microSD |
+
+<Callout type="tip" title="Optimizasyon İpucu">
+En kararlı deneyim için Steam Deck'in yenileme hızını **40Hz/40FPS** değerine kilitleyin. Bu, uzun uçuşlar sırasında pil ömründen tasarruf sağlarken 30FPS'ye kıyasla daha akıcı bir görsel deneyim sunar.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="El Konsolunda Havayolu Yönetimi İçin Kontrolleri Optimize Etme">
+
+7 inçlik bir ekranda tüm uçağı yönetmek, hassas bir kontrol kurulumu gerektirir. **Dear Passengers**, kokpit anahtarlarını değiştirmekten agresif yolcuları zapt etmeye kadar karmaşık etkileşimler içerir. Steam Deck'in izleme panelleri (trackpad), geleneksel analog kolların zorlanabileceği uçuş rotasında ince ayarlar yapılmasına olanak tanıdığından özellikle Pilot rolü için son derece kullanışlıdır.
+
+<Steps>
+  <Step num="1" title="İlk Kontrolcü Eşleştirmesi">
+    Steam Girdisi (Steam Input) menüsüne gidin ve \"Gamepad with Mouse Trackpad\" şablonunu seçin. Bu, sağ trackpad'in kabin yönetimi görevleri için bir imleç görevi görmesini sağlar.
+  </Step>
+  <Step num="2" title="Hassasiyet Ayarı">
+    Kuş çarpmaları ve motor arızaları sırasında hızlı tepki verebilmek için oyun ayarlarından analog kol ölü bölgelerini (deadzones) azaltın.
+  </Step>
+  <Step num="3" title="Arka Tuş Atamaları">
+    Daha hızlı acil durum müdahalesi için L4/L5 ve R4/R5 arka tuşlarını \"Kargo Bölmesini Aç\" veya \"Yangın Söndürücüyü Etkinleştir\" gibi sık kullanılan eylemlere atayın.
+  </Step>
+  <Step num="4" title="Onarımlar İçin Jiroskop Hedefleme">
+    Gövde onarım görevleri için Jiroskopu (Gyro) etkinleştirin. Dış hasarı onarmak için kabinden çıkmanız gerektiğinde, Jiroskop onarım araçlarını daha sezgisel bir şekilde hedeflemenizi sağlar.
+  </Step>
+</Steps>
+
+Oyunun fizik güdümlü etkileşimleri, nesneleri sık sık kavrayıp fırlatacağınız anlamına gelir. Steam Deck'te, \"Kavrama\" için tetikleyicileri (triggers) ve \"Etkileşim\" için ön yüz tuşlarını kullanmak kabin servisi için doğal bir akış oluşturur.
+
+<Callout type="info" title="İletişim Önceliği">
+Bu bir kooperatif oyunu olduğundan, sesli sohbet için Steam Deck'in yerleşik mikrofonunu kullanın. Pilotun kabin ekibini yaklaşan hava boşlukları hakkında uyarması gerektiğinde iletişim hayati önem taşır.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eşli Oyun Rolleri ve Deck Stratejisi">
+
+**Dear Passengers**'ta ekip stratejisi, başarılı bir iniş ile havada gerçekleşecek bir felaket arasındaki farkı belirler. El konsolunda oynarken bazı rolleri yönetmek diğerlerine göre daha kolay olabilir. Pilot rolü ekrana sürekli odaklanmayı gerektirirken, Kabin rolleri daha fazla hareket ve etkileşime izin verir.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Birincil Odak**: Uçuş kontrolü ve hava durumu navigasyonu.
+    - **Deck Avantajı**: Trackpad'ler kokpit kadranları için üstün hassasiyet sunar.
+    - **Risk**: Yüksek konsantrasyon gerektirir; gürültülü ortamlarda oynamak zordur.
+  </Card>
+  <Card title="Kabin Ekibi">
+    - **Birincil Odak**: Yolcu servisi ve güvenliği.
+    - **Deck Avantajı**: Hızlı tuş komutları servis görevleri için idealdir.
+    - **Risk**: Ragdoll fizikleri, küçük analog kollarda hassas hareketi zorlaştırabilir.
+  </Card>
+  <Card title="Kargo Sorumlusu">
+    - **Birincil Odak**: Tehlikeli hayvanları ve yüksek değerli yükleri izlemek.
+    - **Deck Avantajı**: Kısa aralıklarla yönetilmesi daha kolaydır.
+    - **Risk**: Kaçan timsahlar hızlı reaksiyon süreleri gerektirir.
+  </Card>
+</CardGrid>
+
+Steam Deck'te iki oyunculu bir kurulum için, bir oyuncu tamamen kokpite odaklanırken diğeri tüm kabin görevlerini üstlenmelidir. Bu, kabindeki oyuncunun görevleri etkili bir şekilde önceliklendirmesini ve servisten önce güvenliğe odaklanmasını gerektirir.
+
+| Kurulum Türü | Rol Dağılımı | İletişim Stratejisi |
+| :--- | :--- | :--- |
+| **İki Kişilik Ekip** | 1 Pilot, 1 Kabin Çok Yönlü | Pilot dönüşleri bildirir; Kabin yangınları bildirir |
+| **Tam Kadro** | 1 Pilot, 2 Servis, 1 Kargo | Kabin Şefi acil durum müdahalesini koordine eder |
+| **Tek Oyunculu** | Yapay Zeka Destekli veya Çoklu Görev | Öncelikle uçuş istikrarına odaklanın |
+
+<Callout type="success" title="Strateji Avantajı">
+Aynı odada oynuyorsanız, bir oyuncu Pilot görünümü için televizyona bağlı (docked) bir Steam Deck kullanabilir, diğeri ise Kabin görevleri için el konsolunu kullanabilir.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Steam Deck'te Uçuş Esnasındaki Tehlikelerden Kurtulma">
+
+Oyunun temel zorluğu, risk ve ödül dengesini yönetmektir. Her uçuştan önce yükünüzü seçersiniz. Daha yüksek ödemeler, yasa dışı kargolar veya güvenlik kurallarına uymayı reddeden asi yolcular gibi \"Ekstrem\" risklerle birlikte gelir. Steam Deck'te bu kaotik sahneler en çok zorlayan anlardır.
+
+<Checklist
+  id="hazard-response"
+  title="Acil Durum Müdahale Listesi:"
+  items={[
+    "Yolcu huzursuzluğu sırasında kokpit kapısını kilitleyin",
+    "Kaçan canlı kargoları (örn. timsahlar) tespit edin ve kontrol altına alın",
+    "Gövde bütünlüğü düşmeden önce motor yangınlarını söndürün",
+    "Sert türbülans sonrasında koridorlardaki başıboş bagajları temizleyin",
+    "Monte edilmiş savunma silahlarını kullanarak dış hasarları onarın",
+    "Yiyecek ve içecek servisiyle yolcu memnuniyetini koruyun"
+  ]}
+/>
+
+Gevşek bagajlar gibi fizik tabanlı nesneler türbülans sırasında fırlayan cisimlere dönüşebilir. Steam Deck'in ekranı çok kalabalıklaşabilir, bu nedenle koridorları temiz tutmak sadece bir güvenlik kuralı değil, aynı zamanda bir performans optimizasyonudur. Ekranda daha az hareketli nesne olması, kararlı bir kare hızının korunmasına yardımcı olur.
+
+| Tehlike Türü | İlk Müdahaleci | Tırmanma Riski |
+| :--- | :--- | :--- |
+| **Dinamik Hava Durumu** | Pilot | Kabin genelinde fizik kaosuna neden olur |
+| **Kuş Çarpması** | Pilot / Mühendis | Motor yangınına ve irtifa kaybına yol açar |
+| **Kaçan Kargo** | Kabin Ekibi | Yolcuları yaralar ve koridorları kapatır |
+| **Uçak İçi Yangın** | En Yakın Mürettebat | Kargo ve kokpite hızla yayılır |
+
+<Callout type="warning" title="Fizik Uyarısı">
+Fizik ağırlıklı acil durumlar geçici kare süresi (frame time) dalgalanmalarına neden olabilir. Düşük pilli veya güç sınırlaması olan bir Steam Deck'te oynuyorsanız \"Ekstrem\" riskli kargolardan kaçının.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers, Steam Deck için resmi olarak Onaylandı mı?",
+    answer: "Temmuz 2026 itibarıyla oyun 'Derecelendirilmedi' durumundadır. Ancak sistem gereksinimleri ve kontrolcü desteği, lansmandan kısa bir süre sonra 'Oynanabilir' veya 'Onaylandı' olacağını gösteriyor."
+  },
+  {
+    question: "Dear Passengers oyununu Steam Deck'te çevrimdışı oynayabilir miyim?",
+    answer: "Oyun, çevrimdışı oynanabilen tek oyunculu modu desteklemektedir. Ancak asıl deneyim, aktif bir internet bağlantısı gerektiren çevrimiçi kooperatif modudur."
+  },
+  {
+    question: "Oyun, Steam Deck'in CPU'sundaki fizikleri nasıl yönetiyor?",
+    answer: "Oyun, fizik tabanlı ragdoll'lar ve döküntüler kullanır. Genellikle kararlı olsa da, yoğun türbülans sırasında veya aynı anda birden fazla tehlike meydana geldiğinde kare düşüşleri yaşayabilirsiniz."
+  },
+  {
+    question: "Steam Deck'te Dear Passengers için en iyi ayarlar nelerdir?",
+    answer: "Görsel kalite ve pil ömrünü dengelemek için 40FPS kilidi ve DirectX 12 etkinleştirilmiş olarak Orta ve Düşük ayarların bir karışımını öneriyoruz."
+  }
+]} />
+
+</Section>

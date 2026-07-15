@@ -1,0 +1,178 @@
+import { Map, Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Kargo Rehberi: Uçuş Planlaması ve Güvenli Taşıma",
+  description: "Dear Passengers'taki risk ve ödül kargo sisteminde ustalaşın. Yüksek kazançlı yükleri nasıl güvenceye alacağınızı, kaçmaya meyilli canlı kargoları nasıl yöneteceğinizi ve türbülanstan nasıl sağ çıkacağınızı öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Cargo+Management+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers kargo rehberi**: Uçuşlarınızda hayatta kalmanın anahtarı, yüksek kazançlar ile kabin kaosu arasındaki dengeyi kurmaktır.
+- **Risk yönetimi**: Daha yüksek ödeme yapan kargo seçenekleri, kaçan hayvanlar veya hassas konteynerler gibi tehlikeli unsurları beraberinde getirir.
+- **Mürettebat koordinasyonu**: Kargo takibi için belirli bir mürettebat üyesini görevlendirmek, küçük kaymaların kazalara yol açmasını önler.
+- **Fizik etkisi**: Sabitlenmemiş bagajlar ve yükler, türbülans veya keskin dönüşler sırasında ölümcül fırlayan nesnelere dönüşür.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers'ta Kargo Sistemini Anlamak">
+
+[Dear Passengers on Steam](https://store.steampowered.com/app/4534960/Dear_Passengers/) oyununun kaotik gökyüzünde, birincil gelir kaynağınız büyük ölçüde ambarda taşıdıklarınıza bağlıdır. Her kalkıştan önce mürettebatınız, yolcuları ve kargoları seçmek için uçuş manifestosunu incelemelidir. Bu uçuş öncesi aşama, yolculuğunuz için zorluk seçici görevi görür. Standart kasaları seçmek sorunsuz, düşük riskli bir rota sağlarken; yüksek değerli, dengesiz veya yasa dışı sevkiyatları seçmek, aşırı kabin tehlikesi pahasına potansiyel kazancınızı artırır.
+
+**Öne Çıkan Video Detayları:**
+- **Uçuş öncesi seçim**: Kargo seçiminin rotanızın zorluğunu nasıl değiştirdiği.
+- **Fizik motoru**: Türbülans sırasında sabitlenmemiş eşyaların kabin içinde uçuşmasını izlemek.
+- **Acil durum müdahalesi**: Uçuş sırasında kaçan hayvanları ve yapısal hasarları yönetmek.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+| Kargo Türü | Risk Seviyesi | Kazanç Potansiyeli | Temel Tehlike |
+|---|---|---|---|
+| **Standart Kargo** | Düşük | Temel Seviye | Hafif türbülans sırasında biraz kayar |
+| **Taşıması Zor** | Orta | Yüksek | Sürekli kontrol ve manuel sabitleme gerektirir |
+| **Yasa Dışı Kargo** | Yüksek | Çok Yüksek | Dış tehditleri ve yüksek kabin basıncını çeker |
+| **Hayvan Kargosu** | Sıra Dışı | Premium | Muhafaza hatası, kabin içinde serbest dolaşan yırtıcılara yol açar |
+
+<Callout type="warning" title="Risk Uyarısı">
+Özel bir kargo görevlisi atamadan yüksek kazançlı bir uçuşu kabul etmek, bir dizi başarısızlığı tetiklemenin en hızlı yoludur. Yüksek riskli yükleri yüklemeden önce her zaman ekibinizin koordinasyon sınırlarını değerlendirin.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dear Passengers Kargo Rehberi: Risk ve Ödül Profilleri">
+
+Oyundaki her kargo kategorisi benzersiz bir operasyonel strateji gerektirir. Yasa dışı mal dolu bir kasaya standart bir bagaj gibi davranamazsınız. Fizik tabanlı hareket, uçağın yunuslama veya irtifasındaki herhangi bir değişikliğin kargonuzun fiziksel durumunu doğrudan etkilediği anlamına gelir.
+
+Kârı en üst düzeye çıkarmak için mürettebatınız her sevkiyat türünün davranış profillerini anlamalıdır:
+
+<CardGrid cols={3}>
+  <Card title="Standart Yük">
+    - **Düşük risk seviyesi**
+    - Kararlı temel gelir
+    - Minimum düzeyde izleme gerektirir
+    - Kalkışta bir kez sabitleyin
+  </Card>
+  <Card title="Hassas & Dengesiz">
+    - **Orta risk seviyesi**
+    - Yüksek kazanç potansiyeli
+    - Ağır G-kuvveti altında kırılır
+    - Sarsıntısız pilotaj gerektirir
+  </Card>
+  <Card title="Canlı & Tehlikeli">
+    - **Sıra Dışı risk seviyesi**
+    - Premium kazanç potansiyeli
+    - Taşıma kasalarından kaçabilir
+    - Derhal kontrol altına alınmalıdır
+  </Card>
+</CardGrid>
+
+| Kargo Kategorisi | Bilinen Kabin Davranışı | Önerilen Mürettebat Tepkisi |
+|---|---|---|
+| **Standart Yolcular** | Yemek ve sorunsuz uçuşlar bekler | Sakin dönemlerde rutin hizmeti tamamlayın |
+| **Asi Yolcular** | Kabini bozar ve mürettebata müdahale eder | Kargonun dikkat dağıtmasını önlemek için hızla zapt edin |
+| **Başıboş Bagajlar** | Hava boşlukları sırasında kabinde uçar | Yürüyüş yollarını temizleyin ve baş üstü dolaplarında sabitleyin |
+| **Kaçan Yırtıcılar** | Yolculara saldırır ve hareketi engeller | Yemek servisinden önce kontrol altına almaya öncelik verin |
+
+<Callout type="tip" title="Uzman İpucu">
+İki oyunculu bir mürettebat yönetiyorsanız, asi yolcuları hayvan kargolarıyla karıştırmaktan kaçının. Bir oyuncu her zaman kokpitte kalmalıdır, bu da hem kabin servisini hem de kaçış acil durumlarını yönetmek için geriye yalnızca bir mürettebat üyesi bırakır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Kargo Sabitleme ve Uçuş Planı">
+
+Taşıma görevlerinizde başarılı olmak, kabin organizasyonuna ve uçuş yürütülmesine sistematik bir yaklaşım gerektirir. Kargonuzun varış noktasına sağlam bir şekilde ulaşmasını sağlamak için bu adım adım prosedürü izleyin.
+
+<Steps>
+  <Step num="1" title="Uçuş Manifestosunu Analiz Edin">
+    Kalkıştan önce kargo seçeneklerini inceleyin. Genel kabin kaosunu yönetilebilir tutmak için yüksek kazançlı, yüksek riskli öğeleri standart, düşük bakım gerektiren yolcularla dengeleyin.
+  </Step>
+  <Step num="2" title="Kargo Liderini Belirleyin">
+    Kargo ambarını izlemek için bir kabin görevlisi görevlendirin. Bu oyuncu, pilot keskin dönüşlere başlamadan önce konteyner bütünlüğünü kontrol etmeli ve başıboş bagajları sabitlemelidir.
+  </Step>
+  <Step num="3" title="Pilot İletişimini Kurun">
+    Pilot, hareketli hava koşullarına girmeden veya hava boşluklarında gezinmeden önce kabin ekibini uyarmalıdır. Bu uyarı, kargo liderinin dengesiz kasaları sabit tutmasını sağlar.
+  </Step>
+  <Step num="4" title="Uçuş Sırasındaki Kaymaları Yönetin">
+    Türbülans meydana gelirse, rutin yemek servisini derhal durdurun. Kargo bölümüne giden yolları açık tutmak için ana koridorlardaki başıboş çantaları ve döküntüleri temizleyin.
+  </Step>
+  <Step num="5" title="İhlalleri Derhal Kontrol Altına Alın">
+    Canlı kargo kaçarsa (resmi oynanış görüntülerinde gösterilen timsahlar gibi), bunu birinci öncelikli acil durum olarak değerlendirin. Gövdeye zarar vermeden veya yolcuları yaralamadan önce tehdidi kontrol altına alın.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Operasyonel Etki">
+Kabin yürüyüş yollarını açık tutmak sadece yolcu konforuyla ilgili değildir. Tıkalı koridorlar acil durumlara müdahale sürenizi geciktirerek basit bir başıboş kasayı uçuşu sonlandıran bir felakete dönüştürür.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kargo Koruma Hedefleri ve Kontrol Listeleri">
+
+Karlı bir havayolu şirketini sürdürmek için mürettebatınız her uçuşta belirli güvenlik hedeflerine ulaşmayı amaçlamalıdır. Yüksek baskı altındaki durumlarda ekibinizin odaklanmasını sağlamak için bu kontrol listesini kullanın.
+
+<Checklist
+  id="cargo-safety-goals"
+  title="Uçuş Güvenliği Kilometre Taşları:"
+  items={[
+    "Seyir irtifasına ulaşmadan önce tüm baş üstü bagajlarını sabitleyin",
+    "Her büyük türbülans olayından sonra manuel bir kargo bütünlüğü kontrolü gerçekleştirin",
+    "Asi yolcuları hassas taşıma kasalarından uzak tutun",
+    "Hava durumu değişiklikleri sırasında kokpit-kabin iletişimini aktif tutun",
+    "Maksimum ödeme bonusu için seçilen kargonun en az %90'ını hasarsız teslim edin"
+  ]}
+/>
+
+<Callout type="success" title="Başarı Stratejisi">
+Kusursuz bir şekilde gerçekleştirilen düşük riskli bir uçuş, genellikle kargonun tahrip olması ve pahalı uçak onarımlarıyla sonuçlanan başarısız, yüksek riskli bir uçuştan daha iyi uzun vadeli kârlar sağlar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kargo Acil Durumlarını ve Uçuş Tehlikelerini Yönetmek">
+
+Kabinde işler ters gittiğinde, çok hızlı bir şekilde ters gider. Dear Passengers'taki fizik tabanlı simülasyon, ele alınmayan tek bir tehlikenin hızla ikincil acil durumları tetikleyebileceği anlamına gelir. Örneğin, küçük bir kuş çarpması motora zarar verebilir, bu da pilotun irtifa kontrolünü kaybetmesine neden olabilir; bu durum sabitlenmemiş kargoyu ambarından dışarı fırlatarak bir kabin yangını başlatabilir.
+
+| Acil Durum Senaryosu | İlk Müdahale Rolü | Gerekli Birincil Eylem | Tırmanma Riski |
+|---|---|---|---|
+| **Türbülans Kayması** | Kabin Görevlisi | Başıboş eşyaları sabitleyin ve kargo mandallarını kilitleyin | Tıkalı koridorlar, yaralı yolcular |
+| **Motor Yangını** | En Yakın Mürettebat | Kaynağı söndürün; pilot uçağı dengeler | Uçuş kontrolü kaybı, gövde delinmesi |
+| **Kargo Kaçışı** | Kargo Görevlisi | Yolcuları uzaklaştırın, hayvanı yönlendirin/kontrol altına alın | Hasarlı sistemler, yolcu paniği |
+| **Dış Saldırı** | Silahçı Ekibi | Gövdeyi savunmak için harici silahları kullanın | Yapısal arıza, toplam basınç kaybı |
+
+<Callout type="warning" title="Kritik Uyarı">
+Dış bir tehditle başa çıkmak veya bir gövde deliğini onarmak için asla tüm kabin ekibinizi göndermeyin. Yolcu kabinini ve kargo ambarını tamamen gözetimsiz bırakmak, küçük kaymaların kontrol edilemeyen yangınlara veya kaçışlara dönüşmesine neden olur.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dear Passengers Kargo SSS">
+
+<FAQ items={[
+  {
+    question: "Kargo seçimi Dear Passengers'ta zorluğu nasıl etkiler?",
+    answer: "Kargo seçimi dinamik bir zorluk değiştirici görevi görür. Yüksek kazançlı kargolar genellikle kolayca kırılan hassas eşyaları, dış saldırıları çeken yasa dışı malları veya kaçıp kabinde dolaşabilen canlı hayvanları içerir."
+  },
+  {
+    question: "Uçuş sırasında kargo hasar görürse ne olur?",
+    answer: "Hasarlı kargo, varış noktasındaki uçuş kazancınızı önemli ölçüde azaltır. Kritik kargo tamamen yok olursa veya uçağın kenarından düşerse, görevi tamamen başarısız tamamlayabilirsiniz."
+  },
+  {
+    question: "Türbülans sırasında kargonun etrafta kayması nasıl önlenir?",
+    answer: "Kabin görevlileri kargo konteynerlerini ve başıboş bagajları manuel olarak sabitlemelidir. Ek olarak pilot, yaklaşan hava durumu değişikliklerini bildirmelidir ki mürettebat türbülans başlamadan önce ambarı kilitleyebilsin."
+  },
+  {
+    question: "Kargo kaçıp yolculara saldırabilir mi?",
+    answer: "Evet, timsahlar gibi bazı yüksek riskli hayvan kargoları izlenmedikleri takdirde kasalarından kaçabilirler. Serbest kaldıklarında kabin düzenini bozarlar, yürüyüş yollarını kapatırlar ve yolcuları tehdit ederler."
+  }
+]} />
+
+</Section>

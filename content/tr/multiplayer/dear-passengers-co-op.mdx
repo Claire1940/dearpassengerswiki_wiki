@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Plane, Bomb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Co-op: Kaotik Oynanış ve Kurulum Rehberi",
+  description: "2026'nın hit bağımsız oyunu için çok oyunculu roller, kaotik kargo yönetimi ve hayatta kalma stratejileri rehberimizle Dear Passengers Co-op modunda ustalaşın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dear+Passengers+Co-op+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "dear passengers, co-op, çok oyunculu, rehber, oynanış, strateji"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers Co-op**, oyuncuların aşırı baskı altında bir uçağı yönetmek zorunda olduğu, yüksek riskli ve fizik tabanlı bir ekip çalışmasına odaklanır.
+- **İletişim hayati önem taşır**; oyuncular uçağı uçurmaktan silahlı hava korsanlarına karşı savunma yapmaya kadar her şeyi halletmelidir.
+- **Kargo çeşitliliği**, sıradan malzemelerden timsahlar gibi tehlikeli vahşi hayvanlara ve hatta nükleer cihazlara kadar uzanır.
+- **Kaos yönetimi**, oyuncuların teknik uçuş görevleri ile absürt savaş senaryolarını dengelemesini gerektiren temel döngüdür.
+- **Başarı**, net rol dağılımı ve havada kapıların açılması gibi çevresel tehlikelere karşı hızlı tepki verilmesini gerektirir.
+</Callout>
+
+<Section icon={Plane} title="Dear Passengers Co-op Mekaniklerine Giriş">
+
+**Dear Passengers Co-op**'un temel çekiciliği, iş birliğine dayalı çok oyunculu modundaki çılgınca yaklaşımında yatar. Geleneksel uçuş simülatörlerinin aksine, bu yapım anlık gelişen kaosa ve fizik tabanlı etkileşimlere öncelik verir. Oyuncular, çekilen her kolun veya açılan her kapının feci—ve genellikle komik—sonuçlara yol açabileceği ortak bir kokpit ve kargo bölümüne bırakılır. İster fırtınalı bir havada ilerliyor olun ister bir AK-47 ile rakiplerinizi savuşturuyor olun, kooperatif öğesi her sisteme işlenmiştir ve bu da onu 2026'nın en çok beklenen bağımsız oyunlarından biri yapmaktadır.
+
+**Video Öne Çıkanlar:**
+- **Uçuş Sırasındaki Kaos**: Havada kabin kapılarını açan ve kanatların üzerinde duran oyunculara tanık olun.
+- **Absürt Kargo**: Timsahlar ve nükleer savaş başlıkları gibi tehlikeli varlıkların taşınmasına genel bakış.
+- **Savaş Entegrasyonu**: Uçağı savunmak veya diğer uçaklarla çatışmaya girmek için ateşli silahların kullanımına bir bakış.
+- **Sosyal Etkileşim**: Acil durum manevralarını koordine etmek için yerleşik oyun içi sohbetin önemi.
+
+<YouTubeEmbed videoId="a_W7HsW3eAg" title="YILIN CO-OP OYUNU MU YOKSA ARKADAŞLIK BOZAN MI?! DEAR PASSENGERS" />
+
+<Callout type="tip" title="Profesyonel İpucu">
+Yardımcı pilotunuzla koordine olmak için yakınlık tabanlı sesli sohbeti kullanın. Yüksek basınçlı durumlarda, manuel sinyalizasyon genellikle toplam motor arızasını veya kargo dökülmesini önlemek için çok yavaştır.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Çok Oyunculu Roller ve Sorumluluklar">
+
+**Dear Passengers Co-op**'ta başarı, oyuncuların iş bölümünü ne kadar iyi yaptığına bağlıdır. Oyun serbest harekete izin verse de, kalkıştan önce özel roller belirlemek hayatta kalma oranınızı önemli ölçüde artırır. Uçak, uçuş güvertesinden arka yükleme rampasına kadar sürekli dikkat gerektirir. Eğer herkes aynı anda uçağı uçurmaya çalışırsa, kargo kaçınılmaz olarak rüzgara veya yırtıcılara yem olacaktır.
+
+| Rol | Temel Sorumluluk | Ana Ekipman | Risk Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | İrtifayı koruma ve navigasyon | Uçuş Lövyesi, Radar | Orta |
+| **Yükleyici** | Kargoyu sabitleme ve ağırlık yönetimi | Kancalar, Kayışlar | Yüksek |
+| **Savunmacı** | Hava korsanlarını ve rakipleri savuşturma | AK-47, İşaret Fişeği | Çok Yüksek |
+| **Mühendis** | Motorları ve gövde sızıntılarını onarma | İngiliz Anahtarı, Kaynak Makinesi | Orta |
+
+Bu rollerin erkenden belirlenmesi, genellikle bir timsah mürettebatın geri kalanını yerken uçağın burun üstü çakılmasıyla sonuçlanan "herkes pilot" sendromunu önler. Her oyuncu, nükleer geri sayım gibi yerel bir acil durum anında görev yerini terk etmeye hazır olmalıdır.
+
+<Callout type="warning" title="Kritik Uyarı">
+Arka kargo kapısı açıkken kokpiti asla gözetimsiz bırakmayın. Kabin basıncındaki değişim, sabitlenmemiş oyuncuları uçaktan dışarı fırlatabilir ve bu da o mürettebat üyesi için anında oyunun sona ermesine neden olur.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Pilot Stratejisi">
+    - Hızdan ziyade **istikrara odaklanın**.
+    - Dönüşleri kargo ekibine bildirin.
+    - Yakıt seviyelerini sürekli izleyin.
+  </Card>
+  <Card title="Savunmacı Stratejisi">
+    - Kanatlara tutunmaya çalışan **düşmanları kontrol edin**.
+    - Cephaneyi yüksek tehdit oluşturan hedefler için saklayın.
+    - Rakip uçakları baskı altına almak için AK-47 kullanın.
+  </Card>
+  <Card title="Yükleyici Stratejisi">
+    - Eğilmeyi önlemek için **ağırlığı dengeleyin**.
+    - Timsahları belirlenmiş kafeslerinde tutun.
+    - Yüksek değerli "kilo" bırakmalarına öncelik verin.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Çok Oyunculu Kurulum">
+
+**Dear Passengers Co-op**'a başlamak, istikrarlı bir bağlantı ve senkronize bir deneyim sağlamak için birkaç özel adım gerektirir. Oyun büyük ölçüde fizik senkronizasyonuna dayandığından, sabit bir internet bağlantısına sahip bir ana bilgisayara (host) sahip olmak çok önemlidir. İlk kaotik uçuşunuzu başlatmak için bu adımları izleyin.
+
+<Steps>
+  <Step num="1" title="Lobi Oluşturma">
+    Ana menüden 'Multiplayer' seçeneğini seçin ve 'Host Session'ı tıklayın. Tercihinize göre gizlilik ayarlarınızı 'Friends Only' veya 'Public' olarak ayarlayın. Gecikmeyi en aza indirmek için bölgenizin doğru ayarlandığından emin olun.
+  </Step>
+  <Step num="2" title="Uçak Seçimi">
+    Grup büyüklüğünüze uygun bir uçak seçin. Küçük pırpır uçaklar ikililer için daha kolay yönetilirken, daha büyük kargo uçakları verimli çalışmak için tam dört kişilik bir ekip gerektirir.
+  </Step>
+  <Step num="3" title="Ekipman Yapılandırması">
+    Oyuna girmeden önce, her oyuncunun başlangıç aracını seçmesini sağlayın. En az bir oyuncunun onarımlar için İngiliz Anahtarı ve bir diğerinin savunma için AK-47 taşıması önerilir.
+  </Step>
+  <Step num="4" title="Uçuş Öncesi Kontrol">
+    Oyun dünyasına girdiğinizde, pilot motorları çalıştırmadan önce tüm oyuncuların gemide olduğundan emin olun. Tüm kargo kasalarının zemin mıknatıslarına kilitlendiğini kontrol edin.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Kurulum Başarılı">
+Tüm oyuncular fizik tabanlı nesnelerin (bira şişeleri veya kasalar gibi) sorunsuz hareket ettiğini görebiliyorsa, senkronizasyonunuz başarılıdır. Nesneler titriyorsa, ana bilgisayarı en düşük ping değerine sahip oyuncuyla değiştirmeyi düşünün.
+</Callout>
+
+</Section>
+
+<Section icon={Bomb} title="Kargo Tehlikeleri ve Savaş Yönetimi">
+
+**Dear Passengers Co-op**'taki kargo çeşitliliği, onu diğer kooperatif oyunlarından ayıran şeydir. Sadece kutu taşımıyorsunuz; yaşayan, nefes alan ve bazen patlayan tehlikeleri yönetiyorsunuz. Her kargo türünün özel ihtiyaçlarını anlamak, kârlı bir sefer ile alevli bir kaza arasındaki farktır.
+
+| Kargo Türü | Tehlike Seviyesi | Özel Gereksinimler | Ödül |
+| :--- | :--- | :--- | :--- |
+| **Standart Kilolar** | Düşük | Kayışla bağlı kalmalı | Standart Kredi |
+| **Canlı Timsahlar** | Yüksek | Sürekli kafes izleme gerektirir | Yüksek Kredi |
+| **Nükleer Cihaz** | Ekstrem | Sıcaklığa ve sarsıntıya duyarlı | Maksimum Kredi |
+| **Sıvı Varlıklar (Bira)** | Orta | Yüksek kırılganlık, kayma tehlikesi yaratır | Bonus XP |
+
+Savaş da bir o kadar öngörülemezdir. Sık sık rakip uçaklarla veya yer tabanlı uçaksavar ateşiyle karşılaşacaksınız. Bu anlarda oyun bir simülatörden aksiyon nişancı oyununa dönüşür. Oyuncular açık kapılardan ateş etmeye ve hatta engelleri temizlemek için uçağın dışına tırmanmaya hazır olmalıdır.
+
+<Callout type="info" title="Taktik Bilgi">
+Nükleer Cihazı taşırken, pilot sert dönüşlerden ve ani irtifa değişikliklerinden kaçınmalıdır. Aşırı G kuvvetleri patlama dizisini tetikleyebilir ve mürettebata kargoyu fırlatmak veya tamamen yok olmakla yüzleşmek için sadece saniyeler verir.
+</Callout>
+
+**Savaşta Hayatta Kalma Kontrol Listesi:**
+- **Çevreyi Kontrol Edin**: Yaklaşan uçakları taramak için pencereleri kullanın.
+- **Silah Hazır**: AK-47'nin dolu ve emniyetinin kapalı olduğundan emin olun.
+- **Acil Durum Tahliyesi**: Bir it dalaşı sırasında tehlikeli malları atmak için kargo serbest bırakma kolunun yerini bilin.
+- **Onarım Önceliği**: Havada kalmayı sürdürmek için gövde sızıntılarından önce kanat hasarını onarın.
+
+</Section>
+
+<Section icon={Shield} title="Gelişmiş Hayatta Kalma Stratejileri">
+
+**Dear Passengers Co-op**'ta ilerledikçe görevler önemli ölçüde daha karmaşık hale gelir. Oyunun, oyuncuları uçağın güvenliği için bir arkadaşını feda edebilecek anlık kararlar vermeye zorladığı "Arkadaşlık Testi" senaryolarıyla karşılaşacaksınız. Gelişmiş ekipler, verimliliklerini ve kârlarını en üst düzeye çıkarmak için belirli manevralar kullanır.
+
+**Tahliye Manevrası**
+Uçak irtifa kazanamayacak kadar ağırsa, yükleyici en düşük değerli kargoyu hızla belirlemeli ve atmalıdır. Bu zamanlama gerektirir; kargonun yerleşim bölgesine atılması cezalara neden olabilirken, okyanusa atılması güvenlidir.
+
+**Harici Onarım Taktikleri**
+Uç vakalarda motorlar alev alabilir. Bir oyuncunun uçak hareket halindeyken kanadın üzerine çıkması gerekebilir. Bu son derece tehlikelidir ve sadece pilot sabit, düşük hızlı bir uçuş rotası izlerken denenmelidir.
+
+| Strateji | Zorluk | Gereksinim | Fayda |
+| :--- | :--- | :--- | :--- |
+| **Kanat Yürüyüşü** | Çok Yüksek | Bağlama Halatı | Motor Onarımı |
+| **Senkronize Bırakma** | Orta | Sesli Sohbet | Hassas Teslimat |
+| **Acil Süzülüş** | Yüksek | Pilot Beceresi | Yakıt Tasarrufu |
+
+<Callout type="warning" title="Tehlike Uyarısı">
+Bağlama halatı olmadan kanat üzerinde durmak %90 ölüm riskidir. Herhangi bir oyuncu harici onarım denemeden önce her zaman "Yükleyici"nin gövdeye bir halat sabitlediğinden emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="İlerleme ve Hedefler">
+
+Asıl amaç uçuştan sağ çıkmak olsa da, **Dear Passengers Co-op** başarılı teslimatları ödüllendiren bir ilerleme sistemine sahiptir. Kazanılan krediler uçağınızı yükseltmek, daha iyi savunma silahları satın almak ve yeni, daha tehlikeli kontratların kilidini açmak için kullanılabilir.
+
+<Checklist
+  id="coop-milestones"
+  title="Co-op İlerleme Hedefleri:"
+  items={[
+    "%100 kargo bütünlüğü ile bir teslimatı tamamlayın",
+    "Bir rakip uçak pususuna karşı başarıyla savunun",
+    "Alarmı tetiklemeden bir Nükleer Cihaz teslim edin",
+    "Ağır Kargo Taşıma uçağının kilidini açın",
+    "Fırtına sırasında harici bir kanat onarımı gerçekleştirin"
+  ]}
+/>
+
+<Callout type="success" title="Başarı İpucu">
+'Smooth Operator' başarısı, hiçbir oyuncunun kargodan veya savaştan hasar almadığı tam bir uçuşu tamamlayarak açılır. Bu, kendini işine adamış bir Savunmacı ve çok dikkatli bir Pilot gerektirir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Dear Passengers Co-op modunda kaç kişi birlikte oynayabilir?",
+    answer: "Oyun şu anda çevrimiçi kooperatif modunda 4 oyuncuya kadar destek vermektedir. Tek başına oynanabilse de, zorluk önemli ölçüde artar ve karmaşık görevler için tam bir mürettebat şiddetle tavsiye edilir."
+  },
+  {
+    question: "Çok oyunculu mod için çapraz platform desteği var mı?",
+    answer: "Evet, Dear Passengers Co-op, PC ve ana konsollar arasında çapraz platform desteği sunarak arkadaşlarınızın hangi platformda olduğuna bakılmaksızın onlarla ekip kurmanıza olanak tanır."
+  },
+  {
+    question: "Uçuş sırasında pilot ölürse ne olur?",
+    answer: "Pilot etkisiz hale gelirse, başka bir oyuncu hızla kokpite geçmeli ve lövyeyi kontrol altına almalıdır. Eğer uçak dalışa geçmişse, bir kazayı önlemek için bu geçiş saniyeler içinde gerçekleşmelidir."
+  },
+  {
+    question: "Diğer oyuncuların uçaklarıyla savaşabilir miyiz?",
+    answer: "Belirli çok oyunculu modlarda, diğer oyuncu kontrollü mürettebatlarla karşılaşabilirsiniz. Onları görmezden gelmeyi seçebilir veya AK-47 gibi yerleşik silahları kullanarak hava savaşına girebilirsiniz."
+  }
+]} />
+
+</Section>

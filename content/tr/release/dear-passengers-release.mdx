@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Çıkış Tarihi: 2026 Çıkış Dönemi ve Oyun Mekanikleri",
+  description: "2026'da çıkması merakla beklenen Dear Passengers oyununu keşfedin. Bu popüler bağımsız yapım için kaotik co-op mekanikleri, havalimanı güvenliği ve hayatta kalma ipuçlarını öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dear+Passengers+Release+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers çıkış tarihi**, PC ve konsollara kaotik bir co-op enerjisi getirmek üzere resmi olarak 2026 yılı olarak planlandı.
+- **Temel oynanış**, havalimanı görevlerini yönetmek, güvenlikle ilgilenmek ve uçuş sırasındaki felaketlerden sağ çıkmak etrafında dönüyor.
+- **Çok oyunculu odak**, koordinasyonu vurgulasa da oyun, komik başarısızlıklar ve kazara (veya bilerek) yaşanan \"hava kilidi\" kazalarını tetiklemek üzere tasarlanmıştır.
+- **Bağımsız yapım cazibesi**, benzersiz sanat tarzları ve şapka takan timsahlar gibi tuhaf çevresel tehlikelerle deneyimi tanımlıyor.
+- **Topluluk heyecanı**, bu yapımın köklü co-op oyunlarına rakip olarak 2026'nın en eğlenceli parti oyunlarından biri olacağını gösteriyor.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Çıkış Genel Bakış & Fragman">
+
+Oyun topluluğu, 2026'da \"kaotik co-op\" türünü yeniden tanımlamayı vaat eden bağımsız bir proje olan ve yakında çıkacak olan **Dear Passengers** ile çalkalanıyor. Ticari havacılık ve havalimanı yönetiminin yüksek riskli, yüksek stresli ortamında geçen oyun, oyuncuları yolcuları, güvenliği ve ara sıra ortaya çıkan timsahları yönetirken birlikte çalışmaya veya muhteşem bir şekilde başarısız olmaya zorluyor. Tanıtım fragmanı, kahve servisinden takım arkadaşlarını kelimenin tam anlamıyla hava kilidinden dışarı fırlatmaya kadar uzanan mekanikleri vurgulayarak oyunun çılgın doğasını şimdiden gözler önüne serdi.
+
+**Video Öne Çıkanlar:**
+- **Kaotik Co-Op Dinamikleri**: \"Overcooked\" oyununa benzer, ancak uçakta geçen yüksek hızlı görev yönetimi.
+- **Çevresel Tehlikeler**: Yangın çıkması, ani basınç kaybı ve güvenlik ihlalleri.
+- **Özelleştirme ve Mizah**: Şapka takan timsahlar ve Florida'dan ilham alan temalar dahil olmak üzere ilginç karakter tasarımları.
+- **Fizik Tabanlı Etkileşim**: Kabinden dışarı çekilmek de dahil olmak üzere her eylemin gerçek zamanlı sonuçları.
+
+<YouTubeEmbed videoId="sD2tMCzJeX4" title="Dear Passengers 2026'nın En Komik Co-Op Oyunu Olabilir" />
+
+<Callout type="success" title="Çıkış Dönemi Onaylandı">
+**Dear Passengers çıkışı** şu anda 2026 yılı için hedefleniyor. Henüz belirli bir ay netleşmemiş olsa da geliştiriciler pürüzsüz bir çıkış deneyimi sağlamak için çok oyunculu ağ kodunu cilalamaya odaklanıyor.
+</Callout>
+
+Fragmanın yayınlanmasının ardından oyuncular, oyunun benzersiz simülasyon ve durum komedisi karışımına dikkat çekti. Havalimanı güvenliği bölümleri ve \"kahve molası\" mekanikleri, hızı ödüllendiren ancak zayıf iletişimi cezalandıran bir oyuna işaret ediyor. 2026 çıkışına yaklaştıkça, belirli görev türleri ve oyuncuların yönetmesi gerekecek uçak çeşitliliği hakkında daha fazla ayrıntı bekleyebilirsiniz.
+
+</Section>
+
+<Section icon={Swords} title="Temel Oyun Mekanikleri & Özellikler">
+
+Özünde, **Dear Passengers**, tırmanan bir dizi krizi yönetmekle ilgilidir. Geleneksel uçuş simülatörlerinin aksine, bu yapım kabin ekibi ve yer personelinin bakış açısına odaklanıyor. Sadece uçağı uçurmakla kalmıyor, aynı zamanda yolcuların isyan etmemesini sağlarken uçağın parçalanmasını önlemeye çalışıyorsunuz. Oyun, oyuncuların dar ve hareketli bir ortamda gezinirken siparişleri yerine getirmeleri gereken \"görev tabanlı\" bir ilerleme sistemi kullanıyor.
+
+<CardGrid cols={3}>
+  <Card title="Görev Yönetimi">
+    - **Hizmet odaklı**
+    - Yüksek hızlı kahve servisi
+    - Yolcu koltuğu atamaları
+    - Acil durum protokolü uygulaması
+  </Card>
+  <Card title="Kaos Kontrolü">
+    - **Felaket azaltma**
+    - Kabin yangınlarını söndürme
+    - Hava kilidi sızıntılarını yamama
+    - Saldırgan yaban hayatını yönetme
+  </Card>
+  <Card title="Güvenlik Detayı">
+    - **Süreç odaklı**
+    - Bagaj öğelerini tarama
+    - Şüpheli şapkaları tespit etme
+    - Havalimanı düzenini sağlama
+  </Card>
+</CardGrid>
+
+| Mekanik | Açıklama | Kaos Seviyesi | Zorluk |
+| --- | --- | --- | --- |
+| Kahve Servisi | Türbülans sırasında dökmeden sıcak içecekler servis edin | Orta | 2/5 |
+| Hava Kilidi Güvenliği | Kapıların kilitli olduğundan emin olun (veya düşmanları dışarı fırlatın) | Yüksek | 4/5 |
+| Güvenlik Kontrolü | Çantaları timsah gibi yasaklı maddeler için tarayın | Düşük | 3/5 |
+| Yangın Söndürme | Kabin alevler içinde kalmadan önce söndürücüleri kullanın | Aşırı | 5/5 |
+| Uçuş Yönlendirme | Pilot kayıpken uçağı dengede tutun | Yüksek | 4/5 |
+
+<Callout type="tip" title="Uzman İpucu">
+İletişim, cephaneliğinizdeki en önemli araçtır. Belirli roller atamak (bir kişi yangın görevinde, diğeri serviste) oyunun ortasındaki ani zorluk artışları sırasında kabinin tamamen çökmesini önleyebilir.
+</Callout>
+
+Oyuncular arasındaki etkileşim, gerçek komedinin yattığı yerdir. Tanıtımda görüldüğü gibi \"hava kilidi\" mekaniği, hem stratejik savunmaya hem de kazara (veya kasıtlı) sabotajlara izin verir. Bir takım arkadaşı özellikle yardımcı olmuyorsa veya kabinde başıboş bir timsah varsa, hava kilidi kalıcı, ancak biraz dağınık bir çözüm sunar. Bu oyuncu özgürlüğü seviyesi, oyunun hiçbir iki turunun aynı hissettirmemesini sağlar.
+
+</Section>
+
+<Section icon={Sparkles} title="Çevresel Tehlikeler ve Konumlar">
+
+**Dear Passengers**, sadece tek bir uçakla sınırlı değil. Oyun, her biri kendi yerel tehlikelerine sahip çeşitli ortamlar sunuyor. \"Florida temalı\" havalimanı terminallerinden yüksek irtifa lüks jetlerine kadar, çevre de en az zamanla yarışmak kadar büyük bir düşmandır. Geltiriciler, özellikle \"Florida Adamı\" tarzı kaosun dahil edilmesiyle bölgesel mizaha büyük ölçüde yer vermişler.
+
+| Konum | Birincil Tehlike | Benzersiz Mekanik | Tema |
+| --- | --- | --- | --- |
+| Sunshine Terminali | Timsah istilaları | Çanta tarama odaklı | Florida / Tropikal |
+| Stratosphere Jeti | Hızlı basınç kaybı | Düşük yerçekimli hareket | Yüksek Teknoloji / Lüks |
+| Kargo Taşıyıcı | Gevşek ağır kasalar | Ağır kaldırma / Fizik | Endüstriyel |
+| Özel Ada | Tropikal fırtınalar | Dış mekan navigasyonu | Tatil Köyü / Plaj |
+
+<Callout type="warning" title="Tehlike Uyarısı">
+Timsah NPC'lerine dikkat edin. Güvenliği atlatmak için genellikle kılık değiştirirler (şapka takmak gibi). Uçağa binmeyi başarırlarsa, kaynakları tüketirler ve yolcuları korkutarak hızlı bir puan kaybına neden olurlar.
+</Callout>
+
+Fizik motoru bu ortamlarda çok büyük bir rol oynuyor. Bir yangın çıktığında duman görüşü etkileyerek oyuncuları hafızalarına veya takım arkadaşlarından gelen sözlü ipuçlarına güvenmeye zorlar. Benzer şekilde, bir pencere kırılırsa, ortaya çıkan emiş gücü gevşek nesneleri ve oyuncuları yarığa doğru çekecektir. Her haritanın düzeninde ustalaşmak, daha yüksek zorluk derecelerinde hayatta kalmak için çok önemlidir.
+
+</Section>
+
+<Section icon={Shield} title="Platform Uyumluluğu & Sistem Gereksinimleri">
+
+**Dear Passengers çıkışına** yaklaşırken, birçok oyuncu bu kaotik şaheseri nerede oynayabileceğini merak ediyor. Ana geliştirme PC odaklı olsa da bağımsız ekip, bu deneyimi modern konsollara getirme konusunda güçlü bir istek dile getirdi. Oyunun stilize grafikleri erişilebilir olacak şekilde tasarlandı, ancak fizik hesaplamaları çok oyunculu etkileşimleri idare etmek için iyi bir işlemci gerektiriyor.
+
+| Platform | Durum | Çapraz Platform | Çıkış Dönemi |
+| --- | --- | --- | --- |
+| PC (Steam/Epic) | Onaylandı | Evet | 2026 Başları |
+| PlayStation 5 | Onaylandı | Evet | 2026 Ortası |
+| Xbox Series X/S | Onaylandı | Evet | 2026 Ortası |
+| Nintendo Switch 2 | Söylenti | Belirlenecek | 2026 Sonları |
+
+**Tahmini Sistem Gereksinimleri:**
+- **İşletim Sistemi**: Windows 10/11 (64-bit)
+- **İşlemci**: Dört çekirdekli 3.0 GHz veya daha iyisi
+- **Bellek**: 8 GB RAM
+- **Ekran Kartı**: NVIDIA GTX 1060 / AMD RX 580
+- **Ağ**: Geniş bant İnternet bağlantısı (Co-Op için gereklidir)
+
+<Callout type="info" title="Çapraz Platform Desteği">
+Geliştiriciler, **Dear Passengers** için PC ve ana konsollarda çapraz platform desteğinin ilk günden itibaren sunulacağını doğruladı. Bu, geniş bir oyuncu tabanı ve rastgele co-op ortakları arayanlar için daha kısa eşleştirme süreleri sağlar.
+</Callout>
+
+Projenin bağımsız doğası, optimizasyonun en büyük öncelik olduğu anlamına geliyor. Ekip, taşınabilir co-op oyun trendinin artmasını göz önünde bulundurarak Steam Deck'te \"Onaylandı\" statüsünü hedefliyor. Bu durum, ironik bir şekilde, seyahat ederken yerel \"koltuk co-op\" seansları için Dear Passengers'ı mükemmel bir seçenek haline getirecektir.
+
+</Section>
+
+<Section icon={Target} title="2026 Çıkışına Nasıl Hazırlanılır">
+
+**Dear Passengers çıkışına** hazırlanmak, oyunu Steam'de istek listesine eklemekten daha fazlasını gerektirir. 2026'nın kaotik gökyüzünde gerçekten başarılı olmak için oyunun sosyal dinamiklerini anlamanız gerekir. 2-4 oyuncudan oluşan güvenilir bir ekip toplamak, havacılık ustalığına giden ilk adımdır.
+
+<Steps>
+  <Step num="1" title="Ekibinizi Kurun">
+    Stresli durumları paniklemeden yönetebilecek arkadaşlarınızı belirleyin. Çoklu görevlerde iyi olan birine ve \"hava kilidi uzmanı\" olmaktan çekinmeyen birine ihtiyacınız olacak.
+  </Step>
+  <Step num="2" title="Fragman Modellerini İnceleyin">
+    Tanıtım videosunda gösterilen görevleri analiz edin. Kahve makinesinin yerleşiminin kabin girişiyle nasıl ilişkili olduğuna dikkat edin; bu yerleşim bilgisi ilk günde size avantaj sağlayacaktır.
+  </Step>
+  <Step num="3" title="Kurulumunuzu Optimize Edin">
+    Mikrofonunuzun ve kulaklığınızın mükemmel çalıştığından emin olun. **Dear Passengers** oyununda, kaçırılan bir sesli komut kabin yangınına veya bir yolcunun kaybolmasına neden olabilir.
+  </Step>
+  <Step num="4" title="Topluluğa Katılın">
+    Resmi bağımsız geliştirici bloglarını ve Discord kanalını takip edin. Erken test kullanıcıları, timsah güvenlik ihlalleri gibi belirli tehlikeleri yönetmek için genellikle \"meta\" stratejiler paylaşırlar.
+  </Step>
+</Steps>
+
+<Checklist
+  id="launch-prep"
+  title="İlk Gün Çıkış Hedefleri:"
+  items={[
+    "'Uçuş Okulu' eğitim görevini tamamlayın",
+    "Bir timsahı hava kilidinden başarıyla dışarı fırlatın",
+    "Ticari bir uçuşta 5 yıldızlı bir dereceye ulaşın",
+    "İlk karakter kozmetik şapka setinin kilidini açın"
+  ]}
+/>
+
+<Callout type="tip" title="Erken Erişim Notu">
+2025'in sonlarında olası Beta veya Erken Erişim duyurularına karşı gözünüzü açık tutun. Bu oturumlara katılmak, oyunun nihai dengesini etkilemenin ve tam 2026 çıkışından önce hataları bildirmenin en iyi yoludur.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Resmi Dear Passengers çıkış tarihi ne zaman?",
+    answer: "Oyunun şu anda 2026 yılında çıkması planlanıyor. Belirli bir gün açıklanmamış olsa da geliştiriciler PC sürümü için yılın ilk yarısını hedefliyor."
+  },
+  {
+    question: "Dear Passengers tek oyunculu mu yoksa çok oyunculu bir oyun mu?",
+    answer: "Yapay zeka asistanlarıyla tek başına oynanabilse de oyun, 2-4 oyunculu bir co-op deneyimi olarak tasarlanmıştır. Kaos ve mizah, arkadaşlarla oynandığında en etkili halini alır."
+  },
+  {
+    question: "Dear Passengers hangi platformlarda çıkacak?",
+    answer: "PC (Steam ve Epic Games Store), PlayStation 5 ve Xbox Series X/S için onaylandı. Yeni nesil Nintendo konsolu için de bir sürüm çıkacağı söyleniyor."
+  },
+  {
+    question: "Oyunda karakterimi özelleştirebilir miyim?",
+    answer: "Evet, oyunda üniformalar ve şapkalar dahil olmak üzere çeşitli kozmetik kilit açma öğeleri bulunuyor. Hatta oynanışı etkileyen belirli aksesuarlar takan timsahlar gibi NPC'lerle bile karşılaşabilirsiniz."
+  }
+]} />
+
+</Section>

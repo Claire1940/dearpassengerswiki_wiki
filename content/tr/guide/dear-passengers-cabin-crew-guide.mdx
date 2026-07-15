@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Users, Box, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Kabin Memuru Rehberi: Rol Stratejileri ve Kurulum İpuçları",
+  description: "Dear Passengers kabin memuru rehberimizle kaosa hakim olun. Rol dağılımlarını, yolcu yönetimini, kargo güvenliğini ve acil durum müdahale taktiklerini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Cabin+Crew+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "dear passengers, kabin memuru rehberi, rol stratejileri, yolcu yönetimi, kargo güvenliği"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers kabin memuru rehberi**: Başarı, yolcu memnuniyeti ile uçak güvenliği ve kargo koruması arasındaki dengeyi kurmaya bağlıdır.
+- **Öncelik Sistemi**: Rutin yiyecek ve içecek servisi yerine her zaman **Uçak Güvenliği** ve **Acil Durum Sınırlama** işlemlerine öncelik verin.
+- **Rol Uzmanlığı**: Görevlerin çakışmasını önlemek için belirli mürettebat üyelerini **Yolcu Hizmetleri** ve **Kargo Takibi** için görevlendirin.
+- **İletişim Hayatidir**: Pilot, gevşek nesneleri sabitleyebilmeleri için **Türbülans** veya ani manevralardan önce kabin ekibini uyarmalıdır.
+- **Fizik Yönetimi**: Hava durumu nedeniyle "Emniyet Kemerini Bağlayın" işareti aktif edildiğinde, tüm gevşek bagajları ve servis arabalarını derhal sabitleyin.
+</Callout>
+
+<Section icon={Plane} title="Kabin Memuru Sorumluluklarını Anlamak">
+
+FLEXUS'un fizik tabanlı simülatörünün kaotik dünyasında, bu **dear passengers kabin memuru rehberi**, dünyanın en tehlikeli havayolunda hayatta kalmanız için temel kılavuzunuzdur. Geleneksel uçuş simülasyonlarının aksine, işiniz sadece profesyonel görünmek değil; bez bebek (ragdoll) fizikleri ve dinamik hava koşulları uçağınızı parçalamaya çalışırken havada tam bir felaketi önlemektir.
+
+**Öne Çıkan Video Detayları:**
+- **Fizik Kaosu**: Türbülansın kemeri bağlı olmayan yolcuları ve gevşek kargoları nasıl etkilediğini görün.
+- **Acil Durum Müdahalesi**: Ekibin motor yangınları ve kuş çarpmalarıyla nasıl başa çıktığını izleyin.
+- **Rol Etkileşimi**: Kokpit ile ana kabin arasındaki koordinasyonu gözlemleyin.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Official Announcement Trailer" />
+
+Kabinde çalışmak yüksek düzeyde çoklu görev (multitasking) yeteneği gerektirir. Yemek servisi yapmaktan, asi yolcuları sakinleştirmekten ve kaçan timsahlar gibi yüksek riskli kargoların kokpite ulaşmamasını sağlamaktan siz sorumlusunuz. Uçuş öncesi seçim aşamasında verdiğiniz her karar, yolculuğunuzun zorluğunu ve havayolunun elde edeceği potansiyel kazancı doğrudan etkiler.
+
+<Callout type="tip" title="Uzman İpucu">
+Kalkıştan önce yolcu listenizi dikkatlice inceleyin. Çok sayıda "Memnun Etmesi Zor" yolcunuz varsa, oyunun başlarında yaşanabilecek hayal kırıklıklarını önlemek için servis görevlerine hemen iki mürettebat üyesi atayın.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Mürettebat Rolleri ve Takım Stratejisi">
+
+Dear Passengers'ta başarılı bir uçuş, net bir iş bölümü gerektirir. Pilot ufka odaklanırken, kabin ekibi dikkatini mutfak (galley), oturma alanı ve kargo bölümü arasında paylaştırmalıdır. Uzmanlaşmış bir rol sistemi kullanmak, uçağın bir tarafı ihmal edilirken herkesin tek bir soruna koştuğu "acil durum felcini" önler.
+
+<CardGrid cols={3}>
+  <Card title="Kabin Amiri (Lead)">
+    - **Koordinasyon**: Acil durumlarda görev önceliklerini belirler.
+    - **İletişim**: Pilota kritik durum güncellemelerini iletir.
+    - **Esneklik**: İhtiyaca göre roller arasında geçiş yapar.
+  </Card>
+  <Card title="Servis Uzmanı">
+    - **Memnuniyet**: Yiyecek ve içecek dağıtımını yönetir.
+    - **Yolcu Bakımı**: Şikayetleri büyümeden çözer.
+    - **Verimlilik**: Servis arabalarını güvenli ve stoklu tutar.
+  </Card>
+  <Card title="Kargo Muhafızı">
+    - **Güvenlik**: Yüksek riskli veya yasa dışı kargo konteynerlerini izler.
+    - **Sınırlama**: Kaçan hayvanlara veya kayan yüklere ilk müdahaleyi yapar.
+    - **Koruma**: Kargo değerinin korunmasını sağlar.
+  </Card>
+</CardGrid>
+
+| Rol | Birincil Konum | Temel Ekipman | Kazanca Etkisi |
+| :--- | :--- | :--- | :--- |
+| **Pilot** | Kokpit | Uçuş Kontrolleri | Yüksek (Hayatta Kalma) |
+| **Kabin Amiri** | Ana Koridor | İletişim Telsizi | Orta (Verimlilik) |
+| **Servis Uzmanı** | Mutfak/Koltuklar | Servis Arabası | Orta (Bahşişler) |
+| **Kargo Muhafızı** | Kargo Bölümü | Sınırlama Aletleri | Yüksek (Bonuslar) |
+
+<Callout type="success" title="Strateji Notu">
+Daha küçük takımlarda (2-3 oyuncu), Kabin Amiri aynı zamanda Kargo Muhafızı rolünü de üstlenmelidir. Pilot, uçak stabil bir seyirde olmadığı sürece %100 uçuş kararlılığına odaklanmalıdır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yolcu Yönetimi ve Hizmet Mükemmelliği">
+
+Dear Passengers'taki yolcular sadece pasif NPC'ler değildir; ihtiyaçları, ruh halleri ve fiziksel engeller yaratma yetenekleri olan dinamik varlıklardır. Uçak 45 derecelik bir açıyla yatarken onların beklentilerini yönetmek, kabin ekibinin en büyük zorluğudur.
+
+| Yolcu Türü | Risk Seviyesi | Davranış Kalıbı | Müdahale Stratejisi |
+| :--- | :--- | :--- | :--- |
+| **Standart** | Düşük | Temel yiyecek/içecek servisi bekler. | Sakin hava koşullarında rutin servis. |
+| **Talepkar** | Orta | Sık istekler/yüksek sabırsızlık. | Gürültüyü önlemek için siparişlerine öncelik verin. |
+| **Asi** | Yüksek | Kabini huzursuz eder/ekibe müdahale eder. | Güvenlik risk altındaysa izole edin veya bağlayın. |
+| **VIP** | Orta | Yüksek kaliteli hizmet gerektirir. | Maksimum kazanç için özel personel atayın. |
+
+Yüksek bir puanı korumak için şu standart hizmet döngüsünü takip edin:
+
+<Steps>
+  <Step num="1" title="Mutfak Hazırlığı">
+    Mutfakta yemek tepsilerini ve içecek kaplarını hazırlayın. Tüm eşyaların servis arabasına yerleştirildiğinden ve arabanın zemine kilitlendiğinden emin olun.
+  </Step>
+  <Step num="2" title="Servis Sunumu">
+    Arabayı koridorda yavaşça hareket ettirin. Pilot ani dönüşler yaparsa, fizik kuralları arabanın yolcuları veya mürettebatı ezmesine neden olabilir.
+  </Step>
+  <Step num="3" title="Çatışma Çözümü">
+    Başlarının üzerinde "!" simgesi olan yolcularla ilgilenin. Onları ihmal etmek kabin stres seviyesini artırır ve final ödüllerini düşürür.
+  </Step>
+  <Step num="4" title="Atık Yönetimi">
+    Boş tepsileri ve çöpleri toplayın. Kabindeki gevşek nesneler, türbülans veya hava boşlukları sırasında tehlikeli fırlayan cisimlere dönüşür.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritik Uyarı">
+Bir servis arabasını koridorda asla kilitsiz bırakmayın. Tek bir hava boşluğu, arabayı uçak gövdesine zarar veren veya mürettebatı bayıltan ölümcül bir silaha dönüştürebilir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kargo Koruması ve Tehlike Azaltma">
+
+Kargo genellikle bir uçuşun en çok kazandıran kısmıdır, ancak aynı zamanda en fazla riski de taşır. Dönüşler sırasında kayan ağır makinelerden kaçmak isteyen canlı hayvanlara kadar, kargo bölümü sürekli bir acil durum kaynağıdır.
+
+<Checklist
+  id="cargo-safety"
+  title="Kargo Güvenliği Kontrol Listesi:"
+  items={[
+    "Tüm kasaların zemin güvertesine bağlandığını doğrulayın",
+    "Her türbülans olayından sonra hayvan kafesi mühürlerini kontrol edin",
+    "Gevşek bagajları yürüyüş yollarından derhal kaldırın",
+    "Kalkıştan önce yasa dışı veya tehlikeli kargo simgelerini tanımlayın",
+    "Kargo bölmesi girişinin yakınında bir yangın söndürücü bulundurun"
+  ]}
+/>
+
+| Tehlike Türü | Tetikleyici | Kabin Ekibi Eylemi | Pilot Eylemi |
+| :--- | :--- | :--- | :--- |
+| **Kaçan Hayvan** | Hasarlı Kasa | Kontrol altına alın ve kargoya geri yönlendirin. | Düz uçuşu koruyun. |
+| **Kayan Yük** | Keskin Dönüş | Kayışları ve bağlantıları yeniden sabitleyin. | Yatış açısını en aza indirin. |
+| **Uçakta Yangın** | Motor/Kargo Hasarı | Derhal yangın söndürücü kullanın. | Daha güvenli bir irtifaya alçalın. |
+| **Gövde Yırtılması** | Dış Saldırı | Bölgeyi kapatın ve hasarı onarın. | Kaçınma manevraları yapın. |
+
+<Callout type="info" title="Acil Durum İpucu">
+Bir timsah veya diğer canlı kargolar kaçarsa, önceliği yolcuları koridordan uzaklaştırmaya verin. Yaralı bir yolcu uçuş puanınıza kalıcı bir ceza getirirken, kargo genellikle minimum kayıpla yeniden kontrol altına alınabilir.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Havada Yaşanan Felaketlerde Hayatta Kalma">
+
+Dear Passengers'ta işler ters gittiğinde, çok hızlı ters gider. Bir kuş çarpması motor yangınına yol açabilir, bu irtifa kaybına neden olur ve bu da kabinde paniğe yol açar. Kabin ekibi sakin kalmalı ve uçuşun varış noktasına ulaşmasını sağlamak için belirlenmiş acil durum protokollerini uygulamalıdır.
+
+**Acil Durum Öncelik Listesi:**
+1. **Uçak Bütünlüğü**: Gövde yırtılmalarını onarın ve yangınları söndürün.
+2. **Mürettebat Güvenliği**: En az bir kişinin bilincinin açık ve hareketli olduğundan emin olun.
+3. **Yolcu Koruması**: Türbülans sırasında yolcuların koltuklarında kalmasını sağlayın.
+4. **Kargo Koruma**: Yüksek değerli eşyaların açıklıklardan dışarı kaymasını önlemek için sabitleyin.
+5. **Rutin Servis**: Kriz sona erene kadar yiyecek/içecek servisini tamamen askıya alın.
+
+| Acil Durum | İlk Müdahaleci | Başarı Kriterleri |
+| :--- | :--- | :--- |
+| **Motor Arızası** | Pilot | Başarılı acil iniş/yeniden çalıştırma. |
+| **Kuş Çarpması** | Kabin Ekibi | Gövde onarıldı/yangın söndürüldü. |
+| **Şiddetli Türbülans** | Tüm Ekip | Tüm nesneler sabitlendi/mürettebat yaralanmadı. |
+| **Asi İsyanı** | Kabin Amiri | Düzen sağlandı/yolcular oturtuldu. |
+
+<Callout type="tip" title="Uzman Tavsiyesi">
+Kabinin "Temiz" (tüm nesnelerin sabitlendiği) olduğunu pilota bildirmek için dahili iletişim sistemini kullanın. Pilot, fırtınalardan veya dış tehditlerden kaçınmak için yüksek G'li manevraları ancak bundan sonra denemelidir.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistem Gereksinimleri & SSS">
+
+Yolculuğunuza başlamadan önce, bilgisayarınızın 2026 sürümünün yoğun fizik simülasyonunu kaldırabileceğinden emin olun.
+
+| Bileşen | Minimum Gereksinim | Önerilen (Tahmini) |
+| :--- | :--- | :--- |
+| **İşletim Sistemi** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **İşlemci** | Intel Core i5 @ 2.5 GHz | Intel Core i7 @ 3.2 GHz |
+| **Bellek** | 8 GB RAM | 16 GB RAM |
+| **Ekran Kartı** | GTX 1060 / RX 6600 XT | RTX 3060 / RX 6700 XT |
+| **DirectX** | Sürüm 12 | Sürüm 12 |
+| **Depolama** | 4 GB kullanılabilir alan | 10 GB (SSD önerilir) |
+
+<Callout type="info" title="Dil Desteği">
+Oyun çıkışında 6 arayüz dilini desteklemektedir: İngilizce, Arapça, Basitleştirilmiş Çince, Türkçe, Ukraynaca ve Japonca.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Dear Passengers oyununda kabin ekibine kaç oyuncu katılabilir?",
+    answer: "Oyun çevrimiçi kooperatif (co-op) modunu destekler. Tek bir uçuş için kesin oyuncu sınırı belirlenmemiş olsa da, oynanış kokpit ve kabini etkili bir şekilde yönetmek için 2-4 oyuncu için optimize edilmiştir."
+  },
+  {
+    question: "Oyunu tek başıma oynayabilir miyim?",
+    answer: "Evet, Dear Passengers tek oyunculu bir mod içerir; burada pilotluk ve kabin görevlerini dengelemeniz gerekir, ancak birden fazla rolü tek başınıza yönettiğiniz için zorluk önemli ölçüde artar."
+  },
+  {
+    question: "Dear Passengers kabin memuru rehberinin en önemli kısmı nedir?",
+    answer: "En kritik çıkarım 'Hizmetten Önce Güvenlik' kuralıdır. Türbülans veya acil durumlar sırasında asla yemek servisi yapmaya çalışmayın, çünkü serbest kalan arabalar ve tepsiler mutsuz yolculardan daha fazla zarar verecektir."
+  },
+  {
+    question: "Kargo kaçarsa ne olur?",
+    answer: "Timsahlar veya başıboş bagajlar gibi kaçan kargolar yolcuları ve mürettebatı yaralayabilir. Eşyaları veya hayvanları kokpite ulaşmadan veya gövdede bir yırtılmaya neden olmadan önce sabitlemek için sınırlama aletlerini kullanmalısınız."
+  }
+]} />
+
+</Section>

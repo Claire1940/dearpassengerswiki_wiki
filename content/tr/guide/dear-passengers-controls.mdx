@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Kontrolleri: Adım Adım Uçuş Kurulum Rehberi",
+  description: "Uçmak, hizmet etmek ve hayatta kalmak için temel Dear Passengers kontrollerinde ustalaşın. Kokpit düzenlerini, kabin etkileşim adımlarını ve eşli oyun (co-op) acil durum yönetimini öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Controls+and+Flight+Setup",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi",
+  keywords: "Dear Passengers, kontroller, uçuş rehberi, kokpit, kabin ekibi, co-op"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear Passengers kontrolleri**, kokpit ile kabin arasında saniyelik bir koordinasyon gerektirir.
+- **Pilot**, dinamik hava koşullarında gezinirken özel uçuş kontrollerini kullanarak uçağın dengesini korumalıdır.
+- **Kabin Ekibi**, eşyaları almak, yemek servisi yapmak ve yolcuları zapt etmek için fiziksel etkileşim tuşlarını kullanır.
+- **Acil durumlar**, örneğin motor yangınları, kaçan kargolar ve türbülans, anında manuel müdahale gerektirir.
+- **Net iletişim**, küçük uçuş sorunlarının bir kazayla sonuçlanmasını önlemek için en nihai kontrol mekanizmasıdır.
+</Callout>
+
+<Section icon={Map} title="Dear Passengers Kontrollerinde Ustalaşma ve Kokpit Temelleri">
+
+FLEXUS'un fizik tabanlı kaotik eşli oyununda bir uçuşu başarıyla tamamlamak için her mürettebat üyesi temel **Dear Passengers kontrollerinde** ustalaşmalıdır. Oyun, oyuncuları son derece uzmanlaşmış rollere ayırır; bu da kontrol şemanızın pilot koltuğunda oturmanıza veya yolcu kabininde koşturmanıza bağlı olarak kökten değiştiği anlamına gelir.
+
+**Öne Çıkan Video İçerikleri:**
+- Kokpitin ve kabin etkileşim bölgelerinin temel düzenini öğrenin.
+- Fizik tabanlı hareketin türbülans sırasında kontrol tepkinizi nasıl etkilediğini görün.
+- Bir motor arızası veya hayvan kaçışı sırasında acil durum kontrollerinin gösterimini izleyin.
+
+<YouTubeEmbed videoId="XRvd_HZesys" title="Dear Passengers Resmi Fragman" />
+
+Uçağı işletmek, motor çıkışını yönetirken uçağın yunuslama (pitch), yalpa (roll) ve sapma (yaw) dengesini sağlamak için hassas girdiler gerektirir. Aşağıdaki tablo hem kokpit hem de kabin ortamları için temel kontrol girdilerini özetlemektedir.
+
+| Rol | Eylem Türü | Birincil Kontrol Girişi | Operasyonel Etki |
+|------|-------------|-----------------------|--------------------|
+| **Pilot** | Uçuş Yönlendirme | Uçuş Kolu / WASD | Yunuslama ve yalpayı ayarlar |
+| **Pilot** | Gaz Kontrolü | Gaz Kolu / Fare | Hava hızını yönetir |
+| **Pilot** | Sistem Değiştirme | Kokpit Anahtarları | Işıkları ve iniş takımını açıp kapatır |
+| **Kabin** | Hareket | WASD / Sol Çubuk | Fizik ağırlıklı kabinde gezinir |
+| **Kabin** | Yakala / Etkileşim | Birincil Eylem Tuşu | Yemek, bagaj veya aletleri alır |
+| **Kabin** | Eşya Kullan | İkincil Eylem Tuşu | Yangınları söndürür veya gövdeyi onarır |
+| **Kabin** | Zapt Etme | Etkileşim Tuşuna Basılı Tut | Kurallara uymayan yolcuları dizginler |
+
+<Callout type="warning" title="Türbülans Uyarısı">
+Pilot sert hava veya hava boşluklarıyla karşılaştığında, kabin hareket kontrolleri son derece dengesiz hale gelir. Ragdoll (bez bebek) fizikleri karakterinizi savuracak, eşyaları hedeflemeyi veya yolculara zamanında ulaşmayı zorlaştıracaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adım Adım Uçuş Kurulumu ve Kontrol Prosedürü">
+
+Bir uçuşu tamamlamak, yapılandırılmış bir eylem dizisi gerektirir. Ekibiniz, kabin kontrolünü kaybetmeden uçuş öncesi planlamadan aktif uçuş yönetimine geçiş yapmalıdır.
+
+<Steps>
+  <Step num="1" title="Yolcuları ve Kargoyu Seçin">
+    Kalkıştan önce, yükünüzü seçmek için terminal kontrollerini kullanın. Risk ve ödül dengesini kurmak anahtardır. Daha yüksek ödemeli uçuşlar, daha talepkar yolcular veya çok değişken kargolar içerir.
+  </Step>
+  <Step num="2" title="Mürettebat İstasyonlarını Atayın">
+    Bir oyuncuyu kokpit kontrollerine atayın, diğer oyuncular ise kabin ve kargo bölümünde yerlerini alsın. Herkesin kendi birincil etkileşim bölgesini bildiğinden emin olun.
+  </Step>
+  <Step num="3" title="Kalkış Kontrollerini Uygulayın">
+    Pilot gazı artırmalı, sabit bir tırmanış açısını korumalı ve havalandıktan sonra iniş takımını içeri çekmelidir. Kabin ekibi, gevşek nesneleri hemen sabitlemek için hazır beklemelidir.
+  </Step>
+  <Step num="4" title="Uçuş Ortası Hizmetini Yönetin">
+    Kabin oyuncuları, yolculara hizmet etmek için yemek arabaları ve içecek otomatlarıyla etkileşime girmelidir. Hızlı hareket yollarını korumak için koridorları sahipsiz bagajlardan temiz tutun.
+  </Step>
+  <Step num="5" title="Acil Durumlara Yanıt Verin">
+    Alarmlar çaldığında rutin işleri bırakın. Uçağın gövdesine yönelik acil tehditleri etkisiz hale getirmek için yangın söndürücüler veya silahlar gibi acil durum araçlarını kullanın.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Eşli Oyun İpucu">
+Her zaman belirlenmiş bir yedek pilotunuz olsun. Eğer asıl pilot aşırı türbülans veya harici bir tehlike nedeniyle bayılırsa, bir kabin ekibi üyesi uçağın burun üstü çakılmasını önlemek için kokpit kontrollerine hızla erişmelidir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eşli Oyun Rolleri ve Kontrol Stratejileri">
+
+Mürettebatınızı koordine etmek, hangi düğmelere basacağınızı bilmek kadar önemlidir. Dear Passengers, her oyuncunun belirli bir sorumluluk setini yönettiği ekip sinerjisine büyük ölçüde dayanır.
+
+<CardGrid cols={3}>
+  <Card title="Pilot">
+    - **Uçuş kontrollerine odaklanır**
+    - Dinamik hava durumunda gezinir
+    - Hava boşlukları sırasında uçağı stabilize eder
+    - Kabin ekibini gelecek dönüşler hakkında uyarır
+  </Card>
+  <Card title="Kabin Sorumlusu">
+    - **Yolcu hizmetini koordine eder**
+    - Acil durum yanıtlarına öncelik verir
+    - Ekibi gevşek kargolara veya yangınlara yönlendirir
+    - Kritik kabin durumunu pilota iletir
+  </Card>
+  <Card title="Kargo Uzmanı">
+    - **Hassas sevkiyatları izler**
+    - Gevşek kasaları ve bagajları sabitler
+    - Kaçan hayvan acil durumlarını yönetir
+    - Hareket yollarını döküntülerden temiz tutar
+  </Card>
+</CardGrid>
+
+Ekibinizin verimliliğini en üst düzeye çıkarmak için standart uçuş operasyonları sırasında bu rol tabanlı kontrol önceliklendirme tablosunu kullanın.
+
+| Senaryo | Pilot Önceliği | Kabin Ekibi Önceliği | Kargo Görevlisi Önceliği |
+|------|------|------|------|
+| **Açık Hava** | Rotayı ve hızı koru | Yemek ve içecek servisi yap | Kasa güvenliğini kontrol et |
+| **Şiddetli Türbülans** | Yunuslama ve yalpayı sabitle | Koltuklara veya duvarlara tutun | Kayan kargoyu sabitle |
+| **Motor Yangını** | Güvenlik için uçuş yolunu ayarla | Söndürücüyü al ve yangını söndür | Kabin ekibine yardım et |
+| **Hayvan Kaçışı** | Uçuşu sabit tut | Yakındaki yolcuları tahliye et | Hayvan üzerinde zapt etme kontrollerini kullan |
+| **Dış Saldırı** | Kaçınma manevraları yap | Savunma silahlarını kullan | Gövde hasarını onar |
+
+<Callout type="success" title="İletişim Anahtardır">
+Pilot, manevraları gerçekleştirmeden birkaç saniye önce her zaman \"Sola dönüş!\" veya \"İleride türbülans var!\" diye seslenmelidir. Bu, kabin oyuncularına kendilerini sabitlemeleri ve tehlikeli eşyaları taşımayı bırakmaları için yeterli zamanı verir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Uçuş Öncesi Kontrol Listesi ve Tehlike Hazırlığı">
+
+Gazı ileri itmeden önce mürettebatınızın tüm güvenlik kontrollerini tamamladığından emin olun. Fizik motoru devreye girdiğinde sabitlenmemiş tek bir eşya bile ölümcül bir mermiye dönüşebilir.
+
+<Checklist
+  id="pre-flight-safety"
+  title="Temel Uçuş Öncesi Kontrol Listesi:"
+  items={[
+    "Pilotun kokpit koltuğunda olduğunu ve kontrollerin tepki verdiğini doğrulayın",
+    "Tüm kargo kasalarının kargo bölümünde kilitli olduğunu onaylayın",
+    "Kabin koridorlarındaki tüm sahipsiz bagajları ve yiyecekleri temizleyin",
+    "Yangın güvenliği ve yolcu zapt etme görevleri için belirli mürettebat üyelerini atayın",
+    "Yaklaşan dinamik hava durumu tehlikeleri için uçuş yolunu gözden geçirin"
+  ]}
+/>
+
+<Callout type="info" title="Sistem Gereksinimleri">
+Kaotik fizik hesaplamaları sırasında kontrol gecikmesi veya kare düşüşlerini önlemek için bilgisayarınızın minimum gereksinimleri karşıladığından emin olun: Windows 10 (64-bit), 2.5 GHz Intel Core i5, 8 GB RAM, GTX 1060 veya RX 6600 XT, DirectX 12 ve 4 GB depolama alanı.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dear Passengers Kontrolleri SSS">
+
+<FAQ items={[
+  {
+    question: "Uçağı uçurmak için temel Dear Passengers kontrolleri nelerdir?",
+    answer: "Pilot; yunuslama ve yalpayı kontrol etmek için uçuş kolunu (veya WASD tuşlarını), hava hızını yönetmek için manuel bir gaz kolunu ve iniş takımı ile ışıklar gibi uçak sistemlerini değiştirmek için kokpit anahtarlarını kullanır."
+  },
+  {
+    question: "Bir oyuncu hem pilot kontrollerini hem de kabin hizmetini tek başına yürütebilir mi?",
+    answer: "Steam tek oyunculu desteği listelese de, hem kokpit yönlendirmesini hem de kabin acil durumlarını yönetmek son derece zordur. Oyun, görevlerin paylaşıldığı çevrimiçi eşli oyun (co-op) için tasarlanmıştır."
+  },
+  {
+    question: "Fizik ve türbülans kabin kontrollerini nasıl etkiler?",
+    answer: "Türbülans veya keskin dönüşler sırasında ragdoll fizikleri etkinleşir. Bu durum yürümeyi, nişan almayı ve nesnelerle etkileşime girmeyi oldukça dengesiz hale getirir ve oyuncuların güvenli yüzeylere tutunmasını gerektirir."
+  },
+  {
+    question: "Uçuş sırasında bir kargo kasası kırılıp açılırsa ne yapmalıyım?",
+    answer: "Rutin hizmetleri derhal bırakın, uçağı stabilize etmek için pilotla koordine olun, kaçan kargoyu etkisiz hale getirmek için etkileşim kontrollerinizi kullanın ve hasarlı kasayı sabitleyin."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers System Requirements: Hardware Setup Guide",
+  description: "Check the official Dear Passengers system requirements. Learn about minimum and recommended PC specs, performance optimization, and hardware setup tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Setup",
+  date: "2026-07-16",
+  author: "dear passengers Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **System Requirements**: Review the official **dear passengers system requirements** to ensure smooth multiplayer performance.
+- **Hardware Focus**: High physics calculations require a modern quad-core processor and at least 8GB of system RAM.
+- **Network Stability**: A stable broadband internet connection is critical for hosting chaotic co-op lobbies.
+- **Storage Choice**: Installing the game on a Solid State Drive significantly reduces load times between flight sessions.
+- **Graphic Tuning**: Lowering shadow resolution and disabling motion blur provides the highest frame rate stability.
+</Callout>
+
+<Section icon={Map} title="Hardware Overview & Co-op Gameplay Preview">
+
+Preparing your PC configuration for the chaotic skies is essential before jumping into this cooperative indie title. The game features unpredictable physics, interactive cockpits, and fast-paced multiplayer scenarios that can put a strain on older processors and graphics cards. Ensuring your hardware meets the necessary benchmarks guarantees you will not experience sudden frame drops during critical flight moments.
+
+**Video Highlights:**
+- **Chaotic Physics**: Mid-air door openings, flying debris, and moving hazards require consistent CPU performance.
+- **Cooperative Mechanics**: Handling unexpected cargo like alligators or defending the plane requires low latency.
+- **Explosive Visuals**: Sudden engine failures and explosions demand stable GPU rendering.
+
+<YouTubeEmbed videoId="a_W7HsW3eAg" title="CO-OP GAME OF THE YEAR OR FRIENDSLOP?! DEAR PASSENGERS" />
+
+To prevent performance bottlenecks during these intense multiplayer sessions, players should align their PC builds with the official performance targets. The following sections break down the specific components required to run the game smoothly under different graphical presets.
+
+<Callout type="info" title="Performance Impact">
+Physics-heavy interactions, such as managing loose cargo or firing weapons inside a moving fuselage, scale directly with your CPU speed.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dear Passengers System Requirements: PC Specifications">
+
+Meeting the **dear passengers system requirements** ensures that your system can handle the rendering of detailed environments and fast-paced physics calculations. While the game is designed to be accessible to a wide range of hardware, having the recommended specifications will prevent stuttering when multiple players are interacting on screen simultaneously.
+
+The table below outlines the minimum and recommended hardware specifications required to run the game.
+
+| Hardware Component | Minimum Requirement | Recommended Specification |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 (64-bit) | Windows 10/11 (64-bit) |
+| **Processor (CPU)** | Intel Core i3-6100 / AMD FX-6300 | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Memory (RAM)** | **8 GB RAM** | **16 GB RAM** |
+| **Graphics Card (GPU)** | GTX 960 / Radeon RX 470 | GTX 1060 / Radeon RX 580 |
+| **DirectX Version** | DirectX 11 | DirectX 12 |
+| **Storage Space** | 10 GB available space | 10 GB SSD available space |
+
+For budget-conscious players, the minimum specifications target a stable 30 FPS at 1080p resolution with low graphical settings. However, if you plan to host multiplayer lobbies or stream your gameplay, upgrading to the recommended specifications is highly advised to avoid performance drops.
+
+<Callout type="warning" title="System Architecture">
+Attempting to run the game on a 32-bit operating system is not supported and may result in immediate crashes during launch.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Performance Optimization & Graphic Settings">
+
+Fine-tuning your in-game settings can yield significant frame rate improvements without sacrificing overall visual quality. Since the game features high-speed movement and rapid camera transitions, maintaining a high frame rate is crucial for tracking gameplay events and responding to emergencies onboard.
+
+Refer to the table below to understand the performance impact of individual graphic settings.
+
+| Graphic Setting | Performance Impact | Recommended Value for Budget PCs | Recommended Value for High-End PCs |
+| :--- | :--- | :--- | :--- |
+| **Shadow Quality** | **High Impact** | Low / Medium | High |
+| **Anti-Aliasing** | **Medium Impact** | SMAA or Off | Temporal AA (TAA) |
+| **Texture Detail** | **Low Impact** | Medium (based on VRAM) | High / Ultra |
+| **Post-Processing** | **High Impact** | Off / Low | High |
+| **V-Sync** | **Variable Impact** | Off (use G-Sync/FreeSync) | On (if screen tearing occurs) |
+
+Follow these steps to optimize your operating system and hardware configuration before launching the game:
+
+<Steps>
+  <Step num="1" title="Update Graphics Drivers">
+    Download and install the latest drivers from NVIDIA, AMD, or Intel to ensure compatibility and access specific performance patches.
+  </Step>
+  <Step num="2" title="Adjust Windows Power Plan">
+    Set your operating system power plan to High Performance to prevent CPU throttling during intense gameplay sequences.
+  </Step>
+  <Step num="3" title="Enable Hardware-Accelerated GPU Scheduling">
+    Turn on this setting in your Windows Graphics Settings menu to reduce latency and improve frame time consistency.
+  </Step>
+  <Step num="4" title="Configure In-Game Presets">
+    Launch the game and apply the optimized settings listed in the table above, prioritizing shadow reduction for the largest FPS boost.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="VRAM Management">
+If your graphics card has less than 4GB of VRAM, keep texture quality set to Medium or lower to prevent severe stuttering when loading new environments.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Storage & Pre-installation Checklist">
+
+The installation footprint is relatively small compared to modern AAA titles, but the speed of your storage device still plays a critical role in match loading times and asset streaming during transitions. Installing the game on a Solid State Drive (SSD) is the preferred method to minimize loading screens.
+
+The table below highlights the performance differences between storage media options.
+
+| Storage Device Type | Average Load Time | Asset Streaming Performance | Recommendation Level |
+| :--- | :--- | :--- | :--- |
+| **Standard HDD** | Slow (30-45 seconds) | Potential texture pop-in | Not Recommended |
+| **SATA SSD** | Fast (10-15 seconds) | Smooth asset loading | Recommended |
+| **NVMe M.2 SSD** | Very Fast (under 5 seconds) | Instantaneous loading | Highly Recommended |
+
+Use the checklist below to verify your system is fully prepared for the installation process.
+
+<Checklist
+  id="pre-install-checklist"
+  title="Pre-Installation Tasks:"
+  items={[
+    "Verify at least 10 GB of free space on your target SSD",
+    "Close background applications like web browsers to free up system RAM",
+    "Verify your DirectX runtime is updated to version 11 or 12",
+    "Confirm your firewall permissions allow the game to access network features"
+  ]}
+/>
+
+<Callout type="success" title="Storage Allocation">
+Clearing cache files and temporary data before installation helps ensure that steam installation files write cleanly to your drive.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Multiplayer System Demands">
+
+Playing cooperative multiplayer introduces additional hardware overhead, especially for the player acting as the lobby host. The host's machine must process player positions, physics sync data, and network packets simultaneously, which increases CPU and memory utilization.
+
+The table below contrasts the hardware load experienced by hosts versus clients.
+
+| System Resource | Host Machine Load | Client Machine Load | Critical Factor for Success |
+| :--- | :--- | :--- | :--- |
+| **CPU Utilization** | **High** (handles physics sync) | **Medium** (renders local actions) | High single-core speed |
+| **System RAM** | **High** (manages player states) | **Medium** (standard game load) | 16GB recommended for hosts |
+| **Network Bandwidth** | **High Upload** required | **Low Upload** required | Stable upload speed of 10+ Mbps |
+
+To accommodate these demands, we have categorized the optimal setups for different multiplayer scenarios.
+
+<CardGrid cols={3}>
+  <Card title="Solo Player Setup">
+    - **Focus**: Maximum visual fidelity
+    - **RAM Requirement**: 8 GB is sufficient
+    - **CPU Priority**: Balanced performance
+  </Card>
+  <Card title="Co-op Client Setup">
+    - **Focus**: Low input latency
+    - **RAM Requirement**: 8 GB to 12 GB
+    - **CPU Priority**: Stable frame times
+  </Card>
+  <Card title="Lobby Host Setup">
+    - **Focus**: Network and physics processing
+    - **RAM Requirement**: 16 GB highly recommended
+    - **CPU Priority**: Multi-core performance
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Network Connection">
+Using a wired Ethernet connection instead of Wi-Fi significantly reduces packet loss and desync issues during fast-paced cooperative maneuvers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+Review these common queries regarding hardware compatibility, performance troubleshooting, and optimization.
+
+<FAQ items={[
+  {
+    question: "What are the minimum dear passengers system requirements to run the game?",
+    answer: "The minimum requirements include an Intel Core i3-6100 or AMD FX-6300 processor, 8 GB of RAM, and a GTX 960 or Radeon RX 470 graphics card, targeting 1080p resolution at 30 FPS."
+  },
+  {
+    question: "Can I play the game on a laptop with integrated graphics?",
+    answer: "Integrated graphics chips like Intel Iris Xe or AMD Radeon Vega can run the game, but you will need to lower the resolution to 720p and set all graphical options to Low to maintain playable frame rates."
+  },
+  {
+    question: "Why does the game stutter when I host a multiplayer match?",
+    answer: "Hosting requires extra CPU power to calculate physics and sync player data. If your CPU is close to the minimum requirements, try letting a friend with a faster processor host the session instead."
+  },
+  {
+    question: "Does the game support ultra-wide monitors and high refresh rates?",
+    answer: "Yes, the engine supports high refresh rates and ultra-wide aspect ratios, though you will need a recommended GPU like a GTX 1060 or higher to maintain stable performance at those configurations."
+  }
+]} />
+
+<Callout type="tip" title="Troubleshooting Guide">
+If you encounter persistent crashes on startup, verify the integrity of the game files through your game launcher platform to repair corrupted assets.
+</Callout>
+
+</Section>

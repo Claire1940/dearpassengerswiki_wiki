@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Oyuncu Sayısı: Co-Op Çok Oyunculu Rehberi",
+  description: "Dear Passengers için oyuncu sayısı sınırlarını, co-op mekaniklerini ve grup kurulum adımlarını keşfedin. Arkadaşlarınızla uçak kaosunu nasıl yöneteceğinizi öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dear+Passengers+Player+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Oyuncu Sınırları**: Dear Passengers oyuncu sayısı yapılandırması, yerel veya çevrimiçi eşli oyun (co-op) modlarında en fazla dört oyuncuyu destekler.
+- **Temel Oynanış**: Kaotik havalimanlarını, yolcu taleplerini, uçuş sırasındaki onarımları ve hava savaşlarını yönetmek için mürettebatınızla birlikte çalışın.
+- **Parti Odaklı**: Ciddi bir simülasyondan ziyade kahkahayı, kaotik koordinasyonu ve hızlı refleksleri vurgulayan eğlenceli bir bağımsız parti oyunu olarak tasarlanmıştır.
+- **Platform Desteği**: Arkadaşlarınızla kolayca lobi bağlantıları kurabilmeniz için büyük oyun platformlarında çapraz platform (cross-play) uyumluluğu mevcuttur.
+</Callout>
+
+<Section icon={Map} title="Oyuncu Sayısı: Dear Passengers Oyuncu Sayısı ve Platform Desteği">
+
+Koca bir havalimanını yönetmek ve kaotik bir ticari uçuşu havada tutmak, koordineli bir ekip çalışması gerektirir. Eşli oyun oturumlarınızı planlarken, resmi Dear Passengers oyuncu sayısı kapasitesini bilmek mükemmel mürettebatı organize etmenize yardımcı olur. Oyun, farklı grup boyutlarına uyum sağlayacak şekilde sıfırdan inşa edilmiştir; böylece ister tek başınıza ister dört kişilik tam bir grupla oynayın, zorluk derecesi kaosa göre ölçeklenir.
+
+2026'nın modern oyun dünyasında, gündelik parti oyunları, hızlı ve yüksek enerjili oturumlar arayan arkadaş grupları için hayati bir çıkış noktası görevi görüyor. Bu yapım, bu felsefeyi tamamen benimsiyor ve karmaşık mekanikler yerine eğlenceyi ve öngörülemeyen fizikleri ön planda tutuyor. Çok oyunculu sistem, kesintisiz katılım (drop-in) ve ayrılma (drop-out) işlevini destekleyerek uçuşlar arasında takım boyutunuzu ayarlamanızı kolaylaştırır.
+
+**Öne Çıkan Video Ayrıntıları:**
+- **Tam Bir Uçak Kaosu**: Oyuncuların uçaklardan düşmesini ve absürt yolcu durumlarını yönetmesini gösteren çılgın oynanış mekaniklerine bir tepki.
+- **Parti Oyunu Tasarımı**: Oyunun neden en iyi arkadaşlarla keyifli olduğuna dair, diğer klasik parti oyunlarıyla karşılaştırmalı bir analiz.
+- **Absürt Çatışmalar**: Havalimanını savunmak için tüfek gibi silahların kullanıldığının ve uçakların havada savaştığının görsel kanıtı.
+- **Çıkış Dönemi**: 2026 yılı için planlanan çıkış tarihiyle ilgili tartışmalar.
+
+<YouTubeEmbed videoId="5Ub_EluALcE" title="Dear Passengers Tam Bir Uçak Kaosu! | Tepki" />
+
+İlk uçuşunuzu başlatmadan önce lobinin grup boyutunuza göre nasıl ölçeklendiğini anlamak önemlidir. Eşli oyun yapısı, aktif oyuncu sayısına dinamik olarak uyum sağlayarak yolcu taleplerinin sıklığını, mekanik arızaları ve dış tehditleri değiştirir. Bu dinamik ölçeklendirme, tek oyunculu oyuncuların aşırı yük altında kalmasını önlerken, dört kişilik tam lobilerin kaotik ve zorlu kalmasını sağlar.
+
+| Oyun Modu | Oyuncu Sayısı Aralığı | Bağlantı Türü | Önerilen Deneyim |
+|---|---|---|---|
+| Tekli Uçuş | 1 Oyuncu | Çevrimdışı | Yüksek zorlukta çoklu görev (multitasking) mücadelesi |
+| İkili Mürettebat | 2 Oyuncu | Yerel / Çevrimiçi | Dengeli koordinasyon ve görev paylaşımı |
+| Tam Ekip | 3-4 Oyuncu | Yerel / Çevrimiçi | Maksimum kaotik oynanış ve yüksek zorluk |
+
+<Callout type="info" title="Lobi Ölçeklendirmesi">
+Lobiler, aktif oyuncu sayısına göre rastgele olayların sıklığını otomatik olarak ayarlar. Daha fazla oyuncu, eş zamanlı acil durumları tetikleyecektir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eşli Oyun ve Uçuş Mekanikleri">
+
+Temel deneyim, bir yandan yolcularınızın giderek artan taleplerini karşılarken diğer yandan uçağın işlevselliğini korumak etrafında döner. Oyuncular, her rotada hayatta kalabilmek için sorumlulukları dinamik olarak paylaşmalıdır. Bir an içecek servisi yaparken, bir sonraki an gövdedeki bir deliği yamıyor veya düşman uçaklarını savuşturmak için savunma silahları kullanıyor olabilirsiniz.
+
+İletişim kuramayan lobiler hızla felakete sürüklenir. Yolcular çok uzun süre ihmal edilirse veya uçaktaki hasarlar birikirse, uçuş muhteşem bir kazayla sonuçlanır. Oyuncular, yüksek stresli manevralar sırasında dikkatli olmazlarsa yanlışlıkla birbirlerini veya yolcuları uçaktan aşağı atabilirler. Çevre son derece etkileşimlidir; oyuncuların aletleri almasını, takım arkadaşlarına eşya fırlatmasını ve tehlikeleri fiziksel olarak engellemesini gerektirir.
+
+| Oyun Aşaması | Birincil Hedef | Temel Tehlikeler | Oyuncu İş Birliği Seviyesi |
+|---|---|---|---|
+| Havalimanı Terminali | Yolcuları kaydet ve kargo yükle | Kurallara uymayan yolcular, bagaj yığılması, güvenlik tehditleri | Orta düzeyde koordinasyon |
+| Kalkış Sırası | Motor dengesini koru ve pisti temizle | Motor yangınları, kuş çarpmaları, enkaz | Yüksek düzeyde koordinasyon |
+| Uçuş Ortası Hizmeti | Yolcu taleplerini karşıla ve sızıntıları onar | Kabin basıncının düşmesi, türbülans, çatışma | Maksimum koordinasyon |
+| İniş Aşaması | Uçağı güvenli pist yanaşmasına yönlendir | Yan rüzgarlar, iniş takımı arızaları, yer trafiği | Yüksek düzeyde koordinasyon |
+
+<CardGrid cols={3}>
+  <Card title="Mekanisyen Rolü">
+    Kabin onarımlarına, gövde deliklerini yamamaya ve motor yangınlarını yayılmadan söndürmeye odaklanır.
+  </Card>
+  <Card title="Kabin Memuru">
+    Türbülans sırasında yiyecek ve içecek servisi yaparak ve koltuk anlaşmazlıklarını çözerek yolcu memnuniyetini yönetir.
+  </Card>
+  <Card title="Güvenlik Görevlisi">
+    Hava korsanlarına karşı savunma yapar, pist engellerini temizler ve savunma teçhizatı kullanarak hırçın yolcularla ilgilenir.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dost Ateşi Tehlikeleri">
+Aletleri sallarken veya savunma silahlarını ateşlerken dikkatli olun. Takım arkadaşlarınızı yanlışlıkla açık kabin kapılarından dışarı fırlatmanız tamamen olasıdır.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Adım Adım Çok Oyunculu Kurulum Rehberi">
+
+Ekibinizi bir araya getirmek basittir, ancak lobiyi doğru şekilde yapılandırmak sorunsuz bir bağlantı sağlar. Oyun, hem yerel ekran (couch co-op) hem de çevrimiçi çok oyunculu lobileri destekleyerek kurulumunuza bağlı olarak yerel ve uzaktaki oyuncuları karıştırmanıza olanak tanır. Bir oturuma ev sahipliği yapmak veya katılmak için bu adımları izleyin.
+
+<Steps>
+  <Step num="1" title="Çok Oyunculu Modu Seçin">
+    Ana menüye gidin ve çok oyunculu seçeneğini belirleyin. Yerel bir bölünmüş ekran (split-screen) oturumuna ev sahipliği yapmak veya çevrimiçi bir lobi kurmak arasında seçim yapın.
+  </Step>
+  <Step num="2" title="Lobi Ayarlarını Yapılandırın">
+    Lobi gizliliğinizi herkese açık veya yalnızca davetle girilebilir olarak ayarlayın. Zorluk değiştiricilerini ayarlayın ve mürettebatınızın tamamlamaya çalışacağı uçuş rotasını seçin.
+  </Step>
+  <Step num="3" title="Ekibinizi Davet Edin">
+    Arkadaş listenize doğrudan davet gönderin veya benzersiz lobi katılım kodunu paylaşın. Katılmadan önce tüm oyuncuların temel öğreticiyi tamamladığından emin olun.
+  </Step>
+  <Step num="4" title="Hazır Durumunu Onaylayın">
+    Tüm oyuncular karakterlerini özelleştirip başlangıç aletlerini seçtikten sonra, kalkış sırasını başlatmak için her mürettebat üyesi durumunu hazır olarak değiştirmelidir.
+  </Step>
+</Steps>
+
+Bağlantı kopmaları veya davet hatalarıyla karşılaşırsanız, yaygın lobi sorunlarını teşhis etmek için aşağıdaki ağ durumu tablosunu kontrol edin.
+
+| Karşılaşılan Sorun | Olası Neden | Önerilen Çözüm |
+|---|---|---|
+| Lobi kodu geçersiz | Kurucu oturumu kapattı veya kod yanlış yazıldı | Kodu yeniden oluşturun ve karakterleri doğrulayın |
+| Yüksek gecikme (ping) dalgalanmaları | Bölgesel sunucu uyuşmazlığı | Kurucuyu en hızlı bağlantıya sahip oyuncu olarak ayarlayın |
+| Uçuş ortasında bağlantı kesildi | Kurucu taşıma hatası | Lobiyi yeniden kurun ve internet kararlılığını kontrol edin |
+
+<Callout type="tip" title="Kurucu Seçimi">
+Yoğun onarım aşamalarında gecikmeyi (lag) en aza indirmek için, çevrimiçi lobiye her zaman en kararlı kablolu internet bağlantısına sahip oyuncunun ev sahipliği yapmasını sağlayın.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Co-Op İlerleme ve Uçuş Kilometre Taşları">
+
+Ekibiniz uçuşları başarıyla tamamladıkça yeni rotaların, kozmetik öğelerin ve yükseltilmiş aletlerin kilidini açacaksınız. İlerleme lobideki tüm oyuncular arasında paylaşılır, yani herkes havayolunun genel rütbesine katkıda bulunur. Daha yüksek rütbelere ulaşmak, daha karmaşık havalimanlarının ve zorlu hava koşullarının kilidini açar.
+
+Belirli kilometre taşlarına doğru çalışmak oynanış döngüsünü canlı tutar ve koordineli ekipleri çevrimiçi maçlarda sergileyebilecekleri benzersiz kıyafetlerle ödüllendirir. İlerleme yolu, en zor uçuş rotalarında belirli yüksek skorlar elde etmek için benzersiz kozmetik ödüller sunarak yeniden oynanabilirliği teşvik edecek şekilde tasarlanmıştır.
+
+| Havayolu Rütbesi | Gerekli XP | Açılan Özellikler | Zorluk Değiştirici |
+|---|---|---|---|
+| Çaylak Taşıyıcı | 0 XP | Standart bölgesel rotalar, temel üniformalar | Normal |
+| Ticari Taşımacılık | 5000 XP | Dağlık rotalar, gelişmiş onarım anahtarı | Zor |
+| Seçkin Charter | 15000 XP | Uluslararası hava sahası, güvenlik tüfeği, özel pilot şapkaları | Uzman |
+
+<Checklist
+  id="coop-milestones"
+  title="Temel Mürettebat Kilometre Taşları:"
+  items={[
+    "Tek bir yolcu kaybetmeden bir uçuşu tamamlayın",
+    "Tek bir rotada on kabin sızıntısını onarın",
+    "Uçağı bir hava korsanı saldırısına karşı başarıyla savunun",
+    "Ekibinizle Seçkin Charter havayolu rütbesine ulaşın",
+    "Her iki motoru da yanarken bir uçağı güvenli bir şekilde indirin"
+  ]}
+/>
+
+<Callout type="success" title="Kilometre Taşı Ödülleri">
+Kozmetik öğelerin kilidini açmak oynanış avantajı sağlamaz, bu da lobinize katılan tüm oyuncular için rekabetçi dengeyi adil tutar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Desteklenen maksimum Dear Passengers oyuncu sayısı kaçtır?",
+    answer: "Oyun, co-op modunda en fazla dört oyuncuyu destekler ve ortak bir ekranda yerel olarak veya uzaktaki arkadaşlarla çevrimiçi oynamanıza olanak tanır."
+  },
+  {
+    question: "Oyun farklı platformlar arasında çapraz platform (cross-play) desteği sunuyor mu?",
+    answer: "Evet, çapraz platform tamamen desteklenmektedir; PC ve konsol oyuncularının bağlantı kodlarını kullanarak aynı lobiye katılmasına olanak tanır."
+  },
+  {
+    question: "Oyunu tamamen tek başıma oynayabilir miyim?",
+    answer: "Evet, tek başınıza oynayabilirsiniz. Oyun zorluğu aşağı doğru ölçeklendirir, ancak tüm görevleri tek başına yönetmek çoklu görev (multitasking) mücadelesini önemli ölçüde artırır."
+  },
+  {
+    question: "Uçuş sırasında bir oyuncunun bağlantısı kesilirse ne olur?",
+    answer: "Bir oyuncunun bağlantısı kesilirse lobi aktif kalır ve zorluk kalan oyuncu sayısına göre dinamik olarak ayarlanır."
+  }
+]} />
+
+<Callout type="info" title="Güncellemeler ve Yamalar">
+Desteklenen tüm sistemlerde çapraz platform uyumluluğunun işlevsel kalmasını sağlamak için oyun istemcinizi en son sürüme güncel tutun.
+</Callout>
+
+</Section>

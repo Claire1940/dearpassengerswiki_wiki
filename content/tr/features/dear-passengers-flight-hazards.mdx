@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Wind, Flame, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dear Passengers Uçuş Tehlikeleri: Acil Durum Müdahalesi & Hayatta Kalma",
+  description: "Bu kaotik 2026 co-op simülatöründe türbülans, kuş çarpması, yangınlar ve kaçan kargolardan kurtulma rehberimizle dear passengers uçuş tehlikelerinde ustalaşın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Flight+Hazards+Survival+Guide",
+  date: "2026-07-16",
+  author: "Dear Passengers Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Dear passengers uçuş tehlikeleri**: Bunlar, uçağın tamamen arızalanmasını önlemek için acil mürettebat koordinasyonu gerektiren dinamik, fizik tabanlı olaylardır.
+- **Birincil Mekanik**: **Türbülans** veya ani manevralardan önce gevşek nesneleri sabitleyerek fizik motorunu kendi avantajınıza kullanın.
+- **Acil Durum Önceliği**: Rutin yiyecek ve içecek servisi yerine her zaman **uçak güvenliğine** (yangın/gövde hasarı) ve **kaçan kargolara** öncelik verin.
+- **Anahtar Strateji**: Pilot, yaklaşan manevraları önceden iletmeli, böylece Kabin Ekibi kendilerini hazırlayabilmeli ve ortamı güvenli hale getirebilmelidir.
+</Callout>
+
+<Section icon={AlertTriangle} title="Dear Passengers Uçuş Tehlikelerini Anlamak">
+
+2026 yılında çıkması planlanan Dear Passengers'ın kaotik dünyasında, **dear passengers uçuş tehlikelerini** yönetmek, başarılı bir havayolu şirketi ile havada gerçekleşecek bir felaket arasındaki farkı belirleyen temel zorluktur. Geleneksel simülatörlerin aksine bu oyun, bir yemek tepsisinden 250 kiloluk bir timsaha kadar sabitlenmemiş her nesnenin uçuş acil durumlarında bir mermiye dönüştüğü bir ragdoll fizik motoru kullanır. Mürettebat olarak bu tehlikeleri belirleme, kategorize etme ve bunlara müdahale etme yeteneğiniz, nihai kazancınızı ve hayatta kalmanızı belirler.
+
+Bu oyundaki tehlikeler sadece önceden yazılmış senaryolardan ibaret değildir; uçuş öncesi seçimlerinizin ve Pilotun uçağı yönetim şeklinin dinamik sonuçlarıdır. Yüksek riskli kargoları veya zorlu yolcuları seçtiğinizde, aslında daha tehlikeli bir uçuş rotasını "satın almış" olursunuz.
+
+| Tehlike Türü | Birincil Tetikleyici | Müdahale Ekibi | Risk Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Türbülans** | Hava Durumu / Hava Boşlukları | Pilot & Kabin | Orta |
+| **Uçakta Yangın** | Elektrik / Kargo | Kabin Ekibi | **Yüksek** |
+| **Kuş Çarpması** | Çevresel | Pilot | **Yüksek** |
+| **Kaçan Kargo** | Fizik / Hasar | Kargo Sorumlusu | **Ekstrem** |
+| **Hırçın Yolcular** | Kötü Servis / Stres | Servis Sorumlusu | Orta |
+
+<Callout type="warning" title="Zincirleme Reaksiyon Uyarısı">
+Küçük olaylar nadiren küçük kalır. Basit bir hava boşluğu bir yemek arabasını devirebilir, bu da yangın söndürücüye giden yolu kapatabilir ve yerel bir yangının gövdeyi delen bir acil duruma dönüşmesine yol açabilir.
+</Callout>
+
+</Section>
+
+<Section icon={Wind} title="Türbülans ve Hava Durumu Modellerini Yönetmek">
+
+Dinamik hava durumu, **dear passengers uçuş tehlikeleri** arasında en sık karşılaşılanıdır. Pilot fırtına cephelerinde veya yüksek irtifadaki hava boşluklarında gezinirken tüm kabin ortamı buna tepki verir. Kabin Ekibi bagajları veya servis arabalarını sabitlemediyse, ortaya çıkan "kabin karmaşası" yolcuların ve mürettebatın yaralanmasına neden olabilir.
+
+Pilotun rolü, erken uyarı sistemi olarak hareket etmektir. Radarı ve yaklaşan uçuş rotasını izleyerek, fizik motoru devreye girmeden önce ekibe servisi durdurma ve kabini sabitleme sinyali verebilirler.
+
+<Steps>
+  <Step num="1" title="Pilot Erken Uyarısı">
+    Pilot, radarda yaklaşan türbülansı tespit eder ve ciddiyetini sesli veya oyun içi sinyallerle Kabin Ekibine iletir.
+  </Step>
+  <Step num="2" title="Kabini Güvenli Hale Getirmek">
+    Kabin Ekibi derhal yemek servisini durdurmalı, yemek arabalarını kilitlemeli ve tüm yolcuların koltuklarında oturduğundan veya en azından ağır gevşek nesnelerden uzak durduğundan emin olmalıdır.
+  </Step>
+  <Step num="3" title="Darbeye Karşı Hazırlanmak">
+    Şiddetli hava boşlukları sırasında mürettebat üyeleri, tavana veya duvarlara fırlatılmamak için sabit yapılara tutunmalıdır.
+  </Step>
+  <Step num="4" title="Hasar Tespiti">
+    Uçak dengelendiğinde, mürettebat koridorları hızla temizlemeli ve herhangi bir kargo konteynerinin kayıp kaymadığını veya kırılıp açılmadığını kontrol etmelidir.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Fizik İpucu">
+Türbülans sırasında koridorun ortasında yakalanırsanız çömelmeye çalışın. Düşük yerçekimi merkezi, uçak sert bir dalış yapsa bile karakterinizin yerde kalmasına yardımcı olur.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kargo Riskleri ve Hayvan Kontrolü">
+
+**dear passengers uçuş tehlikelerinin** en benzersiz yönlerinden biri de "Ekstrem Riskli" kargoların taşınmasını içerir. Resmi görüntüler, oyuncuların uçuş çok sarsıntılı hale geldiğinde kaçma eğiliminde olan timsahlar gibi canlı hayvanları taşımayı seçebileceklerini ortaya koymuştur.
+
+Kargo kaçtığında sadece orada öylece durmaz; yolcularla ve çevreyle etkileşime girer. Kaçan bir yırtıcı kitlesel paniğe neden olacak, yolcu memnuniyetini düşürecek ve diğer görevler için ihtiyaç duyulan mürettebat üyelerini potansiyel olarak yaralayacaktır.
+
+<CardGrid cols={3}>
+  <Card title="Standart Kargo">
+    - **Risk**: Düşük
+    - **Davranış**: Dönüşlerde kayar
+    - **Müdahale**: Yeniden istifleyin ve sabitleyin
+  </Card>
+  <Card title="Yasa Dışı/Tehlikeli">
+    - **Risk**: Yüksek
+    - **Davranış**: Sızıntı yapabilir veya yanabilir
+    - **Müdahale**: İzolasyon ve kontrol altına alma
+  </Card>
+  <Card title="Canlı Hayvan Kargosu">
+    - **Risk**: **Ekstrem**
+    - **Davranış**: Saldırgan kaçaklar
+    - **Müdahale**: Derhal yakalama/başka yöne yönlendirme
+  </Card>
+</CardGrid>
+
+| Kargo Kategorisi | Ödeme Bonusu | Tehlike Potansiyeli | Önerilen Müdahale |
+| :--- | :--- | :--- | :--- |
+| **Hassas Elektronikler** | +%15 | Düşürülürse enkaza dönüşür | Destekli depolama alanları kullanın |
+| **Kimyasal Variller** | +%30 | Hasar görürse toksik sızıntılar | Sürekli izleme gereklidir |
+| **Egzotik Yırtıcılar** | +%50 | Kaçar ve mürettebata saldırır | Özel kontrol görevlisi atayın |
+
+<Callout type="success" title="Kontrol Altına Alma Stratejisi">
+"Ekstrem" riskli bir uçuş seçerseniz, en güçlü oyuncunuzu Kargo ve Kontrol rolüne atayın. Tek işleri kasaları izlemek ve türbülans sırasında hiçbir kilidin gevşemediğinden emin olmaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanik Arızalar ve Dış Saldırılar">
+
+**dear passengers uçuş tehlikelerinin** tamamı kabin içinden kaynaklanmaz. 2026 oynanış tanıtımı, motorları devre dışı bırakabilen kuş çarpmaları ve hatta mürettebatın monte edilmiş savunma silahlarını kullanmasını gerektiren gizemli dış saldırganlar dahil olmak üzere harici tehditleri gösterdi.
+
+Bir motor arızalandığında veya gövde delindiğinde, Pilotun önceliği navigasyondan temel uçuş kontrolüne kayar. Bu sırada, belirlenmiş bir mürettebat üyesinin uçağı uçuş sırasında onarmak için kabinin güvenliğinden ayrıldığı yüksek riskli bir mini oyun olan "harici onarımları" gerçekleştirmesi gerekebilir.
+
+<Checklist
+  id="emergency-hardware"
+  title="Kritik Onarım Kontrol Listesi:"
+  items={[
+    "Yangının veya gövde deliğinin kaynağını belirleyin",
+    "Yangın söndürücüyü veya onarım aletini kuşanın",
+    "Onarımlar sırasında düz uçuşu sürdürmek için Pilotla koordinasyon kurun",
+    "Onarım alanında gevşek yolcu bulunmadığından emin olun",
+    "Kabin basıncı önemli ölçüde düşmeden önce deliği kapatın"
+  ]}
+/>
+
+<Callout type="info" title="Dış Savunma">
+Bazı senaryolarda, gelen mermilerle karşılaşabilirsiniz. Bir mürettebat üyesi harici silahları yönetirken, diğerleri kaçınma manevralarının neden olduğu iç kaosu idare etmelidir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kriz Sırasında Yolcu Yönetimi">
+
+Dear Passengers'daki "Yolcular" sadece pasif NPC'ler değildir; **dear passengers uçuş tehlikelerinin** birincil kaynağıdırlar. Her sarsıntı, yangın veya kaçan hayvanla stres seviyeleri yükselir. Stresleri tavan yaparsa, talimatlara uymayı reddeden ve potansiyel olarak acil durum onarımlarına müdahale eden "Hırçın" yolculara dönüşürler.
+
+Bu yolcuları yönetmek, misafirperverlik ve sıkı kontrol arasında bir denge gerektirir. Panik içindeki bir yolcu kapıyı tıkıyorsa veya bacağınıza yapışmışsa gövdedeki bir deliği onaramazsınız.
+
+| Yolcu Durumu | Görsel İpucu | Uçuşa Etkisi | Gerekli Eylem |
+| :--- | :--- | :--- | :--- |
+| **Sakin** | Oturuyor, gülümsüyor | Düzenli gelir sağlıyor | Rutin yiyecek/içecek servisi |
+| **Stresli** | Ayakta, bağırıyor | Koridorları tıkıyor | Güven verme / Servis |
+| **Panik İçinde** | Koşuyor, çığlık atıyor | Fiziği/onarımları bozuyor | Durdurma / Tecrit |
+| **Hırçın** | Saldırgan, engelliyor | Doğrudan müdahale | Uzaklaştırma / Sıkı Kontrol |
+
+<Callout type="tip" title="Servis Önceliği">
+Hafif türbülans gibi küçük bir tehlike sırasında içecek servisine devam etmek, yolcuların "Stresli" duruma gelmesini önleyebilir. Ancak yangın varsa içecekleri boş verin ve güvenliğe odaklanın.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Özet ve SSS">
+
+**dear passengers uçuş tehlikelerinden** sağ çıkmak, anında uçuş görevlisinden itfaiyeciye ve hayvan bakıcısına dönüşebilen bir ekip gerektirir. İşin sırrı net iletişim ve rol uzmanlaşmasında yatar. Farklı kargo ve yolcu türleriyle ilişkili riskleri anlayarak, yönetilebilir bir kaosla maksimum kar elde etmek için uçuşlarınızı planlayabilirsiniz.
+
+<FAQ items={[
+  {
+    question: "Dear Passengers'daki en tehlikeli tehdit nedir?",
+    answer: "Tüm tehlikeler bir uçuşu sonlandırabilse de, Uçaktaki Yangınlar ve Kaçan Canlı Kargolar (timsahlar gibi) en tehlikeli olanlarıdır çünkü birden fazla mürettebat üyesinin derhal müdahale etmesini gerektirirler ve hızla tam bir kontrol kaybına dönüşebilirler."
+  },
+  {
+    question: "Pilot kabindeki tehlikelere yardımcı olabilir mi?",
+    answer: "Pilot, uçak dengesini korumak için genellikle kokpitte kalmalıdır. Pilot koltuğundan ayrılırsa uçak keskin bir şekilde dalışa geçebilir veya yan yatabilir, bu da fizik motoru nedeniyle kabindeki tehlikeleri daha da kötüleştirebilir."
+  },
+  {
+    question: "Yolcuların hırçınlaşmasını nasıl önlerim?",
+    answer: "Zamanında yiyecek ve içecek servisi sağlayarak memnuniyetlerini yüksek tutun ve Pilotun mümkün olduğunca sarsıntısız uçmasını sağlayarak türbülansın etkisini en aza indirin. Bir tehlike meydana gelirse, kitlesel paniği önlemek için bunu hızla çözün."
+  },
+  {
+    question: "Gövde delinirse ne olur?",
+    answer: "Gövde deliği kabin basıncı kaybına neden olur ve gevşek nesneleri hatta mürettebat üyelerini uçaktan dışarı çekebilir. Kabinde veya kargo bölümünde bulunan aletler kullanılarak derhal onarılmalıdır."
+  }
+]} />
+
+</Section>
