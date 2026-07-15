@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Dear Passengers Wiki - Release Date, Co-op & Gameplay",
+      "description": "Dear Passengers Wiki with release date news, co-op roles, passenger and cargo guides, flight hazards, system requirements, demo updates, and Steam details.",
+      "keywords": "Dear Passengers, Steam, release date, co-op, gameplay, passengers, cargo, system requirements",
+      "ogTitle": "Dear Passengers Wiki - Release Date, Co-op & Gameplay",
+      "ogDescription": "Dear Passengers Wiki with release date news, co-op roles, passenger and cargo guides, flight hazards, system requirements, demo updates, and Steam details.",
+      "twitterTitle": "Dear Passengers Wiki - Release Date, Co-op & Gameplay",
+      "twitterDescription": "Dear Passengers Wiki: release date, co-op roles, passenger and cargo guides, flight hazards, and system requirements for the chaotic airline co-op on Steam."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Chaotic Physics-Based Airline Co-op",
+    "title": "Dear Passengers Wiki",
+    "description": "Run the world's worst airline with friends. Pilot the plane, manage passengers and cargo, serve the cabin, and survive turbulence, bad weather, and escalating mid-air disasters.",
+    "getFreeCodesCTA": "Get Release Updates",
+    "playOnSteamCTA": "Wishlist on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2026",
+        "label": "Planned Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PC",
+        "label": "Platform"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "6",
+        "label": "Supported Languages"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "4 GB",
+        "label": "Storage Required"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Take Flight in Dear Passengers?",
+    "description": "Wishlist Dear Passengers on Steam and join our Discord for release date news, co-op crew guides, and community updates.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Dear Passengers Wiki",
+    "description": "Your complete resource hub for Dear Passengers co-op roles, passenger and cargo guides, flight hazards, release news, and system requirements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "YouTube",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Dear Passengers Wiki. Not affiliated with FLEXUS or the developers of Dear Passengers.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
